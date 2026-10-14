@@ -1,0 +1,256 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.75,0:00:06.22,Default,,0,0,0,,Tu meurs comme ça,\Ndépendante et abandonnée.
+Dialogue: 0,0:00:06.80,0:00:09.47,Default,,0,0,0,,Dans quatre jours, le 15 août.
+Dialogue: 0,0:00:09.84,0:00:14.01,Default,,0,0,0,,Le monde a gravé ta mort\Ndans la pierre. C'est comme ça.
+Dialogue: 0,0:00:15.06,0:00:17.35,Default,,0,0,0,,Mais je refuse de l'accepter.
+Dialogue: 0,0:00:19.02,0:00:21.15,Default,,0,0,0,,Je vais combattre le monde.
+Dialogue: 0,0:00:22.15,0:00:25.11,Default,,0,0,0,,Je sauverai Mayuri.
+Dialogue: 0,0:00:40.12,0:00:41.92,Default,,0,0,0,,La consigne.
+Dialogue: 0,0:00:45.25,0:00:47.26,Default,,0,0,0,,En face du bâtiment Dai.
+Dialogue: 0,0:00:48.59,0:00:50.80,Default,,0,0,0,,L'IBN 5100.
+Dialogue: 0,0:01:04.82,0:01:09.57,Default,,0,0,0,,suu juuoku mono kodou no kazu sae
+Dialogue: 0,0:01:10.15,0:01:16.49,Default,,0,0,0,,anata ni wa matataki teido no\Nsaji na toukyuu
+Dialogue: 0,0:01:16.79,0:01:21.54,Default,,0,0,0,,kako ni torawarete mirai o nageku mo
+Dialogue: 0,0:01:22.12,0:01:27.38,Default,,0,0,0,,chiri hitotsu gosan o yurusanu hitsuzen
+Dialogue: 0,0:01:27.92,0:01:33.59,Default,,0,0,0,,mugen ni hirogaru yume mo\Negaku mirai mo
+Dialogue: 0,0:01:33.93,0:01:39.39,Default,,0,0,0,,bokutachi ni yurusareta kyoei no kenri
+Dialogue: 0,0:01:39.93,0:01:45.52,Default,,0,0,0,,yuugen sore wa futatsu no\Nhari ga shimesu
+Dialogue: 0,0:01:45.94,0:01:50.32,Default,,0,0,0,,zankoku na yakujou to sentaku e
+Dialogue: 0,0:01:50.74,0:01:52.45,Default,,0,0,0,,Hacking to the Gate.
+Dialogue: 0,0:01:52.95,0:01:59.41,Default,,0,0,0,,da kara ima ichi byou goto ni\Nsekaisen o koete
+Dialogue: 0,0:01:59.79,0:02:04.67,Default,,0,0,0,,kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:04.83,0:02:11.34,Default,,0,0,0,,soshite mata kanashimi no nai\Njikan no ruupu e to
+Dialogue: 0,0:02:11.72,0:02:18.14,Default,,0,0,0,,nomi komarete yuku\Nkodoku no kansokusha
+Dialogue: 0,0:02:21.10,0:02:25.85,Default,,0,0,0,,Apoptose du cri de rancœur
+Dialogue: 0,0:02:40.66,0:02:41.29,Default,,0,0,0,,Okabe,
+Dialogue: 0,0:02:41.33,0:02:42.83,Default,,0,0,0,,12 AOÛT 2010 - 00H41\Nque se passe-t-il ?
+Dialogue: 0,0:02:45.75,0:02:47.42,Default,,0,0,0,,Ça fera l'affaire !
+Dialogue: 0,0:02:48.46,0:02:49.80,Default,,0,0,0,,Stop !
+Dialogue: 0,0:02:53.42,0:02:56.30,Default,,0,0,0,,L'IBN 5100 est dans une consigne ?
+Dialogue: 0,0:02:56.47,0:02:59.93,Default,,0,0,0,,Moeka a avoué. Il est toujours à l'intérieur.
+Dialogue: 0,0:03:00.18,0:03:02.31,Default,,0,0,0,,Donc ?\N- N'est-ce pas évident ?
+Dialogue: 0,0:03:02.47,0:03:06.40,Default,,0,0,0,,Je vais le défoncer…\N- Du calme. Essaie de te souvenir.
+Dialogue: 0,0:03:06.52,0:03:09.31,Default,,0,0,0,,De quoi ?\N- De tout jusqu'à présent.
+Dialogue: 0,0:03:10.27,0:03:15.57,Default,,0,0,0,,Malgré tous les D-mails annulés,\Nl'IBN 5100 t'échappe toujours.
+Dialogue: 0,0:03:16.28,0:03:21.33,Default,,0,0,0,,Ce ne sera probablement possible\Nqu'en revenant à la ligne originale.
+Dialogue: 0,0:03:21.49,0:03:24.71,Default,,0,0,0,,Pour ça, il faut faire\Nles choses dans l'ordre.
+Dialogue: 0,0:03:36.59,0:03:39.22,Default,,0,0,0,,Alors qu'il est à ma portée…
+Dialogue: 0,0:03:39.34,0:03:41.47,Default,,0,0,0,,Au moins, on a une piste.
+Dialogue: 0,0:03:43.06,0:03:47.64,Default,,0,0,0,,Kiryu Moeka fera tout\Nce que lui dit cette FB
+Dialogue: 0,0:03:47.81,0:03:50.06,Default,,0,0,0,,et FB dirige les Rounders, non ?
+Dialogue: 0,0:03:50.77,0:03:52.40,Default,,0,0,0,,Dans ce cas…
+Dialogue: 0,0:03:56.86,0:04:02.12,Default,,0,0,0,,Je trouverai peut-être FB\Nen surveillant l'IBN 5100.
+Dialogue: 0,0:04:09.33,0:04:10.67,Default,,0,0,0,,Tu veux quoi ?
+Dialogue: 0,0:04:13.96,0:04:16.92,Default,,0,0,0,,Je veux rencontrer FB, moi aussi.
+Dialogue: 0,0:04:17.09,0:04:20.76,Default,,0,0,0,,Tu disais qu'elle te détesterait,\Nsi elle te voyait.
+Dialogue: 0,0:04:22.39,0:04:26.27,Default,,0,0,0,,Je veux connaître la vérité.
+Dialogue: 0,0:04:26.39,0:04:28.02,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:04:29.94,0:04:31.81,Default,,0,0,0,,Je ne sais pas.
+Dialogue: 0,0:04:32.69,0:04:36.07,Default,,0,0,0,,Tu crois vraiment\Nque je coopérerai avec toi ?
+Dialogue: 0,0:04:43.28,0:04:45.87,Default,,0,0,0,,Je peux au moins discuter avec toi…
+Dialogue: 0,0:04:52.50,0:04:55.30,Default,,0,0,0,,Quoi ?\N- Qu'y a-t-il ?
+Dialogue: 0,0:04:55.42,0:04:56.71,Default,,0,0,0,,Rien.
+Dialogue: 0,0:04:57.55,0:05:01.89,Default,,0,0,0,,Tu es avec Kiryu Moeka ?\NComment est-ce possible ? Elle…
+Dialogue: 0,0:05:02.05,0:05:06.64,Default,,0,0,0,,C'est comme ça, c'est tout.\NJe te tiens au courant de la suite.
+Dialogue: 0,0:05:06.77,0:05:08.77,Default,,0,0,0,,Hé, attends !
+Dialogue: 0,0:05:09.77,0:05:11.65,Default,,0,0,0,,Bon sang…
+Dialogue: 0,0:05:11.77,0:05:14.52,Default,,0,0,0,,C'était Okarin ?\N- Oui.
+Dialogue: 0,0:05:19.49,0:05:20.99,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:05:21.66,0:05:22.91,Default,,0,0,0,,C'est juste…
+Dialogue: 0,0:05:23.91,0:05:28.75,Default,,0,0,0,,J'ai l'impression de ne plus avoir\Nparlé à Okarin depuis longtemps.
+Dialogue: 0,0:05:35.04,0:05:38.34,Default,,0,0,0,,Grande sœur Mayuri !\N- Nae !
+Dialogue: 0,0:05:40.63,0:05:42.18,Default,,0,0,0,,Tutuluu !
+Dialogue: 0,0:05:42.63,0:05:46.14,Default,,0,0,0,,À toi aussi, assistante : Tutuluu !
+Dialogue: 0,0:05:47.14,0:05:48.81,Default,,0,0,0,,Appelle-moi grande sœur.
+Dialogue: 0,0:05:48.97,0:05:53.10,Default,,0,0,0,,Bonjour.\N- Bonjour, désolée pour hier.
+Dialogue: 0,0:05:53.48,0:05:56.44,Default,,0,0,0,,J'augmente le loyer d'Okabe\Nde 5000 yens.
+Dialogue: 0,0:05:57.02,0:05:58.36,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:05:58.53,0:06:03.03,Default,,0,0,0,,Je n'ai pas vu ce glandeur\Nde la journée. Il est malade ?
+Dialogue: 0,0:06:03.20,0:06:05.45,Default,,0,0,0,,Les idiots ne s'enrhument pas.
+Dialogue: 0,0:06:05.82,0:06:09.24,Default,,0,0,0,,Il cherche du matériel\Npour ses expériences.
+Dialogue: 0,0:06:09.83,0:06:13.37,Default,,0,0,0,,Ses expériences ?\NQuelle vie d'insouciance.
+Dialogue: 0,0:06:13.92,0:06:16.92,Default,,0,0,0,,Pardon ?\N- Il est étudiant et il vit seul,
+Dialogue: 0,0:06:17.46,0:06:21.92,Default,,0,0,0,,il a des amis comme vous\Net il fait ce qu'il veut.
+Dialogue: 0,0:06:22.42,0:06:25.51,Default,,0,0,0,,On ne peut pas rêver mieux. Mais sachez…
+Dialogue: 0,0:06:25.68,0:06:29.72,Default,,0,0,0,,Papa, on doit se dépêcher.\NLes soldes sont presque terminées.
+Dialogue: 0,0:06:30.39,0:06:32.48,Default,,0,0,0,,On y va, Nae.\N- Oui.
+Dialogue: 0,0:06:32.98,0:06:35.77,Default,,0,0,0,,Bye-bye, grandes sœurs.\N- Bye-bye !
+Dialogue: 0,0:06:35.94,0:06:40.73,Default,,0,0,0,,Que veux-tu manger pour dîner ?\N- Laisse-moi réfléchir.
+Dialogue: 0,0:06:51.70,0:06:53.83,Default,,0,0,0,,Des vieux messages de FB ?
+Dialogue: 0,0:06:57.21,0:06:59.00,Default,,0,0,0,,Je peux voir ?
+Dialogue: 0,0:07:12.77,0:07:17.23,Default,,0,0,0,,"Je pense que tu as pris\Nla bonne décision, M4.
+Dialogue: 0,0:07:17.44,0:07:22.57,Default,,0,0,0,,Tu es celle qui a travaillé\Nle plus dur et le plus ardemment, M4."
+Dialogue: 0,0:07:23.44,0:07:27.95,Default,,0,0,0,,M4 ?\N- Le nom de code que FB m'a donné.
+Dialogue: 0,0:07:28.11,0:07:31.66,Default,,0,0,0,,Seules FB et moi le connaissons.
+Dialogue: 0,0:07:32.91,0:07:34.20,Default,,0,0,0,,C'est un secret.
+Dialogue: 0,0:07:35.21,0:07:41.34,Default,,0,0,0,,"Les relations avec les autres\Nsont peut-être difficiles pour toi, M4.
+Dialogue: 0,0:07:41.54,0:07:45.22,Default,,0,0,0,,Mais c'est ce qui te rend unique,\Ntu ne crois pas ?"
+Dialogue: 0,0:07:46.30,0:07:48.72,Default,,0,0,0,,On dirait une maman, c'est vrai.
+Dialogue: 0,0:07:53.97,0:07:55.93,Default,,0,0,0,,13 AOÛT 2010 - 13H25
+Dialogue: 0,0:08:15.33,0:08:17.21,Default,,0,0,0,,Le voilà.
+Dialogue: 0,0:08:17.37,0:08:18.96,Default,,0,0,0,,L'IBN 5100…
+Dialogue: 0,0:08:19.92,0:08:24.30,Default,,0,0,0,,Alors, c'est lui, FB ?\N- Non.
+Dialogue: 0,0:08:25.26,0:08:28.76,Default,,0,0,0,,FB est une femme.
+Dialogue: 0,0:08:44.32,0:08:45.65,Default,,0,0,0,,C'est…
+Dialogue: 0,0:09:10.76,0:09:12.34,Default,,0,0,0,,Bon sang !
+Dialogue: 0,0:09:17.85,0:09:20.06,Default,,0,0,0,,Qu'y a-t-il ?\N- Je t'expliquerai.
+Dialogue: 0,0:09:54.68,0:09:56.97,Default,,0,0,0,,M. Braun…
+Dialogue: 0,0:10:07.40,0:10:11.19,Default,,0,0,0,,Depuis quand tu n'as pas conduit ?\N- Depuis mon permis.
+Dialogue: 0,0:10:11.32,0:10:12.95,Default,,0,0,0,,Allons-y doucement.
+Dialogue: 0,0:10:15.87,0:10:19.91,Default,,0,0,0,,Tu reconnais cet homme ?\N- Je ne l'ai jamais vu.
+Dialogue: 0,0:10:21.91,0:10:23.50,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:10:33.68,0:10:35.89,Default,,0,0,0,,Dans quatre jours, le 15 août.
+Dialogue: 0,0:10:36.68,0:10:40.97,Default,,0,0,0,,Le monde a gravé ta mort\Ndans la pierre. C'est comme ça.
+Dialogue: 0,0:11:21.01,0:11:25.10,Default,,0,0,0,,Un avion pour la France.\NC'est là que se trouve le SERN.
+Dialogue: 0,0:11:25.27,0:11:28.48,Default,,0,0,0,,On n'a vu aucune femme\Nqui pouvait être FB.
+Dialogue: 0,0:11:31.32,0:11:32.73,Default,,0,0,0,,Tu aurais pu appeler !
+Dialogue: 0,0:11:33.32,0:11:36.74,Default,,0,0,0,,J'avais beaucoup à faire.\N- Je m'en fiche.
+Dialogue: 0,0:11:37.99,0:11:39.28,Default,,0,0,0,,C'est juste que…
+Dialogue: 0,0:11:40.99,0:11:42.74,Default,,0,0,0,,C'est Mayuri qui…
+Dialogue: 0,0:11:43.83,0:11:48.58,Default,,0,0,0,,C'est vrai, je ne lui ai plus parlé\Ndepuis longtemps.
+Dialogue: 0,0:11:48.79,0:11:50.29,Default,,0,0,0,,Elle dit la même chose.
+Dialogue: 0,0:11:51.71,0:11:53.17,Default,,0,0,0,,Je suis désolé.
+Dialogue: 0,0:11:56.17,0:11:58.13,Default,,0,0,0,,Allons-y.\N- Quoi ?
+Dialogue: 0,0:11:58.55,0:12:02.72,Default,,0,0,0,,On doit l'affronter directement.\N- Affronter qui ?
+Dialogue: 0,0:12:03.39,0:12:06.31,Default,,0,0,0,,Quelqu'un qu'on connaît très bien.
+Dialogue: 0,0:12:20.37,0:12:23.16,Default,,0,0,0,,Que voulez-vous de si bonne heure ?
+Dialogue: 0,0:12:24.49,0:12:26.00,Default,,0,0,0,,Entrez donc.
+Dialogue: 0,0:12:27.29,0:12:29.12,Default,,0,0,0,,Que voulez-vous ?
+Dialogue: 0,0:12:29.37,0:12:33.63,Default,,0,0,0,,Tu viens me payer\Nle supplément de loyer de 6000 yens ?
+Dialogue: 0,0:12:35.09,0:12:37.80,Default,,0,0,0,,Normalement, tu dois rétorquer
+Dialogue: 0,0:12:37.97,0:12:40.76,Default,,0,0,0,,que c'est 1000 yens de plus que prévu.
+Dialogue: 0,0:12:43.30,0:12:44.60,Default,,0,0,0,,J'ai une question.
+Dialogue: 0,0:12:45.06,0:12:47.39,Default,,0,0,0,,Pourquoi ce ton formel ?
+Dialogue: 0,0:12:48.77,0:12:52.44,Default,,0,0,0,,Vous connaissez quelqu'un\Ndu nom de FB, pas vrai ?
+Dialogue: 0,0:12:53.40,0:12:55.57,Default,,0,0,0,,On a tout vu.
+Dialogue: 0,0:12:55.78,0:12:59.15,Default,,0,0,0,,Quelqu'un est venu\Nchercher l'IBN 5100.
+Dialogue: 0,0:13:01.20,0:13:06.20,Default,,0,0,0,,On ne vous veut aucun mal.\NOn veut juste rencontrer FB.
+Dialogue: 0,0:13:06.37,0:13:08.41,Default,,0,0,0,,Dites-nous où la trouver.
+Dialogue: 0,0:13:15.42,0:13:17.46,Default,,0,0,0,,Tu es une traîtresse, M4.
+Dialogue: 0,0:13:19.55,0:13:22.64,Default,,0,0,0,,FB m'a donné ce nom de code.
+Dialogue: 0,0:13:22.89,0:13:25.64,Default,,0,0,0,,Elle est la seule à connaître ce nom.
+Dialogue: 0,0:13:25.89,0:13:28.43,Default,,0,0,0,,Donc…\N- C'est impossible.
+Dialogue: 0,0:13:28.60,0:13:31.19,Default,,0,0,0,,Vous connaissez Ferdinand Braun ?
+Dialogue: 0,0:13:32.02,0:13:35.23,Default,,0,0,0,,Le physicien qui a inventé l'écran cathodique\Net remporté le prix Nobel ?
+Dialogue: 0,0:13:35.40,0:13:37.94,Default,,0,0,0,,Bien. Quelles sont ses initiales ?
+Dialogue: 0,0:13:39.11,0:13:41.15,Default,,0,0,0,,F.B.…
+Dialogue: 0,0:13:41.49,0:13:43.87,Default,,0,0,0,,Donc, vous êtes…
+Dialogue: 0,0:13:45.12,0:13:47.58,Default,,0,0,0,,Non, c'est impossible.
+Dialogue: 0,0:13:48.20,0:13:51.04,Default,,0,0,0,,D'abord la dépendance, puis la fuite ?
+Dialogue: 0,0:13:52.04,0:13:54.71,Default,,0,0,0,,Nae dort. Allons ailleurs.
+Dialogue: 0,0:14:00.51,0:14:03.68,Default,,0,0,0,,Cette satanée ville\Nn'arrête pas de changer.
+Dialogue: 0,0:14:05.51,0:14:08.68,Default,,0,0,0,,C'est vraiment vous, FB ?\N- Oui.
+Dialogue: 0,0:14:09.39,0:14:14.90,Default,,0,0,0,,Mais les e-mails ?\N- C'est moi qui les ai tous écrits.
+Dialogue: 0,0:14:15.94,0:14:19.86,Default,,0,0,0,,Pourquoi ai-je écrit comme une femme ?\NPour te duper.
+Dialogue: 0,0:14:20.94,0:14:24.91,Default,,0,0,0,,C'est…\N- Je fais ça avec tout le monde.
+Dialogue: 0,0:14:25.07,0:14:29.08,Default,,0,0,0,,Je me fais passer\Npour la personne dont ils ont besoin.
+Dialogue: 0,0:14:29.54,0:14:34.96,Default,,0,0,0,,Les gens comme toi\Nsont les plus faciles à berner.
+Dialogue: 0,0:14:35.63,0:14:38.46,Default,,0,0,0,,Pourquoi avez-vous coupé le contact ?
+Dialogue: 0,0:14:38.63,0:14:44.93,Default,,0,0,0,,Une fois l'IBN 5100 trouvé, je n'avais\Nplus besoin d'elle et je l'ai évincée.
+Dialogue: 0,0:14:45.39,0:14:48.14,Default,,0,0,0,,On recrute en envoyant des messages.
+Dialogue: 0,0:14:48.26,0:14:53.10,Default,,0,0,0,,Ce type de personnes est facile à gérer\Net à évincer quand c'est terminé.
+Dialogue: 0,0:14:53.27,0:14:56.31,Default,,0,0,0,,Au fond,\Nils n'ont pas de point d'attache.
+Dialogue: 0,0:14:56.48,0:14:59.61,Default,,0,0,0,,Vous êtes un chien du SERN.\N- Un chien ?
+Dialogue: 0,0:15:00.23,0:15:01.73,Default,,0,0,0,,Suzuha n'a pas…
+Dialogue: 0,0:15:01.98,0:15:05.07,Default,,0,0,0,,Hashida Suzu\Nn'a pas pris soin de vous
+Dialogue: 0,0:15:05.20,0:15:07.20,Default,,0,0,0,,pour que vous fassiez cela.
+Dialogue: 0,0:15:08.53,0:15:12.37,Default,,0,0,0,,Comment connais-tu Suzu ?
+Dialogue: 0,0:15:14.33,0:15:19.00,Default,,0,0,0,,Ça n'a rien à voir avec elle.\NÇa n'a rien à voir avec Suzu.
+Dialogue: 0,0:15:19.17,0:15:21.05,Default,,0,0,0,,Mais…\N- Tu ne sais rien.
+Dialogue: 0,0:15:29.51,0:15:33.56,Default,,0,0,0,,Vous avez déjà dormi\Ndans une bouche d'égout en hiver ?
+Dialogue: 0,0:15:34.68,0:15:36.52,Default,,0,0,0,,Je n'étais qu'un gamin.
+Dialogue: 0,0:15:36.69,0:15:40.19,Default,,0,0,0,,Le béton était gelé.\NLe froid vous glaçait les os.
+Dialogue: 0,0:15:40.77,0:15:42.98,Default,,0,0,0,,Je jeûnais pendant des jours.
+Dialogue: 0,0:15:43.65,0:15:47.53,Default,,0,0,0,,Dès que je m'allongeais, ils arrivaient…
+Dialogue: 0,0:15:48.53,0:15:50.95,Default,,0,0,0,,Qui ?\N- Les rats.
+Dialogue: 0,0:15:51.08,0:15:53.83,Default,,0,0,0,,Ils me rongeaient comme un cadavre.
+Dialogue: 0,0:15:56.04,0:16:00.25,Default,,0,0,0,,C'est là que j'ai aperçu\Nun fil qui pendait.
+Dialogue: 0,0:16:00.42,0:16:01.75,Default,,0,0,0,,Un fil d'araignée.
+Dialogue: 0,0:16:02.30,0:16:05.01,Default,,0,0,0,,Il fallait que je grimpe, vous voyez ?
+Dialogue: 0,0:16:05.17,0:16:10.22,Default,,0,0,0,,Même si j'allais me salir les mains\Nen le suivant.
+Dialogue: 0,0:16:16.02,0:16:19.44,Default,,0,0,0,,Alors, j'ai grimpé sur le fil.
+Dialogue: 0,0:16:19.60,0:16:23.32,Default,,0,0,0,,Et avant de le savoir,\Nj'étais une marionnette.
+Dialogue: 0,0:16:25.19,0:16:30.66,Default,,0,0,0,,Il est impossible d'y échapper.\NMais quand une marionnette se détache…
+Dialogue: 0,0:17:16.45,0:17:19.41,Default,,0,0,0,,Le sort des traîtres est de mourir.
+Dialogue: 0,0:17:19.58,0:17:22.83,Default,,0,0,0,,Même si on vous tue aussi\Nune fois votre tâche accomplie.
+Dialogue: 0,0:17:24.13,0:17:25.92,Default,,0,0,0,,Tu m'as traité de chien.
+Dialogue: 0,0:17:26.71,0:17:30.68,Default,,0,0,0,,On n'est pas des chiens,\Non est du bétail.
+Dialogue: 0,0:17:31.84,0:17:33.84,Default,,0,0,0,,J'ai déjà pensé à m'échapper.
+Dialogue: 0,0:17:35.85,0:17:39.89,Default,,0,0,0,,Mais maintenant, j'ai quelqu'un\Nde précieux dans ma vie.
+Dialogue: 0,0:17:40.73,0:17:43.98,Default,,0,0,0,,Je ne voulais pas\Nl'entraîner là-dedans.
+Dialogue: 0,0:17:44.36,0:17:47.94,Default,,0,0,0,,Du coup\Nje n'ai pas le droit à l'échec.
+Dialogue: 0,0:17:48.40,0:17:51.53,Default,,0,0,0,,Si je fuis,\Nils s'en prendront à ma famille.
+Dialogue: 0,0:17:54.49,0:17:56.87,Default,,0,0,0,,Dans un sens, j'ai échoué,\Nmoi aussi.
+Dialogue: 0,0:17:57.08,0:17:59.70,Default,,0,0,0,,Mais Nae n'est au courant de rien.
+Dialogue: 0,0:18:03.42,0:18:05.17,Default,,0,0,0,,Si je meurs…
+Dialogue: 0,0:18:06.34,0:18:07.34,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:18:31.40,0:18:35.16,Default,,0,0,0,,Okabe…
+Dialogue: 0,0:18:36.32,0:18:38.95,Default,,0,0,0,,Okabe…
+Dialogue: 0,0:18:43.12,0:18:45.54,Default,,0,0,0,,Pardon…
+Dialogue: 0,0:18:48.38,0:18:51.55,Default,,0,0,0,,Pardon…
+Dialogue: 0,0:18:59.81,0:19:03.93,Default,,0,0,0,,Okabe, son téléphone ! Le D-mail !
+Dialogue: 0,0:19:04.44,0:19:05.77,Default,,0,0,0,,Okabe !
+Dialogue: 0,0:19:13.11,0:19:14.82,Default,,0,0,0,,NE CHERCHE PLUS L'IBN 5100.
+Dialogue: 0,0:19:27.63,0:19:29.75,Default,,0,0,0,,Moeka…
+Dialogue: 0,0:19:32.76,0:19:37.18,Default,,0,0,0,,DE : S.F. JE N'AI PLUS BESOIN DE\NL'IBN 5100. Tu n'en as plus besoin ?
+Dialogue: 0,0:19:40.85,0:19:42.43,Default,,0,0,0,,LA RECHERCHE A CESSÉ.
+Dialogue: 0,0:19:45.02,0:19:47.02,Default,,0,0,0,,Urushibara à l'appareil.
+Dialogue: 0,0:19:47.23,0:19:48.94,Default,,0,0,0,,Oh, Kyouma…
+Dialogue: 0,0:19:49.86,0:19:52.53,Default,,0,0,0,,Quoi ? Un IBN 5100 ?
+Dialogue: 0,0:19:52.82,0:19:54.82,Default,,0,0,0,,Oui, tout à fait.
+Dialogue: 0,0:19:57.07,0:19:59.20,Default,,0,0,0,,C'est bien ça.
+Dialogue: 0,0:20:01.78,0:20:04.50,Default,,0,0,0,,Daru !\N- Hashida n'est pas là.
+Dialogue: 0,0:20:04.62,0:20:07.04,Default,,0,0,0,,Il a dit qu'il allait au Comima.
+Dialogue: 0,0:20:09.63,0:20:12.63,Default,,0,0,0,,Je t'en supplie. Voici ma requête.
+Dialogue: 0,0:20:16.26,0:20:17.68,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:20:18.43,0:20:21.72,Default,,0,0,0,,Pour sauver Mayuri,\Nil faut quitter la ligne alpha
+Dialogue: 0,0:20:21.89,0:20:26.68,Default,,0,0,0,,et retourner à la ligne d'univers\Nd'avant l'envoi du premier D-mail.
+Dialogue: 0,0:20:28.02,0:20:30.02,Default,,0,0,0,,La ligne d'univers bêta, donc.
+Dialogue: 0,0:20:30.23,0:20:35.03,Default,,0,0,0,,Et pour ça, il faut effacer le premier D-mail\Nde la base de données du SERN.
+Dialogue: 0,0:20:35.36,0:20:39.91,Default,,0,0,0,,Mayushii qui meurt\Net Amane qui est ma future fille…
+Dialogue: 0,0:20:40.07,0:20:43.91,Default,,0,0,0,,Si tu as inventé tout ça,\Ntu peux écrire des light novels.
+Dialogue: 0,0:20:44.37,0:20:46.29,Default,,0,0,0,,J'en serais très heureux.
+Dialogue: 0,0:20:46.45,0:20:49.79,Default,,0,0,0,,Tu y crois, Makise ?\N- C'est une hypothèse.
+Dialogue: 0,0:20:49.96,0:20:55.63,Default,,0,0,0,,Je voudrais des données objectives,\Nmais c'est évidemment impossible.
+Dialogue: 0,0:20:55.76,0:20:59.30,Default,,0,0,0,,Ta time leap machine\Nfonctionnait très bien.
+Dialogue: 0,0:20:59.47,0:21:01.55,Default,,0,0,0,,Ah bon ? Vraiment ?
+Dialogue: 0,0:21:02.26,0:21:04.85,Default,,0,0,0,,Je veux dire… bien sûr.
+Dialogue: 0,0:21:05.01,0:21:06.60,Default,,0,0,0,,Sans parler de…
+Dialogue: 0,0:21:08.93,0:21:10.85,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:21:11.02,0:21:13.40,Default,,0,0,0,,Laisse tomber.\N- Quoi ?
+Dialogue: 0,0:21:13.56,0:21:16.28,Default,,0,0,0,,Laisse tomber, j'ai dit.\N- C'est prêt.
+Dialogue: 0,0:21:16.61,0:21:20.78,Default,,0,0,0,,J'ai des trucs à configurer,\Nmais dans 10 minutes, c'est bon.
+Dialogue: 0,0:21:20.95,0:21:24.58,Default,,0,0,0,,On compte sur toi, Super hax0r.\N- Super hacker.
+Dialogue: 0,0:21:25.62,0:21:27.58,Default,,0,0,0,,Le premier D-mail ?
+Dialogue: 0,0:21:27.70,0:21:31.79,Default,,0,0,0,,C'est celui qui dit\Nque j'ai été poignardée, c'est ça ?
+Dialogue: 0,0:21:34.71,0:21:37.80,Default,,0,0,0,,Tu avais même essayé de me peloter,\Ntu te souviens ?
+Dialogue: 0,0:21:43.05,0:21:47.89,Default,,0,0,0,,Annuler tous les D-mails\Nrétablira la ligne d'univers originale.
+Dialogue: 0,0:21:48.06,0:21:52.90,Default,,0,0,0,,Un monde dans lequel\Nla dystopie du SERN n'a jamais existé.
+Dialogue: 0,0:21:54.31,0:21:56.07,Default,,0,0,0,,Ou Mayuri est vivante.
+Dialogue: 0,0:21:57.19,0:21:59.94,Default,,0,0,0,,Et une ligne d'univers où…
+Dialogue: 0,0:22:03.16,0:22:04.37,Default,,0,0,0,,Makise Kurisu…
+Dialogue: 0,0:22:08.79,0:22:10.41,Default,,0,0,0,,meurt.
+Dialogue: 0,0:22:21.47,0:22:28.97,Default,,0,0,0,,kisei sareta shikai mujihi naru
+Dialogue: 0,0:22:30.35,0:22:37.69,Default,,0,0,0,,juuni no shihai nogarerarenai
+Dialogue: 0,0:22:38.02,0:22:46.66,Default,,0,0,0,,ansoku no asu o negatta
+Dialogue: 0,0:22:46.78,0:22:55.21,Default,,0,0,0,,te no naka no toutoi jishou no chihei e
+Dialogue: 0,0:22:55.62,0:23:03.92,Default,,0,0,0,,torawareshi meiyaku\Narawareta gishou no rinkaku
+Dialogue: 0,0:23:04.05,0:23:13.18,Default,,0,0,0,,seimei no tenchi wa\Nmoumoku na jikan o kizanda
+Dialogue: 0,0:23:13.39,0:23:21.82,Default,,0,0,0,,habatake batafurai kiseki\Nno batafurai anata e sasagu
+Dialogue: 0,0:23:22.40,0:23:29.45,Default,,0,0,0,,namida no batafurai\Nmabushii batafurai subete ga
+Dialogue: 0,0:23:29.62,0:23:34.04,Default,,0,0,0,,ima kakikaerareru
+Dialogue: 0,0:23:41.13,0:23:56.02,Default,,0,0,0,,Effondrement du principe de causalité

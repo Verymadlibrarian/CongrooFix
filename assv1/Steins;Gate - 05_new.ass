@@ -1,0 +1,357 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:18.14,0:00:22.40,Default,,0,0,0,,Employée, j'ai besoin de toi ici.\N- Entendu.
+Dialogue: 0,0:00:23.77,0:00:25.65,Default,,0,0,0,,Je n'ai jamais dit ça.
+Dialogue: 0,0:00:25.82,0:00:30.32,Default,,0,0,0,,Si. Tu as dit que ce serait plus efficace\Nde faire des pauses.
+Dialogue: 0,0:00:30.49,0:00:35.62,Default,,0,0,0,,C'est toi qui t'arrêtes tout le temps.\N- C'est pour semer l'Organisation.
+Dialogue: 0,0:00:35.74,0:00:39.58,Default,,0,0,0,,Tu délires, personne ne nous suit.\N- Okabe Rintaro.
+Dialogue: 0,0:00:40.17,0:00:41.58,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:00:42.08,0:00:43.09,Default,,0,0,0,,Ça t'intrigue ?
+Dialogue: 0,0:00:43.25,0:00:48.55,Default,,0,0,0,,Normalement, je ne peux rien te dire,\Ncar c'est top secret. Mais…
+Dialogue: 0,0:00:48.67,0:00:52.51,Default,,0,0,0,,Dépose-le, si tu t'arrêtes.\N- Résiste, assistante.
+Dialogue: 0,0:00:52.64,0:00:55.47,Default,,0,0,0,,N'en fais pas tout\Nun plat et dis-lui.
+Dialogue: 0,0:00:55.76,0:00:58.77,Default,,0,0,0,,L'appareil est\Nd'une importance capitale.
+Dialogue: 0,0:00:58.93,0:01:01.77,Default,,0,0,0,,Il y a de quoi en\Nfaire tout un plat.
+Dialogue: 0,0:01:01.94,0:01:04.61,Default,,0,0,0,,C'est un IBN 5100 ?\N- Quoi…
+Dialogue: 0,0:01:04.73,0:01:08.44,Default,,0,0,0,,Elle est au courant.\N- Vous l'avez trouvé où ?
+Dialogue: 0,0:01:08.61,0:01:14.37,Default,,0,0,0,,Il était au sanctuaire Yanabayashi\Net moi, le mad scientist, élu de Dieu…
+Dialogue: 0,0:01:14.49,0:01:17.58,Default,,0,0,0,,Si tu parles, on le dépose.\N- Makise Kurisu…
+Dialogue: 0,0:01:17.70,0:01:20.87,Default,,0,0,0,,Quoi ? Oui.\NQui est-ce ?
+Dialogue: 0,0:01:21.92,0:01:26.34,Default,,0,0,0,,Une employée du magasin de TV…\N- Quoi ?
+Dialogue: 0,0:01:26.59,0:01:28.17,Default,,0,0,0,,Qu'est-ce…
+Dialogue: 0,0:01:34.18,0:01:37.72,Default,,0,0,0,,Hé, l'employée,\Narrête de glander.
+Dialogue: 0,0:01:43.52,0:01:47.69,Default,,0,0,0,,Pourquoi elle me fixait comme ça ?\N- Car tu as l'air sinistre, bien sûr.
+Dialogue: 0,0:02:10.92,0:02:15.68,Default,,0,0,0,,Pour toi, des milliards et des milliards\Nde battements de cœur
+Dialogue: 0,0:02:16.22,0:02:22.60,Default,,0,0,0,,Ne sont pas plus\Nqu'un battement de cils.
+Dialogue: 0,0:02:22.81,0:02:27.61,Default,,0,0,0,,Bien que je sois prisonnière du passé\Net que je déplore le futur,
+Dialogue: 0,0:02:28.07,0:02:33.45,Default,,0,0,0,,l'inévitable n'autorise pas\Nla moindre petite erreur de calcul.
+Dialogue: 0,0:02:33.99,0:02:39.66,Default,,0,0,0,,Nos rêves et avenirs qui\Nnaissent et grandissent dans l'infini
+Dialogue: 0,0:02:39.99,0:02:45.54,Default,,0,0,0,,nous autorisent à la vanité,
+Dialogue: 0,0:02:46.04,0:02:51.67,Default,,0,0,0,,tandis que nos deux mains\Nnous ramènent à nos limites.
+Dialogue: 0,0:02:52.01,0:02:56.39,Default,,0,0,0,,Tout cela mène à un accord cruel\Net un choix à faire.
+Dialogue: 0,0:02:56.76,0:02:58.47,Default,,0,0,0,,Hacking to the Gate.
+Dialogue: 0,0:02:59.01,0:03:05.56,Default,,0,0,0,,À présent, chaque seconde qui passe,\Nje traverserai les lignes d'univers,
+Dialogue: 0,0:03:05.81,0:03:10.73,Default,,0,0,0,,pour protéger le\Nsourire sur ton visage.
+Dialogue: 0,0:03:10.86,0:03:17.41,Default,,0,0,0,,Puis, à nouveau, dans une boucle\Ntemporelle sans tristesse,
+Dialogue: 0,0:03:17.78,0:03:24.08,Default,,0,0,0,,je serai engloutie\Ncomme une observatrice solitaire.
+Dialogue: 0,0:03:27.08,0:03:31.96,Default,,0,0,0,,Rendez-vous de collisions entre charges électriques
+Dialogue: 0,0:03:32.67,0:03:37.47,Default,,0,0,0,,Comme il est grand.\NOn dirait une peau de tigre.
+Dialogue: 0,0:03:39.30,0:03:40.64,Default,,0,0,0,,Ou un futon.
+Dialogue: 0,0:03:40.76,0:03:45.43,Default,,0,0,0,,Mayushii est couchée sur mon T-shirt.\NMon cœur va exploser.
+Dialogue: 0,0:03:45.60,0:03:47.73,Default,,0,0,0,,Bien, dépose-le\Ndoucement.
+Dialogue: 0,0:03:47.85,0:03:50.27,Default,,0,0,0,,Je le sais bien.\N- Kurisu !
+Dialogue: 0,0:03:50.81,0:03:53.65,Default,,0,0,0,,Pardon, j'arrive\Nencore à l'improviste.
+Dialogue: 0,0:03:53.82,0:03:58.53,Default,,0,0,0,,Non, tu viens quand tu veux.\NTu es membre du laboratoire, après tout.
+Dialogue: 0,0:03:58.66,0:04:03.58,Default,,0,0,0,,Elle a dit qu'elle ne reviendrait pas.\NTu n'es qu'une capricieuse.
+Dialogue: 0,0:04:03.70,0:04:07.66,Default,,0,0,0,,Je ne suis pas venue par envie,\Ntu m'as demandé de t'aider.
+Dialogue: 0,0:04:07.96,0:04:10.96,Default,,0,0,0,,Ça veut dire\Nque tu ne te plais pas ici ?
+Dialogue: 0,0:04:11.17,0:04:14.13,Default,,0,0,0,,Non, ce n'est pas\Nque je n'aime pas le labo.
+Dialogue: 0,0:04:14.38,0:04:18.59,Default,,0,0,0,,Qu'y a-t-il dans cette boîte ?\N- Tu es curieux ?
+Dialogue: 0,0:04:18.76,0:04:21.55,Default,,0,0,0,,Normalement…\N- Un IBN 5100.
+Dialogue: 0,0:04:21.72,0:04:24.64,Default,,0,0,0,,Vraiment ? Dément !\NTu déchires, Okarin.
+Dialogue: 0,0:04:24.97,0:04:27.85,Default,,0,0,0,,Avec lui, rien\Nn'est impossible.
+Dialogue: 0,0:04:27.93,0:04:30.98,Default,,0,0,0,,Comme avec toi…\N- Je ne l'admire pas pour autant.
+Dialogue: 0,0:04:31.77,0:04:35.15,Default,,0,0,0,,Soit… Faisons-le\Ndémarrer.
+Dialogue: 0,0:04:36.86,0:04:39.78,Default,,0,0,0,,C'est grâce à Mayushii,\Nsi on l'a trouvé.
+Dialogue: 0,0:04:39.86,0:04:42.82,Default,,0,0,0,,Oui, tout le\Nmérite te revient.
+Dialogue: 0,0:04:46.12,0:04:49.92,Default,,0,0,0,,Ça marche.\N- Tu peux déchiffrer le langage de programmation ?
+Dialogue: 0,0:04:50.08,0:04:54.67,Default,,0,0,0,,Plus facile à dire qu'à faire.\NJe ne sais pas comment l'utiliser.
+Dialogue: 0,0:04:54.80,0:04:59.72,Default,,0,0,0,,Il a été construit bien avant Internet,\Non ne peut le connecter à rien.
+Dialogue: 0,0:04:59.84,0:05:02.39,Default,,0,0,0,,J'ai besoin\Nde ces pièces.
+Dialogue: 0,0:05:03.14,0:05:05.85,Default,,0,0,0,,Bien, tu as entendu,\Nassistante.
+Dialogue: 0,0:05:05.97,0:05:08.98,Default,,0,0,0,,N'invoque pas une fonction\Nque je n'ai pas.
+Dialogue: 0,0:05:09.14,0:05:11.52,Default,,0,0,0,,Tu es mon assistante.\N- Non.
+Dialogue: 0,0:05:11.90,0:05:16.82,Default,,0,0,0,,Vas-y, Okarin. Je ne crois pas\Nqu'elle connaisse assez bien Akiba.
+Dialogue: 0,0:05:16.90,0:05:18.94,Default,,0,0,0,,Très bien.\NMayuri, on y va !
+Dialogue: 0,0:05:19.19,0:05:23.41,Default,,0,0,0,,Mayushii va rester ici\Net montrer le labo à Kurisu,
+Dialogue: 0,0:05:23.57,0:05:27.12,Default,,0,0,0,,pour qu'elle\Ns'y sente bien.
+Dialogue: 0,0:05:27.37,0:05:29.00,Default,,0,0,0,,Maudite Christina.
+Dialogue: 0,0:05:29.41,0:05:32.00,Default,,0,0,0,,Tu as charmé Mayuri aussi ?\N- Non.
+Dialogue: 0,0:05:32.17,0:05:36.17,Default,,0,0,0,,Makise qui séduit Mayushii.\NÇa devient un yuri, dément.
+Dialogue: 0,0:05:36.42,0:05:40.97,Default,,0,0,0,,Tu te fais des films, pervers.\N- On est bien, entre filles, non ?
+Dialogue: 0,0:05:41.13,0:05:44.72,Default,,0,0,0,,Tu me fais visiter ?\N- Oui.
+Dialogue: 0,0:05:45.18,0:05:48.89,Default,,0,0,0,,Commençons\Npar la salle de douche à l'arrière.
+Dialogue: 0,0:05:50.02,0:05:52.81,Default,,0,0,0,,Il y a même une douche ?\N- Oui.
+Dialogue: 0,0:05:52.94,0:05:57.69,Default,,0,0,0,,Attention, l'eau devient froide\Nquand on reste trop longtemps.
+Dialogue: 0,0:05:57.82,0:06:02.20,Default,,0,0,0,,Attends… Tu veux dire\Nque tu l'utilises parfois ?
+Dialogue: 0,0:06:02.45,0:06:04.07,Default,,0,0,0,,Oui, de temps\Nen temps.
+Dialogue: 0,0:06:04.24,0:06:07.28,Default,,0,0,0,,Ne te douche plus ici.\NC'est dangereux.
+Dialogue: 0,0:06:07.53,0:06:08.70,Default,,0,0,0,,Ne me regarde pas.
+Dialogue: 0,0:06:09.24,0:06:13.25,Default,,0,0,0,,C'est presque du suicide.\ND'ailleurs, que fais-tu ici ?
+Dialogue: 0,0:06:13.50,0:06:17.67,Default,,0,0,0,,Il t'a fait du chantage ou t'a forcée\Nà devenir membre du labo ?
+Dialogue: 0,0:06:17.79,0:06:21.26,Default,,0,0,0,,Mayushii est\Nl'otage d'Okarin.
+Dialogue: 0,0:06:24.26,0:06:26.26,Default,,0,0,0,,J'appelle la police.\N- Stop.
+Dialogue: 0,0:06:26.51,0:06:29.68,Default,,0,0,0,,Elle dit être ton otage.\NC'est une preuve suffisante.
+Dialogue: 0,0:06:29.89,0:06:31.64,Default,,0,0,0,,Tu te trompes.
+Dialogue: 0,0:06:32.18,0:06:36.10,Default,,0,0,0,,Mayushii a choisi\Nd'être son otage.
+Dialogue: 0,0:06:38.02,0:06:39.98,Default,,0,0,0,,Ça veut dire quoi ?
+Dialogue: 0,0:06:40.44,0:06:43.03,Default,,0,0,0,,J'y vais.\N- Salut !
+Dialogue: 0,0:06:45.74,0:06:49.28,Default,,0,0,0,,Je suis sûr que ceci\Ndevrait faire l'affaire.
+Dialogue: 0,0:06:49.53,0:06:50.70,Default,,0,0,0,,Ça roule ?
+Dialogue: 0,0:06:51.79,0:06:56.04,Default,,0,0,0,,Comment ça va avec l'IBN 5100 ?\N- Ne prononce pas ce nom ici.
+Dialogue: 0,0:06:57.67,0:07:01.46,Default,,0,0,0,,Tu viens chercher des pièces ?\NJe peux t'aider ?
+Dialogue: 0,0:07:02.26,0:07:06.13,Default,,0,0,0,,J'ignorais qu'une guerrière employée\Ns'y connaissait en PC.
+Dialogue: 0,0:07:06.34,0:07:10.01,Default,,0,0,0,,Oui, j'ai connu\Nun expert en IBN.
+Dialogue: 0,0:07:11.06,0:07:13.56,Default,,0,0,0,,Je t'en prie,\Nprésente-le-moi.
+Dialogue: 0,0:07:14.64,0:07:15.98,Default,,0,0,0,,Je ne peux pas.
+Dialogue: 0,0:07:16.77,0:07:20.94,Default,,0,0,0,,Je vais te faire vivre un enfer.\N- Vraiment, je ne peux pas.
+Dialogue: 0,0:07:21.07,0:07:22.86,Default,,0,0,0,,Tu ne tiens pas à la vie ?
+Dialogue: 0,0:07:23.03,0:07:26.03,Default,,0,0,0,,Je ne peux pas,\Nparce qu'il est décédé.
+Dialogue: 0,0:07:26.74,0:07:28.28,Default,,0,0,0,,Il y a des années.
+Dialogue: 0,0:07:29.32,0:07:30.74,Default,,0,0,0,,Je suis désolé.
+Dialogue: 0,0:07:31.49,0:07:34.83,Default,,0,0,0,,C'est à moi de m'excuser\Npour tout à l'heure.
+Dialogue: 0,0:07:34.96,0:07:38.88,Default,,0,0,0,,Mon assistante s'est mal comportée ?\N- Pas du tout.
+Dialogue: 0,0:07:39.04,0:07:43.09,Default,,0,0,0,,Elle t'a lancé un regard noir\Nou s'est moquée de toi ?
+Dialogue: 0,0:07:43.84,0:07:46.76,Default,,0,0,0,,Non, elle n'a rien fait.
+Dialogue: 0,0:07:46.88,0:07:48.80,Default,,0,0,0,,Dans ce cas…
+Dialogue: 0,0:07:50.60,0:07:54.56,Default,,0,0,0,,Elle ne sait\Nencore rien du tout.
+Dialogue: 0,0:07:56.52,0:08:00.90,Default,,0,0,0,,Mais prends garde à Makise Kurisu.\N- Ça veut dire quoi ?
+Dialogue: 0,0:08:04.28,0:08:05.86,Default,,0,0,0,,Un raid aérien ?
+Dialogue: 0,0:08:07.40,0:08:10.82,Default,,0,0,0,,Ils filment\Nles feux d'artifice de ce soir.
+Dialogue: 0,0:08:10.99,0:08:15.75,Default,,0,0,0,,Les feux d'artifice ?\NJ'ai déjà entendu parler de ça.
+Dialogue: 0,0:08:15.87,0:08:20.08,Default,,0,0,0,,Tu n'en as jamais vu ?\N- C'est où ? Quelle direction ?
+Dialogue: 0,0:08:20.92,0:08:23.80,Default,,0,0,0,,Suis la rue vers la rivière,\Ntu les verras.
+Dialogue: 0,0:08:24.17,0:08:25.63,Default,,0,0,0,,Merci !
+Dialogue: 0,0:08:29.18,0:08:31.93,Default,,0,0,0,,Donne-moi ton\Nadresse e-mail.
+Dialogue: 0,0:08:33.64,0:08:37.35,Default,,0,0,0,,Un festival ?\N-Il y aura aussi des feux d'artifice.
+Dialogue: 0,0:08:39.39,0:08:42.31,Default,,0,0,0,,Des feux d'artifice.\N- Tu veux y aller ?
+Dialogue: 0,0:08:42.56,0:08:45.78,Default,,0,0,0,,Non… Pas vraiment.\N- Okarin ?
+Dialogue: 0,0:08:47.90,0:08:49.32,Default,,0,0,0,,Tutuluu.
+Dialogue: 0,0:08:49.36,0:08:51.03,Default,,0,0,0,,Tu rentres ?\N- Qui.
+Dialogue: 0,0:08:51.11,0:08:53.99,Default,,0,0,0,,Tu as trouvé les pièces ?\N- Tout est là.
+Dialogue: 0,0:08:54.12,0:08:57.58,Default,,0,0,0,,J'imagine que tu vas\Nessayer tout de suite.
+Dialogue: 0,0:08:58.20,0:09:00.04,Default,,0,0,0,,Ça t'intéresse ?
+Dialogue: 0,0:09:01.12,0:09:04.63,Default,,0,0,0,,J'ai raison, non ?\N- C'est vrai. Juste un peu.
+Dialogue: 0,0:09:04.79,0:09:08.38,Default,,0,0,0,,Mais je me fiche\Nde cette histoire de complot du SERN.
+Dialogue: 0,0:09:09.09,0:09:11.26,Default,,0,0,0,,Je veux connaître la vérité.
+Dialogue: 0,0:09:12.34,0:09:16.22,Default,,0,0,0,,Excuse-moi,\Nje vais retourner au laboratoire.
+Dialogue: 0,0:09:16.39,0:09:20.10,Default,,0,0,0,,Dans ce cas, Mayushii rentre chez elle.\N- D'accord.
+Dialogue: 0,0:09:22.27,0:09:23.65,Default,,0,0,0,,Kurisu ?
+Dialogue: 0,0:09:24.15,0:09:26.19,Default,,0,0,0,,Tu reviendras, pas vrai ?
+Dialogue: 0,0:09:26.36,0:09:30.07,Default,,0,0,0,,Oui. Je suis membre\Njusqu'à mon départ en Amérique.
+Dialogue: 0,0:09:30.40,0:09:31.74,Default,,0,0,0,,Génial !
+Dialogue: 0,0:09:32.24,0:09:33.41,Default,,0,0,0,,Salut !
+Dialogue: 0,0:09:34.45,0:09:36.03,Default,,0,0,0,,C'est quoi ces bêtises ?
+Dialogue: 0,0:09:36.16,0:09:40.00,Default,,0,0,0,,Tu es mon assistante,\Nbien sûr que tu viens au labo.
+Dialogue: 0,0:09:40.83,0:09:43.17,Default,,0,0,0,,Vous êtes des\Namis d'enfance.
+Dialogue: 0,0:09:43.29,0:09:48.21,Default,,0,0,0,,Vous avez grandi dans le même milieu,\Nmais l'un est handicapé social.
+Dialogue: 0,0:09:48.38,0:09:53.01,Default,,0,0,0,,Oui, Mayuri a toujours été un peu à l'ouest.\N- C'est de toi que je parle.
+Dialogue: 0,0:09:56.14,0:09:57.85,Default,,0,0,0,,Voici mon premier e-mail.
+Dialogue: 0,0:09:57.97,0:10:01.39,Default,,0,0,0,,Les feux sont encore mieux\Nque ce que j'imaginais.
+Dialogue: 0,0:10:09.11,0:10:12.07,Default,,0,0,0,,Il n'a plus été utilisé ?
+Dialogue: 0,0:10:12.28,0:10:13.49,Default,,0,0,0,,J'emprunte ceci.
+Dialogue: 0,0:10:16.32,0:10:20.08,Default,,0,0,0,,Je me sens tellement mieux\Ndans une blouse.
+Dialogue: 0,0:10:20.91,0:10:22.08,Default,,0,0,0,,Oui…
+Dialogue: 0,0:10:22.37,0:10:26.00,Default,,0,0,0,,Mon intuition était juste.\NTu es parfaite.
+Dialogue: 0,0:10:26.42,0:10:29.13,Default,,0,0,0,,Qu'y a-t-il ?\NTu me fous les jetons.
+Dialogue: 0,0:10:29.25,0:10:33.76,Default,,0,0,0,,Au sein d'un centre de recherches,\Nla blouse est un uniforme.
+Dialogue: 0,0:10:34.30,0:10:38.01,Default,,0,0,0,,Je le répète à Daru et Mayuri,\Nqui ne comprennent pas.
+Dialogue: 0,0:10:38.14,0:10:39.85,Default,,0,0,0,,Mais toi, oui.
+Dialogue: 0,0:10:40.01,0:10:42.85,Default,,0,0,0,,Mettons-nous les\Nmains dans les poches.
+Dialogue: 0,0:10:43.02,0:10:44.44,Default,,0,0,0,,Quoi ?\N- Vite.
+Dialogue: 0,0:10:45.15,0:10:47.19,Default,,0,0,0,,Comme ça ?\N- Oui.
+Dialogue: 0,0:10:47.31,0:10:52.36,Default,,0,0,0,,C'est la pose intelligente de ceux\Nqui consacrent leur vie à la recherche.
+Dialogue: 0,0:10:52.53,0:10:54.95,Default,,0,0,0,,Je t'offre cette blouse.
+Dialogue: 0,0:10:55.07,0:10:57.70,Default,,0,0,0,,Profitons-en à volonté.
+Dialogue: 0,0:10:59.37,0:11:02.04,Default,,0,0,0,,Je prends ça pour une insulte.
+Dialogue: 0,0:11:03.58,0:11:05.21,Default,,0,0,0,,Tu as faim ?
+Dialogue: 0,0:11:05.33,0:11:08.04,Default,,0,0,0,,Je n'ai rien mangé\Ndepuis le déjeuner.
+Dialogue: 0,0:11:08.25,0:11:12.21,Default,,0,0,0,,Très bien. Aujourd'hui,\Nje suis d'humeur charitable.
+Dialogue: 0,0:11:14.09,0:11:15.93,Default,,0,0,0,,Avale ça.\N- Tu plaisantes ?
+Dialogue: 0,0:11:16.05,0:11:18.05,Default,,0,0,0,,Tu es déçue ?\N- Clairement.
+Dialogue: 0,0:11:18.22,0:11:22.22,Default,,0,0,0,,Tu n'as rien d'autre ?\N- On a des nouilles instantanées.
+Dialogue: 0,0:11:23.81,0:11:26.90,Default,,0,0,0,,Mais quelqu'un\Nqui a grandi en Amérique…
+Dialogue: 0,0:11:27.02,0:11:28.90,Default,,0,0,0,,Des nouilles instantanées ?
+Dialogue: 0,0:11:29.48,0:11:30.82,Default,,0,0,0,,Je vais manger ça.
+Dialogue: 0,0:11:31.27,0:11:34.32,Default,,0,0,0,,Tu as quels goûts ?\N- Sauce soja et sel.
+Dialogue: 0,0:11:36.24,0:11:39.62,Default,,0,0,0,,Je prendrai celles au sel,\Navec une fourchette.
+Dialogue: 0,0:11:43.37,0:11:46.08,Default,,0,0,0,,Dépêche-toi,\Nsinon tu vas perdre.
+Dialogue: 0,0:11:47.83,0:11:51.96,Default,,0,0,0,,Tu devrais abandonner.\NTu as une carte virus, là au bout.
+Dialogue: 0,0:11:53.25,0:11:55.80,Default,,0,0,0,,Tu crois ce que tu veux.
+Dialogue: 0,0:11:55.97,0:11:58.09,Default,,0,0,0,,Je pose celle-ci ici et…
+Dialogue: 0,0:11:58.80,0:12:00.55,Default,,0,0,0,,Voilà. C'est fait.
+Dialogue: 0,0:12:02.81,0:12:06.94,Default,,0,0,0,,Je vois que tu aimes\Nle Dk Pepper, assistante.
+Dialogue: 0,0:12:08.06,0:12:12.94,Default,,0,0,0,,J'ai passé sept ans en Amérique.\N- On va pouvoir boire ensemble.
+Dialogue: 0,0:12:13.36,0:12:16.19,Default,,0,0,0,,Désolée, je suis mineure.
+Dialogue: 0,0:12:16.32,0:12:19.20,Default,,0,0,0,,Je parlais de\Nboire du Dk Pepper.
+Dialogue: 0,0:12:19.32,0:12:22.41,Default,,0,0,0,,Seulement ça ?\N- Ça lui donne toute sa valeur.
+Dialogue: 0,0:12:22.95,0:12:26.16,Default,,0,0,0,,Partageons notre\Npassion du Dk Pepper.
+Dialogue: 0,0:12:26.33,0:12:31.33,Default,,0,0,0,,N'en profite pas pour regarder\Nsous mes cartes l'air de rien.
+Dialogue: 0,0:12:36.17,0:12:37.97,Default,,0,0,0,,Bien, j'ai gagné.
+Dialogue: 0,0:12:38.34,0:12:43.30,Default,,0,0,0,,Pour être honnête, tu n'as pas\Nune bonne vue d'ensemble, Okabe.
+Dialogue: 0,0:12:43.89,0:12:47.10,Default,,0,0,0,,Tu te concentres\Nsur ta stratégie
+Dialogue: 0,0:12:47.31,0:12:50.81,Default,,0,0,0,,sans penser à celle de ton adversaire\Nou aux pièges.
+Dialogue: 0,0:12:51.27,0:12:52.44,Default,,0,0,0,,Tu…\N- Attends.
+Dialogue: 0,0:12:54.90,0:12:57.32,Default,,0,0,0,,Quoi ?\N- Qu'est-ce que tu as dit ?
+Dialogue: 0,0:12:57.44,0:13:01.32,Default,,0,0,0,,Que tu n'avais pas de vue d'ensemble.\NC'est la vérité.
+Dialogue: 0,0:13:03.87,0:13:05.24,Default,,0,0,0,,Avant ça.
+Dialogue: 0,0:13:06.16,0:13:07.95,Default,,0,0,0,,Tu as dit "Okabe".
+Dialogue: 0,0:13:08.25,0:13:13.50,Default,,0,0,0,,Et alors ? Je suis plus jeune que toi,\Nmais tu n'as aucun sens du respect…
+Dialogue: 0,0:13:14.09,0:13:15.50,Default,,0,0,0,,Non !
+Dialogue: 0,0:13:16.38,0:13:18.17,Default,,0,0,0,,Je m'appelle Hououin.
+Dialogue: 0,0:13:18.34,0:13:21.09,Default,,0,0,0,,Dois-je encore le répéter, Christina ?
+Dialogue: 0,0:13:22.34,0:13:24.39,Default,,0,0,0,,Tu m'appelleras Hououin
+Dialogue: 0,0:13:25.01,0:13:28.68,Default,,0,0,0,,ou bien Kyouma.
+Dialogue: 0,0:13:36.11,0:13:38.57,Default,,0,0,0,,Tu pleures ?\N- Pas du tout.
+Dialogue: 0,0:13:38.86,0:13:42.24,Default,,0,0,0,,Je n'ai pas eu peur\Nd'un homme qui criait
+Dialogue: 0,0:13:42.36,0:13:46.74,Default,,0,0,0,,et je n'ai pas pleuré de soulagement.\NÇa n'a pas eu lieu.
+Dialogue: 0,0:13:47.24,0:13:50.33,Default,,0,0,0,,Daru, pourquoi mon assistante\Npleure-t-elle ?
+Dialogue: 0,0:13:50.41,0:13:53.50,Default,,0,0,0,,Je crois qu'elle vient\Nde te dire pourquoi.
+Dialogue: 0,0:13:56.96,0:14:01.38,Default,,0,0,0,,Voyons. Ceci vient ici et…\NQuoi ?
+Dialogue: 0,0:14:02.09,0:14:07.64,Default,,0,0,0,,Ensuite, si ceci va ici…\NAh oui, comme ça.
+Dialogue: 0,0:14:09.22,0:14:12.39,Default,,0,0,0,,Assistante ?\N- Je ne suis pas ton assistante.
+Dialogue: 0,0:14:12.52,0:14:15.44,Default,,0,0,0,,Tu devrais rentrer\Ndormir à l'hôtel.
+Dialogue: 0,0:14:15.56,0:14:17.73,Default,,0,0,0,,C'est tout près.\N- T'inquiète.
+Dialogue: 0,0:14:17.98,0:14:22.78,Default,,0,0,0,,Je peux tenir jusqu'au matin.\N- Tu n'as pas de famille à appeler ?
+Dialogue: 0,0:14:23.03,0:14:27.78,Default,,0,0,0,,Ma mère est en Amérique et je n'ai\Npas vu mon père depuis sept ans.
+Dialogue: 0,0:14:28.03,0:14:31.37,Default,,0,0,0,,Donc, tu es une génie\Nperverse prodigue ?
+Dialogue: 0,0:14:31.50,0:14:34.00,Default,,0,0,0,,Arrête de rajouter\Ndes mots bizarres.
+Dialogue: 0,0:14:35.38,0:14:36.50,Default,,0,0,0,,J'ai trouvé.
+Dialogue: 0,0:14:37.34,0:14:39.30,Default,,0,0,0,,J'ai réussi !
+Dialogue: 0,0:14:39.92,0:14:42.47,Default,,0,0,0,,Tu as réussi ?\N- Mission complete II.
+Dialogue: 0,0:14:42.59,0:14:45.51,Default,,0,0,0,,Qu'as-tu découvert ?\N- Je sais pas encore.
+Dialogue: 0,0:14:45.68,0:14:47.55,Default,,0,0,0,,Mais c'est le "Z-Program".
+Dialogue: 0,0:14:48.14,0:14:52.18,Default,,0,0,0,,Il est écrit "1973" ?\N- Oui.
+Dialogue: 0,0:14:52.35,0:14:55.52,Default,,0,0,0,,Quand le SERN a-t-il été fondé ?\N- En 1954.
+Dialogue: 0,0:14:55.60,0:14:59.36,Default,,0,0,0,,Quand l'IBN 5100 a-t-il été construit ?\N- En 1975.
+Dialogue: 0,0:15:00.07,0:15:01.82,Default,,0,0,0,,Le SERN aurait utilisé le langage
+Dialogue: 0,0:15:02.07,0:15:05.95,Default,,0,0,0,,de programmation de l'IBN 5100\Nspécifiquement pour ce projet ?
+Dialogue: 0,0:15:06.11,0:15:08.78,Default,,0,0,0,,C'est un peu tordu.\N- C'est possible.
+Dialogue: 0,0:15:09.28,0:15:12.45,Default,,0,0,0,,On en sera certains\Naprès avoir lu le rapport.
+Dialogue: 0,0:15:12.58,0:15:17.46,Default,,0,0,0,,C'est sûrement un rapport de physique\Nsans lien avec un complot.
+Dialogue: 0,0:15:17.75,0:15:21.63,Default,,0,0,0,,CQFD, un fichier JPEG.\NJe peux pas le copier-coller.
+Dialogue: 0,0:15:21.75,0:15:23.51,Default,,0,0,0,,Ce n'est pas en français.
+Dialogue: 0,0:15:23.63,0:15:27.26,Default,,0,0,0,,"Contrôle de l'espace-temps\Nqui détruit l'histoire."
+Dialogue: 0,0:15:27.59,0:15:31.97,Default,,0,0,0,,C'est vrai, tu comprends l'anglais.\N- Bien joué, assistante.
+Dialogue: 0,0:15:32.14,0:15:36.06,Default,,0,0,0,,Tout ce temps passé en Amérique\Nétait destiné à ce moment.
+Dialogue: 0,0:15:36.27,0:15:37.98,Default,,0,0,0,,Arrête de délirer.
+Dialogue: 0,0:15:38.15,0:15:42.40,Default,,0,0,0,,Voyons : "Créer une utopie\Nqui relie le passé au futur"
+Dialogue: 0,0:15:42.53,0:15:46.36,Default,,0,0,0,,"sera le but de l'existence du SERN\Nau 21ème siècle."
+Dialogue: 0,0:15:47.07,0:15:49.57,Default,,0,0,0,,Une utopie ?\NLa dystopie !
+Dialogue: 0,0:15:49.99,0:15:53.20,Default,,0,0,0,,N'importe quoi !\NPasse au texte principal.
+Dialogue: 0,0:15:53.37,0:15:56.08,Default,,0,0,0,,À toi de le trouver.\N- Voyons.
+Dialogue: 0,0:15:56.21,0:15:59.38,Default,,0,0,0,,"Cette expérience secrète…"\NC'est pas ça.
+Dialogue: 0,0:15:59.54,0:16:02.42,Default,,0,0,0,,"Les membres du programme…"\NNon.
+Dialogue: 0,0:16:02.55,0:16:04.51,Default,,0,0,0,,Ici : "Le Z-Program testera
+Dialogue: 0,0:16:04.63,0:16:09.05,Default,,0,0,0,,les transferts spatio-temporels\Npar la collision de protons."
+Dialogue: 0,0:16:10.01,0:16:12.18,Default,,0,0,0,,Les transferts spatio-temporels ?
+Dialogue: 0,0:16:12.76,0:16:14.47,Default,,0,0,0,,Des voyages temporels !
+Dialogue: 0,0:16:14.60,0:16:16.48,Default,,0,0,0,,Mais non.\N- Si, c'est vrai.
+Dialogue: 0,0:16:16.60,0:16:21.11,Default,,0,0,0,,Je le savais. Le SERN étudie\Nles voyages temporels depuis 40 ans.
+Dialogue: 0,0:16:21.27,0:16:23.90,Default,,0,0,0,,Attends.\NPas de conclusions hâtives.
+Dialogue: 0,0:16:24.15,0:16:28.36,Default,,0,0,0,,"Étape 1 : construction\Ndu Large Hadron Collider."
+Dialogue: 0,0:16:28.49,0:16:32.33,Default,,0,0,0,,"Étape 2 : application pratique\Net réglage du lifter."
+Dialogue: 0,0:16:32.45,0:16:33.70,Default,,0,0,0,,Du lifter, c'est quoi ?
+Dialogue: 0,0:16:34.08,0:16:38.87,Default,,0,0,0,,Tu te souviens de tout le raffut\Nsur les "ionocrafts", il y a longtemps ?
+Dialogue: 0,0:16:39.12,0:16:41.50,Default,,0,0,0,,Voyons…\NÇa lévite ?
+Dialogue: 0,0:16:41.63,0:16:44.88,Default,,0,0,0,,Ça arrive quand le courant\Ntraverse l'aluminium.
+Dialogue: 0,0:16:45.38,0:16:51.05,Default,,0,0,0,,Rien à voir avec la machine temporelle.\N- Je sais pas, c'est ce qui est écrit.
+Dialogue: 0,0:16:51.22,0:16:54.22,Default,,0,0,0,,Ils utilisent\Nles trous noirs et un lifter.
+Dialogue: 0,0:16:54.39,0:16:55.47,Default,,0,0,0,,La suite ?
+Dialogue: 0,0:16:55.52,0:16:58.06,Default,,0,0,0,,"Étape 3 : tests sur les animaux."
+Dialogue: 0,0:16:58.64,0:17:00.56,Default,,0,0,0,,"Étape 4 :"
+Dialogue: 0,0:17:01.10,0:17:02.44,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:17:04.61,0:17:06.44,Default,,0,0,0,,"Tests sur les humains."
+Dialogue: 0,0:17:06.61,0:17:09.78,Default,,0,0,0,,"Human is dead, mismatch."
+Dialogue: 0,0:17:09.95,0:17:11.20,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:17:11.41,0:17:13.74,Default,,0,0,0,,C'était dans les e-mails\Nqu'on a piratés.
+Dialogue: 0,0:17:14.37,0:17:15.62,Default,,0,0,0,,Puis, ça disait…
+Dialogue: 0,0:17:15.74,0:17:18.66,Default,,0,0,0,,"Les détails sont\Ndans le Jellyman's Report."
+Dialogue: 0,0:17:18.83,0:17:20.87,Default,,0,0,0,,On peut voir ce rapport ?
+Dialogue: 0,0:17:21.12,0:17:23.88,Default,,0,0,0,,Je crois.\NMais est-ce une bonne idée ?
+Dialogue: 0,0:17:24.13,0:17:27.67,Default,,0,0,0,,Si c'est la vérité,\Nc'est un dossier top secret.
+Dialogue: 0,0:17:27.84,0:17:30.17,Default,,0,0,0,,Tu paniques maintenant\Nalors qu'on a déjà fait tout ça ?
+Dialogue: 0,0:17:30.34,0:17:36.10,Default,,0,0,0,,Il s'agit du SERN. C'est un rapport\Ntop secret, caché durant 40 ans.
+Dialogue: 0,0:17:36.26,0:17:38.64,Default,,0,0,0,,Et tu ne comptes pas le lire ?
+Dialogue: 0,0:17:40.60,0:17:42.31,Default,,0,0,0,,Tu dois t'en aller.
+Dialogue: 0,0:17:42.77,0:17:46.65,Default,,0,0,0,,Plus tu en sais,\Nplus tu t'exposes au danger.
+Dialogue: 0,0:17:46.82,0:17:49.28,Default,,0,0,0,,Tu es un génie\Navec de l'avenir.
+Dialogue: 0,0:17:49.82,0:17:52.53,Default,,0,0,0,,Pardon ?\NTu t'inquiètes pour moi ?
+Dialogue: 0,0:17:53.24,0:17:54.87,Default,,0,0,0,,Bien sûr que oui.\NTu es…
+Dialogue: 0,0:17:56.33,0:17:58.12,Default,,0,0,0,,Tu es mon assistante.
+Dialogue: 0,0:17:58.41,0:18:03.62,Default,,0,0,0,,Merci, mais je n'irai nulle part.\NJe ne trouverai jamais le sommeil.
+Dialogue: 0,0:18:03.75,0:18:05.79,Default,,0,0,0,,Pas de regrets ?\N- Aucun.
+Dialogue: 0,0:18:05.96,0:18:09.63,Default,,0,0,0,,Et toi, Daru ?\N- Je suis un super hacker.
+Dialogue: 0,0:18:09.76,0:18:12.76,Default,,0,0,0,,Ils ne pourront jamais\Nnous retrouver.
+Dialogue: 0,0:18:12.93,0:18:17.60,Default,,0,0,0,,Très bien. Commençons\Nnotre analyse du Jellyman's Report.
+Dialogue: 0,0:18:17.97,0:18:22.18,Default,,0,0,0,,Je nomme cette opération\N"le Coffre de Laegjarn".
+Dialogue: 0,0:18:22.35,0:18:26.44,Default,,0,0,0,,Il faut vraiment un nom ?\NEt pourquoi la mythologie nordique ?
+Dialogue: 0,0:18:26.56,0:18:27.82,Default,,0,0,0,,Daru, vas-y.
+Dialogue: 0,0:18:28.36,0:18:30.44,Default,,0,0,0,,C'est parti.\N- C'est ça ?
+Dialogue: 0,0:18:30.61,0:18:34.36,Default,,0,0,0,,Il y a 14 fichiers.\NJe vais en choisir un au hasard.
+Dialogue: 0,0:18:35.45,0:18:36.91,Default,,0,0,0,,"Jellyman's report 10."
+Dialogue: 0,0:18:37.16,0:18:40.58,Default,,0,0,0,,"Sujet : James McCarthy.\NNé en Amérique."
+Dialogue: 0,0:18:40.70,0:18:43.75,Default,,0,0,0,,"Date de l'expérience :\N28 janvier 2005."
+Dialogue: 0,0:18:43.91,0:18:48.34,Default,,0,0,0,,"Z-Program 4. Résultats :\NHuman is dead, mismatch."
+Dialogue: 0,0:18:48.71,0:18:50.00,Default,,0,0,0,,Encore ?
+Dialogue: 0,0:18:50.21,0:18:53.88,Default,,0,0,0,,"Le sujet n'a pas supporté\Nl'énorme compression"
+Dialogue: 0,0:18:54.18,0:18:57.22,Default,,0,0,0,,"ou le voyage\Nà travers le trou noir de Kerr."
+Dialogue: 0,0:18:57.39,0:18:59.76,Default,,0,0,0,,Un article de journal ?\N- On dirait.
+Dialogue: 0,0:18:59.93,0:19:03.93,Default,,0,0,0,,Regardez la date.\N- Le 3 avril 1921.
+Dialogue: 0,0:19:04.52,0:19:09.77,Default,,0,0,0,,"Un homme retrouvé mort dans le mur\Nd'un bâtiment de la 14e rue à New York."
+Dialogue: 0,0:19:10.48,0:19:17.03,Default,,0,0,0,,"Le corps non identifié avait\Nune consistance visqueuse et gélifiée."
+Dialogue: 0,0:19:22.83,0:19:24.00,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:19:25.04,0:19:27.88,Default,,0,0,0,,Ont-ils réalisé un voyage temporel,\Nmême incomplet ?
+Dialogue: 0,0:19:28.75,0:19:30.25,Default,,0,0,0,,"Report 8."
+Dialogue: 0,0:19:30.42,0:19:33.84,Default,,0,0,0,,"Linda Hill, née en Angleterre.\NZ-Program 4."
+Dialogue: 0,0:19:34.72,0:19:38.26,Default,,0,0,0,,"Date de l'expérience :\Nle 15 février 2004."
+Dialogue: 0,0:19:38.43,0:19:42.35,Default,,0,0,0,,"Résultat : Human\Nis dead. Mismatch."
+Dialogue: 0,0:19:43.31,0:19:45.69,Default,,0,0,0,,"Le 2 octobre 1972."
+Dialogue: 0,0:19:45.81,0:19:49.23,Default,,0,0,0,,"Le corps d'une femme\Nest retrouvé gélifié"
+Dialogue: 0,0:19:49.40,0:19:51.90,Default,,0,0,0,,"sur une route de\NDharmapuri, en Inde."
+Dialogue: 0,0:19:52.73,0:19:56.90,Default,,0,0,0,,"Le bas du corps semble avoir\Nété détruit par une voiture."
+Dialogue: 0,0:19:57.07,0:19:58.45,Default,,0,0,0,,Et celui-là ?
+Dialogue: 0,0:19:58.57,0:20:02.24,Default,,0,0,0,,"Rapport 7.\NMichael Lang, né en Allemagne."
+Dialogue: 0,0:20:02.58,0:20:07.92,Default,,0,0,0,,"Z-Program 4.\NRésultat : Human is dead. Mismatch."
+Dialogue: 0,0:20:11.00,0:20:12.88,Default,,0,0,0,,Un article japonais ?
+Dialogue: 0,0:20:13.05,0:20:15.76,Default,,0,0,0,,"Le 24 mai 1936."
+Dialogue: 0,0:20:15.88,0:20:18.84,Default,,0,0,0,,"Un corps découvert\Nau pied du Mont Hiei."
+Dialogue: 0,0:20:19.01,0:20:20.64,Default,,0,0,0,,Il y en a 14 ?
+Dialogue: 0,0:20:20.76,0:20:23.47,Default,,0,0,0,,Tu veux en voir d'autres ?\N- Ça suffit.
+Dialogue: 0,0:20:24.72,0:20:28.27,Default,,0,0,0,,Okarin…\N- Je vais chercher à boire.
+Dialogue: 0,0:20:29.77,0:20:31.61,Default,,0,0,0,,Il a été fortement secoué.
+Dialogue: 0,0:20:32.65,0:20:34.82,Default,,0,0,0,,Pourquoi se sont-ils gélifiés ?
+Dialogue: 0,0:20:36.74,0:20:41.74,Default,,0,0,0,,Le SERN semble développer\Nune méthode pour voyager dans le temps
+Dialogue: 0,0:20:41.82,0:20:43.45,Default,,0,0,0,,grâce aux trous noirs de Kerr.
+Dialogue: 0,0:20:44.08,0:20:48.00,Default,,0,0,0,,Cela signifie qu'ils enfoncent\N10 exposant -24 kilos
+Dialogue: 0,0:20:48.16,0:20:52.84,Default,,0,0,0,,dans un espace de 10 exposant -19 mètres\Npour l'envoyer dans le passé.
+Dialogue: 0,0:20:52.96,0:20:56.38,Default,,0,0,0,,C'est comme enfoncer\Ncette éponge dans ce trou.
+Dialogue: 0,0:20:56.55,0:20:59.84,Default,,0,0,0,,Ça la vide de son contenu.
+Dialogue: 0,0:21:00.47,0:21:02.51,Default,,0,0,0,,Donc, c'est plutôt étroit.
+Dialogue: 0,0:21:02.68,0:21:06.06,Default,,0,0,0,,On presse pour enfoncer\Ndans un espace restreint.
+Dialogue: 0,0:21:06.31,0:21:08.64,Default,,0,0,0,,Ce n'est pas plus sale que ça ?
+Dialogue: 0,0:21:08.85,0:21:11.06,Default,,0,0,0,,Qu'est-ce que tu veux dire ?
+Dialogue: 0,0:21:11.98,0:21:16.07,Default,,0,0,0,,Hashida, pervers !\N- C'est ton imagination qui parle.
+Dialogue: 0,0:21:16.65,0:21:18.49,Default,,0,0,0,,Ne me compare pas à toi.
+Dialogue: 0,0:21:26.87,0:21:28.83,Default,,0,0,0,,Que comptes-tu faire ?
+Dialogue: 0,0:21:31.83,0:21:34.71,Default,,0,0,0,,Parle. Je sais que\Ntu es sous le choc,
+Dialogue: 0,0:21:34.92,0:21:38.63,Default,,0,0,0,,mais maintenant qu'on sait,\Ntirons les conclusions.
+Dialogue: 0,0:21:43.14,0:21:44.68,Default,,0,0,0,,Okabe ?
+Dialogue: 0,0:21:46.68,0:21:50.10,Default,,0,0,0,,Il n'y a qu'une seule conclusion.\N- Pardon ?
+Dialogue: 0,0:21:50.35,0:21:54.90,Default,,0,0,0,,On dispose du Gadget futuriste 8,\Nle téléphone micro-ondes.
+Dialogue: 0,0:21:55.06,0:21:59.15,Default,,0,0,0,,On va construire une machine temporelle\Nparfaite avant le SERN.
+Dialogue: 0,0:21:59.40,0:22:03.49,Default,,0,0,0,,Puis, on transformera\Nla structure mondiale du pouvoir.
+Dialogue: 0,0:22:08.66,0:22:10.83,Default,,0,0,0,,Tu es impossible.
+Dialogue: 0,0:22:21.47,0:22:28.85,Default,,0,0,0,,Ma vision restreinte\Nm'empêche d'échapper
+Dialogue: 0,0:22:30.43,0:22:37.69,Default,,0,0,0,,au contrôle sans\Nmerci de l'horloge.
+Dialogue: 0,0:22:37.98,0:22:46.66,Default,,0,0,0,,À la recherche d'un\Nlendemain de repos,
+Dialogue: 0,0:22:46.95,0:22:55.25,Default,,0,0,0,,j'embarque pour l'horizon\Ndu phénomène sacré qui est mien.
+Dialogue: 0,0:22:55.67,0:23:03.88,Default,,0,0,0,,Prisonniers des engagements\Net confrontés aux fausses preuves,
+Dialogue: 0,0:23:04.01,0:23:13.27,Default,,0,0,0,,le paradis et la terre\Nlaissent le temps s'écouler aveuglément.
+Dialogue: 0,0:23:13.52,0:23:21.69,Default,,0,0,0,,Bats des ailes, papillon,\Nmiraculeux papillon, je m'offre à toi.
+Dialogue: 0,0:23:22.07,0:23:26.20,Default,,0,0,0,,Papillon de larmes,\Npapillon éblouissant.
+Dialogue: 0,0:23:26.45,0:23:34.04,Default,,0,0,0,,Tout est sur le point\Nd'être réécrit à présent.
+Dialogue: 0,0:23:41.05,0:23:55.81,Default,,0,0,0,,Divergence de l'effet papillon

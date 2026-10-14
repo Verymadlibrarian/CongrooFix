@@ -1,0 +1,349 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.26,0:00:08.30,Default,,0,0,0,,Rukako, reste calme et écoute-moi.
+Dialogue: 0,0:00:09.38,0:00:12.47,Default,,0,0,0,,En réalité, avant, tu étais un homme.
+Dialogue: 0,0:00:20.69,0:00:22.31,Default,,0,0,0,,Tu recommences ?
+Dialogue: 0,0:00:23.02,0:00:24.69,Default,,0,0,0,,Attends, ne pleure pas.
+Dialogue: 0,0:00:24.86,0:00:28.61,Default,,0,0,0,,Reste calme et écoute-moi bien.\NC'est pour Mayuri.
+Dialogue: 0,0:00:29.91,0:00:33.37,Default,,0,0,0,,J'ai besoin\Nque tu redeviennes un garçon.
+Dialogue: 0,0:00:47.63,0:00:52.59,Default,,0,0,0,,suu juuoku mono kodou no kazu sae
+Dialogue: 0,0:00:52.89,0:00:59.31,Default,,0,0,0,,anata ni wa matataki teido no\Nsaji na toukyuu
+Dialogue: 0,0:00:59.64,0:01:04.82,Default,,0,0,0,,kako ni torawarete mirai o nageku mo
+Dialogue: 0,0:01:05.07,0:01:10.40,Default,,0,0,0,,chiri hitotsu gosan o yurusanu hitsuzen
+Dialogue: 0,0:01:10.70,0:01:16.70,Default,,0,0,0,,mugen ni hirogaru yume mo\Negaku mirai mo
+Dialogue: 0,0:01:16.87,0:01:22.54,Default,,0,0,0,,bokutachi ni yurusareta kyoei no kenri
+Dialogue: 0,0:01:22.71,0:01:28.55,Default,,0,0,0,,yuugen sore wa futatsu no\Nhari ga shimesu
+Dialogue: 0,0:01:28.88,0:01:33.47,Default,,0,0,0,,zankoku na yakujou to sentaku e
+Dialogue: 0,0:01:33.64,0:01:35.43,Default,,0,0,0,,Hacking to the Gate
+Dialogue: 0,0:01:35.72,0:01:42.64,Default,,0,0,0,,da kara ima ichi byou goto ni\Nsekaisen o koete
+Dialogue: 0,0:01:42.77,0:01:47.52,Default,,0,0,0,,kimi no sono egao mamoritai no sa
+Dialogue: 0,0:01:47.69,0:01:54.53,Default,,0,0,0,,soshite mata kanashimi no nai\Njikan no ruupu e to
+Dialogue: 0,0:01:54.70,0:02:00.95,Default,,0,0,0,,nomi komarete yuku\Nkodoku no kansokusha
+Dialogue: 0,0:02:04.08,0:02:08.84,Default,,0,0,0,,Ressemblance androgyne
+Dialogue: 0,0:02:08.96,0:02:10.21,Default,,0,0,0,,13 AOÛT 2010 - 15H31
+Dialogue: 0,0:02:19.39,0:02:21.22,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:02:21.39,0:02:26.27,Default,,0,0,0,,On dirait que tu as raté des nouilles\Net que tu as dû les jeter.
+Dialogue: 0,0:02:26.44,0:02:30.82,Default,,0,0,0,,"On dirait que ta carte de fidélité\Nqui était enfin remplie
+Dialogue: 0,0:02:30.98,0:02:33.99,Default,,0,0,0,,a expiré avant que tu ne l'échanges."
+Dialogue: 0,0:02:34.24,0:02:35.74,Default,,0,0,0,,J'aurais préféré ça.
+Dialogue: 0,0:02:37.24,0:02:40.62,Default,,0,0,0,,Tu n'as pas perdu ton sens de l'humour.
+Dialogue: 0,0:02:40.74,0:02:44.21,Default,,0,0,0,,Okarin, tu déçois vraiment Mayushii.
+Dialogue: 0,0:02:44.37,0:02:48.04,Default,,0,0,0,,De quoi parles-tu ?\N- Tu le sais très bien.
+Dialogue: 0,0:02:48.25,0:02:51.21,Default,,0,0,0,,T'as fait pleurer Ruka.\N- T'es au courant ?
+Dialogue: 0,0:02:51.38,0:02:55.55,Default,,0,0,0,,Elle a éclaté en sanglots\Nquand je l'ai invitée au labo.
+Dialogue: 0,0:02:55.72,0:03:00.51,Default,,0,0,0,,Elle m'a expliqué\Nque tu l'avais traitée de garçon.
+Dialogue: 0,0:03:01.64,0:03:05.27,Default,,0,0,0,,Elle t'a parlé du D-mail ?\N- Le D-mail ?
+Dialogue: 0,0:03:05.44,0:03:11.19,Default,,0,0,0,,Ne détourne pas la conversation.\NPrésente tes excuses à Ruka.
+Dialogue: 0,0:03:13.61,0:03:15.28,Default,,0,0,0,,Okabe !
+Dialogue: 0,0:03:16.53,0:03:18.49,Default,,0,0,0,,Tu as été si méchant ?
+Dialogue: 0,0:03:19.32,0:03:22.62,Default,,0,0,0,,Attends. J'avais mes raisons.\N- Lesquelles ?
+Dialogue: 0,0:03:23.79,0:03:25.62,Default,,0,0,0,,Suis-moi, assistante.
+Dialogue: 0,0:03:25.79,0:03:26.79,Default,,0,0,0,,Viens !
+Dialogue: 0,0:03:26.96,0:03:28.92,Default,,0,0,0,,Qu'est-ce que tu fais ?
+Dialogue: 0,0:03:32.42,0:03:35.80,Default,,0,0,0,,Le prochain D-mail que je dois annuler
+Dialogue: 0,0:03:35.97,0:03:40.60,Default,,0,0,0,,est celui que Rukako a envoyé\Nà sa mère avant sa naissance.
+Dialogue: 0,0:03:40.72,0:03:43.35,Default,,0,0,0,,Donc, Urushibara est un garçon ?
+Dialogue: 0,0:03:44.56,0:03:46.31,Default,,0,0,0,,C'est incroyable.
+Dialogue: 0,0:03:46.48,0:03:49.73,Default,,0,0,0,,Mais c'est la vérité…\NC'était la vérité.
+Dialogue: 0,0:03:49.86,0:03:52.27,Default,,0,0,0,,Elle… Un garçon ?
+Dialogue: 0,0:03:53.02,0:03:55.57,Default,,0,0,0,,Un garçon comme Hashida ?
+Dialogue: 0,0:04:03.37,0:04:05.00,Default,,0,0,0,,Quelle horreur…
+Dialogue: 0,0:04:05.25,0:04:08.96,Default,,0,0,0,,Non, il est exactement pareil.\N- Dans ce cas, ça va.
+Dialogue: 0,0:04:09.12,0:04:13.30,Default,,0,0,0,,Si on veut sauver Mayuri,\NRuka doit redevenir un garçon.
+Dialogue: 0,0:04:13.84,0:04:20.01,Default,,0,0,0,,Mais cette fois-ci,\Ntu sais ce que le D-mail disait.
+Dialogue: 0,0:04:20.26,0:04:24.60,Default,,0,0,0,,Tu ne peux pas simplement l'annuler\Nsans lui en parler ?
+Dialogue: 0,0:04:25.02,0:04:29.10,Default,,0,0,0,,Je ne connais pas\Nle numéro du bipeur de sa mère.
+Dialogue: 0,0:04:29.35,0:04:33.02,Default,,0,0,0,,Et je trouve\Nplus responsable de lui dire la vérité,
+Dialogue: 0,0:04:33.19,0:04:35.03,Default,,0,0,0,,plutôt que de le piéger.
+Dialogue: 0,0:04:35.53,0:04:38.11,Default,,0,0,0,,Mais tu l'as fait pleurer,\Ntu te souviens ?
+Dialogue: 0,0:04:39.07,0:04:41.70,Default,,0,0,0,,Tu plaisantes, comme d'habitude.
+Dialogue: 0,0:04:42.57,0:04:44.74,Default,,0,0,0,,Tu plaisantes, pas vrai ?
+Dialogue: 0,0:04:45.58,0:04:49.71,Default,,0,0,0,,C'est méchant. Je ne te croyais\Npas capable de me dire ça.
+Dialogue: 0,0:04:52.13,0:04:54.59,Default,,0,0,0,,C'est pas pour ça qu'elle a été blessée.
+Dialogue: 0,0:04:54.92,0:04:56.09,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:04:56.34,0:05:01.55,Default,,0,0,0,,C'est pas comme si\Nj'avais critiqué son physique.
+Dialogue: 0,0:05:01.72,0:05:05.76,Default,,0,0,0,,Ça n'a rien à voir…\NElle est amoureuse de toi.
+Dialogue: 0,0:05:07.31,0:05:11.60,Default,,0,0,0,,Entendre son Okabe d'amour\Nlui dire : "Tu es un mec",
+Dialogue: 0,0:05:11.77,0:05:13.48,Default,,0,0,0,,ça lui a brisé le cœur.
+Dialogue: 0,0:05:14.23,0:05:17.11,Default,,0,0,0,,Mais Rukako est un mec.
+Dialogue: 0,0:05:17.36,0:05:20.57,Default,,0,0,0,,Dans une autre ligne d'univers,\Npeut-être.
+Dialogue: 0,0:05:23.66,0:05:25.91,Default,,0,0,0,,DE : RUKAKO\NCHER OKABE…
+Dialogue: 0,0:05:26.08,0:05:28.20,Default,,0,0,0,,"Il faut que je te parle."
+Dialogue: 0,0:05:28.45,0:05:31.16,Default,,0,0,0,,"Peux-tu venir au sanctuaire ?"
+Dialogue: 0,0:05:33.63,0:05:35.17,Default,,0,0,0,,Okabe ?
+Dialogue: 0,0:05:35.42,0:05:37.34,Default,,0,0,0,,Désolé pour tout à l'heure.
+Dialogue: 0,0:05:37.46,0:05:40.13,Default,,0,0,0,,Désolée d'avoir éclaté en pleurs.
+Dialogue: 0,0:05:40.84,0:05:43.76,Default,,0,0,0,,Tu avais une chose importante\Nà me dire ?
+Dialogue: 0,0:05:43.93,0:05:48.64,Default,,0,0,0,,Oui, j'ai une faveur à te demander.\N- Une faveur ?
+Dialogue: 0,0:05:48.77,0:05:51.98,Default,,0,0,0,,Je crois ce que tu m'as dit\Ntout à l'heure.
+Dialogue: 0,0:05:52.14,0:05:53.94,Default,,0,0,0,,Donc…
+Dialogue: 0,0:05:56.15,0:05:58.69,Default,,0,0,0,,En échange de redevenir un garçon,
+Dialogue: 0,0:05:58.82,0:06:03.07,Default,,0,0,0,,voudrais-tu être mon petit ami ?
+Dialogue: 0,0:06:05.49,0:06:09.45,Default,,0,0,0,,Ton petit ami ? Pourquoi moi ?
+Dialogue: 0,0:06:09.87,0:06:11.71,Default,,0,0,0,,Parce que je t'aime bien.
+Dialogue: 0,0:06:12.00,0:06:14.46,Default,,0,0,0,,Je t'aime bien, Okabe.
+Dialogue: 0,0:06:15.46,0:06:19.05,Default,,0,0,0,,Demain, pour une journée seulement,
+Dialogue: 0,0:06:19.21,0:06:21.59,Default,,0,0,0,,je t'en prie, sois mon petit ami.
+Dialogue: 0,0:06:22.01,0:06:25.22,Default,,0,0,0,,Mais tu es un garçon…
+Dialogue: 0,0:06:28.18,0:06:31.18,Default,,0,0,0,,Très bien, je vais le faire.\NNe pleure pas.
+Dialogue: 0,0:06:31.39,0:06:35.44,Default,,0,0,0,,Si c'est juste pour demain,\Nje serai ton petit ami.
+Dialogue: 0,0:06:36.52,0:06:37.56,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:06:37.98,0:06:42.28,Default,,0,0,0,,Pourquoi tu pleures ?\N- Parce que je suis si heureuse.
+Dialogue: 0,0:06:44.49,0:06:45.91,Default,,0,0,0,,C'est émouvant.
+Dialogue: 0,0:06:47.49,0:06:51.04,Default,,0,0,0,,Tu as un rancard\Navec Urushibara demain ?
+Dialogue: 0,0:06:51.75,0:06:52.95,Default,,0,0,0,,Oui.
+Dialogue: 0,0:06:53.83,0:06:57.67,Default,,0,0,0,,Un mad scientist\Nqui sort avec une lycéenne ?
+Dialogue: 0,0:06:57.79,0:06:58.84,Default,,0,0,0,,Arrête.
+Dialogue: 0,0:06:59.00,0:07:04.09,Default,,0,0,0,,Je ravale ma fierté pour demander\Ndes conseils à mon assistante.
+Dialogue: 0,0:07:04.26,0:07:06.84,Default,,0,0,0,,Je ne suis pas ton assistante.\N- Miaou.
+Dialogue: 0,0:07:07.01,0:07:09.18,Default,,0,0,0,,Tu as un rendez-vous galant, Kyouma ?
+Dialogue: 0,0:07:09.43,0:07:13.48,Default,,0,0,0,,Voici votre commande.\NDeux cafés glacés, miaou.
+Dialogue: 0,0:07:13.64,0:07:15.89,Default,,0,0,0,,Tu vas sortir avec Mayushii ?
+Dialogue: 0,0:07:16.06,0:07:17.98,Default,,0,0,0,,Ou avec cette fille ?
+Dialogue: 0,0:07:18.10,0:07:20.61,Default,,0,0,0,,Non, c'est mon assistante.
+Dialogue: 0,0:07:21.02,0:07:23.44,Default,,0,0,0,,Tu veux parfaire ta technique,
+Dialogue: 0,0:07:23.61,0:07:26.91,Default,,0,0,0,,mais tu chasses\Ntrop de lièvres à la fois, miaou.
+Dialogue: 0,0:07:27.07,0:07:30.33,Default,,0,0,0,,Trop de lièvres à la fois ?
+Dialogue: 0,0:07:31.53,0:07:35.71,Default,,0,0,0,,Tu dis des choses\Nqui portent à confusion et tu t'en vas.
+Dialogue: 0,0:07:39.88,0:07:42.96,Default,,0,0,0,,Dis-moi. Est-ce que tu…
+Dialogue: 0,0:07:43.59,0:07:46.72,Default,,0,0,0,,Es-tu prêt à tout\Npour parfaire ta technique ?
+Dialogue: 0,0:07:47.97,0:07:52.22,Default,,0,0,0,,Je veux dire… Hououin Kyouma\Nserait-il prêt à tout ?
+Dialogue: 0,0:07:52.47,0:07:55.14,Default,,0,0,0,,Pourquoi parles-tu de ça ?
+Dialogue: 0,0:07:55.31,0:07:58.23,Default,,0,0,0,,Je ne comprends pas.\N- C'est une question.
+Dialogue: 0,0:07:59.02,0:08:03.07,Default,,0,0,0,,Je me demandais s'il ferait\Ntout pour parfaire sa technique,
+Dialogue: 0,0:08:03.23,0:08:07.11,Default,,0,0,0,,s'il aimait déjà quelqu'un.\NRien de plus.
+Dialogue: 0,0:08:07.28,0:08:09.99,Default,,0,0,0,,Tu es fâchée ?\N- Pas du tout.
+Dialogue: 0,0:08:10.16,0:08:14.12,Default,,0,0,0,,Mais puisque c'est ton truc,\Nsors avec Urushibara.
+Dialogue: 0,0:08:14.29,0:08:16.79,Default,,0,0,0,,Je t'ai dit que j'allais le faire.
+Dialogue: 0,0:08:17.21,0:08:19.17,Default,,0,0,0,,Okarin…
+Dialogue: 0,0:08:20.13,0:08:24.34,Default,,0,0,0,,Moi aussi, je peux connaître\Nles détails croustillants ?
+Dialogue: 0,0:08:24.59,0:08:25.88,Default,,0,0,0,,MAGASIN DE TV
+Dialogue: 0,0:08:26.30,0:08:28.26,Default,,0,0,0,,Je suis le roi du rendez-vous amoureux !
+Dialogue: 0,0:08:28.51,0:08:32.55,Default,,0,0,0,,J'ai déjà bécoté des dizaines de filles.
+Dialogue: 0,0:08:33.14,0:08:37.14,Default,,0,0,0,,Nene, Shiori,\NHonoka, Rinko…
+Dialogue: 0,0:08:37.31,0:08:39.98,Default,,0,0,0,,Ce sont des personnages de jeux.
+Dialogue: 0,0:08:40.10,0:08:42.69,Default,,0,0,0,,C'est un rendez-vous dans la vraie vie.
+Dialogue: 0,0:08:43.57,0:08:48.24,Default,,0,0,0,,Un endroit branché comme Aoyama,\NOmotesando ou Nishi-Azabu…
+Dialogue: 0,0:08:49.24,0:08:51.32,Default,,0,0,0,,"À la mode et trendy…"
+Dialogue: 0,0:08:51.57,0:08:53.24,Default,,0,0,0,,"Soirée premium…"
+Dialogue: 0,0:08:53.41,0:08:54.95,Default,,0,0,0,,"Dîner spécial…"
+Dialogue: 0,0:08:55.95,0:08:58.62,Default,,0,0,0,,Je ne le sens pas. C'est tout un univers,
+Dialogue: 0,0:08:58.79,0:09:01.96,Default,,0,0,0,,qui ne fait pas partie de la réalité.
+Dialogue: 0,0:09:02.08,0:09:04.42,Default,,0,0,0,,Mais tu vas devoir t'y faire.
+Dialogue: 0,0:09:04.63,0:09:07.38,Default,,0,0,0,,Sache que le grand Hououin Kyouma,
+Dialogue: 0,0:09:07.59,0:09:11.55,Default,,0,0,0,,qui, comme Isaac Newton, a un QI de 170,
+Dialogue: 0,0:09:12.39,0:09:14.85,Default,,0,0,0,,préfère la recherche aux femmes.
+Dialogue: 0,0:09:14.97,0:09:19.64,Default,,0,0,0,,Tu es vierge, ça ne fait aucun doute.\NMerci beaucoup.
+Dialogue: 0,0:09:19.81,0:09:21.94,Default,,0,0,0,,Et toi, alors ?
+Dialogue: 0,0:09:22.02,0:09:25.23,Default,,0,0,0,,Tu as une si grande expérience\Ndes rendez-vous amoureux ?
+Dialogue: 0,0:09:26.86,0:09:30.15,Default,,0,0,0,,Tu vois ? Tu es si absorbée\Npar tes recherches
+Dialogue: 0,0:09:30.28,0:09:32.36,Default,,0,0,0,,que tu n'as aucune expérience.
+Dialogue: 0,0:09:32.61,0:09:35.41,Default,,0,0,0,,Tu as eu une adolescence solitaire.
+Dialogue: 0,0:09:35.66,0:09:37.41,Default,,0,0,0,,Je suis vierge, et alors ?
+Dialogue: 0,0:09:43.12,0:09:48.59,Default,,0,0,0,,"La clé pour un premier rendez-vous\Nest de faire bonne impression."
+Dialogue: 0,0:09:48.71,0:09:53.72,Default,,0,0,0,,"Bien s'habiller. Pas de marques\Napparentes. Un sens de la propreté…"
+Dialogue: 0,0:09:53.89,0:09:57.64,Default,,0,0,0,,C'est tout à fait moi.\NMa blouse sera parfaite.
+Dialogue: 0,0:09:57.81,0:10:00.06,Default,,0,0,0,,On ne porte pas ça pour un rendez-vous.
+Dialogue: 0,0:10:00.18,0:10:02.77,Default,,0,0,0,,"La règle vaut pour le choix du lieu.
+Dialogue: 0,0:10:02.94,0:10:08.36,Default,,0,0,0,,Nul besoin d'un restaurant hors de prix.\NChoisissez votre restaurant habituel."
+Dialogue: 0,0:10:08.86,0:10:11.40,Default,,0,0,0,,Habituel ? On ne peut pas venir ici.
+Dialogue: 0,0:10:12.20,0:10:16.66,Default,,0,0,0,,Évidemment. Qui emmènerait une fille\Ndans cet endroit bizarre ?
+Dialogue: 0,0:10:17.33,0:10:19.24,Default,,0,0,0,,Il ne reste donc que…
+Dialogue: 0,0:10:19.87,0:10:20.95,Default,,0,0,0,,… le May Queen.
+Dialogue: 0,0:10:21.12,0:10:23.83,Default,,0,0,0,,Un premier rendez-vous dans un maid café ?
+Dialogue: 0,0:10:24.29,0:10:26.88,Default,,0,0,0,,Un magasin d'armes.\N- Pour un rendez-vous ?
+Dialogue: 0,0:10:27.00,0:10:30.09,Default,,0,0,0,,Tu sors tout\Nd'un manuel sur les rencontres.
+Dialogue: 0,0:10:30.21,0:10:33.97,Default,,0,0,0,,Ne la ramène pas,\Nespèce de vierge américaine.
+Dialogue: 0,0:10:34.09,0:10:36.85,Default,,0,0,0,,À qui tu parles ?\N- À toi, bien sûr.
+Dialogue: 0,0:10:36.97,0:10:38.89,Default,,0,0,0,,Oui, je suis vierge. Point.
+Dialogue: 0,0:10:39.01,0:10:42.23,Default,,0,0,0,,Tu préfères peut-être ceci\Nà ce livre débile.
+Dialogue: 0,0:10:42.98,0:10:45.77,Default,,0,0,0,,Un guide sur les jeux hentai ?\N- Et ?
+Dialogue: 0,0:10:45.94,0:10:48.65,Default,,0,0,0,,Il y a des rendez-vous dans les jeux hentai.
+Dialogue: 0,0:10:48.82,0:10:51.11,Default,,0,0,0,,C'est érotique de se tenir la main.
+Dialogue: 0,0:10:51.23,0:10:55.91,Default,,0,0,0,,Marcher main dans la main,\Navec ton coude qui touche son nichon.
+Dialogue: 0,0:10:56.03,0:11:00.29,Default,,0,0,0,,Et puis, à la fin,\Ntu l'embrasses. C'est torride.
+Dialogue: 0,0:11:00.87,0:11:03.50,Default,,0,0,0,,On s'en fout de la vraie vie !
+Dialogue: 0,0:11:05.29,0:11:08.96,Default,,0,0,0,,C'est le matin\Net je n'ai toujours aucun plan.
+Dialogue: 0,0:11:10.30,0:11:13.13,Default,,0,0,0,,Arrête de râler et enfile ça.
+Dialogue: 0,0:11:13.72,0:11:15.26,Default,,0,0,0,,Enlève l'étiquette.
+Dialogue: 0,0:11:15.43,0:11:17.89,Default,,0,0,0,,Pas comme ça, la cravate.
+Dialogue: 0,0:11:18.30,0:11:20.85,Default,,0,0,0,,T'es vraiment une cause perdue.
+Dialogue: 0,0:11:21.31,0:11:24.93,Default,,0,0,0,,Voilà.\N- J'ai l'impression d'avoir une laisse.
+Dialogue: 0,0:11:25.06,0:11:29.11,Default,,0,0,0,,Tiens, un mouchoir.\NTu sais comment t'en servir ?
+Dialogue: 0,0:11:29.27,0:11:33.07,Default,,0,0,0,,Ça ne signifie pas :\N"Je t'attends depuis longtemps" ?
+Dialogue: 0,0:11:33.15,0:11:35.40,Default,,0,0,0,,Non, ça c'est les jaunes.
+Dialogue: 0,0:11:35.57,0:11:38.95,Default,,0,0,0,,Comment connais-tu\Nces vieilles futilités ?
+Dialogue: 0,0:11:39.28,0:11:41.03,Default,,0,0,0,,Tu les connais aussi.
+Dialogue: 0,0:11:41.83,0:11:43.04,Default,,0,0,0,,Et alors ?
+Dialogue: 0,0:11:43.16,0:11:47.58,Default,,0,0,0,,Tu es censé l'étendre\Nquand une fille s'assied sur un banc.
+Dialogue: 0,0:11:48.04,0:11:49.33,Default,,0,0,0,,Peu importe.
+Dialogue: 0,0:11:49.50,0:11:53.05,Default,,0,0,0,,Je te suivrai en douce\Net t'enverrai des conseils.
+Dialogue: 0,0:11:53.17,0:11:56.76,Default,,0,0,0,,Tu vas nous suivre ?\N- Hashida aussi.
+Dialogue: 0,0:11:57.38,0:11:58.18,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:11:58.84,0:12:01.76,Default,,0,0,0,,Début de l'Operation Valkyrie.
+Dialogue: 0,0:12:02.35,0:12:04.77,Default,,0,0,0,,Pourquoi la mythologie scandinave ?
+Dialogue: 0,0:12:05.56,0:12:07.89,Default,,0,0,0,,"Être à l'heure est primordial.
+Dialogue: 0,0:12:08.27,0:12:11.19,Default,,0,0,0,,Soyez-là au moins\N15 minutes à l'avance."
+Dialogue: 0,0:12:15.74,0:12:17.32,Default,,0,0,0,,Okabe !
+Dialogue: 0,0:12:17.82,0:12:19.45,Default,,0,0,0,,Je suis désolée.
+Dialogue: 0,0:12:20.78,0:12:25.37,Default,,0,0,0,,Je croyais être partie à temps.\NTu as attendu longtemps ?
+Dialogue: 0,0:12:25.54,0:12:28.87,Default,,0,0,0,,Pas du tout.\NJe viens d'arriver aussi.
+Dialogue: 0,0:12:30.96,0:12:32.42,Default,,0,0,0,,Je suis soulagée.
+Dialogue: 0,0:12:34.84,0:12:38.05,Default,,0,0,0,,On y va ?\N- Oui.
+Dialogue: 0,0:12:47.77,0:12:50.35,Default,,0,0,0,,Je ne t'avais jamais vu sans blouse.
+Dialogue: 0,0:12:50.85,0:12:53.31,Default,,0,0,0,,Aujourd'hui, c'est un rendez-vous.
+Dialogue: 0,0:12:54.77,0:12:58.24,Default,,0,0,0,,"Mettez-vous subtilement\Ndu côté du trafic."
+Dialogue: 0,0:12:58.78,0:13:03.24,Default,,0,0,0,,Quelque chose ne va pas ?\N- Non, tout va bien.
+Dialogue: 0,0:13:03.91,0:13:05.29,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:13:05.83,0:13:07.45,Default,,0,0,0,,Pas subtil du tout…
+Dialogue: 0,0:13:08.00,0:13:12.63,Default,,0,0,0,,"Protégez la fille\Ndes voitures et des motos qui passent."
+Dialogue: 0,0:13:12.88,0:13:14.34,Default,,0,0,0,,Il l'a protégée ?
+Dialogue: 0,0:13:15.55,0:13:17.46,Default,,0,0,0,,Okabe ?
+Dialogue: 0,0:13:17.63,0:13:19.09,Default,,0,0,0,,Tout va bien ?
+Dialogue: 0,0:13:19.55,0:13:21.84,Default,,0,0,0,,Il a juste trébuché ?
+Dialogue: 0,0:13:22.01,0:13:26.18,Default,,0,0,0,,Une serveuse l'aide à se relever\Net il prend ses mouchoirs ?
+Dialogue: 0,0:13:26.97,0:13:29.89,Default,,0,0,0,,Makise, je me trompe,\Nou tu es énervée ?
+Dialogue: 0,0:13:34.02,0:13:37.73,Default,,0,0,0,,Il fait beau aujourd'hui.\N- C'est vrai.
+Dialogue: 0,0:13:39.53,0:13:43.82,Default,,0,0,0,,Mais il y a des nuages.\N- Oui.
+Dialogue: 0,0:13:48.62,0:13:53.50,Default,,0,0,0,,Ce gâteau est délicieux.\N- Oui, le café aussi.
+Dialogue: 0,0:13:58.30,0:14:02.34,Default,,0,0,0,,Habituellement, je peux avoir\Nune conversation normale,
+Dialogue: 0,0:14:02.51,0:14:04.09,Default,,0,0,0,,mais lors d'un rendez-vous…
+Dialogue: 0,0:14:04.26,0:14:08.31,Default,,0,0,0,,Quel bel endroit. Tu viens souvent ici ?\N- Non.
+Dialogue: 0,0:14:09.14,0:14:10.68,Default,,0,0,0,,Ça ne va pas du tout.
+Dialogue: 0,0:14:11.35,0:14:13.90,Default,,0,0,0,,"Il faut nourrir la conversation."
+Dialogue: 0,0:14:14.06,0:14:16.98,Default,,0,0,0,,C'est la première fois que je viens.
+Dialogue: 0,0:14:17.61,0:14:19.03,Default,,0,0,0,,Il a embrayé.
+Dialogue: 0,0:14:19.15,0:14:22.03,Default,,0,0,0,,En parlant de première fois,\Non est le 14 août,
+Dialogue: 0,0:14:22.20,0:14:25.66,Default,,0,0,0,,l'anniversaire du premier brevet\Némis au Japon.
+Dialogue: 0,0:14:26.07,0:14:27.45,Default,,0,0,0,,Comment ça, embrayé ?
+Dialogue: 0,0:14:27.91,0:14:30.95,Default,,0,0,0,,Tu es très cultivé, Okabe.
+Dialogue: 0,0:14:31.33,0:14:33.46,Default,,0,0,0,,Tu sais ce que c'est.
+Dialogue: 0,0:14:37.88,0:14:40.25,Default,,0,0,0,,On peut y aller, Makise ?
+Dialogue: 0,0:14:40.38,0:14:44.01,Default,,0,0,0,,On n'est d'aucune aide.\NOn est assis à regarder.
+Dialogue: 0,0:14:44.18,0:14:46.51,Default,,0,0,0,,Non, on reste jusqu'au bout.
+Dialogue: 0,0:14:47.26,0:14:48.97,Default,,0,0,0,,Merci de votre visite.
+Dialogue: 0,0:14:51.39,0:14:56.90,Default,,0,0,0,,Tu trouves ça ennuyeux,\Nde sortir avec moi ?
+Dialogue: 0,0:14:57.65,0:15:02.53,Default,,0,0,0,,Ne dis pas de bêtises.\NOn va se balader dans la ville. Viens.
+Dialogue: 0,0:15:06.16,0:15:07.24,Default,,0,0,0,,Ruka ?
+Dialogue: 0,0:15:08.03,0:15:10.95,Default,,0,0,0,,Je meurs de chaud.
+Dialogue: 0,0:15:13.33,0:15:16.12,Default,,0,0,0,,Il a fait un aller-retour jusqu'à Ueno.
+Dialogue: 0,0:15:21.67,0:15:23.05,Default,,0,0,0,,Okabe.
+Dialogue: 0,0:15:24.30,0:15:28.93,Default,,0,0,0,,Tu te souviens de la première fois\Noù on s'est rencontrés ?
+Dialogue: 0,0:15:31.43,0:15:37.52,Default,,0,0,0,,Des types avec des appareils photo\Nm'embêtaient, mais tu les as chassés.
+Dialogue: 0,0:15:38.86,0:15:39.56,Default,,0,0,0,,Oui.
+Dialogue: 0,0:15:44.11,0:15:45.78,Default,,0,0,0,,Merci.
+Dialogue: 0,0:15:46.95,0:15:48.53,Default,,0,0,0,,Je suis désolé.
+Dialogue: 0,0:15:49.45,0:15:51.24,Default,,0,0,0,,Pourquoi tu t'excuses ?
+Dialogue: 0,0:15:51.41,0:15:56.75,Default,,0,0,0,,Parce qu'à cause de mon apparence extérieure,\Nles gens trouvent étrange que je sois un garçon.
+Dialogue: 0,0:15:59.75,0:16:03.38,Default,,0,0,0,,Ça ne change rien\Nque tu sois un garçon ou une fille.
+Dialogue: 0,0:16:04.26,0:16:06.72,Default,,0,0,0,,Ça n'a aucune importance.
+Dialogue: 0,0:16:07.09,0:16:11.64,Default,,0,0,0,,Ce que tu m'as dit m'a rendu si heureux.
+Dialogue: 0,0:16:12.56,0:16:16.81,Default,,0,0,0,,C'est grâce à ces quelques mots\Nque j'ai commencé à t'aimer.
+Dialogue: 0,0:16:17.98,0:16:21.11,Default,,0,0,0,,"Ça n'a pas d'importance…"
+Dialogue: 0,0:16:21.73,0:16:26.15,Default,,0,0,0,,Attends. Ce ne sont pas\Ndes souvenirs de ta vie de garçon ?
+Dialogue: 0,0:16:26.61,0:16:28.45,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:16:28.57,0:16:31.57,Default,,0,0,0,,Qu'est-ce que je raconte ?
+Dialogue: 0,0:16:31.70,0:16:34.24,Default,,0,0,0,,Je suis un peu confuse.
+Dialogue: 0,0:16:34.41,0:16:37.00,Default,,0,0,0,,Il y a eu le même phénomène chez Faris.
+Dialogue: 0,0:16:37.54,0:16:40.33,Default,,0,0,0,,Elle a des souvenirs d'une autre ligne.
+Dialogue: 0,0:16:44.05,0:16:47.84,Default,,0,0,0,,Merci pour cette journée.
+Dialogue: 0,0:16:48.59,0:16:52.01,Default,,0,0,0,,Être ta petite amie m'a vraiment…
+Dialogue: 0,0:16:54.01,0:16:56.27,Default,,0,0,0,,rendue très heureuse.
+Dialogue: 0,0:16:56.39,0:16:59.77,Default,,0,0,0,,Allons…\N- Voici le numéro du bipeur de ma mère.
+Dialogue: 0,0:17:10.61,0:17:14.83,Default,,0,0,0,,"Viande, viande, légumes, légumes,\Nviande, viande…"
+Dialogue: 0,0:17:15.37,0:17:18.29,Default,,0,0,0,,La mère d'Urushibara devrait penser
+Dialogue: 0,0:17:18.50,0:17:21.79,Default,,0,0,0,,que le message précédent\Nétait une farce.
+Dialogue: 0,0:17:22.38,0:17:23.88,Default,,0,0,0,,Tout est prêt.
+Dialogue: 0,0:17:26.17,0:17:28.30,Default,,0,0,0,,Qu'est-ce qui ne va pas, Okabe ?
+Dialogue: 0,0:17:28.42,0:17:31.38,Default,,0,0,0,,Tutuluu ! Devinez quoi ! Devinez !
+Dialogue: 0,0:17:31.55,0:17:36.43,Default,,0,0,0,,Tout à l'heure, Mayushii\Na croisé Ruka avec un garçon.
+Dialogue: 0,0:17:36.51,0:17:38.81,Default,,0,0,0,,C'était Okarin.
+Dialogue: 0,0:17:39.06,0:17:43.31,Default,,0,0,0,,C'est impossible. Ce n'était\Ncertainement pas Okarin.
+Dialogue: 0,0:17:43.90,0:17:48.53,Default,,0,0,0,,Il était habillé normalement\Net avait l'air d'un vrai gentleman.
+Dialogue: 0,0:17:48.69,0:17:51.86,Default,,0,0,0,,Exactement, ce n'était pas moi.
+Dialogue: 0,0:17:52.07,0:17:54.57,Default,,0,0,0,,Ruka n'était pas avec le vrai moi.
+Dialogue: 0,0:17:55.53,0:17:57.33,Default,,0,0,0,,Okarin ?
+Dialogue: 0,0:17:59.83,0:18:01.50,Default,,0,0,0,,Le rendez-vous n'est pas fini.
+Dialogue: 0,0:18:02.33,0:18:03.87,Default,,0,0,0,,Mais, Okabe…
+Dialogue: 0,0:18:04.13,0:18:07.46,Default,,0,0,0,,C'est Kyouma.\NTu as oublié mon nom, Rukako ?
+Dialogue: 0,0:18:07.59,0:18:10.88,Default,,0,0,0,,Ces histoires de garçon,\Nfille, petit ami…
+Dialogue: 0,0:18:11.13,0:18:12.88,Default,,0,0,0,,C'est moi qui étais confus.
+Dialogue: 0,0:18:14.30,0:18:16.47,Default,,0,0,0,,Aucune importance.
+Dialogue: 0,0:18:17.18,0:18:21.77,Default,,0,0,0,,J'ai enfin réalisé que j'étais moi\Net que tu étais toi, Rukako…
+Dialogue: 0,0:18:22.64,0:18:23.89,Default,,0,0,0,,mon élève.
+Dialogue: 0,0:18:28.11,0:18:29.61,Default,,0,0,0,,Bien.
+Dialogue: 0,0:18:29.73,0:18:32.45,Default,,0,0,0,,Amène le sabre Samidare surnaturel.
+Dialogue: 0,0:18:33.57,0:18:34.53,Default,,0,0,0,,Très bien.
+Dialogue: 0,0:18:34.70,0:18:36.70,Default,,0,0,0,,Continue.\N- Bien.
+Dialogue: 0,0:18:38.53,0:18:41.20,Default,,0,0,0,,Maintenant, écoute-moi bien, Rukako.
+Dialogue: 0,0:18:41.37,0:18:44.67,Default,,0,0,0,,La légende autour du sabre surnaturel
+Dialogue: 0,0:18:44.83,0:18:46.50,Default,,0,0,0,,remonte à Yoshitsune.
+Dialogue: 0,0:18:47.42,0:18:51.59,Default,,0,0,0,,Un soir de pleine lune,\Nun samouraï errant perdit son chemin.
+Dialogue: 0,0:18:51.71,0:18:53.76,Default,,0,0,0,,Il recommence.
+Dialogue: 0,0:18:53.92,0:18:57.26,Default,,0,0,0,,Super. Il s'est réconcilié\Navec Ruka.
+Dialogue: 0,0:18:58.47,0:19:00.68,Default,,0,0,0,,Il n'a plus besoin de nous.
+Dialogue: 0,0:19:05.90,0:19:08.98,Default,,0,0,0,,Je t'en prie, aide Mayuri.
+Dialogue: 0,0:19:10.94,0:19:14.20,Default,,0,0,0,,Le vieil ordinateur que tu cherches…
+Dialogue: 0,0:19:14.36,0:19:16.36,Default,,0,0,0,,L'IBN 5100 ?
+Dialogue: 0,0:19:17.78,0:19:21.41,Default,,0,0,0,,Il était dans l'entrepôt\Njusqu'au nouvel an dernier.
+Dialogue: 0,0:19:22.62,0:19:28.00,Default,,0,0,0,,Mais hélas, je l'ai cassé,\Npendant que je nettoyais l'entrepôt.
+Dialogue: 0,0:19:28.58,0:19:30.63,Default,,0,0,0,,C'est ma faute.
+Dialogue: 0,0:19:31.00,0:19:33.80,Default,,0,0,0,,Je t'en prie, Okabe.
+Dialogue: 0,0:19:33.96,0:19:36.38,Default,,0,0,0,,Je t'en prie, sauve Mayuri.
+Dialogue: 0,0:19:38.01,0:19:43.02,Default,,0,0,0,,Je suis contente qu'on se soit\Nréentraînés. Ça faisait longtemps.
+Dialogue: 0,0:19:44.81,0:19:46.27,Default,,0,0,0,,Ruka…\N- Rentre.
+Dialogue: 0,0:19:47.23,0:19:50.65,Default,,0,0,0,,Avant que je ne recommence à pleurer.
+Dialogue: 0,0:19:53.98,0:19:57.61,Default,,0,0,0,,C'est le moment idéal\Npour la phrase secrète, non ?
+Dialogue: 0,0:19:57.95,0:20:00.78,Default,,0,0,0,,El Psy Congree…
+Dialogue: 0,0:20:01.41,0:20:02.66,Default,,0,0,0,,Congroo.
+Dialogue: 0,0:20:04.33,0:20:06.04,Default,,0,0,0,,El Psy…
+Dialogue: 0,0:20:09.71,0:20:12.80,Default,,0,0,0,,En fait,\Nje ne veux pas revenir en arrière.
+Dialogue: 0,0:20:13.21,0:20:14.42,Default,,0,0,0,,Si je…
+Dialogue: 0,0:20:14.59,0:20:20.64,Default,,0,0,0,,Si je redeviens un garçon, je devrai\Nenfouir mes sentiments pour toi.
+Dialogue: 0,0:20:21.80,0:20:27.23,Default,,0,0,0,,En étant un garçon,\Nje n'aurai pas le droit de t'aimer.
+Dialogue: 0,0:20:27.60,0:20:29.06,Default,,0,0,0,,Rukako…
+Dialogue: 0,0:20:29.31,0:20:34.07,Default,,0,0,0,,Et si je redeviens un garçon,\Nj'oublierai cette journée, pas vrai ?
+Dialogue: 0,0:20:34.32,0:20:39.11,Default,,0,0,0,,J'oublierai notre rendez-vous, qu'on s'est\Nà nouveau entraînés ensemble.
+Dialogue: 0,0:20:40.36,0:20:43.08,Default,,0,0,0,,Que je t'ai touché comme je le fais.
+Dialogue: 0,0:20:44.99,0:20:49.67,Default,,0,0,0,,Si être une fille signifie\Ndevoir endurer cette douleur,
+Dialogue: 0,0:20:49.79,0:20:52.46,Default,,0,0,0,,il valait mieux ne jamais en être une.
+Dialogue: 0,0:20:52.59,0:20:57.76,Default,,0,0,0,,Pour moi, tu seras toujours Rukako.\NMême si tu es un garçon.
+Dialogue: 0,0:20:58.01,0:20:59.47,Default,,0,0,0,,Rien ne changera.
+Dialogue: 0,0:21:00.30,0:21:02.09,Default,,0,0,0,,Tu as raison.
+Dialogue: 0,0:21:02.30,0:21:06.93,Default,,0,0,0,,Que je sois un garçon ou une fille,\Nça n'a aucune importance.
+Dialogue: 0,0:21:07.93,0:21:09.77,Default,,0,0,0,,Tout ce que je demande…
+Dialogue: 0,0:21:11.02,0:21:16.65,Default,,0,0,0,,c'est que tu te souviennes de moi\Nquand j'étais une fille.
+Dialogue: 0,0:21:16.82,0:21:19.74,Default,,0,0,0,,Je n'oublierai jamais.
+Dialogue: 0,0:21:19.86,0:21:21.28,Default,,0,0,0,,Jamais.
+Dialogue: 0,0:21:28.50,0:21:30.71,Default,,0,0,0,,Que se passe-t-il Okabe ?
+Dialogue: 0,0:21:33.17,0:21:34.63,Default,,0,0,0,,Urushibara Ruka.
+Dialogue: 0,0:21:34.75,0:21:39.84,Default,,0,0,0,,La voix et les manières d'une femme.\NNon, plus féminine qu'une femme.
+Dialogue: 0,0:21:40.93,0:21:43.14,Default,,0,0,0,,Dis-moi, Rukako ?\N- Oui ?
+Dialogue: 0,0:21:43.97,0:21:46.06,Default,,0,0,0,,Est-ce que tu m'aimes bien ?
+Dialogue: 0,0:21:46.18,0:21:49.06,Default,,0,0,0,,Pourquoi tu me demandes ça ?\N- Alors ?
+Dialogue: 0,0:21:49.60,0:21:53.73,Default,,0,0,0,,Je… Je te respecte.
+Dialogue: 0,0:21:54.94,0:21:58.07,Default,,0,0,0,,Mais… c'est un mec.
+Dialogue: 0,0:22:06.62,0:22:10.41,Default,,0,0,0,,Il ne reste plus qu'un dernier D-mail.
+Dialogue: 0,0:22:21.47,0:22:28.97,Default,,0,0,0,,kisei sareta shikai mujihi naru
+Dialogue: 0,0:22:30.35,0:22:37.69,Default,,0,0,0,,juuni no shihai nogarerarenai
+Dialogue: 0,0:22:38.02,0:22:46.66,Default,,0,0,0,,ansoku no asu o negatta
+Dialogue: 0,0:22:46.78,0:22:55.21,Default,,0,0,0,,te no naka no toutoi jishou no chihei e
+Dialogue: 0,0:22:55.62,0:23:03.92,Default,,0,0,0,,torawareshi meiyaku\Narawareta gishou no rinkaku
+Dialogue: 0,0:23:04.05,0:23:13.18,Default,,0,0,0,,seimei no tenchi wa\Nmoumoku na jikan o kizanda
+Dialogue: 0,0:23:13.39,0:23:21.78,Default,,0,0,0,,habatake batafurai kiseki\Nno batafurai anata e sasagu
+Dialogue: 0,0:23:22.32,0:23:29.45,Default,,0,0,0,,namida no batafurai\Nmabushii batafurai subete ga
+Dialogue: 0,0:23:29.62,0:23:34.04,Default,,0,0,0,,ima kakikaerareru
+Dialogue: 0,0:23:41.13,0:23:55.89,Default,,0,0,0,,Apoptose d'une chaîne infinie

@@ -1,0 +1,326 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.04,0:00:03.21,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:00:03.46,0:00:05.09,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:00:05.42,0:00:09.05,Default,,0,0,0,,Le "Moe" aurait\Ncomplètement disparu d'Akiba ?
+Dialogue: 0,0:00:09.22,0:00:11.85,Default,,0,0,0,,Okarin, attends !\N- Okarin…
+Dialogue: 0,0:00:12.05,0:00:13.43,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:00:13.56,0:00:16.23,Default,,0,0,0,,Toranoana et Animate, ils sont où ?
+Dialogue: 0,0:00:16.35,0:00:18.02,Default,,0,0,0,,Et Mandarake et Gamers ?
+Dialogue: 0,0:00:18.23,0:00:22.31,Default,,0,0,0,,De quoi tu parles, Okarin ?\NTu sais qu'il n'y en a pas à Akiba.
+Dialogue: 0,0:00:22.48,0:00:25.11,Default,,0,0,0,,C'est pour ça que Mayushii\Ndoit aller à Nakano.
+Dialogue: 0,0:00:25.28,0:00:28.11,Default,,0,0,0,,Mayuri, tu travailles bien\Nau May Queen ?
+Dialogue: 0,0:00:29.20,0:00:31.07,Default,,0,0,0,,Le May Queen ?
+Dialogue: 0,0:00:31.24,0:00:32.70,Default,,0,0,0,,Le May Queen Miaou Miaou !
+Dialogue: 0,0:00:33.16,0:00:35.16,Default,,0,0,0,,RAMEN
+Dialogue: 0,0:00:36.29,0:00:37.33,Default,,0,0,0,,Non…
+Dialogue: 0,0:00:37.45,0:00:41.46,Default,,0,0,0,,Faris a demandé que\Nla culture Moe soit introduite à Akiba.
+Dialogue: 0,0:00:43.13,0:00:46.34,Default,,0,0,0,,Aurait-elle envoyé un D-mail\Npour changer ça ?
+Dialogue: 0,0:00:48.13,0:00:52.84,Default,,0,0,0,,Un quartier entier aurait\Ncomplètement changé à cause d'un e-mail ?
+Dialogue: 0,0:01:06.90,0:01:11.86,Default,,0,0,0,,suu juuoku mono kodou no kazu sae
+Dialogue: 0,0:01:12.20,0:01:18.58,Default,,0,0,0,,anata ni wa matataki teido no\Nsaji na toukyuu
+Dialogue: 0,0:01:18.91,0:01:24.17,Default,,0,0,0,,kako ni torawarete mirai o nageku mo
+Dialogue: 0,0:01:24.33,0:01:29.59,Default,,0,0,0,,chiri hitotsu gosan o yurusanu hitsuzen
+Dialogue: 0,0:01:29.92,0:01:35.89,Default,,0,0,0,,mugen ni hirogaru yume mo\Negaku mirai mo
+Dialogue: 0,0:01:36.14,0:01:41.56,Default,,0,0,0,,bokutachi ni yurusareta kyoei no kenri
+Dialogue: 0,0:01:41.94,0:01:47.82,Default,,0,0,0,,yuugen sore wa futatsu no\Nhari ga shimesu
+Dialogue: 0,0:01:47.98,0:01:52.57,Default,,0,0,0,,zankoku na yakujou to sentaku e
+Dialogue: 0,0:01:52.78,0:01:54.70,Default,,0,0,0,,Hacking to the Gate
+Dialogue: 0,0:01:54.99,0:02:01.62,Default,,0,0,0,,da kara ima ichi byou goto ni\Nsekaisen o koete
+Dialogue: 0,0:02:01.79,0:02:06.79,Default,,0,0,0,,kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:06.96,0:02:13.51,Default,,0,0,0,,soshite mata kanashimi no nai\Njikan no ruupu e to
+Dialogue: 0,0:02:13.63,0:02:20.22,Default,,0,0,0,,nomi komarete yuku\Nkodoku no kansokusha
+Dialogue: 0,0:02:23.10,0:02:27.98,Default,,0,0,0,,Homéostasie d'une vie commune
+Dialogue: 0,0:02:30.15,0:02:32.11,Default,,0,0,0,,08 AOÛT 2010
+Dialogue: 0,0:02:39.37,0:02:42.41,Default,,0,0,0,,Et dire que le May Queen\Nétait ici autrefois.
+Dialogue: 0,0:02:42.58,0:02:44.54,Default,,0,0,0,,May Queen, comme la patate ?
+Dialogue: 0,0:02:44.71,0:02:47.71,Default,,0,0,0,,En été, on mange plutôt\Ndes nouilles froides.
+Dialogue: 0,0:02:48.42,0:02:50.67,Default,,0,0,0,,Je ne parle pas de pommes de terre.
+Dialogue: 0,0:02:51.00,0:02:55.47,Default,,0,0,0,,Si le May Queen n'existe pas,\Ncomment on a rencontré Faris ?
+Dialogue: 0,0:02:55.59,0:03:00.93,Default,,0,0,0,,En fait, c'est à cause de ramen\Nà la pomme de terre qu'on l'a connue.
+Dialogue: 0,0:03:01.18,0:03:03.98,Default,,0,0,0,,Comment ça ?\N- Tu as oublié ?
+Dialogue: 0,0:03:04.18,0:03:06.65,Default,,0,0,0,,Le jour du tournoi de Rai-Net,
+Dialogue: 0,0:03:06.81,0:03:11.61,Default,,0,0,0,,des ramen à la patate m'ont filé\Nmal au bide et j'ai dû abandonner.
+Dialogue: 0,0:03:11.69,0:03:15.45,Default,,0,0,0,,Ensuite ?\N- Mayushii et toi m'avez remplacé.
+Dialogue: 0,0:03:15.82,0:03:18.07,Default,,0,0,0,,Vous avez joué contre Faris-tan,
+Dialogue: 0,0:03:18.66,0:03:20.66,Default,,0,0,0,,qui vous a mis une raclée.
+Dialogue: 0,0:03:20.83,0:03:24.66,Default,,0,0,0,,Mais Mayushii et elle\Nsont restées amies depuis.
+Dialogue: 0,0:03:24.83,0:03:26.54,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:03:26.67,0:03:28.08,Default,,0,0,0,,Regarde, Ruka.
+Dialogue: 0,0:03:28.29,0:03:31.00,Default,,0,0,0,,J'ai acheté ce livre de cosplay\Nà Nakano.
+Dialogue: 0,0:03:31.25,0:03:32.46,Default,,0,0,0,,C'est mignon.
+Dialogue: 0,0:03:32.63,0:03:38.43,Default,,0,0,0,,Même si le passé a changé,\Nnos relations sont restées les mêmes.
+Dialogue: 0,0:03:39.59,0:03:44.02,Default,,0,0,0,,Vous êtes en vacances d'Obon,\Nles girls du labo.
+Dialogue: 0,0:03:44.27,0:03:45.77,Default,,0,0,0,,Bonjour.
+Dialogue: 0,0:03:45.89,0:03:46.98,Default,,0,0,0,,Trop mignon !
+Dialogue: 0,0:03:47.31,0:03:50.81,Default,,0,0,0,,Oh ! C'est Sedona de Blood Tune.
+Dialogue: 0,0:03:50.98,0:03:53.73,Default,,0,0,0,,T'as vu les détails ?\NEt il y a le maillot.
+Dialogue: 0,0:03:54.07,0:03:57.74,Default,,0,0,0,,J'aimerais être aussi élégante qu'elle.
+Dialogue: 0,0:03:57.90,0:04:00.82,Default,,0,0,0,,T'inquiète pas,\Nc'est bien les petits seins.
+Dialogue: 0,0:04:02.28,0:04:05.83,Default,,0,0,0,,Je sais, on devrait aller à la plage\Nun de ces quatre.
+Dialogue: 0,0:04:06.00,0:04:07.29,Default,,0,0,0,,Kurisu aussi.
+Dialogue: 0,0:04:07.79,0:04:12.50,Default,,0,0,0,,Avec un maillot d'écolière ?\N- Pas avec ces pervers.
+Dialogue: 0,0:04:13.84,0:04:20.09,Default,,0,0,0,,Mais je me ferai un plaisir de venir\Nsi c'est une sortie entre filles.
+Dialogue: 0,0:04:21.05,0:04:23.26,Default,,0,0,0,,Avoue-le, Christina.
+Dialogue: 0,0:04:23.51,0:04:28.69,Default,,0,0,0,,Tu as peur qu'on voie\Nta tache de naissance sur la fesse.
+Dialogue: 0,0:04:28.85,0:04:31.48,Default,,0,0,0,,Pas vrai ?\N- Je n'en ai pas.
+Dialogue: 0,0:04:31.65,0:04:37.32,Default,,0,0,0,,En plus, si c'est une sortie\Nentre nanas, Rukako ne peut pas y aller.
+Dialogue: 0,0:04:37.49,0:04:42.37,Default,,0,0,0,,Quoi ?\N- Je t'ai dit que Ruka était un mec.
+Dialogue: 0,0:04:42.70,0:04:43.70,Default,,0,0,0,,Pardon ?
+Dialogue: 0,0:04:44.99,0:04:46.95,Default,,0,0,0,,Quoi ?\N- Hein ?
+Dialogue: 0,0:04:53.59,0:04:55.55,Default,,0,0,0,,T'es pathétique.
+Dialogue: 0,0:04:56.13,0:04:58.30,Default,,0,0,0,,Traiter une nana de mec.
+Dialogue: 0,0:04:58.59,0:05:01.64,Default,,0,0,0,,Mayushii n'aime pas\Nquand tu fais ça.
+Dialogue: 0,0:05:01.97,0:05:04.35,Default,,0,0,0,,Tu as dépassé les bornes.
+Dialogue: 0,0:05:06.35,0:05:08.60,Default,,0,0,0,,Attends, pourquoi tu pleures ?
+Dialogue: 0,0:05:08.77,0:05:11.56,Default,,0,0,0,,Excuse-toi auprès d'Urushibara.
+Dialogue: 0,0:05:11.73,0:05:15.15,Default,,0,0,0,,Pourquoi ? C'est la vérité.\N- C'est pas grave.
+Dialogue: 0,0:05:16.02,0:05:19.61,Default,,0,0,0,,C'est comme ça\Nque tu m'as toujours vue, Okabe ?
+Dialogue: 0,0:05:19.78,0:05:22.99,Default,,0,0,0,,Attends, Rukako, tu es un mec.\N- Ça suffit, oui ?
+Dialogue: 0,0:05:23.57,0:05:25.95,Default,,0,0,0,,Je vais y aller.\N- Attends !
+Dialogue: 0,0:05:26.45,0:05:29.87,Default,,0,0,0,,Arrête de te moquer de moi,\Ntu es un mec et tu le sais.
+Dialogue: 0,0:05:30.04,0:05:31.41,Default,,0,0,0,,Tu as même un…
+Dialogue: 0,0:05:33.83,0:05:36.46,Default,,0,0,0,,Il a disparu… Il a disparu !
+Dialogue: 0,0:05:36.63,0:05:39.13,Default,,0,0,0,,Okabe, arrête, s'il te plaît.
+Dialogue: 0,0:05:41.76,0:05:45.35,Default,,0,0,0,,Rukako… Tu es… une fille ?
+Dialogue: 0,0:05:46.01,0:05:48.64,Default,,0,0,0,,C'est ce qu'on n'a pas
+Dialogue: 0,0:05:48.81,0:05:50.43,Default,,0,0,0,,arrêté de te dire !
+Dialogue: 0,0:05:52.98,0:05:55.94,Default,,0,0,0,,Jour bon. Ça ne va pas ?
+Dialogue: 0,0:05:56.40,0:05:57.69,Default,,0,0,0,,C'est rien.
+Dialogue: 0,0:05:57.82,0:06:02.15,Default,,0,0,0,,J'ai été un peu torturé…\N- Torturé ? Par Makise Kurisu ?
+Dialogue: 0,0:06:02.40,0:06:05.95,Default,,0,0,0,,Oui, mais j'ai réglé les malentendus.\NJ'espère.
+Dialogue: 0,0:06:06.41,0:06:10.83,Default,,0,0,0,,Elle t'a frappé les jambes ?\N- Ne les touche pas tout de suite.
+Dialogue: 0,0:06:11.25,0:06:13.92,Default,,0,0,0,,Elle m'a obligé à rester à genoux\Nplus d'une heure.
+Dialogue: 0,0:06:14.08,0:06:18.00,Default,,0,0,0,,Non, je veux dire… J'ai été torturé.
+Dialogue: 0,0:06:18.67,0:06:22.17,Default,,0,0,0,,Ça ne compte pas comme torture.
+Dialogue: 0,0:06:22.42,0:06:26.60,Default,,0,0,0,,On dirait quelqu'un\Nqui a subi de vraies tortures.
+Dialogue: 0,0:06:26.72,0:06:28.60,Default,,0,0,0,,Oui, je suis une guerrière.
+Dialogue: 0,0:06:35.69,0:06:40.40,Default,,0,0,0,,La journée est idéale pour le cycling.\N- Ah bon ?
+Dialogue: 0,0:06:42.86,0:06:46.91,Default,,0,0,0,,Dis-moi, ça te dit\Nd'aller faire du cycling ?
+Dialogue: 0,0:06:53.83,0:06:57.67,Default,,0,0,0,,C'est ça que tu appelles du cycling ?
+Dialogue: 0,0:06:59.92,0:07:05.51,Default,,0,0,0,,Je te l'ai pas dit, mais je suis venue\Nà Tokyo pour chercher mon père.
+Dialogue: 0,0:07:05.68,0:07:09.01,Default,,0,0,0,,Pour le chercher ? Il s'est enfui ?
+Dialogue: 0,0:07:09.18,0:07:12.85,Default,,0,0,0,,Je ne l'ai pas vu depuis des années.\NJ'ai oublié son visage.
+Dialogue: 0,0:07:13.43,0:07:16.23,Default,,0,0,0,,Je sais juste\Nqu'il vit dans cette ville.
+Dialogue: 0,0:07:16.48,0:07:21.48,Default,,0,0,0,,C'est mon seul indice,\Ncette épinglette qui lui a appartenu.
+Dialogue: 0,0:07:21.69,0:07:25.49,Default,,0,0,0,,Plutôt que de bosser à temps partiel\Ntu devrais te consacrer à ça.
+Dialogue: 0,0:07:26.78,0:07:31.70,Default,,0,0,0,,C'est difficile à expliquer,\Nmais je n'ai qu'une seule occasion.
+Dialogue: 0,0:07:31.87,0:07:33.20,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:07:33.70,0:07:38.04,Default,,0,0,0,,Papa apparaîtra peut-être\Nà un certain endroit demain.
+Dialogue: 0,0:07:38.21,0:07:43.05,Default,,0,0,0,,Si je loupe mon coup,\Nil faudra que je quitte la ville.
+Dialogue: 0,0:07:43.51,0:07:46.05,Default,,0,0,0,,Je dois me rendre ailleurs.
+Dialogue: 0,0:07:46.22,0:07:49.14,Default,,0,0,0,,Je suis très occupée, tu vois ?
+Dialogue: 0,0:07:49.30,0:07:53.93,Default,,0,0,0,,J'ai décidé que si ça ne marchait pas,\Nje cesserais de le chercher.
+Dialogue: 0,0:07:55.93,0:07:59.65,Default,,0,0,0,,Donc tu es mal dans ta peau.\NJe connais ce sentiment.
+Dialogue: 0,0:08:00.27,0:08:02.15,Default,,0,0,0,,Cependant…
+Dialogue: 0,0:08:02.32,0:08:04.28,Default,,0,0,0,,Hélas, guerrière employée,
+Dialogue: 0,0:08:04.69,0:08:09.16,Default,,0,0,0,,tu viens de partager ton histoire\Navec un mad scientist.
+Dialogue: 0,0:08:09.32,0:08:12.74,Default,,0,0,0,,Dès aujourd'hui, tu deviens\Nle membre du labo 008.
+Dialogue: 0,0:08:13.33,0:08:15.83,Default,,0,0,0,,Tu seras notre cobaye.
+Dialogue: 0,0:08:15.95,0:08:20.13,Default,,0,0,0,,Tu vas faire quoi ?\N- Changer le passé.
+Dialogue: 0,0:08:20.29,0:08:24.88,Default,,0,0,0,,N'hésite pas à monter un plan\Ndiabolique. Tu ne peux plus reculer.
+Dialogue: 0,0:08:25.01,0:08:29.55,Default,,0,0,0,,Tu enverras un D-mail à ton père\Navant qu'il ne disparaisse.
+Dialogue: 0,0:08:29.72,0:08:32.97,Default,,0,0,0,,Tu lui diras :\N"N'abandonne pas ta fille."
+Dialogue: 0,0:08:35.60,0:08:37.27,Default,,0,0,0,,T'es un chouette gars.
+Dialogue: 0,0:08:37.85,0:08:39.06,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:08:39.19,0:08:42.81,Default,,0,0,0,,D'une certaine façon,\Nje me sens un peu mieux.
+Dialogue: 0,0:08:45.15,0:08:47.24,Default,,0,0,0,,Bien, je dois rentrer.
+Dialogue: 0,0:08:47.40,0:08:49.99,Default,,0,0,0,,Merci de te soucier de moi.
+Dialogue: 0,0:08:50.11,0:08:54.83,Default,,0,0,0,,Attends ! Promets de venir au labo,\Nque tu voies ton père ou non.
+Dialogue: 0,0:08:54.95,0:08:58.75,Default,,0,0,0,,On utilisera ta tristesse\Npour mener une expérience.
+Dialogue: 0,0:09:00.42,0:09:05.00,Default,,0,0,0,,Tu es vraiment un mad scientist.\NTu es cruel et sans cœur.
+Dialogue: 0,0:09:09.84,0:09:12.14,Default,,0,0,0,,09 AOÛT 2010
+Dialogue: 0,0:09:13.80,0:09:19.64,Default,,0,0,0,,Je vais vous expliquer les bases\Nde l'Operation Eldhrimnir.
+Dialogue: 0,0:09:19.81,0:09:21.81,Default,,0,0,0,,Encore la mythologie scandinave ?
+Dialogue: 0,0:09:21.98,0:09:25.36,Default,,0,0,0,,Si la guerrière employée\Nretrouve son père,
+Dialogue: 0,0:09:25.61,0:09:28.36,Default,,0,0,0,,on organisera\Nune "dernière Cène à Tokyo".
+Dialogue: 0,0:09:28.57,0:09:33.87,Default,,0,0,0,,Si elle ne le retrouve pas, on versera\Nune larme et on enverra un D-mail.
+Dialogue: 0,0:09:33.99,0:09:36.16,Default,,0,0,0,,Daru n'est pas là ?
+Dialogue: 0,0:09:36.28,0:09:41.25,Default,,0,0,0,,Il a rendez-vous avec des amis du net\Nou une bêtise du genre.
+Dialogue: 0,0:09:41.41,0:09:43.92,Default,,0,0,0,,Mais j'ai déjà pris des mesures.
+Dialogue: 0,0:09:44.79,0:09:47.05,Default,,0,0,0,,Je lui ai envoyé ce message.
+Dialogue: 0,0:09:47.21,0:09:51.01,Default,,0,0,0,,"Tu choisis : la cuisine de Faris\Nou ton rendez-vous ?"
+Dialogue: 0,0:09:51.63,0:09:54.55,Default,,0,0,0,,Mais Faris ne peut pas venir.
+Dialogue: 0,0:09:55.05,0:09:58.97,Default,,0,0,0,,C'est pas grave, elle ne connaît pas\Nla guerrière employée,
+Dialogue: 0,0:09:59.14,0:10:01.23,Default,,0,0,0,,mais Daru doit être présent.
+Dialogue: 0,0:10:01.60,0:10:06.90,Default,,0,0,0,,En réalité, je n'ai jamais rencontré\Ncette Suzuha non plus.
+Dialogue: 0,0:10:07.02,0:10:11.32,Default,,0,0,0,,Peu importe. Les filles feront\Nles courses pour notre fête.
+Dialogue: 0,0:10:11.49,0:10:12.45,Default,,0,0,0,,Et toi ?
+Dialogue: 0,0:10:12.70,0:10:16.37,Default,,0,0,0,,Je suivrai la guerrière employée\Net ferai un rapport.
+Dialogue: 0,0:10:16.53,0:10:20.25,Default,,0,0,0,,Ne fais pas ça,\Nlaisse-leur du temps seuls.
+Dialogue: 0,0:10:20.41,0:10:23.33,Default,,0,0,0,,Viens plutôt\Nfaire les courses avec nous.
+Dialogue: 0,0:10:23.87,0:10:26.42,Default,,0,0,0,,Je vais suivre…\N- T'es sourd ?
+Dialogue: 0,0:10:26.67,0:10:29.30,Default,,0,0,0,,Mon assistante n'a pas à me donner…
+Dialogue: 0,0:10:30.17,0:10:34.18,Default,,0,0,0,,Tu veux finir à genoux\Npendant trois heures ?
+Dialogue: 0,0:10:34.30,0:10:37.22,Default,,0,0,0,,Très bien, préparons la fête.
+Dialogue: 0,0:10:40.35,0:10:42.77,Default,,0,0,0,,DE : ?\NOBJET : SANS
+Dialogue: 0,0:10:43.23,0:10:45.06,Default,,0,0,0,,JE T'OBSERVE.
+Dialogue: 0,0:10:50.28,0:10:53.70,Default,,0,0,0,,Que se passe-t-il, Okarin ?\N- C'est rien.
+Dialogue: 0,0:11:01.16,0:11:02.87,Default,,0,0,0,,Qu'est-ce que…
+Dialogue: 0,0:11:02.95,0:11:05.42,Default,,0,0,0,,09 AOÛT 2010
+Dialogue: 0,0:11:11.75,0:11:16.05,Default,,0,0,0,,On prendrait du curry doux\Nou du curry épicé ?
+Dialogue: 0,0:11:16.18,0:11:18.22,Default,,0,0,0,,Qu'est-ce qu'elle aime ?
+Dialogue: 0,0:11:18.34,0:11:21.43,Default,,0,0,0,,Épicé, c'est très bien.
+Dialogue: 0,0:11:21.68,0:11:24.68,Default,,0,0,0,,Oui, Suzu\Nest une guerrière employée.
+Dialogue: 0,0:11:25.14,0:11:27.69,Default,,0,0,0,,Les guerriers aiment manger épicé.
+Dialogue: 0,0:11:28.15,0:11:31.32,Default,,0,0,0,,Voyons. Ensuite, la viande.
+Dialogue: 0,0:11:32.40,0:11:36.15,Default,,0,0,0,,Mince. Le bœuf est hors de prix.
+Dialogue: 0,0:11:38.16,0:11:42.04,Default,,0,0,0,,Okarin, tu n'as pas l'air\Ndans ton assiette.
+Dialogue: 0,0:11:42.16,0:11:48.00,Default,,0,0,0,,Je m'attendais à : "L'Organisation\Na fait grimper le prix de la viande."
+Dialogue: 0,0:11:48.12,0:11:52.71,Default,,0,0,0,,"Quand commence l'Operation\NBargain Sale ?" Ou un truc du genre.
+Dialogue: 0,0:11:55.84,0:11:59.18,Default,,0,0,0,,J'aurais choisi un nom\Nde la mythologie scandinave.
+Dialogue: 0,0:12:00.09,0:12:06.18,Default,,0,0,0,,C'est moi. L'Operation Audumbla\Na occasionné des coûts imprévus.
+Dialogue: 0,0:12:06.52,0:12:08.90,Default,,0,0,0,,J'ai besoin de plus de fonds.
+Dialogue: 0,0:12:10.02,0:12:12.73,Default,,0,0,0,,La première étoile de la nuit !
+Dialogue: 0,0:12:14.07,0:12:15.57,Default,,0,0,0,,Vénus…
+Dialogue: 0,0:12:18.53,0:12:20.95,Default,,0,0,0,,Okarin ?
+Dialogue: 0,0:12:21.20,0:12:26.37,Default,,0,0,0,,Tu te souviens, à l'école primaire,\Nquand la fièvre t'avait cloué au lit ?
+Dialogue: 0,0:12:26.54,0:12:31.17,Default,,0,0,0,,Oui. À l'époque, tout le monde\Ncraignait le bug de l'an 2000.
+Dialogue: 0,0:12:32.00,0:12:33.46,Default,,0,0,0,,En réalité,
+Dialogue: 0,0:12:33.63,0:12:38.80,Default,,0,0,0,,Mayushii avait très peur\Nque tu ne meures.
+Dialogue: 0,0:12:39.59,0:12:42.18,Default,,0,0,0,,Alors, j'ai prié le ciel.
+Dialogue: 0,0:12:43.22,0:12:47.10,Default,,0,0,0,,Tout à coup,\Nune étoile filante est passée.
+Dialogue: 0,0:12:48.52,0:12:54.40,Default,,0,0,0,,Mayushii a répété trois fois :\N"Je t'en prie, Okarin, ne meurs pas."
+Dialogue: 0,0:12:54.57,0:12:58.65,Default,,0,0,0,,Le lendemain, la fièvre était tombée\Net tu étais éveillé.
+Dialogue: 0,0:12:59.57,0:13:04.24,Default,,0,0,0,,Tu es redevable à Mayushii\Nde t'avoir sauvé la vie.
+Dialogue: 0,0:13:04.41,0:13:09.50,Default,,0,0,0,,Tu te trompes. C'était le choix\Nde Steins Gate, si j'ai survécu.
+Dialogue: 0,0:13:09.66,0:13:14.13,Default,,0,0,0,,Ah bon ?\N- Tout à fait.
+Dialogue: 0,0:13:14.25,0:13:15.84,Default,,0,0,0,,Zut.
+Dialogue: 0,0:13:16.42,0:13:21.84,Default,,0,0,0,,Tu te souviens de ce que tu as dit\Naprès avoir perdu connaissance ?
+Dialogue: 0,0:13:22.43,0:13:25.97,Default,,0,0,0,,Tu as dit que tout se mélangeait,
+Dialogue: 0,0:13:26.14,0:13:30.48,Default,,0,0,0,,que tu ne pouvais pas rester debout\Net que tu étais sous le choc.
+Dialogue: 0,0:13:31.19,0:13:35.82,Default,,0,0,0,,Tu semblais dans le même état\Nen rentrant de chez Faris.
+Dialogue: 0,0:13:36.61,0:13:40.40,Default,,0,0,0,,Quand j'étais fiévreux,\Nj'avais les mêmes sensations
+Dialogue: 0,0:13:40.53,0:13:44.57,Default,,0,0,0,,que quand je change\Nde lignes d'univers.
+Dialogue: 0,0:13:44.82,0:13:51.87,Default,,0,0,0,,Aurais-je acquis mon pouvoir\Nde Reading Steiner à l'époque ?
+Dialogue: 0,0:13:56.09,0:13:58.84,Default,,0,0,0,,On est de retour.\N- Bienvenue.
+Dialogue: 0,0:13:59.92,0:14:01.47,Default,,0,0,0,,C'est quoi cette odeur ?
+Dialogue: 0,0:14:01.63,0:14:05.22,Default,,0,0,0,,Sûrement la tarte aux pommes\Nde Kurisu.
+Dialogue: 0,0:14:05.39,0:14:06.60,Default,,0,0,0,,Cette puanteur ?
+Dialogue: 0,0:14:06.85,0:14:10.68,Default,,0,0,0,,Mayushii peut aider ?\N- Tu peux cuire des œufs.
+Dialogue: 0,0:14:10.93,0:14:13.64,Default,,0,0,0,,Bien sûr ! Voyons…
+Dialogue: 0,0:14:13.90,0:14:16.31,Default,,0,0,0,,Je peux utiliser le micro-ondes ?
+Dialogue: 0,0:14:16.48,0:14:19.98,Default,,0,0,0,,Les œufs crus explosent au micro-ondes.
+Dialogue: 0,0:14:20.15,0:14:22.65,Default,,0,0,0,,Je vais le faire.\N- Quoi ?
+Dialogue: 0,0:14:22.86,0:14:26.24,Default,,0,0,0,,Tu peux couper des champignons.\N- D'accord.
+Dialogue: 0,0:14:26.37,0:14:29.70,Default,,0,0,0,,Attends. On ne met pas tout ça\Ndans une tarte.
+Dialogue: 0,0:14:29.95,0:14:31.58,Default,,0,0,0,,C'est pour la salade.
+Dialogue: 0,0:14:31.75,0:14:35.12,Default,,0,0,0,,La salade et la tarte aux pommes\Nne se marient pas.
+Dialogue: 0,0:14:35.25,0:14:37.92,Default,,0,0,0,,Vlan, vlan et vlan !\N- Eh, toi !
+Dialogue: 0,0:14:38.09,0:14:41.09,Default,,0,0,0,,Arrête de couper les champignons.\N- Bouge de là.
+Dialogue: 0,0:14:43.34,0:14:48.47,Default,,0,0,0,,C'est moi. J'ai libéré\Nun dieu malveillant par inadvertance.
+Dialogue: 0,0:14:48.64,0:14:54.73,Default,,0,0,0,,Si je ne rappelle pas dans l'heure,\Ndites à mes parents que je les aime.
+Dialogue: 0,0:14:54.98,0:14:58.56,Default,,0,0,0,,Okabe, tu as un cuiseur à riz ?
+Dialogue: 0,0:14:58.77,0:15:02.36,Default,,0,0,0,,Oh Faris-tan, où es-tu Faris-tan ?
+Dialogue: 0,0:15:02.53,0:15:05.20,Default,,0,0,0,,Tu t'es fait avoir, Hashida.
+Dialogue: 0,0:15:05.32,0:15:08.74,Default,,0,0,0,,Faris ne peut pas venir.\N- Vraiment ?
+Dialogue: 0,0:15:08.99,0:15:10.24,Default,,0,0,0,,Okarin ?
+Dialogue: 0,0:15:10.41,0:15:12.37,Default,,0,0,0,,Je lui en toucherai un mot.
+Dialogue: 0,0:15:12.50,0:15:16.33,Default,,0,0,0,,Quoi ? J'ai loupé ma réunion\Nsur les machines temporelles.
+Dialogue: 0,0:15:16.67,0:15:18.25,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:15:18.38,0:15:22.71,Default,,0,0,0,,Avec des gens d'un BBS de SF\Nauquel je participe.
+Dialogue: 0,0:15:22.96,0:15:25.22,Default,,0,0,0,,Un écrivain devait même venir.
+Dialogue: 0,0:15:25.34,0:15:28.14,Default,,0,0,0,,Ce kit de camping est pas mal du tout.
+Dialogue: 0,0:15:28.26,0:15:32.56,Default,,0,0,0,,Pas touche. C'est le gadget futuriste 4,\Nle Moad Snake.
+Dialogue: 0,0:15:32.97,0:15:36.73,Default,,0,0,0,,Une mine claymore ?\N- C'est un humidificateur instantané.
+Dialogue: 0,0:15:36.98,0:15:39.15,Default,,0,0,0,,Ça y est.\N- Arrête !
+Dialogue: 0,0:15:50.53,0:15:52.79,Default,,0,0,0,,Je suis désolée, Okabe.
+Dialogue: 0,0:15:53.04,0:15:56.96,Default,,0,0,0,,C'est passé. Mais fais attention\Nà ce que tu touches.
+Dialogue: 0,0:15:57.08,0:15:59.63,Default,,0,0,0,,On ne peut pas utiliser ça ?
+Dialogue: 0,0:16:00.54,0:16:02.63,Default,,0,0,0,,Un aspirateur ?
+Dialogue: 0,0:16:03.09,0:16:05.80,Default,,0,0,0,,Non, c'est le gadget futuriste 3.
+Dialogue: 0,0:16:06.01,0:16:08.22,Default,,0,0,0,,Ou bien le 2 ?\N- C'est le 5.
+Dialogue: 0,0:16:08.34,0:16:13.14,Default,,0,0,0,,Comme dirait Goemon :\N"J'ai encore connecté quelque chose d'inutile".
+Dialogue: 0,0:16:13.31,0:16:17.64,Default,,0,0,0,,C'est un sèche-cheveux\Nqui utilise la chaleur de l'aspirateur.
+Dialogue: 0,0:16:17.81,0:16:20.44,Default,,0,0,0,,Regarde.\N- Attends !
+Dialogue: 0,0:16:20.56,0:16:23.19,Default,,0,0,0,,Il faut débrancher le reste, sinon…
+Dialogue: 0,0:16:24.82,0:16:27.03,Default,,0,0,0,,… le disjoncteur saute.
+Dialogue: 0,0:16:27.82,0:16:30.24,Default,,0,0,0,,Où est la lampe de poche ?
+Dialogue: 0,0:16:30.99,0:16:34.66,Default,,0,0,0,,C'est ça ?\N- Non, Ruka, c'est un daikon.
+Dialogue: 0,0:16:35.41,0:16:39.42,Default,,0,0,0,,Où est le disjoncteur ?\N- Ne te balade pas partout.
+Dialogue: 0,0:16:41.46,0:16:44.42,Default,,0,0,0,,Je te l'avais dit.\N- Je…
+Dialogue: 0,0:16:44.50,0:16:46.67,Default,,0,0,0,,Il est près de la porte d'entrée.
+Dialogue: 0,0:16:49.01,0:16:50.51,Default,,0,0,0,,Ça va ?
+Dialogue: 0,0:16:55.47,0:17:00.02,Default,,0,0,0,,Qu'est-ce qu'il y a de si drôle ?\N- Désolée, c'est juste…
+Dialogue: 0,0:17:01.65,0:17:07.90,Default,,0,0,0,,Mon labo en Amérique emploie\Nde grands talents du monde entier.
+Dialogue: 0,0:17:08.15,0:17:12.49,Default,,0,0,0,,Mais ils sont tous\Nsi arrogants et insensibles.
+Dialogue: 0,0:17:13.28,0:17:19.08,Default,,0,0,0,,Le tien est bien plus modeste,\Nmais je m'y sens à ma place.
+Dialogue: 0,0:17:20.12,0:17:23.08,Default,,0,0,0,,Ce n'est pas un compliment.
+Dialogue: 0,0:17:23.25,0:17:27.51,Default,,0,0,0,,Je partage juste mes impressions.
+Dialogue: 0,0:17:27.67,0:17:31.55,Default,,0,0,0,,Je l'ai créé juste pour avoir des amis.
+Dialogue: 0,0:17:35.14,0:17:39.35,Default,,0,0,0,,Je… Je te considère comme un ami.
+Dialogue: 0,0:17:41.19,0:17:47.15,Default,,0,0,0,,Tu m'as déjà dit que tu me voyais\Ntoi aussi comme une amie.
+Dialogue: 0,0:17:47.32,0:17:50.11,Default,,0,0,0,,En fait, ça m'a fait très plaisir.
+Dialogue: 0,0:17:54.49,0:17:58.08,Default,,0,0,0,,Est-ce que tu aurais de la fièvre par hasard ?\N- Non !
+Dialogue: 0,0:17:58.20,0:18:02.16,Default,,0,0,0,,Ma vision de toi\Nétait en train de changer. Idiot.
+Dialogue: 0,0:18:14.68,0:18:19.22,Default,,0,0,0,,Elle en met du temps, Suzu.\NAurait-elle trouvé son père ?
+Dialogue: 0,0:18:19.39,0:18:22.14,Default,,0,0,0,,Je parie qu'ils passent du bon temps.
+Dialogue: 0,0:18:22.56,0:18:27.23,Default,,0,0,0,,Dans les deux cas,\Nje lui ai dit de passer au labo.
+Dialogue: 0,0:18:27.44,0:18:32.95,Default,,0,0,0,,Mais il se fait tard. L'opération\Nest terminée. Vous pouvez y aller.
+Dialogue: 0,0:18:44.50,0:18:47.21,Default,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NPARDON. ADIEU.
+Dialogue: 0,0:18:47.38,0:18:48.71,Default,,0,0,0,,Pourquoi, petite…
+Dialogue: 0,0:18:56.55,0:18:59.76,Default,,0,0,0,,Elle va vivre comme ça ?\NTriste et seule ?
+Dialogue: 0,0:19:00.89,0:19:04.81,Default,,0,0,0,,Hououin Kyouma ne le permettra pas.
+Dialogue: 0,0:19:09.69,0:19:12.19,Default,,0,0,0,,Bon sang. Où est-elle ?
+Dialogue: 0,0:19:13.40,0:19:14.40,Default,,0,0,0,,Je sais.
+Dialogue: 0,0:19:14.57,0:19:19.83,Default,,0,0,0,,Je vais m'envoyer un D-mail pour me dire\Nde suivre Suzuha à tout prix.
+Dialogue: 0,0:19:19.99,0:19:21.04,Default,,0,0,0,,Mais…
+Dialogue: 0,0:19:22.62,0:19:27.79,Default,,0,0,0,,c'est pas risqué d'envoyer des D-mails\Net changer le passé encore plus ?
+Dialogue: 0,0:19:27.96,0:19:30.50,Default,,0,0,0,,T'es un chouette gars.
+Dialogue: 0,0:19:30.88,0:19:34.67,Default,,0,0,0,,D'une certaine façon,\Nje me sens un peu mieux.
+Dialogue: 0,0:19:37.01,0:19:41.76,Default,,0,0,0,,Je suis Hououin Kyouma,\Nle mad scientist.
+Dialogue: 0,0:19:41.93,0:19:44.39,Default,,0,0,0,,Rien ne sème la peur dans mon cœur.
+Dialogue: 0,0:19:56.95,0:19:58.91,Default,,0,0,0,,10 AOÛT 2010
+Dialogue: 0,0:19:59.20,0:20:01.33,Default,,0,0,0,,"N'écoute pas ton assistante."
+Dialogue: 0,0:20:02.45,0:20:03.83,Default,,0,0,0,,"Suis Suzuha."
+Dialogue: 0,0:20:24.22,0:20:25.68,Default,,0,0,0,,Jour bon.
+Dialogue: 0,0:20:26.68,0:20:32.57,Default,,0,0,0,,Salut, guerrière employée, tu glandes ?\N- Oui. La fête s'est terminée tard.
+Dialogue: 0,0:20:32.69,0:20:35.57,Default,,0,0,0,,Je suis super fatiguée.
+Dialogue: 0,0:20:35.69,0:20:41.12,Default,,0,0,0,,Hier soir, on a organisé une "dernière\NCène" où tu as servi de cobaye,
+Dialogue: 0,0:20:41.37,0:20:44.54,Default,,0,0,0,,vu que tu n'as pas retrouvé ton père,\Nc'est ça ?
+Dialogue: 0,0:20:45.37,0:20:47.62,Default,,0,0,0,,Mais on n'a pas mené l'expérience,
+Dialogue: 0,0:20:47.79,0:20:51.00,Default,,0,0,0,,car j'avais pas\Nl'adresse mail de mon père.
+Dialogue: 0,0:20:51.25,0:20:53.84,Default,,0,0,0,,Je voudrais vérifier une chose.
+Dialogue: 0,0:20:54.67,0:20:57.67,Default,,0,0,0,,Comment je t'ai convaincue de venir ?
+Dialogue: 0,0:20:57.84,0:21:00.09,Default,,0,0,0,,Tu as bu hier soir ?
+Dialogue: 0,0:21:00.34,0:21:04.85,Default,,0,0,0,,Tu es mineur. Tu le sais très bien.\N- Dis-moi.
+Dialogue: 0,0:21:05.26,0:21:10.27,Default,,0,0,0,,Je quittais ma réunion\Nsur les machines temporelles quand…
+Dialogue: 0,0:21:10.39,0:21:15.65,Default,,0,0,0,,Quoi ? C'est là que tu espérais\Nretrouver ton père ?
+Dialogue: 0,0:21:15.78,0:21:19.61,Default,,0,0,0,,Oui. Le nom de mon père est Titor.
+Dialogue: 0,0:21:19.78,0:21:21.28,Default,,0,0,0,,John Titor ?
+Dialogue: 0,0:21:21.41,0:21:24.49,Default,,0,0,0,,Non, Barrel. Barrel Titor.
+Dialogue: 0,0:21:24.87,0:21:26.91,Default,,0,0,0,,Je te l'ai dit hier, t'as oublié ?
+Dialogue: 0,0:21:27.08,0:21:30.16,Default,,0,0,0,,Pourtant tu n'as pas arrêté de filmer\Navec ton portable, non ?
+Dialogue: 0,0:21:32.17,0:21:34.29,Default,,0,0,0,,Je me suis éclatée hier.
+Dialogue: 0,0:21:34.71,0:21:37.80,Default,,0,0,0,,Sans Makise Kurisu,\Nça aurait été parfait.
+Dialogue: 0,0:21:38.42,0:21:41.09,Default,,0,0,0,,Sa tarte aux pommes était infecte.
+Dialogue: 0,0:21:41.84,0:21:45.60,Default,,0,0,0,,Mais le curry\Nd'Urushibara Ruka était excellent.
+Dialogue: 0,0:21:46.43,0:21:49.10,Default,,0,0,0,,Votre laboratoire est vraiment bien.
+Dialogue: 0,0:21:49.39,0:21:52.35,Default,,0,0,0,,Vous vous entendez bien\Net vous vous amusez.
+Dialogue: 0,0:21:52.77,0:21:56.02,Default,,0,0,0,,Pour la première fois,\Nje me suis sentie à ma place.
+Dialogue: 0,0:21:56.77,0:22:00.53,Default,,0,0,0,,Dans ce cas, n'hésite pas\Nà passer quand tu veux.
+Dialogue: 0,0:22:00.90,0:22:03.99,Default,,0,0,0,,Tu es membre du labo.\N- Oui.
+Dialogue: 0,0:22:04.45,0:22:09.33,Default,,0,0,0,,Je crois que je vais chercher\Nmon père un peu plus longtemps.
+Dialogue: 0,0:22:21.47,0:22:28.97,Default,,0,0,0,,kisei sareta shikai mujihi naru
+Dialogue: 0,0:22:30.35,0:22:37.73,Default,,0,0,0,,juuni no shihai nogarerarenai
+Dialogue: 0,0:22:38.07,0:22:46.66,Default,,0,0,0,,ansoku no asu o negatta
+Dialogue: 0,0:22:46.78,0:22:55.21,Default,,0,0,0,,te no naka no toutoi jishou no chihei e
+Dialogue: 0,0:22:55.62,0:23:03.92,Default,,0,0,0,,torawareshi meiyaku\Narawareta gishou no rinkaku
+Dialogue: 0,0:23:04.05,0:23:13.18,Default,,0,0,0,,seimei no tenchi wa\Nmoumoku na jikan o kizanda
+Dialogue: 0,0:23:13.39,0:23:21.82,Default,,0,0,0,,habatake batafurai kiseki\Nno batafurai anata e sasagu
+Dialogue: 0,0:23:22.40,0:23:29.45,Default,,0,0,0,,namida no batafurai\Nmabushii batafurai subete ga
+Dialogue: 0,0:23:29.62,0:23:34.04,Default,,0,0,0,,ima kakikaerareru
+Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Dogme de la frontière de l'espace-temps

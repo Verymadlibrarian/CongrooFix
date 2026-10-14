@@ -1,0 +1,316 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.54,0:00:04.76,Default,,0,0,0,,Si on retourne à la ligne bêta,
+Dialogue: 0,0:00:05.26,0:00:06.51,Default,,0,0,0,,si on annule le D-mail,
+Dialogue: 0,0:00:06.59,0:00:08.01,Default,,0,0,0,,Effondrement de l'existence
+Dialogue: 0,0:00:08.09,0:00:09.51,Default,,0,0,0,,tu mourras.
+Dialogue: 0,0:00:26.69,0:00:31.66,Default,,0,0,0,,suu juuoku mono kodou no kazu sae
+Dialogue: 0,0:00:32.03,0:00:38.41,Default,,0,0,0,,anata ni wa matataki teido no\Nsaji na toukyuu
+Dialogue: 0,0:00:38.71,0:00:43.92,Default,,0,0,0,,kako ni torawarete mirai o nageku mo
+Dialogue: 0,0:00:44.13,0:00:49.38,Default,,0,0,0,,chiri hitotsu gosan o yurusanu hitsuzen
+Dialogue: 0,0:00:49.72,0:00:55.72,Default,,0,0,0,,mugen ni hirogaru yume mo\Negaku mirai mo
+Dialogue: 0,0:00:55.89,0:01:01.60,Default,,0,0,0,,bokutachi ni yurusareta kyoei no kenri
+Dialogue: 0,0:01:01.73,0:01:07.65,Default,,0,0,0,,yuugen sore wa futatsu no\Nhari ga shimesu
+Dialogue: 0,0:01:07.94,0:01:12.53,Default,,0,0,0,,zankoku na yakujou to sentaku e
+Dialogue: 0,0:01:12.70,0:01:14.49,Default,,0,0,0,,Hacking to the Gate
+Dialogue: 0,0:01:14.78,0:01:21.71,Default,,0,0,0,,da kara ima ichi byou goto ni\Nsekaisen o koete
+Dialogue: 0,0:01:21.87,0:01:26.59,Default,,0,0,0,,kimi no sono egao mamoritai no sa
+Dialogue: 0,0:01:26.75,0:01:33.55,Default,,0,0,0,,soshite mata kanashimi no nai\Njikan no ruupu e to
+Dialogue: 0,0:01:33.72,0:01:40.10,Default,,0,0,0,,nomi komarete yuku\Nkodoku no kansokusha
+Dialogue: 0,0:01:47.57,0:01:49.36,Default,,0,0,0,,Te voilà.
+Dialogue: 0,0:01:50.44,0:01:53.32,Default,,0,0,0,,Si tu restes là,\Ntu vas choper une insolation.
+Dialogue: 0,0:01:53.45,0:01:58.58,Default,,0,0,0,,Tu es toujours étendu sur le toit\Ndu labo. En plus, là c'est nuageux.
+Dialogue: 0,0:01:59.33,0:02:01.12,Default,,0,0,0,,Tu as trouvé Mayuri ?
+Dialogue: 0,0:02:01.25,0:02:03.37,Default,,0,0,0,,Hashida ne l'a pas vue au Comima.
+Dialogue: 0,0:02:04.17,0:02:07.17,Default,,0,0,0,,Oui, je l'ai retrouvée après.
+Dialogue: 0,0:02:08.42,0:02:09.63,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:02:13.55,0:02:16.97,Default,,0,0,0,,Dis, Okabe.\N- Quoi ?
+Dialogue: 0,0:02:24.52,0:02:25.60,Default,,0,0,0,,Très bien.
+Dialogue: 0,0:02:29.57,0:02:30.65,Default,,0,0,0,,Hé…
+Dialogue: 0,0:02:32.36,0:02:33.57,Default,,0,0,0,,Il pleut.
+Dialogue: 0,0:02:39.16,0:02:40.74,Default,,0,0,0,,CQFD !
+Dialogue: 0,0:02:47.42,0:02:49.29,Default,,0,0,0,,Tu pouvais le dire plus tôt.
+Dialogue: 0,0:02:49.67,0:02:53.47,Default,,0,0,0,,Mes sous-vêtements sont trempés.\N- Je te l'ai dit.
+Dialogue: 0,0:02:54.01,0:02:55.63,Default,,0,0,0,,C'est toi qui n'as…
+Dialogue: 0,0:03:02.64,0:03:05.35,Default,,0,0,0,,Pervers !\N- Je ne voulais pas regarder.
+Dialogue: 0,0:03:06.81,0:03:10.90,Default,,0,0,0,,C'est ta faute, avec tes vêtements transparents.\N- J'avais oublié ta perversion.
+Dialogue: 0,0:03:11.69,0:03:14.61,Default,,0,0,0,,Tu crois que ton corps nu et maigre…
+Dialogue: 0,0:03:14.78,0:03:18.49,Default,,0,0,0,,Je vais faire du ponzu\Navec ton cortex cérébral !
+Dialogue: 0,0:03:18.62,0:03:20.78,Default,,0,0,0,,Tu me menaces ?\N- Recule.
+Dialogue: 0,0:03:22.08,0:03:24.25,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:03:25.58,0:03:29.63,Default,,0,0,0,,Je dois l'avoir déchirée en te cherchant.\N- Quel maladroit.
+Dialogue: 0,0:03:29.75,0:03:32.30,Default,,0,0,0,,Je suis un mad scientist…
+Dialogue: 0,0:03:32.46,0:03:35.72,Default,,0,0,0,,Il y a toujours des excuses, avec toi.
+Dialogue: 0,0:03:35.88,0:03:39.22,Default,,0,0,0,,Donne-la-moi. J'ai mon kit de couture.
+Dialogue: 0,0:03:40.30,0:03:42.26,Default,,0,0,0,,Un kit de couture ?
+Dialogue: 0,0:03:42.43,0:03:45.60,Default,,0,0,0,,Je sais aussi\Naccomplir des tâches ménagères.
+Dialogue: 0,0:03:45.68,0:03:46.85,Default,,0,0,0,,Enlève-la.
+Dialogue: 0,0:03:48.90,0:03:53.73,Default,,0,0,0,,Pour info, il fait sombre,\Nle résultat ne sera pas optimal.
+Dialogue: 0,0:03:53.90,0:03:57.28,Default,,0,0,0,,Tu découvriras\Nla couleur du fil en sortant.
+Dialogue: 0,0:03:58.24,0:03:59.87,Default,,0,0,0,,Noir, rouge ou rose.
+Dialogue: 0,0:04:00.03,0:04:01.99,Default,,0,0,0,,Une chance sur trois.
+Dialogue: 0,0:04:02.28,0:04:04.24,Default,,0,0,0,,Pourvu que ça soit pas rose.
+Dialogue: 0,0:04:04.54,0:04:06.54,Default,,0,0,0,,Hé, ne t'approche pas.
+Dialogue: 0,0:04:06.66,0:04:10.71,Default,,0,0,0,,Je veux pas voir ton corps…\N- Garde le ponzu à l'esprit.
+Dialogue: 0,0:04:13.50,0:04:14.84,Default,,0,0,0,,Bon sang…
+Dialogue: 0,0:04:15.55,0:04:19.26,Default,,0,0,0,,Où l'as-tu accrochée pour faire ça ?
+Dialogue: 0,0:04:19.63,0:04:22.30,Default,,0,0,0,,Aujourd'hui, je suis allé au labo…
+Dialogue: 0,0:04:22.47,0:04:23.60,Default,,0,0,0,,À la laverie…
+Dialogue: 0,0:04:23.72,0:04:25.06,Default,,0,0,0,,Pour une balade.
+Dialogue: 0,0:04:25.31,0:04:28.73,Default,,0,0,0,,Puis à l'hôtel où tu loges.
+Dialogue: 0,0:04:28.89,0:04:31.44,Default,,0,0,0,,Tu es allé à l'hôtel ?
+Dialogue: 0,0:04:31.56,0:04:33.57,Default,,0,0,0,,Ne m'en veux pas.
+Dialogue: 0,0:04:33.73,0:04:37.40,Default,,0,0,0,,Tu ne répondais ni à mes messages,\Nni à mes appels.
+Dialogue: 0,0:04:37.57,0:04:39.28,Default,,0,0,0,,Tu t'inquiétais pour…
+Dialogue: 0,0:04:39.45,0:04:44.33,Default,,0,0,0,,En tant que chef du labo,\Nje dois veiller sur mon assistante.
+Dialogue: 0,0:04:48.37,0:04:51.12,Default,,0,0,0,,Tu as fini ?\N- Une seconde.
+Dialogue: 0,0:04:51.42,0:04:53.96,Default,,0,0,0,,Attrape !\N- Mais…
+Dialogue: 0,0:04:54.13,0:04:55.13,Default,,0,0,0,,Enfile-la.
+Dialogue: 0,0:04:55.38,0:04:58.59,Default,,0,0,0,,J'ai pas envie\Nde voir ton corps nu et maigre.
+Dialogue: 0,0:05:08.64,0:05:10.77,Default,,0,0,0,,Je parie que c'était ici.
+Dialogue: 0,0:05:15.77,0:05:18.32,Default,,0,0,0,,L'endroit où j'ai été poignardée.
+Dialogue: 0,0:05:21.53,0:05:23.74,Default,,0,0,0,,Comment le sais-tu ?
+Dialogue: 0,0:05:23.82,0:05:25.12,Default,,0,0,0,,Je m'en doutais.
+Dialogue: 0,0:05:25.37,0:05:31.16,Default,,0,0,0,,La douleur et le désespoir\Nsemblaient trop réels pour être un rêve.
+Dialogue: 0,0:05:31.41,0:05:33.96,Default,,0,0,0,,Kurisu… Ne me dis pas que tu…
+Dialogue: 0,0:05:34.63,0:05:40.72,Default,,0,0,0,,Oui. Moi aussi\Nj'ai des souvenirs flous en moi.
+Dialogue: 0,0:05:40.84,0:05:44.64,Default,,0,0,0,,Des souvenirs vagues,\Npresque comme des illusions.
+Dialogue: 0,0:05:46.14,0:05:48.93,Default,,0,0,0,,Pas uniquement le fait\Nd'avoir été poignardée.
+Dialogue: 0,0:05:49.10,0:05:52.52,Default,,0,0,0,,J'ai des souvenirs vagues de toi aussi.
+Dialogue: 0,0:05:53.35,0:05:56.57,Default,,0,0,0,,Tu cherches désespérément\Nà sauver Mayuri.
+Dialogue: 0,0:05:56.94,0:06:01.40,Default,,0,0,0,,Tu continues à avancer, seul et blessé.
+Dialogue: 0,0:06:02.03,0:06:04.78,Default,,0,0,0,,Tu ne parviens pas à réécrire le monde.
+Dialogue: 0,0:06:04.95,0:06:07.20,Default,,0,0,0,,Mais tu te bats inlassablement.
+Dialogue: 0,0:06:07.45,0:06:10.00,Default,,0,0,0,,Tu appelles désespérément Mayuri.
+Dialogue: 0,0:06:10.16,0:06:11.83,Default,,0,0,0,,Et tu pleures.
+Dialogue: 0,0:06:12.46,0:06:15.13,Default,,0,0,0,,Tu mènes une dure lutte pour la sauver.
+Dialogue: 0,0:06:15.92,0:06:19.67,Default,,0,0,0,,Chaque fois que je vois\Nl'expression sur ton visage,
+Dialogue: 0,0:06:20.80,0:06:25.39,Default,,0,0,0,,je réalise à quel point Mayuri\Nest irremplaçable à tes yeux.
+Dialogue: 0,0:06:26.47,0:06:30.93,Default,,0,0,0,,Je réalise à quel point\Nil est possible de tenir à une personne.
+Dialogue: 0,0:06:34.14,0:06:38.23,Default,,0,0,0,,Ça m'a donné envie\Nde persévérer à tes côtés.
+Dialogue: 0,0:06:38.48,0:06:40.73,Default,,0,0,0,,Ça m'a donné envie de t'aider.
+Dialogue: 0,0:06:45.99,0:06:47.70,Default,,0,0,0,,Écoute, Okabe.
+Dialogue: 0,0:06:47.82,0:06:49.66,Default,,0,0,0,,Sauve Mayuri.
+Dialogue: 0,0:06:51.87,0:06:54.92,Default,,0,0,0,,Tu dois la sauver.
+Dialogue: 0,0:06:57.42,0:06:58.67,Default,,0,0,0,,Et toi ?
+Dialogue: 0,0:06:59.50,0:07:03.26,Default,,0,0,0,,Si je reviens à la ligne d'univers bêta,\Ntu mourras.
+Dialogue: 0,0:07:05.72,0:07:08.85,Default,,0,0,0,,Mais c'est la seule solution.
+Dialogue: 0,0:07:10.06,0:07:12.43,Default,,0,0,0,,Tu le sais mieux que quiconque.
+Dialogue: 0,0:07:12.97,0:07:16.44,Default,,0,0,0,,Il n'y a qu'une seule option.\N- Tu veux…
+Dialogue: 0,0:07:16.56,0:07:20.27,Default,,0,0,0,,Tu veux que je t'abandonne ?\N- On n'a pas le choix.
+Dialogue: 0,0:07:23.44,0:07:25.32,Default,,0,0,0,,J'y réfléchis depuis hier.
+Dialogue: 0,0:07:26.11,0:07:28.87,Default,,0,0,0,,Je pensais pouvoir trouver une solution,
+Dialogue: 0,0:07:29.49,0:07:31.70,Default,,0,0,0,,comme les autres fois.
+Dialogue: 0,0:07:32.54,0:07:36.67,Default,,0,0,0,,Mais c'était en vain.\NCette fois, on n'a pas d'autre choix.
+Dialogue: 0,0:07:36.79,0:07:40.71,Default,,0,0,0,,La seule solution,\Nc'est de revenir à la ligne bêta.
+Dialogue: 0,0:07:47.88,0:07:49.30,Default,,0,0,0,,Okabe !
+Dialogue: 0,0:07:50.30,0:07:54.47,Default,,0,0,0,,Je refuse de l'accepter.\NJe refuse de baisser les bras !
+Dialogue: 0,0:07:56.06,0:07:59.77,Default,,0,0,0,,Il n'est pas question\Nque j'abandonne Kurisu.
+Dialogue: 0,0:08:00.27,0:08:04.86,Default,,0,0,0,,Je ne peux pas la laisser mourir.\NÇa n'aurait aucun sens.
+Dialogue: 0,0:08:05.82,0:08:07.11,Default,,0,0,0,,Je…
+Dialogue: 0,0:08:07.90,0:08:09.20,Default,,0,0,0,,Je…
+Dialogue: 0,0:08:24.71,0:08:26.30,Default,,0,0,0,,Te précipiter va…
+Dialogue: 0,0:08:26.84,0:08:29.59,Default,,0,0,0,,Te précipiter va juste empirer les choses.
+Dialogue: 0,0:08:31.80,0:08:32.93,Default,,0,0,0,,Tais-toi !
+Dialogue: 0,0:08:34.68,0:08:38.64,Default,,0,0,0,,Tu ne dépasseras pas les 1 %\Navec les time leaps.
+Dialogue: 0,0:08:38.81,0:08:40.15,Default,,0,0,0,,On n'en sait rien !
+Dialogue: 0,0:08:41.27,0:08:44.36,Default,,0,0,0,,Tu vas à nouveau regarder Mayuri mourir.
+Dialogue: 0,0:08:44.61,0:08:46.53,Default,,0,0,0,,Encore et encore.
+Dialogue: 0,0:08:46.69,0:08:51.53,Default,,0,0,0,,Ça finira par t'anéantir.\N- Non.
+Dialogue: 0,0:08:51.99,0:08:55.20,Default,,0,0,0,,Sais-tu combien de fois\Nj'ai vu Mayuri mourir ?
+Dialogue: 0,0:08:56.41,0:08:57.91,Default,,0,0,0,,Encore et encore.
+Dialogue: 0,0:08:58.91,0:09:03.33,Default,,0,0,0,,Encore et encore… Encore et encore.
+Dialogue: 0,0:09:04.92,0:09:08.76,Default,,0,0,0,,Ça ne m'anéantira pas.\NPeu importe combien…
+Dialogue: 0,0:09:13.76,0:09:15.85,Default,,0,0,0,,Tu réalises ce que tu dis ?
+Dialogue: 0,0:09:16.35,0:09:19.93,Default,,0,0,0,,Mayuri va continuer\Nà souffrir et mourir.
+Dialogue: 0,0:09:20.06,0:09:21.85,Default,,0,0,0,,C'est intolérable.
+Dialogue: 0,0:09:23.02,0:09:26.73,Default,,0,0,0,,Si cela ne t'affecte pas,
+Dialogue: 0,0:09:26.90,0:09:30.36,Default,,0,0,0,,alors, ton cœur est déjà brisé.
+Dialogue: 0,0:09:31.36,0:09:34.16,Default,,0,0,0,,Arrête. Ça va te détruire.
+Dialogue: 0,0:09:36.70,0:09:38.08,Default,,0,0,0,,Je sais.
+Dialogue: 0,0:09:38.79,0:09:40.21,Default,,0,0,0,,Je l'ai compris.
+Dialogue: 0,0:09:41.66,0:09:45.96,Default,,0,0,0,,J'ai cessé d'être choqué,\Nà force de voir Mayuri mourir.
+Dialogue: 0,0:09:46.09,0:09:49.09,Default,,0,0,0,,Mon cœur a fini par s'engourdir.
+Dialogue: 0,0:09:50.59,0:09:55.10,Default,,0,0,0,,J'ai déjà utilisé le time leap\Npour connaître l'heure de sa mort.
+Dialogue: 0,0:09:56.10,0:10:00.89,Default,,0,0,0,,Ses morts ont fini\Npar ne plus m'affecter.
+Dialogue: 0,0:10:02.19,0:10:07.86,Default,,0,0,0,,Une partie de moi se disait\Nque je pouvais réécrire les choses.
+Dialogue: 0,0:10:16.07,0:10:18.49,Default,,0,0,0,,Sauve Mayuri,
+Dialogue: 0,0:10:18.74,0:10:22.62,Default,,0,0,0,,sinon, tu seras anéanti.
+Dialogue: 0,0:10:22.75,0:10:26.08,Default,,0,0,0,,Si tu la laisses mourir,\Ntu le regretteras.
+Dialogue: 0,0:10:26.25,0:10:31.38,Default,,0,0,0,,C'est en voulant la sauver\Nqu'on est arrivés si loin toi et moi.
+Dialogue: 0,0:10:31.63,0:10:34.05,Default,,0,0,0,,Tu auras des regrets toute ta vie.
+Dialogue: 0,0:10:34.47,0:10:37.30,Default,,0,0,0,,Mais si je sauve Mayuri, tu…
+Dialogue: 0,0:10:37.76,0:10:41.27,Default,,0,0,0,,Je retournerai à la ligne\Nd'avant le D-mail.
+Dialogue: 0,0:10:41.85,0:10:44.44,Default,,0,0,0,,C'est le mieux pour moi et pour toi.
+Dialogue: 0,0:10:53.44,0:10:56.32,Default,,0,0,0,,On a si souvent lutté\Npendant trois semaines.
+Dialogue: 0,0:10:57.95,0:11:00.24,Default,,0,0,0,,On s'est dit des vacheries.
+Dialogue: 0,0:11:01.16,0:11:03.45,Default,,0,0,0,,On a partagé nos secrets.
+Dialogue: 0,0:11:03.87,0:11:06.75,Default,,0,0,0,,J'ai toujours demandé de l'aide à Kurisu.
+Dialogue: 0,0:11:07.67,0:11:13.26,Default,,0,0,0,,C'est Kurisu qui m'a toujours\Ncru et écouté calmement.
+Dialogue: 0,0:11:13.42,0:11:17.34,Default,,0,0,0,,Une prodige qui a publié\Nun article scientifique à 18 ans.
+Dialogue: 0,0:11:17.51,0:11:19.93,Default,,0,0,0,,Toujours calme et entêtée.
+Dialogue: 0,0:11:20.10,0:11:22.68,Default,,0,0,0,,Toujours fière et curieuse.
+Dialogue: 0,0:11:22.81,0:11:25.27,Default,,0,0,0,,Si compréhensive et appliquée.
+Dialogue: 0,0:11:25.44,0:11:29.31,Default,,0,0,0,,Ses théories m'ont toujours ensorcelé.
+Dialogue: 0,0:11:30.11,0:11:32.78,Default,,0,0,0,,Je me souviens de chacun de ses mots.
+Dialogue: 0,0:11:33.15,0:11:36.11,Default,,0,0,0,,J'ai observé chacun de ses gestes.
+Dialogue: 0,0:11:38.11,0:11:43.04,Default,,0,0,0,,Ce n'est pas juste une membre du labo.\NPour moi, Makise Kurisu est…
+Dialogue: 0,0:11:51.25,0:11:52.46,Default,,0,0,0,,Je…
+Dialogue: 0,0:11:53.13,0:11:55.84,Default,,0,0,0,,ne peux pas te sauver.
+Dialogue: 0,0:11:56.93,0:11:58.76,Default,,0,0,0,,Je suis désolé.
+Dialogue: 0,0:12:03.14,0:12:09.10,Default,,0,0,0,,Merci de souffrir autant pour moi.
+Dialogue: 0,0:12:10.98,0:12:13.73,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:12:13.90,0:12:15.90,Default,,0,0,0,,Pourquoi ça doit être toi ?
+Dialogue: 0,0:12:17.57,0:12:22.03,Default,,0,0,0,,Au fond, que signifie\Nchanger de ligne d'univers ?
+Dialogue: 0,0:12:23.03,0:12:26.79,Default,,0,0,0,,Tu cesseras peut-être\Nd'exister dans cette ligne,
+Dialogue: 0,0:12:27.16,0:12:31.25,Default,,0,0,0,,quand tu passeras\Nà la ligne d'univers bêta.
+Dialogue: 0,0:12:31.58,0:12:35.09,Default,,0,0,0,,Ou tu échangeras ta place\Navec un autre Okabe.
+Dialogue: 0,0:12:35.21,0:12:38.38,Default,,0,0,0,,Ça n'a pas d'importance.
+Dialogue: 0,0:12:39.09,0:12:40.97,Default,,0,0,0,,Ce n'est pas vrai.
+Dialogue: 0,0:12:41.09,0:12:42.80,Default,,0,0,0,,Je ne mourrai pas vraiment.
+Dialogue: 0,0:12:42.97,0:12:45.77,Default,,0,0,0,,Même si je suis morte\Ndans la ligne bêta,
+Dialogue: 0,0:12:45.93,0:12:47.98,Default,,0,0,0,,rien ne dit que je mourrai ici.
+Dialogue: 0,0:12:49.19,0:12:52.86,Default,,0,0,0,,J'ai peut-être des doubles\Ndans d'autres lignes.
+Dialogue: 0,0:12:53.02,0:12:57.24,Default,,0,0,0,,Ils sont peut-être connectés,\Nformant un "moi" unique.
+Dialogue: 0,0:12:58.44,0:13:01.86,Default,,0,0,0,,L'idée est fabuleuse, non ?
+Dialogue: 0,0:13:03.62,0:13:07.12,Default,,0,0,0,,Exister à tout instant et partout.
+Dialogue: 0,0:13:07.50,0:13:10.08,Default,,0,0,0,,Un amour fort pour quelqu'un.
+Dialogue: 0,0:13:10.25,0:13:14.38,Default,,0,0,0,,Une croyance forte.\NUn désir fort de communiquer.
+Dialogue: 0,0:13:15.04,0:13:19.38,Default,,0,0,0,,Si tout cela va au-delà du temps\Npour créer un unique "soi",
+Dialogue: 0,0:13:20.01,0:13:23.01,Default,,0,0,0,,ce serait vraiment merveilleux.
+Dialogue: 0,0:13:23.85,0:13:26.81,Default,,0,0,0,,Ne te dis pas que tu me laisses mourir.
+Dialogue: 0,0:13:28.18,0:13:32.90,Default,,0,0,0,,Même si on change de ligne d'univers,\Ntant que tu ne m'oublies pas,
+Dialogue: 0,0:13:33.06,0:13:34.40,Default,,0,0,0,,je serai toujours là.
+Dialogue: 0,0:13:35.06,0:13:36.52,Default,,0,0,0,,Donc…
+Dialogue: 0,0:13:37.15,0:13:39.82,Default,,0,0,0,,Je ne t'oublierai jamais.
+Dialogue: 0,0:13:44.82,0:13:48.16,Default,,0,0,0,,Tu es la personne\Nqui compte le plus pour moi.
+Dialogue: 0,0:13:49.62,0:13:51.33,Default,,0,0,0,,Vraiment ?\N- C'est vrai.
+Dialogue: 0,0:13:52.62,0:13:54.33,Default,,0,0,0,,Je ne m'y attendais pas.
+Dialogue: 0,0:13:55.34,0:13:57.21,Default,,0,0,0,,Je t'aime.
+Dialogue: 0,0:13:59.26,0:14:02.51,Default,,0,0,0,,Et toi ?\N- Comment ça ?
+Dialogue: 0,0:14:02.68,0:14:03.89,Default,,0,0,0,,Je veux savoir.
+Dialogue: 0,0:14:04.30,0:14:06.89,Default,,0,0,0,,Que ressens-tu pour moi ?
+Dialogue: 0,0:14:10.35,0:14:13.39,Default,,0,0,0,,Tu veux vraiment le savoir ?\N- Qui.
+Dialogue: 0,0:14:13.52,0:14:14.94,Default,,0,0,0,,Ton visage…
+Dialogue: 0,0:14:15.23,0:14:16.69,Default,,0,0,0,,Ferme les yeux.
+Dialogue: 0,0:14:16.94,0:14:20.07,Default,,0,0,0,,Pourquoi ?\N- Ferme-les, c'est tout.
+Dialogue: 0,0:14:49.89,0:14:52.68,Default,,0,0,0,,Je n'ai pas fait ça par envie.
+Dialogue: 0,0:14:53.35,0:14:54.44,Default,,0,0,0,,C'est juste…
+Dialogue: 0,0:14:54.56,0:14:58.94,Default,,0,0,0,,Un moment fort comme un premier baiser\Nest stocké dans l'hippocampe
+Dialogue: 0,0:14:59.11,0:15:01.61,Default,,0,0,0,,et est difficile à oublier.
+Dialogue: 0,0:15:01.78,0:15:04.36,Default,,0,0,0,,J'ai pensé…\N- Dommage.
+Dialogue: 0,0:15:04.53,0:15:06.91,Default,,0,0,0,,Ce n'était pas mon premier baiser.
+Dialogue: 0,0:15:07.70,0:15:11.24,Default,,0,0,0,,Vierge coincé.\N- Tais-toi, jeune immaculée.
+Dialogue: 0,0:15:11.41,0:15:15.46,Default,,0,0,0,,Mon premier baiser n'était\Npas romantique du tout.
+Dialogue: 0,0:15:16.33,0:15:20.17,Default,,0,0,0,,Mais celui-ci ne l'était pas assez\Npour être mémorable.
+Dialogue: 0,0:15:20.34,0:15:21.75,Default,,0,0,0,,Recommençons.
+Dialogue: 0,0:15:21.96,0:15:26.26,Default,,0,0,0,,Je ne veux pas oublier.\NJe veux être tout à fait sûr. D'accord ?
+Dialogue: 0,0:15:27.34,0:15:29.68,Default,,0,0,0,,Je crois…
+Dialogue: 0,0:15:29.93,0:15:31.72,Default,,0,0,0,,Juste un baiser, donc.
+Dialogue: 0,0:15:36.27,0:15:39.48,Default,,0,0,0,,Le temps passe si vite.
+Dialogue: 0,0:15:41.44,0:15:46.28,Default,,0,0,0,,J'ai presqu'envie de me plaindre\Nauprès d'Einstein, maintenant.
+Dialogue: 0,0:15:46.40,0:15:48.03,Default,,0,0,0,,Tu sais, Okabe…
+Dialogue: 0,0:15:48.20,0:15:53.41,Default,,0,0,0,,Le temps accélère ou ralentit\Nselon la perception de chacun.
+Dialogue: 0,0:15:54.79,0:15:57.17,Default,,0,0,0,,La théorie de la relativité.
+Dialogue: 0,0:15:57.29,0:15:59.33,Default,,0,0,0,,C'est si romantique.
+Dialogue: 0,0:15:59.71,0:16:02.80,Default,,0,0,0,,Et si triste.
+Dialogue: 0,0:16:10.05,0:16:13.01,Default,,0,0,0,,Voilà.\N- Tu es sûre, pour Mayuri et Daru ?
+Dialogue: 0,0:16:13.56,0:16:16.35,Default,,0,0,0,,Ce serait encore plus douloureux.
+Dialogue: 0,0:16:16.73,0:16:20.10,Default,,0,0,0,,S'il n'y a que toi,\Nje peux partir sans hésiter.
+Dialogue: 0,0:16:22.44,0:16:23.77,Default,,0,0,0,,C'est une blague.
+Dialogue: 0,0:16:25.44,0:16:28.07,Default,,0,0,0,,Un cadeau pour toi. Tiens.
+Dialogue: 0,0:16:29.61,0:16:30.74,Default,,0,0,0,,Je n'en veux pas.
+Dialogue: 0,0:16:30.99,0:16:33.58,Default,,0,0,0,,On en est à la Version 2.67.
+Dialogue: 0,0:16:34.08,0:16:36.12,Default,,0,0,0,,Ça sert à rien.
+Dialogue: 0,0:16:36.29,0:16:37.79,Default,,0,0,0,,Mais je l'accepte.
+Dialogue: 0,0:16:40.58,0:16:41.83,Default,,0,0,0,,Eh bien…
+Dialogue: 0,0:16:47.22,0:16:49.05,Default,,0,0,0,,Kurisu…\N- Je sais !
+Dialogue: 0,0:16:50.59,0:16:52.60,Default,,0,0,0,,Un cadeau en échange.
+Dialogue: 0,0:16:59.81,0:17:01.60,Default,,0,0,0,,Tu visais quoi ?
+Dialogue: 0,0:17:01.77,0:17:04.23,Default,,0,0,0,,Va le chercher.\N- Oui.
+Dialogue: 0,0:17:28.09,0:17:29.72,Default,,0,0,0,,Okabe…
+Dialogue: 0,0:17:30.09,0:17:34.72,Default,,0,0,0,,Je sais qu'à partir de maintenant,\Ntu vas beaucoup souffrir.
+Dialogue: 0,0:17:34.89,0:17:37.89,Default,,0,0,0,,Tu vivras dans un monde
+Dialogue: 0,0:17:38.14,0:17:42.14,Default,,0,0,0,,où personne sauf toi\Nne se souviendra de moi.
+Dialogue: 0,0:17:42.31,0:17:44.69,Default,,0,0,0,,Tes amis comptent beaucoup pour toi.
+Dialogue: 0,0:17:45.73,0:17:48.07,Default,,0,0,0,,En conséquence ce sera très douloureux.
+Dialogue: 0,0:17:50.74,0:17:52.20,Default,,0,0,0,,Je suis désolée.
+Dialogue: 0,0:17:53.28,0:17:56.37,Default,,0,0,0,,Mais cette souffrance\Nsignifie beaucoup pour moi.
+Dialogue: 0,0:17:57.49,0:17:59.79,Default,,0,0,0,,Quand tu seras au labo…
+Dialogue: 0,0:17:59.95,0:18:01.29,Default,,0,0,0,,Quand tu boiras…
+Dialogue: 0,0:18:01.87,0:18:04.50,Default,,0,0,0,,Quand tu marcheras dans la ville…
+Dialogue: 0,0:18:04.83,0:18:07.75,Default,,0,0,0,,Quand tu embrasseras quelqu'un…
+Dialogue: 0,0:18:09.76,0:18:13.72,Default,,0,0,0,,Pas nécessairement tout le temps,\Nune fois sur cent suffira.
+Dialogue: 0,0:18:13.88,0:18:18.43,Default,,0,0,0,,Mais souviens-toi de moi,\Ncar je serai là.
+Dialogue: 0,0:18:19.47,0:18:24.10,Default,,0,0,0,,Je serai toujours là,\Nderrière la barrière des 1 %.
+Dialogue: 0,0:18:25.86,0:18:26.94,Default,,0,0,0,,Okabe…
+Dialogue: 0,0:18:28.27,0:18:29.73,Default,,0,0,0,,Okabe…
+Dialogue: 0,0:18:30.36,0:18:31.61,Default,,0,0,0,,Okabe…
+Dialogue: 0,0:18:41.83,0:18:44.37,Default,,0,0,0,,J'ai trouvé, Okarin !
+Dialogue: 0,0:18:44.54,0:18:46.21,Default,,0,0,0,,QUELQU'UN A POIGNARDÉ MAKISE KURISU\NC'est ça, pas vrai ?
+Dialogue: 0,0:18:47.21,0:18:50.21,Default,,0,0,0,,Si on l'efface…\N- Mission complete ?
+Dialogue: 0,0:18:51.76,0:18:53.59,Default,,0,0,0,,Ça va, Okarin ?
+Dialogue: 0,0:18:55.76,0:18:57.22,Default,,0,0,0,,Ça va.
+Dialogue: 0,0:18:57.64,0:19:02.14,Default,,0,0,0,,La phase finale de l'Operation Verdandi\Ncommence maintenant.
+Dialogue: 0,0:19:02.89,0:19:04.81,Default,,0,0,0,,Notre victoire est là.
+Dialogue: 0,0:19:04.98,0:19:08.56,Default,,0,0,0,,Après avoir déjoué\Nles complots contre nous
+Dialogue: 0,0:19:08.73,0:19:10.65,Default,,0,0,0,,et défendu nos convictions,
+Dialogue: 0,0:19:10.82,0:19:14.78,Default,,0,0,0,,on s'est enfin\Nimposés dans la bataille de Ragnarok.
+Dialogue: 0,0:19:15.66,0:19:21.58,Default,,0,0,0,,Je remercie mes amis,\Nqui se sont battus pour cette victoire.
+Dialogue: 0,0:19:21.95,0:19:26.21,Default,,0,0,0,,Merci pour tous les sacrifices\Nqui ont été faits.
+Dialogue: 0,0:19:26.58,0:19:30.67,Default,,0,0,0,,Le monde que je cherchais nous attend.
+Dialogue: 0,0:19:30.80,0:19:33.84,Default,,0,0,0,,Un monde entièrement choisi\Npar Steins Gate.
+Dialogue: 0,0:19:35.55,0:19:36.76,Default,,0,0,0,,Le monde va…
+Dialogue: 0,0:19:38.59,0:19:40.93,Default,,0,0,0,,être reconstruit.
+Dialogue: 0,0:19:42.22,0:19:43.64,Default,,0,0,0,,Kurisu…
+Dialogue: 0,0:19:48.27,0:19:49.77,Default,,0,0,0,,Pardon.
+Dialogue: 0,0:19:50.27,0:19:51.61,Default,,0,0,0,,Okabe !
+Dialogue: 0,0:19:58.41,0:20:00.45,Default,,0,0,0,,Okabe… Moi aussi…
+Dialogue: 0,0:20:00.95,0:20:04.29,Default,,0,0,0,,Kurisu !\N- Moi aussi je t'…
+Dialogue: 0,0:20:16.88,0:20:18.76,Default,,0,0,0,,CONFÉRENCE DU DR NAKABACHI
+Dialogue: 0,0:20:20.89,0:20:22.22,Default,,0,0,0,,Mayuri.
+Dialogue: 0,0:20:22.68,0:20:26.68,Default,,0,0,0,,Qui est le membre du labo 004 ?\N- 004 ?
+Dialogue: 0,0:20:28.27,0:20:31.06,Default,,0,0,0,,Il n'y a pas de membre 004.
+Dialogue: 0,0:20:36.90,0:20:41.37,Default,,0,0,0,,La bataille de Ragnarok\Nest maintenant terminée.
+Dialogue: 0,0:20:41.53,0:20:45.58,Default,,0,0,0,,Moi, le mad scientist Hououin Kyouma,
+Dialogue: 0,0:20:45.70,0:20:48.54,Default,,0,0,0,,la cible de l'Organisation et du SERN,
+Dialogue: 0,0:20:48.66,0:20:51.88,Default,,0,0,0,,j'ai gagné, en manipulant\Nle temps et l'espace.
+Dialogue: 0,0:20:52.67,0:20:57.80,Default,,0,0,0,,La structure du pouvoir est remise\Nà zéro et un futur chaotique se profile.
+Dialogue: 0,0:20:57.92,0:21:01.39,Default,,0,0,0,,C'est le choix de Steins Gate !
+Dialogue: 0,0:21:01.72,0:21:04.05,Default,,0,0,0,,Okarin, ça suffit.
+Dialogue: 0,0:21:05.26,0:21:09.60,Default,,0,0,0,,Quoi ? Je viens de faire\Nun grand discours de victoire.
+Dialogue: 0,0:21:09.77,0:21:11.94,Default,,0,0,0,,Plus besoin de parler comme ça.
+Dialogue: 0,0:21:13.48,0:21:16.28,Default,,0,0,0,,Mayushii va bien, à présent.
+Dialogue: 0,0:21:16.78,0:21:20.49,Default,,0,0,0,,Maintenant,\Ntu peux pleurer pour toi-même.
+Dialogue: 0,0:21:25.12,0:21:27.87,Default,,0,0,0,,Nous n'avons plus besoin\Ndu téléphone micro-ondes.
+Dialogue: 0,0:21:28.04,0:21:32.37,Default,,0,0,0,,C'est grâce à cette machine\Nque j'ai rencontré Kurisu.
+Dialogue: 0,0:21:32.54,0:21:36.63,Default,,0,0,0,,Mais c'est aussi à cause\Nde cette machine,
+Dialogue: 0,0:21:36.75,0:21:39.30,Default,,0,0,0,,que beaucoup de gens ont été blessés.
+Dialogue: 0,0:21:40.55,0:21:45.10,Default,,0,0,0,,Tout comme Hououin Kyouma,\Nle téléphone micro-ondes doit mourir.
+Dialogue: 0,0:21:46.51,0:21:51.56,Default,,0,0,0,,On ne vit pas pour devoir recommencer.
+Dialogue: 0,0:21:52.77,0:21:58.19,Default,,0,0,0,,On vit pour le meilleur,\Nn'est-ce pas, Kurisu ?
+Dialogue: 0,0:23:02.72,0:23:04.13,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:23:04.38,0:23:07.01,Default,,0,0,0,,Quoi ? Qui est-ce ?
+Dialogue: 0,0:23:07.18,0:23:08.51,Default,,0,0,0,,"Papa" ?
+Dialogue: 0,0:23:08.68,0:23:10.97,Default,,0,0,0,,Qu'est-ce qui se passe ? Okarin ?
+Dialogue: 0,0:23:11.14,0:23:14.64,Default,,0,0,0,,Okarin, une mystérieuse fille\Nveut te parler.
+Dialogue: 0,0:23:14.81,0:23:18.15,Default,,0,0,0,,Qui est-ce ?\N- RDV sur le toit de la radio.
+Dialogue: 0,0:23:18.31,0:23:22.86,Default,,0,0,0,,Quoi ? Qui es-tu ?\N- Je viens de l'an 2036.
+Dialogue: 0,0:23:23.03,0:23:27.70,Default,,0,0,0,,La fille d'Hashida Itaru, Amane Suzuha.\N- Suzuha ?
+Dialogue: 0,0:23:27.82,0:23:30.45,Default,,0,0,0,,Attends. Que fais-tu là ?
+Dialogue: 0,0:23:30.91,0:23:33.41,Default,,0,0,0,,Je t'en prie, tu dois me croire.
+Dialogue: 0,0:23:33.54,0:23:36.50,Default,,0,0,0,,Tu dois empêcher la 3e Guerre mondiale.
+Dialogue: 0,0:23:41.00,0:23:55.77,Default,,0,0,0,,Sur la frontière du Steins;Gate

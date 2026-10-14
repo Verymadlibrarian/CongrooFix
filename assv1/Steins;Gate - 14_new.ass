@@ -1,0 +1,319 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.38,0:00:08.38,Default,,0,0,0,,Ensuite, j'ai enchaîné les time leaps,
+Dialogue: 0,0:00:09.89,0:00:12.39,Default,,0,0,0,,pour essayer de sauver Mayuri.
+Dialogue: 0,0:00:17.10,0:00:18.19,Default,,0,0,0,,Mais…
+Dialogue: 0,0:00:19.85,0:00:21.86,Default,,0,0,0,,malgré tous mes efforts…
+Dialogue: 0,0:00:23.23,0:00:25.11,Default,,0,0,0,,Mayuri ne cessait de mourir.
+Dialogue: 0,0:00:42.58,0:00:45.50,Default,,0,0,0,,Même sans attaque\Ndes sbires de Moeka,
+Dialogue: 0,0:00:46.38,0:00:48.92,Default,,0,0,0,,c'était comme si le destin la tuait.
+Dialogue: 0,0:00:49.76,0:00:53.93,Default,,0,0,0,,C'était comme si le monde entier
+Dialogue: 0,0:00:55.06,0:00:57.77,Default,,0,0,0,,conspirait pour tuer Mayuri.
+Dialogue: 0,0:01:02.52,0:01:06.78,Default,,0,0,0,,On n'a pas avancé d'un poil.\N- C'est à cause des trains.
+Dialogue: 0,0:01:07.11,0:01:09.32,Default,,0,0,0,,Vite. Prenez une ruelle.
+Dialogue: 0,0:01:09.44,0:01:12.20,Default,,0,0,0,,Je ne peux pas faire grand-chose.
+Dialogue: 0,0:01:12.49,0:01:15.70,Default,,0,0,0,,La montre de Mayushii s'est arrêtée.
+Dialogue: 0,0:01:16.58,0:01:20.62,Default,,0,0,0,,C'est bizarre.\NJe l'ai remontée il n'y a pas longtemps.
+Dialogue: 0,0:01:20.79,0:01:22.42,Default,,0,0,0,,Ça recommence.
+Dialogue: 0,0:01:29.63,0:01:31.34,Default,,0,0,0,,Mayuri !
+Dialogue: 0,0:01:36.93,0:01:38.72,Default,,0,0,0,,Shiina Mayuri est morte.
+Dialogue: 0,0:01:39.35,0:01:44.61,Default,,0,0,0,,Okabe…\NJe veux dire Okabe Rintaro s'est enfui.
+Dialogue: 0,0:01:50.40,0:01:52.70,Default,,0,0,0,,Peu importe ce que je fais,
+Dialogue: 0,0:01:52.86,0:01:57.28,Default,,0,0,0,,elle continue de mourir.
+Dialogue: 0,0:01:57.53,0:02:00.37,Default,,0,0,0,,C'est comme si c'était le destin.
+Dialogue: 0,0:02:01.12,0:02:03.29,Default,,0,0,0,,Je vois, ça doit être…
+Dialogue: 0,0:02:04.75,0:02:07.21,Default,,0,0,0,,Non, ça n'existe pas.
+Dialogue: 0,0:02:07.38,0:02:13.80,Default,,0,0,0,,L'Organisation, Steins Gate,\Nles choix du destin…
+Dialogue: 0,0:02:15.22,0:02:18.76,Default,,0,0,0,,Rien de tout cela… n'est réel !
+Dialogue: 0,0:02:32.78,0:02:37.74,Default,,0,0,0,,suu juuoku mono kodou no kazu sae
+Dialogue: 0,0:02:38.03,0:02:44.50,Default,,0,0,0,,anata ni wa matataki teido no\Nsaji na toukyuu
+Dialogue: 0,0:02:44.79,0:02:50.00,Default,,0,0,0,,kako ni torawarete mirai o nageku mo
+Dialogue: 0,0:02:50.21,0:02:55.51,Default,,0,0,0,,chiri hitotsu gosan o yurusanu hitsuzen
+Dialogue: 0,0:02:55.84,0:03:01.81,Default,,0,0,0,,mugen ni hirogaru yume mo\Negaku mirai mo
+Dialogue: 0,0:03:01.97,0:03:07.65,Default,,0,0,0,,bokutachi ni yurusareta kyoei no kenri
+Dialogue: 0,0:03:07.81,0:03:13.69,Default,,0,0,0,,yuugen sore wa futatsu no\Nhari ga shimesu
+Dialogue: 0,0:03:14.03,0:03:18.57,Default,,0,0,0,,zankoku na yakujou to sentaku e
+Dialogue: 0,0:03:18.78,0:03:20.58,Default,,0,0,0,,Hacking to the Gate
+Dialogue: 0,0:03:20.87,0:03:27.75,Default,,0,0,0,,da kara ima ichi byou goto ni\Nsekaisen o koete
+Dialogue: 0,0:03:27.92,0:03:32.67,Default,,0,0,0,,kimi no sono egao mamoritai no sa
+Dialogue: 0,0:03:32.84,0:03:39.64,Default,,0,0,0,,soshite mata kanashimi no nai\Njikan no ruupu e to
+Dialogue: 0,0:03:39.76,0:03:46.06,Default,,0,0,0,,nomi komarete yuku\Nkodoku no kansokusha
+Dialogue: 0,0:03:49.10,0:03:53.98,Default,,0,0,0,,Nécrose physique
+Dialogue: 0,0:03:53.98,0:03:56.07,Default,,0,0,0,,13 AOÛT 2010 - 14H32\NQue se passe-t-il ?
+Dialogue: 0,0:03:56.07,0:03:57.03,Default,,0,0,0,,Explique-moi.
+Dialogue: 0,0:03:57.57,0:04:00.74,Default,,0,0,0,,Laisse-moi sauvegarder\Nce que je faisais.
+Dialogue: 0,0:04:00.91,0:04:04.62,Default,,0,0,0,,Je le ferai pour toi,\Nmais quittez Akihabara.
+Dialogue: 0,0:04:04.83,0:04:06.91,Default,,0,0,0,,Entendu.\N- Okabe ?
+Dialogue: 0,0:04:34.61,0:04:37.86,Default,,0,0,0,,Mayuri est déjà partie.
+Dialogue: 0,0:04:40.16,0:04:42.37,Default,,0,0,0,,Ça recommence à l'identique.
+Dialogue: 0,0:04:42.53,0:04:46.66,Default,,0,0,0,,Quoi que je fasse\Npour que Mayuri s'échappe, c'est…
+Dialogue: 0,0:04:48.75,0:04:50.96,Default,,0,0,0,,Même les mails sont les mêmes.
+Dialogue: 0,0:04:51.12,0:04:52.46,Default,,0,0,0,,Les mails ?
+Dialogue: 0,0:04:55.09,0:04:57.46,Default,,0,0,0,,"Shining Finger.
+Dialogue: 0,0:04:57.63,0:05:00.51,Default,,0,0,0,,J'ai de nouvelles infos sur la machine.
+Dialogue: 0,0:05:01.84,0:05:04.14,Default,,0,0,0,,Je veux te parler seul à seul."
+Dialogue: 0,0:05:15.73,0:05:17.44,Default,,0,0,0,,Ne bouge pas.
+Dialogue: 0,0:05:17.73,0:05:19.36,Default,,0,0,0,,Les mains en l'air.
+Dialogue: 0,0:05:25.62,0:05:27.41,Default,,0,0,0,,Qui êtes-vous, bon sang ?
+Dialogue: 0,0:05:36.34,0:05:38.59,Default,,0,0,0,,Je travaille chez Arc Rewrite.
+Dialogue: 0,0:05:38.84,0:05:44.55,Default,,0,0,0,,Je sais que vous allez débarquer\Nau labo et essayer de nous enlever.
+Dialogue: 0,0:05:46.56,0:05:48.60,Default,,0,0,0,,Comment ?\N- Je viens du futur.
+Dialogue: 0,0:05:48.72,0:05:52.23,Default,,0,0,0,,Compris ? Maintenant, réponds.
+Dialogue: 0,0:05:52.44,0:05:54.81,Default,,0,0,0,,Par e-mail.\N- Non, maintenant.
+Dialogue: 0,0:05:54.98,0:05:57.90,Default,,0,0,0,,Vous êtes du SERN ?\N- On est des rounders.
+Dialogue: 0,0:05:58.07,0:06:01.61,Default,,0,0,0,,Des rounders ?\N- On doit retrouver l'IBN 5100.
+Dialogue: 0,0:06:02.53,0:06:05.66,Default,,0,0,0,,C'est toi qui l'as volé ?\N- Je ne comprends pas.
+Dialogue: 0,0:06:05.78,0:06:09.08,Default,,0,0,0,,Ne fais pas l'idiote.\NLe D-mail que tu as…
+Dialogue: 0,0:06:09.87,0:06:10.91,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:06:11.08,0:06:15.75,Default,,0,0,0,,La ligne d'univers a changé. Elle a\Noublié qu'elle a envoyé le D-mail.
+Dialogue: 0,0:06:16.63,0:06:20.92,Default,,0,0,0,,Pourquoi attaquer le labo ?\NL'IBN 5100 ne se trouve plus là.
+Dialogue: 0,0:06:21.76,0:06:23.80,Default,,0,0,0,,Je ne peux pas…\N- Réponds !
+Dialogue: 0,0:06:23.93,0:06:26.01,Default,,0,0,0,,Pour trois raisons.
+Dialogue: 0,0:06:26.39,0:06:30.89,Default,,0,0,0,,De un, vous avez appris des choses\Nque vous ne devriez pas savoir.
+Dialogue: 0,0:06:32.56,0:06:37.19,Default,,0,0,0,,De deux, vous avez créé\Nune machine temporelle.
+Dialogue: 0,0:06:39.19,0:06:43.28,Default,,0,0,0,,De trois, vous avez voulu\Nla rendre publique.
+Dialogue: 0,0:06:46.49,0:06:48.91,Default,,0,0,0,,Tu es au courant de tout ça ?
+Dialogue: 0,0:06:49.08,0:06:51.66,Default,,0,0,0,,Le SERN en sait autant ?
+Dialogue: 0,0:06:52.87,0:06:55.42,Default,,0,0,0,,Je réponds aux ordres de FB.
+Dialogue: 0,0:06:55.58,0:06:58.67,Default,,0,0,0,,FB ? Un groupe au sein du SERN ?
+Dialogue: 0,0:07:00.67,0:07:05.51,Default,,0,0,0,,FB est… mon tout.
+Dialogue: 0,0:07:07.80,0:07:09.47,Default,,0,0,0,,Où suis-je ?
+Dialogue: 0,0:07:10.60,0:07:11.77,Default,,0,0,0,,Ne bouge pas.
+Dialogue: 0,0:07:12.43,0:07:15.60,Default,,0,0,0,,Êtes-vous John Titor ?
+Dialogue: 0,0:07:16.77,0:07:19.19,Default,,0,0,0,,Je ne vois pas qui d'autre.
+Dialogue: 0,0:07:20.52,0:07:21.78,Default,,0,0,0,,Non !
+Dialogue: 0,0:07:31.08,0:07:32.12,Default,,0,0,0,,C'est…
+Dialogue: 0,0:07:32.29,0:07:36.71,Default,,0,0,0,,L'alerte à la bombe a mis\Ntous les trains à l'arrêt, comme prévu.
+Dialogue: 0,0:07:40.00,0:07:44.30,Default,,0,0,0,,Ramenez Makise et Hashida.\NLes autres sont inutiles.
+Dialogue: 0,0:07:44.51,0:07:45.84,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:07:48.01,0:07:52.68,Default,,0,0,0,,Attendez ! Je vous en supplie.\NNe tuez pas Mayuri.
+Dialogue: 0,0:07:54.98,0:07:57.48,Default,,0,0,0,,Je m'excuse. J'ai commis une erreur.
+Dialogue: 0,0:07:58.48,0:08:00.98,Default,,0,0,0,,Je ne voulais pas nuire au SERN.
+Dialogue: 0,0:08:01.15,0:08:05.36,Default,,0,0,0,,Je vous donnerai la machine.\NJe ne dirai rien à personne.
+Dialogue: 0,0:08:05.57,0:08:09.32,Default,,0,0,0,,Commencez l'opération.\N- Je ferai ce que vous voudrez.
+Dialogue: 0,0:08:09.53,0:08:14.49,Default,,0,0,0,,Ma curiosité prend toujours le dessus.\NJe ne faisais que m'amuser.
+Dialogue: 0,0:08:14.66,0:08:17.83,Default,,0,0,0,,Je vous en prie, ne tuez pas Mayuri.
+Dialogue: 0,0:08:18.50,0:08:19.67,Default,,0,0,0,,C'est trop tard.
+Dialogue: 0,0:08:24.38,0:08:26.01,Default,,0,0,0,,Mayuri !
+Dialogue: 0,0:08:28.51,0:08:30.14,Default,,0,0,0,,Mayuri !
+Dialogue: 0,0:08:31.01,0:08:32.30,Default,,0,0,0,,Ferme-la !
+Dialogue: 0,0:08:33.01,0:08:34.51,Default,,0,0,0,,Mayuri !
+Dialogue: 0,0:08:39.69,0:08:41.23,Default,,0,0,0,,Mayuri…
+Dialogue: 0,0:08:57.08,0:08:58.91,Default,,0,0,0,,13 AOÛT 2010 - 16H56
+Dialogue: 0,0:08:59.33,0:09:01.21,Default,,0,0,0,,Qu'est-ce qui ne va pas ?
+Dialogue: 0,0:09:02.00,0:09:04.42,Default,,0,0,0,,Tu t'es assoupi ou quoi ?
+Dialogue: 0,0:09:05.00,0:09:07.01,Default,,0,0,0,,Ça recommence.\N- Quoi ?
+Dialogue: 0,0:09:11.05,0:09:14.55,Default,,0,0,0,,Je n'en peux plus !\N- Okabe !
+Dialogue: 0,0:09:15.93,0:09:17.35,Default,,0,0,0,,CQFD ?
+Dialogue: 0,0:09:18.77,0:09:23.06,Default,,0,0,0,,Pas besoin de la casser.\NTu ne veux pas faire de time leap.
+Dialogue: 0,0:09:25.02,0:09:29.32,Default,,0,0,0,,Qu'est-ce qui te prend ?\NOn va faire les courses pour la fête ?
+Dialogue: 0,0:09:31.07,0:09:32.78,Default,,0,0,0,,La fête est…
+Dialogue: 0,0:09:33.66,0:09:35.16,Default,,0,0,0,,Hé ! Okabe !
+Dialogue: 0,0:09:36.08,0:09:39.79,Default,,0,0,0,,Clic-clac. Le train à grande vitesse.
+Dialogue: 0,0:09:40.08,0:09:43.46,Default,,0,0,0,,Non, les trains à grande vitesse\Nsont blancs.
+Dialogue: 0,0:09:45.84,0:09:48.84,Default,,0,0,0,,Okab… Je veux dire Kyouma.
+Dialogue: 0,0:09:51.63,0:09:54.97,Default,,0,0,0,,Où est Mayuri ?\N- Elle est déjà repartie.
+Dialogue: 0,0:09:55.14,0:09:56.26,Default,,0,0,0,,Je sais.
+Dialogue: 0,0:09:56.93,0:09:59.77,Default,,0,0,0,,Elle est venue t'inviter à la fête.
+Dialogue: 0,0:09:59.93,0:10:04.23,Default,,0,0,0,,Elle va voir son amie cosplayeuse\Navant de rentrer au labo.
+Dialogue: 0,0:10:05.19,0:10:10.49,Default,,0,0,0,,Et elle est impatiente\Nque la fête commence. Je sais tout !
+Dialogue: 0,0:10:16.20,0:10:18.20,Default,,0,0,0,,Je suis désolée.
+Dialogue: 0,0:10:19.49,0:10:21.04,Default,,0,0,0,,Pourtant…
+Dialogue: 0,0:10:21.83,0:10:23.00,Default,,0,0,0,,Pourtant, je…
+Dialogue: 0,0:10:28.92,0:10:31.67,Default,,0,0,0,,Que fais-tu ici ?
+Dialogue: 0,0:10:34.84,0:10:36.30,Default,,0,0,0,,Kurisu…
+Dialogue: 0,0:10:36.47,0:10:39.26,Default,,0,0,0,,Pour une fois, tu utilises mon prénom.
+Dialogue: 0,0:10:39.43,0:10:43.02,Default,,0,0,0,,Que s'est-il passé ?\NNon, que se passe-t-il ?
+Dialogue: 0,0:10:45.73,0:10:47.98,Default,,0,0,0,,Tu as fait un time leap, pas vrai ?
+Dialogue: 0,0:10:49.36,0:10:52.74,Default,,0,0,0,,Tout est de ma faute.\N- Okabe…
+Dialogue: 0,0:10:54.70,0:10:56.20,Default,,0,0,0,,Tout est de ma faute.
+Dialogue: 0,0:10:57.82,0:11:01.20,Default,,0,0,0,,J'aurais pas dû demander\Nà Daru de les pirater.
+Dialogue: 0,0:11:01.37,0:11:04.71,Default,,0,0,0,,Ni vouloir construire\Nune machine temporelle.
+Dialogue: 0,0:11:04.87,0:11:07.38,Default,,0,0,0,,Ni faire de Moeka une membre du labo.
+Dialogue: 0,0:11:07.54,0:11:09.84,Default,,0,0,0,,C'est de ma faute si Mayuri…
+Dialogue: 0,0:11:16.68,0:11:19.93,Default,,0,0,0,,Espèce d'idiot.\NTu es complètement inconscient.
+Dialogue: 0,0:11:20.10,0:11:24.02,Default,,0,0,0,,Rien ne garantit que la machine\Nsoit sans danger.
+Dialogue: 0,0:11:24.14,0:11:28.02,Default,,0,0,0,,Elle aurait même pu\Nmettre fin à ton existence.
+Dialogue: 0,0:11:28.15,0:11:31.32,Default,,0,0,0,,Les humains sont des êtres temporels.
+Dialogue: 0,0:11:32.15,0:11:35.28,Default,,0,0,0,,Heidegger. J'allais le citer moi-même.
+Dialogue: 0,0:11:36.82,0:11:38.70,Default,,0,0,0,,Tu m'as appris la citation.
+Dialogue: 0,0:11:40.16,0:11:44.25,Default,,0,0,0,,C'est flippant. C'est comme\Nsi tu lisais dans mes pensées.
+Dialogue: 0,0:11:44.83,0:11:48.58,Default,,0,0,0,,C'est peut-être comme ça\Nque fonctionne le time leap.
+Dialogue: 0,0:11:49.96,0:11:52.80,Default,,0,0,0,,Qu'est-ce que je dois faire ?
+Dialogue: 0,0:11:52.96,0:11:55.76,Default,,0,0,0,,Quand attaquent-ils ?\N- Après 19H30.
+Dialogue: 0,0:11:57.05,0:12:01.51,Default,,0,0,0,,Il y a plusieurs hypothèses\Npour expliquer les morts de Mayuri.
+Dialogue: 0,0:12:01.93,0:12:04.39,Default,,0,0,0,,Mais ce n'est pas le moment.
+Dialogue: 0,0:12:05.89,0:12:10.36,Default,,0,0,0,,Allons-y. Mayuri est mon amie.\NJe veux la sauver aussi.
+Dialogue: 0,0:12:13.11,0:12:17.78,Default,,0,0,0,,Désolé.\N- Ne t'excuse pas, je veux aider.
+Dialogue: 0,0:12:18.11,0:12:19.36,Default,,0,0,0,,Je serai…
+Dialogue: 0,0:12:20.41,0:12:23.33,Default,,0,0,0,,Allez, mad scientist.
+Dialogue: 0,0:12:23.49,0:12:26.83,Default,,0,0,0,,Toi qui veux changer\Nla structure du pouvoir.
+Dialogue: 0,0:12:28.75,0:12:31.00,Default,,0,0,0,,"Mais bien sûr."
+Dialogue: 0,0:12:36.13,0:12:37.63,Default,,0,0,0,,D'accord ?
+Dialogue: 0,0:12:53.82,0:12:56.57,Default,,0,0,0,,Je l'ai programmée pour un retour\Nde cinq heures en arrière,
+Dialogue: 0,0:12:57.11,0:12:59.45,Default,,0,0,0,,au moment où la machine est prête.
+Dialogue: 0,0:13:00.49,0:13:04.20,Default,,0,0,0,,Si tu arrives plus tôt,\Nelle pourrait ne pas être finie.
+Dialogue: 0,0:13:08.33,0:13:13.42,Default,,0,0,0,,Tu apparais et quand la machine est\Nprête, tu dis à tout le monde de partir.
+Dialogue: 0,0:13:13.67,0:13:17.26,Default,,0,0,0,,Redis-moi ce que tu m'as dit\Net que tu viens du futur,
+Dialogue: 0,0:13:17.42,0:13:18.97,Default,,0,0,0,,je te croirai sûrement.
+Dialogue: 0,0:13:19.09,0:13:23.64,Default,,0,0,0,,Comment peux-tu en être certaine ?\N- Je me connais.
+Dialogue: 0,0:13:23.97,0:13:28.43,Default,,0,0,0,,En plus, c'est moi qui ai créé\Nla time leap machine.
+Dialogue: 0,0:13:30.14,0:13:32.44,Default,,0,0,0,,Tu as confiance en ta machine ?
+Dialogue: 0,0:13:32.60,0:13:36.61,Default,,0,0,0,,Oui. Et ta réaction tout à l'heure\Nm'a convaincue.
+Dialogue: 0,0:13:36.82,0:13:39.40,Default,,0,0,0,,Je savais que tu l'avais utilisée.
+Dialogue: 0,0:13:40.15,0:13:42.32,Default,,0,0,0,,On choisit un mot de passe ?
+Dialogue: 0,0:13:43.70,0:13:48.20,Default,,0,0,0,,"Ce que je veux le plus maintenant,\Nc'est ma fourchette personnelle."
+Dialogue: 0,0:13:48.37,0:13:51.08,Default,,0,0,0,,Vraiment ? Ta fourchette ?
+Dialogue: 0,0:13:51.33,0:13:54.17,Default,,0,0,0,,Oui, j'ai déjà ma cuillère personnelle.
+Dialogue: 0,0:13:54.29,0:13:56.54,Default,,0,0,0,,N'accorde pas d'importance à ça !
+Dialogue: 0,0:13:57.55,0:13:58.88,Default,,0,0,0,,Prépare-toi.
+Dialogue: 0,0:13:59.92,0:14:01.17,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:14:03.05,0:14:06.85,Default,,0,0,0,,J'imagine que la version de moi\Nil y a cinq heures
+Dialogue: 0,0:14:07.01,0:14:09.68,Default,,0,0,0,,ignorera que tu m'as appelée Kurisu.
+Dialogue: 0,0:14:17.82,0:14:19.11,Default,,0,0,0,,13 AOÛT 2010 - 13H59
+Dialogue: 0,0:14:19.86,0:14:22.90,Default,,0,0,0,,Tu peux me tenir ça ?
+Dialogue: 0,0:14:23.36,0:14:24.95,Default,,0,0,0,,Comme ça ?\N- C'est ça.
+Dialogue: 0,0:14:25.41,0:14:28.16,Default,,0,0,0,,Tiens-le bien tendu.
+Dialogue: 0,0:14:29.37,0:14:33.54,Default,,0,0,0,,Quel joli ruban.\N- N'est-ce pas ?
+Dialogue: 0,0:14:34.12,0:14:38.25,Default,,0,0,0,,Tu veux l'essayer ?\NJ'en ai plein d'autres pour le Comima.
+Dialogue: 0,0:14:39.38,0:14:42.59,Default,,0,0,0,,Du cosplay ?\N- Ça t'intéresse ?
+Dialogue: 0,0:14:42.76,0:14:47.39,Default,,0,0,0,,Non, bien sûr. Je ne m'habillerais pas\Ncomme ça en public.
+Dialogue: 0,0:14:49.43,0:14:54.35,Default,,0,0,0,,Cinq heures plus tôt,\NMayuri n'est pas encore partie.
+Dialogue: 0,0:14:54.69,0:14:57.56,Default,,0,0,0,,La machine et le costume\Nvont être prêts.
+Dialogue: 0,0:14:59.40,0:15:00.78,Default,,0,0,0,,C'est prêt !
+Dialogue: 0,0:15:00.98,0:15:03.44,Default,,0,0,0,,Tadam ! Mayushii a gagné.
+Dialogue: 0,0:15:04.24,0:15:07.37,Default,,0,0,0,,On faisait la course.\N- Bien joué.
+Dialogue: 0,0:15:07.53,0:15:10.16,Default,,0,0,0,,Mais on a terminé aussi.
+Dialogue: 0,0:15:10.33,0:15:12.45,Default,,0,0,0,,C'est prêt.
+Dialogue: 0,0:15:12.75,0:15:15.25,Default,,0,0,0,,C'est…\N- On annule l'expérience.
+Dialogue: 0,0:15:15.37,0:15:16.42,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:15:19.00,0:15:20.75,Default,,0,0,0,,J'ai été trop brusque ?
+Dialogue: 0,0:15:21.25,0:15:22.80,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:15:23.46,0:15:26.26,Default,,0,0,0,,Vous devez tous être très fatigués.
+Dialogue: 0,0:15:26.38,0:15:29.76,Default,,0,0,0,,Je vous expliquerai.\NVotre journée est finie.
+Dialogue: 0,0:15:33.47,0:15:35.39,Default,,0,0,0,,Un gyudon.\N- Ça arrive.
+Dialogue: 0,0:15:35.56,0:15:37.02,Default,,0,0,0,,Pourquoi ici ?
+Dialogue: 0,0:15:37.19,0:15:40.19,Default,,0,0,0,,J'ai reçu ton e-mail\Naprès avoir commandé.
+Dialogue: 0,0:15:40.36,0:15:42.69,Default,,0,0,0,,J'ignorais que tu venais ici.
+Dialogue: 0,0:15:42.94,0:15:47.24,Default,,0,0,0,,Je ne viens pas souvent.\NC'est Mayuri qui m'a parlé de cet endroit.
+Dialogue: 0,0:15:47.36,0:15:49.70,Default,,0,0,0,,Que veux-tu me raconter ?
+Dialogue: 0,0:15:49.87,0:15:53.87,Default,,0,0,0,,D'abord, tu me dis de partir,\Npuis tu m'envoies un e-mail.
+Dialogue: 0,0:15:54.62,0:15:56.50,Default,,0,0,0,,En réalité…
+Dialogue: 0,0:15:57.83,0:16:03.17,Default,,0,0,0,,je suis revenu cinq heures en arrière.\N- C'est quoi cette réplique débile ?
+Dialogue: 0,0:16:04.63,0:16:07.43,Default,,0,0,0,,C'est pas ce que tu devais répondre.
+Dialogue: 0,0:16:07.59,0:16:11.80,Default,,0,0,0,,"Je te croirai sûrement." Mon cul.\N- Qu'est-ce que tu racontes ?
+Dialogue: 0,0:16:12.01,0:16:16.43,Default,,0,0,0,,Je n'utiliserais jamais des mots\Ncomme "sûrement" et "croire".
+Dialogue: 0,0:16:16.81,0:16:18.14,Default,,0,0,0,,Mais tu l'as fait.
+Dialogue: 0,0:16:18.31,0:16:21.77,Default,,0,0,0,,Tu as dit que tu avais créé\Nla time leap machine.
+Dialogue: 0,0:16:21.98,0:16:24.98,Default,,0,0,0,,Toute contente de toi.\N- T'es dingue ?
+Dialogue: 0,0:16:25.15,0:16:27.36,Default,,0,0,0,,Je peux pas m'en empêcher, MDR.
+Dialogue: 0,0:16:28.57,0:16:31.20,Default,,0,0,0,,Je lui mettrais bien un pain.
+Dialogue: 0,0:16:34.33,0:16:38.54,Default,,0,0,0,,"Ce que je veux le plus maintenant,\Nc'est ma fourchette personnelle."
+Dialogue: 0,0:16:38.71,0:16:39.71,Default,,0,0,0,,Alors ?
+Dialogue: 0,0:16:39.87,0:16:43.09,Default,,0,0,0,,J'ai vraiment dit ça\Ndans cinq heures ?
+Dialogue: 0,0:16:44.38,0:16:47.34,Default,,0,0,0,,Et que tu avais\Ndéjà ta cuillère personnelle.
+Dialogue: 0,0:16:48.22,0:16:50.09,Default,,0,0,0,,Maudite moi dans cinq heures.
+Dialogue: 0,0:16:50.51,0:16:52.68,Default,,0,0,0,,Maintenant, tu me crois ?
+Dialogue: 0,0:16:54.26,0:16:56.02,Default,,0,0,0,,Oui.
+Dialogue: 0,0:16:56.18,0:17:00.27,Default,,0,0,0,,Donc, la machine fonctionne vraiment ?
+Dialogue: 0,0:17:02.15,0:17:04.02,Default,,0,0,0,,Voilà votre gyudon.
+Dialogue: 0,0:17:05.32,0:17:10.03,Default,,0,0,0,,Je vois. Si tout ça est vrai,\Nla situation est grave.
+Dialogue: 0,0:17:10.20,0:17:11.20,Default,,0,0,0,,Oui.
+Dialogue: 0,0:17:11.36,0:17:15.74,Default,,0,0,0,,Plutôt que d'aider Mayuri à fuir,\Ntu ne peux pas tenter d'arrêter
+Dialogue: 0,0:17:15.91,0:17:18.12,Default,,0,0,0,,Moeka et les Rounders…
+Dialogue: 0,0:17:18.54,0:17:19.83,Default,,0,0,0,,J'ai essayé.
+Dialogue: 0,0:17:20.21,0:17:23.13,Default,,0,0,0,,Mais j'ai pas pu\Nempêcher la mort de Mayuri.
+Dialogue: 0,0:17:24.04,0:17:25.29,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:17:27.34,0:17:32.22,Default,,0,0,0,,Les choses sont toujours la conséquence\Nd'une cause sous-jacente.
+Dialogue: 0,0:17:32.34,0:17:34.47,Default,,0,0,0,,MORT
+Dialogue: 0,0:17:35.10,0:17:39.85,Default,,0,0,0,,On attribue normalement la mort\Nà un évènement directement lié,
+Dialogue: 0,0:17:40.06,0:17:45.44,Default,,0,0,0,,comme une maladie ou un accident,\Nmais ce n'est pas toujours la cause.
+Dialogue: 0,0:17:46.11,0:17:50.19,Default,,0,0,0,,Les Rounders provoquent\Ndirectement la mort de Mayuri,
+Dialogue: 0,0:17:50.36,0:17:52.70,Default,,0,0,0,,mais la cause réelle est autre.
+Dialogue: 0,0:17:52.86,0:17:56.20,Default,,0,0,0,,C'est pour ça qu'elle meurt,\Nmême sans eux.
+Dialogue: 0,0:17:56.78,0:18:00.12,Default,,0,0,0,,Mais quelle est la cause ?\N- Je ne sais pas.
+Dialogue: 0,0:18:00.29,0:18:03.42,Default,,0,0,0,,Il est possible\Nque la naissance de Mayuri
+Dialogue: 0,0:18:03.54,0:18:06.54,Default,,0,0,0,,soit la cause qui provoque\Nsa propre mort.
+Dialogue: 0,0:18:06.71,0:18:09.30,Default,,0,0,0,,Tu parles de sa durée de vie ?
+Dialogue: 0,0:18:09.42,0:18:11.13,Default,,0,0,0,,Mais c'est du fatalisme.
+Dialogue: 0,0:18:11.30,0:18:13.93,Default,,0,0,0,,Oui, donc je n'y crois pas.
+Dialogue: 0,0:18:14.14,0:18:17.89,Default,,0,0,0,,La cause est l'élément\Ndéclencheur de ces évènements.
+Dialogue: 0,0:18:18.89,0:18:20.60,Default,,0,0,0,,L'élément déclencheur.
+Dialogue: 0,0:18:24.27,0:18:27.19,Default,,0,0,0,,Si ça ne se termine jamais, tu crois…
+Dialogue: 0,0:18:27.36,0:18:30.90,Default,,0,0,0,,Attends.\NPas de conclusions hâtives dangereuses.
+Dialogue: 0,0:18:31.11,0:18:34.20,Default,,0,0,0,,Mais…\N- Makise Kurisu a raison.
+Dialogue: 0,0:18:36.53,0:18:38.74,Default,,0,0,0,,Tu sais quelque chose ?
+Dialogue: 0,0:18:39.29,0:18:41.54,Default,,0,0,0,,Ta théorie est presque correcte.
+Dialogue: 0,0:18:41.66,0:18:46.29,Default,,0,0,0,,Ce sera difficile à résoudre\Nsans la time leap machine.
+Dialogue: 0,0:18:46.67,0:18:49.96,Default,,0,0,0,,Pour sauver le monde, il faut dépasser
+Dialogue: 0,0:18:50.80,0:18:55.84,Default,,0,0,0,,la barrière de divergence de 1 %\Net atteindre la ligne d'univers bêta.
+Dialogue: 0,0:18:56.64,0:19:01.93,Default,,0,0,0,,Le nombre de divergence indique\Nl'emplacement de la ligne d'univers.
+Dialogue: 0,0:19:02.14,0:19:07.69,Default,,0,0,0,,Ce Divergence Meter est le seul\Nindicateur pour connaître ce nombre.
+Dialogue: 0,0:19:08.23,0:19:09.69,Default,,0,0,0,,Un tube nixie.
+Dialogue: 0,0:19:09.82,0:19:15.74,Default,,0,0,0,,Celui qui l'a créé a bon goût.\N- Bien sûr, c'est toi qui l'as conçu.
+Dialogue: 0,0:19:15.91,0:19:16.91,Default,,0,0,0,,Moi ?
+Dialogue: 0,0:19:17.07,0:19:22.08,Default,,0,0,0,,Tu conserves tes souvenirs\Nà travers les lignes d'univers.
+Dialogue: 0,0:19:22.79,0:19:26.50,Default,,0,0,0,,Grâce à ça, ton futur toi\Na créé une jauge qui indique
+Dialogue: 0,0:19:26.71,0:19:31.34,Default,,0,0,0,,la différence entre la ligne d'univers\Nactuelle et la précédente.
+Dialogue: 0,0:19:31.50,0:19:34.01,Default,,0,0,0,,0,337187…
+Dialogue: 0,0:19:34.59,0:19:36.63,Default,,0,0,0,,C'est cette ligne d'univers.
+Dialogue: 0,0:19:36.80,0:19:42.01,Default,,0,0,0,,Les lignes d'univers ressemblent\Ntrès fort à un fil ou à cette corde.
+Dialogue: 0,0:19:45.56,0:19:48.23,Default,,0,0,0,,On dirait qu'il n'y a qu'une corde.
+Dialogue: 0,0:19:48.40,0:19:52.40,Default,,0,0,0,,Mais il s'agit d'un ensemble\Nde fils plus fins.
+Dialogue: 0,0:19:52.57,0:19:54.61,Default,,0,0,0,,Ce sont les lignes d'univers.
+Dialogue: 0,0:19:54.78,0:20:00.49,Default,,0,0,0,,Ils sont indépendants,\Nmais ils mènent tous à la même fin.
+Dialogue: 0,0:20:01.33,0:20:05.71,Default,,0,0,0,,Tu veux dire qu'ils mènent tous\Nà la mort de Mayuri ?
+Dialogue: 0,0:20:05.87,0:20:07.08,Default,,0,0,0,,Exactement.
+Dialogue: 0,0:20:07.92,0:20:10.54,Default,,0,0,0,,Mais le résultat serait différent
+Dialogue: 0,0:20:10.88,0:20:14.26,Default,,0,0,0,,si on traversait\Nla barrière de divergence de 1 %,
+Dialogue: 0,0:20:14.42,0:20:17.88,Default,,0,0,0,,pour passer de cette ligne alpha\Nà la ligne bêta.
+Dialogue: 0,0:20:18.05,0:20:20.89,Default,,0,0,0,,Bien. Vous prenez celle-là.\N- Quoi ?
+Dialogue: 0,0:20:21.05,0:20:24.01,Default,,0,0,0,,Attends. On ne peut pas\Nescalader ça seuls.
+Dialogue: 0,0:20:24.22,0:20:25.89,Default,,0,0,0,,Très bien.
+Dialogue: 0,0:20:26.39,0:20:28.02,Default,,0,0,0,,Attendez-moi là.
+Dialogue: 0,0:20:37.78,0:20:39.24,Default,,0,0,0,,Qui est-elle ?
+Dialogue: 0,0:20:39.41,0:20:42.87,Default,,0,0,0,,C'est vraiment une pro,\Nou un truc du genre.
+Dialogue: 0,0:20:47.87,0:20:49.79,Default,,0,0,0,,Bien, venez, dépêchez-vous.
+Dialogue: 0,0:20:50.96,0:20:53.59,Default,,0,0,0,,Les lignes alpha et bêta
+Dialogue: 0,0:20:53.71,0:20:57.47,Default,,0,0,0,,donnent des résultats futurs\Ntrès différents.
+Dialogue: 0,0:20:57.76,0:21:00.43,Default,,0,0,0,,On ne peut pas voyager entre elles.
+Dialogue: 0,0:21:00.59,0:21:05.31,Default,,0,0,0,,Même en changeant le passé\Navec des D-mails et des time leaps.
+Dialogue: 0,0:21:05.72,0:21:08.77,Default,,0,0,0,,Mais il existe des évènements majeurs
+Dialogue: 0,0:21:08.93,0:21:13.73,Default,,0,0,0,,pouvant créer des ramifications\Nmenant à des futurs bien distincts.
+Dialogue: 0,0:21:14.40,0:21:18.61,Default,,0,0,0,,Dans les exemples récents,\Nil y a la Guerre du Golfe de 1991,
+Dialogue: 0,0:21:18.78,0:21:21.53,Default,,0,0,0,,le bug de l'an 2000
+Dialogue: 0,0:21:21.70,0:21:24.70,Default,,0,0,0,,et 2010, avec l'invention de la machine temporelle.
+Dialogue: 0,0:21:28.62,0:21:29.79,Default,,0,0,0,,Est-ce…
+Dialogue: 0,0:21:31.17,0:21:34.08,Default,,0,0,0,,Seules ces ramifications\Npermettent de passer
+Dialogue: 0,0:21:34.29,0:21:36.67,Default,,0,0,0,,de la ligne alpha à la ligne bêta.
+Dialogue: 0,0:21:37.17,0:21:40.72,Default,,0,0,0,,Comment peut-on faire ça ? Comment…\N- Attends.
+Dialogue: 0,0:21:41.38,0:21:45.64,Default,,0,0,0,,Commençons par le début.\NDis-nous qui tu es.
+Dialogue: 0,0:21:54.44,0:21:56.11,Default,,0,0,0,,Est-ce…
+Dialogue: 0,0:21:56.32,0:21:58.36,Default,,0,0,0,,Une machine temporelle.
+Dialogue: 0,0:21:58.94,0:22:02.03,Default,,0,0,0,,Je viens de l'an 2036.
+Dialogue: 0,0:22:02.74,0:22:04.41,Default,,0,0,0,,Suzuha…
+Dialogue: 0,0:22:04.57,0:22:07.49,Default,,0,0,0,,C'est moi, le voyageur temporel…
+Dialogue: 0,0:22:07.66,0:22:09.04,Default,,0,0,0,,John Titor.
+Dialogue: 0,0:22:21.38,0:22:28.97,Default,,0,0,0,,kisei sareta shikai mujihi naru
+Dialogue: 0,0:22:30.35,0:22:37.65,Default,,0,0,0,,juuni no shihai nogarerarenai
+Dialogue: 0,0:22:37.98,0:22:46.57,Default,,0,0,0,,ansoku no asu o negatta
+Dialogue: 0,0:22:46.74,0:22:55.17,Default,,0,0,0,,te no naka no toutoi jishou no chihei e
+Dialogue: 0,0:22:55.54,0:23:03.88,Default,,0,0,0,,torawareshi meiyaku\Narawareta gishou no rinkaku
+Dialogue: 0,0:23:04.05,0:23:13.10,Default,,0,0,0,,seimei no tenchi wa\Nmoumoku na jikan o kizanda
+Dialogue: 0,0:23:13.39,0:23:21.73,Default,,0,0,0,,habatake batafurai kiseki\Nno batafurai anata e sasagu
+Dialogue: 0,0:23:22.32,0:23:29.33,Default,,0,0,0,,namida no batafurai\Nmabushii batafurai subete ga
+Dialogue: 0,0:23:29.53,0:23:33.95,Default,,0,0,0,,ima kakikaerareru
+Dialogue: 0,0:23:41.05,0:23:55.81,Default,,0,0,0,,Nécrose d'un chaînon mourant

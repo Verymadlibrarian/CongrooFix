@@ -1,0 +1,320 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.09,0:00:06.09,Default,,0,0,0,,Yes. Le guest a dit :\N"Make me please a badge."
+Dialogue: 0,0:00:06.26,0:00:08.68,Default,,0,0,0,,Le même que celui que vous aviez.
+Dialogue: 0,0:00:08.84,0:00:11.76,Default,,0,0,0,,Le type vous a demandé\Nde faire ce badge ?
+Dialogue: 0,0:00:15.02,0:00:18.44,Default,,0,0,0,,Il ressemblait à quoi ?\N- Ressembler ?
+Dialogue: 0,0:00:18.60,0:00:20.10,Default,,0,0,0,,Eh bien…
+Dialogue: 0,0:00:20.85,0:00:21.94,Default,,0,0,0,,Like a barrel.
+Dialogue: 0,0:00:22.31,0:00:24.19,Default,,0,0,0,,A barrel ?\N- Barrel Titor.
+Dialogue: 0,0:00:24.90,0:00:27.49,Default,,0,0,0,,Titor ? Non, non.
+Dialogue: 0,0:00:27.65,0:00:29.45,Default,,0,0,0,,Just like barrel.
+Dialogue: 0,0:00:29.61,0:00:31.16,Default,,0,0,0,,Just like…
+Dialogue: 0,0:00:31.32,0:00:34.91,Default,,0,0,0,,"Barrel" signifie "taru" en japonais.\N- Taru ?
+Dialogue: 0,0:00:35.91,0:00:41.33,Default,,0,0,0,,Je l'ai appris dans Rai-Net,\Nle méchant s'appelait le Barrel Monster.
+Dialogue: 0,0:00:41.50,0:00:45.42,Default,,0,0,0,,Yes. Just "taru". Or balloon ?
+Dialogue: 0,0:00:45.84,0:00:49.26,Default,,0,0,0,,C'est un gros bonhomme\Nqui ressemble à un ballon ?
+Dialogue: 0,0:00:49.34,0:00:51.89,Default,,0,0,0,,Où peut-on le contacter ?\N- Sorry.
+Dialogue: 0,0:00:52.64,0:00:55.68,Default,,0,0,0,,Private information. Nothing.
+Dialogue: 0,0:00:59.56,0:01:01.65,Default,,0,0,0,,On n'a aucune piste.
+Dialogue: 0,0:01:01.81,0:01:05.40,Default,,0,0,0,,Mais il ira chercher son badge\Nquand il sera prêt.
+Dialogue: 0,0:01:05.77,0:01:10.15,Default,,0,0,0,,Il n'a rien commandé quand il a su\Nque ça prenait une semaine.
+Dialogue: 0,0:01:10.32,0:01:11.57,Default,,0,0,0,,Ah bon.
+Dialogue: 0,0:01:11.74,0:01:16.16,Default,,0,0,0,,C'est peut-être une cause perdue.\N- Non.
+Dialogue: 0,0:01:17.20,0:01:18.70,Default,,0,0,0,,Il y a une solution.
+Dialogue: 0,0:01:20.21,0:01:24.63,Default,,0,0,0,,Demain la time leap machine sera prête.\NSi je reviens en arrière…
+Dialogue: 0,0:01:38.72,0:01:43.69,Default,,0,0,0,,suu juuoku mono kodou no kazu sae
+Dialogue: 0,0:01:43.98,0:01:50.44,Default,,0,0,0,,anata ni wa matataki teido no\Nsaji na toukyuu
+Dialogue: 0,0:01:50.74,0:01:55.99,Default,,0,0,0,,kako ni torawarete mirai o nageku mo
+Dialogue: 0,0:01:56.20,0:02:01.46,Default,,0,0,0,,chiri hitotsu gosan o yurusanu hitsuzen
+Dialogue: 0,0:02:01.79,0:02:07.79,Default,,0,0,0,,mugen ni hirogaru yume mo\Negaku mirai mo
+Dialogue: 0,0:02:08.00,0:02:13.63,Default,,0,0,0,,bokutachi ni yurusareta kyoei no kenri
+Dialogue: 0,0:02:13.80,0:02:19.64,Default,,0,0,0,,yuugen sore wa futatsu no\Nhari ga shimesu
+Dialogue: 0,0:02:19.97,0:02:24.52,Default,,0,0,0,,zankoku na yakujou to sentaku e
+Dialogue: 0,0:02:24.73,0:02:26.48,Default,,0,0,0,,Hacking to the Gate
+Dialogue: 0,0:02:26.77,0:02:33.78,Default,,0,0,0,,da kara ima ichi byou goto ni\Nsekaisen o koete
+Dialogue: 0,0:02:33.95,0:02:38.62,Default,,0,0,0,,kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:38.78,0:02:45.58,Default,,0,0,0,,soshite mata kanashimi no nai\Njikan no ruupu e to
+Dialogue: 0,0:02:45.75,0:02:52.05,Default,,0,0,0,,nomi komarete yuku\Nkodoku no kansokusha
+Dialogue: 0,0:02:56.22,0:02:58.22,Default,,0,0,0,,11 AOÛT 2010 - 18H35
+Dialogue: 0,0:02:58.35,0:03:03.23,Default,,0,0,0,,Nécrose de l'irréversibilité
+Dialogue: 0,0:03:04.43,0:03:05.85,Default,,0,0,0,,Où est Suzuha ?
+Dialogue: 0,0:03:06.73,0:03:09.44,Default,,0,0,0,,Elle vient de partir. Qu'y a-t-il ?
+Dialogue: 0,0:03:09.61,0:03:10.86,Default,,0,0,0,,Je t'expliquerai.
+Dialogue: 0,0:03:13.99,0:03:18.62,Default,,0,0,0,,Mince. J'ai oublié de demander\Nà quelle heure le type était venu.
+Dialogue: 0,0:03:18.78,0:03:22.49,Default,,0,0,0,,Comment puis-je vous aider ?\N- C'est lui ?
+Dialogue: 0,0:03:22.66,0:03:26.58,Default,,0,0,0,,Il a une silhouette\Nde taru et de ballon.
+Dialogue: 0,0:03:28.79,0:03:30.29,Default,,0,0,0,,Daru ?
+Dialogue: 0,0:03:31.71,0:03:33.34,Default,,0,0,0,,Hé, Okarin ?
+Dialogue: 0,0:03:34.59,0:03:38.68,Default,,0,0,0,,Bon sang. Pourquoi tu voulais\Nfaire une copie du badge ?
+Dialogue: 0,0:03:39.22,0:03:43.56,Default,,0,0,0,,J'étais triste qu'on n'ait pas trouvé\Nle paternel d'Amane.
+Dialogue: 0,0:03:43.68,0:03:48.35,Default,,0,0,0,,J'ai voulu lui montrer le badge\Net inventer un faux Titor.
+Dialogue: 0,0:03:48.52,0:03:50.40,Default,,0,0,0,,C'est surtout un faux bonheur.
+Dialogue: 0,0:03:51.86,0:03:56.32,Default,,0,0,0,,Il y a les mensonges qui blessent\Net ceux qui font du bien…
+Dialogue: 0,0:03:56.49,0:04:00.03,Default,,0,0,0,,Tu crois qu'elle serait heureuse\Nd'apprendre ça ?
+Dialogue: 0,0:04:06.87,0:04:11.38,Default,,0,0,0,,Amane m'a dit\Nde ne rien dire à personne. Mais…
+Dialogue: 0,0:04:12.25,0:04:14.34,Default,,0,0,0,,Cette machine temporelle
+Dialogue: 0,0:04:14.46,0:04:16.84,Default,,0,0,0,,ne peut aller que dans le passé.
+Dialogue: 0,0:04:18.55,0:04:22.10,Default,,0,0,0,,Une fois partie, elle ne reviendra pas.
+Dialogue: 0,0:04:27.31,0:04:28.56,Default,,0,0,0,,Ça se passe bien ?
+Dialogue: 0,0:04:28.73,0:04:30.06,Default,,0,0,0,,C'est pour toi.
+Dialogue: 0,0:04:30.77,0:04:35.48,Default,,0,0,0,,Un coca sans calories, bien frappé,\Nvoilà ce qu'il me fallait.
+Dialogue: 0,0:04:35.61,0:04:37.61,Default,,0,0,0,,T'es Monsieur Sympa.
+Dialogue: 0,0:04:38.36,0:04:41.87,Default,,0,0,0,,Tu vas pouvoir la réparer ?\N- J'aurai fini demain.
+Dialogue: 0,0:04:41.99,0:04:46.95,Default,,0,0,0,,Malgré l'urgence, il fait du super boulot.\N- Daru est très doué.
+Dialogue: 0,0:04:47.12,0:04:49.00,Default,,0,0,0,,Ne juge pas sur les apparences.
+Dialogue: 0,0:04:49.16,0:04:52.13,Default,,0,0,0,,Quoi ? Pourquoi tu dis ça ?
+Dialogue: 0,0:04:52.38,0:04:56.63,Default,,0,0,0,,Mais tu as raison,\Nil ne paye pas de mine.
+Dialogue: 0,0:04:56.80,0:04:58.72,Default,,0,0,0,,J'ai changé d'avis sur lui.
+Dialogue: 0,0:04:58.88,0:05:01.30,Default,,0,0,0,,Alors, tu peux m'aider, Amane.
+Dialogue: 0,0:05:01.43,0:05:06.89,Default,,0,0,0,,Il fera si chaud dans cette machine\Nqu'on finira par se déshabiller.
+Dialogue: 0,0:05:07.06,0:05:08.73,Default,,0,0,0,,Ça suffit, pervers.
+Dialogue: 0,0:05:08.89,0:05:12.15,Default,,0,0,0,,Daru et Suzu sont bien assortis.
+Dialogue: 0,0:05:17.03,0:05:22.74,Default,,0,0,0,,C'est peut-être ma dernière occasion\Nde le dire, alors je le fais maintenant.
+Dialogue: 0,0:05:22.82,0:05:26.66,Default,,0,0,0,,Je suis reconnaissante envers vous tous.
+Dialogue: 0,0:05:27.08,0:05:30.75,Default,,0,0,0,,Quand je suis arrivée,\Nje ne connaissais personne.
+Dialogue: 0,0:05:31.67,0:05:34.58,Default,,0,0,0,,Même si c'est\Nune époque plus tranquille,
+Dialogue: 0,0:05:34.71,0:05:37.88,Default,,0,0,0,,j'ai trouvé ça vraiment très effrayant.
+Dialogue: 0,0:05:38.59,0:05:41.55,Default,,0,0,0,,Mais maintenant, j'ai plein d'amis.
+Dialogue: 0,0:05:42.38,0:05:44.01,Default,,0,0,0,,Je me suis bien amusée
+Dialogue: 0,0:05:44.55,0:05:49.52,Default,,0,0,0,,en visitant cette époque\Net en passant du temps avec vous.
+Dialogue: 0,0:05:49.68,0:05:53.19,Default,,0,0,0,,Même si ce fut court,\Nj'ai aimé être membre du labo.
+Dialogue: 0,0:05:53.77,0:05:57.82,Default,,0,0,0,,Je suis contente\Nd'avoir passé du temps avec vous.
+Dialogue: 0,0:05:57.98,0:06:01.49,Default,,0,0,0,,Une fois partie, elle ne reviendra pas.
+Dialogue: 0,0:06:02.40,0:06:04.49,Default,,0,0,0,,Okabe Rintaro ? Promets de…
+Dialogue: 0,0:06:04.66,0:06:06.66,Default,,0,0,0,,Je changerai le futur !
+Dialogue: 0,0:06:07.03,0:06:10.87,Default,,0,0,0,,Je créerai un monde libre,\Ncomme celui d'aujourd'hui.
+Dialogue: 0,0:06:12.16,0:06:15.00,Default,,0,0,0,,Okabe Rintaro ?\N- Tu ne regrettes pas…
+Dialogue: 0,0:06:15.17,0:06:18.88,Default,,0,0,0,,Tu ne regrettes pas\Nd'avoir des souvenirs avec nous ?
+Dialogue: 0,0:06:20.63,0:06:23.51,Default,,0,0,0,,Si la séparation est inévitable…
+Dialogue: 0,0:06:23.68,0:06:29.89,Default,,0,0,0,,Tu ne regrettes pas d'être notre amie\Net qu'on se soit rencontrés, pas vrai ?
+Dialogue: 0,0:06:30.02,0:06:33.77,Default,,0,0,0,,Attends. Hashida Itaru t'a parlé ?
+Dialogue: 0,0:06:33.85,0:06:36.40,Default,,0,0,0,,Lui aussi s'inquiète pour toi.
+Dialogue: 0,0:06:36.86,0:06:38.15,Default,,0,0,0,,J'y vais.
+Dialogue: 0,0:06:38.82,0:06:41.74,Default,,0,0,0,,Mon père voulait changer le futur…
+Dialogue: 0,0:06:41.86,0:06:46.28,Default,,0,0,0,,Mais tu te fiches\Nde ce que cela signifie pour toi ?
+Dialogue: 0,0:06:46.53,0:06:48.99,Default,,0,0,0,,C'est pas mal, les années 70.
+Dialogue: 0,0:06:51.12,0:06:55.92,Default,,0,0,0,,Je trouverai d'autres amis comme vous\Net mènerai une vie libre.
+Dialogue: 0,0:07:02.92,0:07:04.34,Default,,0,0,0,,13 AOÛT 2010 - 15H07
+Dialogue: 0,0:07:04.42,0:07:06.22,Default,,0,0,0,,C'est parti.
+Dialogue: 0,0:07:10.81,0:07:14.60,Default,,0,0,0,,Ça devrait marcher,\Nmais tu veux peut-être vérifier.
+Dialogue: 0,0:07:14.77,0:07:16.06,Default,,0,0,0,,Très bien.
+Dialogue: 0,0:07:19.19,0:07:23.57,Default,,0,0,0,,Oui, ça a l'air de marcher.\NTu es vraiment incroyable.
+Dialogue: 0,0:07:24.15,0:07:28.70,Default,,0,0,0,,Tu devrais être content,\Ntu as réparé une machine temporelle.
+Dialogue: 0,0:07:28.82,0:07:32.70,Default,,0,0,0,,Quel jour et quel mois de 1975\Ndevrais-je choisir ?
+Dialogue: 0,0:07:32.87,0:07:36.46,Default,,0,0,0,,Un jour du Capricorne\Nou un jour du Verseau ?
+Dialogue: 0,0:07:36.58,0:07:40.34,Default,,0,0,0,,C'est pour les mariages.\NMais Verseau, c'est bien.
+Dialogue: 0,0:07:40.54,0:07:43.00,Default,,0,0,0,,Tu te feras des amis plus vite.
+Dialogue: 0,0:07:43.46,0:07:46.13,Default,,0,0,0,,Des amis ?\NJe m'en réjouis d'avance.
+Dialogue: 0,0:07:49.51,0:07:52.10,Default,,0,0,0,,FG204 ?
+Dialogue: 0,0:07:52.68,0:07:54.06,Default,,0,0,0,,Dis, Suzu ?
+Dialogue: 0,0:07:54.77,0:07:57.10,Default,,0,0,0,,Oui ?\N- C'est quoi ?
+Dialogue: 0,0:07:57.27,0:08:01.90,Default,,0,0,0,,C'est le nom de la machine.\NC'est mon père qui l'a trouvé.
+Dialogue: 0,0:08:09.61,0:08:11.70,Default,,0,0,0,,Mon vélo ?
+Dialogue: 0,0:08:12.33,0:08:16.58,Default,,0,0,0,,Sans les pneus, on s'est dit\Nqu'il passerait. Tu l'adores.
+Dialogue: 0,0:08:19.75,0:08:23.38,Default,,0,0,0,,Oui, j'en prendrai soin. Merci.
+Dialogue: 0,0:08:25.09,0:08:26.55,Default,,0,0,0,,Ça y est !
+Dialogue: 0,0:08:27.13,0:08:31.09,Default,,0,0,0,,Mayushii sait qui est ton père,\NSuzu.
+Dialogue: 0,0:08:33.26,0:08:37.89,Default,,0,0,0,,Quoi ?\N- Et c'est pas tout. Il est tout près.
+Dialogue: 0,0:08:39.31,0:08:41.15,Default,,0,0,0,,Où ça ?
+Dialogue: 0,0:08:41.35,0:08:46.19,Default,,0,0,0,,Je les trouvais assortis\Npour je ne savais quelle raison.
+Dialogue: 0,0:08:47.03,0:08:52.78,Default,,0,0,0,,Maintenant, je sais que c'est\Nparce qu'ils sont de la même famille.
+Dialogue: 0,0:08:52.95,0:08:54.83,Default,,0,0,0,,Tu veux dire que…
+Dialogue: 0,0:08:54.95,0:08:57.20,Default,,0,0,0,,Le père de Suzu…
+Dialogue: 0,0:08:57.91,0:08:59.04,Default,,0,0,0,,est Daru !
+Dialogue: 0,0:09:02.63,0:09:05.88,Default,,0,0,0,,Quoi ?\N- Cette blague n'est pas drôle.
+Dialogue: 0,0:09:06.00,0:09:10.05,Default,,0,0,0,,Qui épouserait ce pervers ?\N- Pas la peine d'être méchante.
+Dialogue: 0,0:09:10.22,0:09:14.01,Default,,0,0,0,,Comment en es-tu venu\Nà cette conclusion ?
+Dialogue: 0,0:09:14.18,0:09:17.39,Default,,0,0,0,,Primo, "barrel"\Nse dit "taru" en japonais.
+Dialogue: 0,0:09:17.64,0:09:19.89,Default,,0,0,0,,Taru… Daru…
+Dialogue: 0,0:09:20.06,0:09:21.98,Default,,0,0,0,,Daru…\N- Un jeu de mot ?
+Dialogue: 0,0:09:22.10,0:09:23.73,Default,,0,0,0,,C'est la seule raison ?
+Dialogue: 0,0:09:23.86,0:09:27.73,Default,,0,0,0,,Mais le groupe de résistance\Nde Suzu a été fondé
+Dialogue: 0,0:09:27.90,0:09:31.03,Default,,0,0,0,,par Okarin et Barrel Titor,\Npas vrai ?
+Dialogue: 0,0:09:31.45,0:09:36.70,Default,,0,0,0,,Et le seul à connaître vos recherches\Nindépendantes à Akiba en 2010
+Dialogue: 0,0:09:36.87,0:09:38.83,Default,,0,0,0,,et le Reading Stinger…
+Dialogue: 0,0:09:38.95,0:09:40.37,Default,,0,0,0,,"Reading Steiner."
+Dialogue: 0,0:09:40.62,0:09:44.79,Default,,0,0,0,,Oui. Le seul à pouvoir\Nêtre au courant est Daru.
+Dialogue: 0,0:09:46.46,0:09:50.42,Default,,0,0,0,,Et la meilleure preuve\Nque Mayushii ait trouvée…
+Dialogue: 0,0:09:51.63,0:09:55.14,Default,,0,0,0,,Le nom de la machine ?\N- FG204.
+Dialogue: 0,0:09:55.68,0:09:59.14,Default,,0,0,0,,C'est un gadget futuriste.\N- Un gadget futuriste ?
+Dialogue: 0,0:09:59.27,0:10:03.06,Default,,0,0,0,,Vous voyez le texte écrit à côté ?
+Dialogue: 0,0:10:04.44,0:10:09.23,Default,,0,0,0,,Future Gadget 204,\N2e édition, version 2.31.
+Dialogue: 0,0:10:10.74,0:10:12.95,Default,,0,0,0,,Cette façon de donner un nom…
+Dialogue: 0,0:10:22.62,0:10:23.92,Default,,0,0,0,,Papa ?
+Dialogue: 0,0:10:25.00,0:10:28.29,Default,,0,0,0,,Dans un moment pareil,\Nappelle-moi "papounet".
+Dialogue: 0,0:10:28.46,0:10:31.21,Default,,0,0,0,,C'est pas le moment de faire le pervers.
+Dialogue: 0,0:10:38.43,0:10:41.06,Default,,0,0,0,,Papa…\N- Qui ?
+Dialogue: 0,0:10:41.89,0:10:44.48,Default,,0,0,0,,Je suis venue…
+Dialogue: 0,0:10:44.73,0:10:47.11,Default,,0,0,0,,Je suis venue pour te voir, papa.
+Dialogue: 0,0:10:47.27,0:10:50.32,Default,,0,0,0,,Dans la machine que tu as construite.
+Dialogue: 0,0:10:50.98,0:10:52.28,Default,,0,0,0,,Oui.
+Dialogue: 0,0:10:52.78,0:10:56.91,Default,,0,0,0,,Je vais accomplir\Nce pour quoi tu as lutté.
+Dialogue: 0,0:10:57.24,0:11:01.54,Default,,0,0,0,,Tu seras fier de moi.\N- J'en suis sûr.
+Dialogue: 0,0:11:02.79,0:11:04.87,Default,,0,0,0,,C'est déjà le cas.
+Dialogue: 0,0:11:13.01,0:11:14.72,Default,,0,0,0,,À propos…
+Dialogue: 0,0:11:15.68,0:11:17.89,Default,,0,0,0,,Ta maman était jolie ?
+Dialogue: 0,0:11:18.22,0:11:21.85,Default,,0,0,0,,J'aimerais une petite femme,\Navec une belle poitrine.
+Dialogue: 0,0:11:25.14,0:11:27.44,Default,,0,0,0,,Ça restera un secret.
+Dialogue: 0,0:11:30.40,0:11:33.19,Default,,0,0,0,,Je ferais mieux d'y aller.\N- Oui.
+Dialogue: 0,0:11:33.36,0:11:37.36,Default,,0,0,0,,Ne nous oublie pas.\N- Sois prudente.
+Dialogue: 0,0:11:38.03,0:11:39.07,Default,,0,0,0,,Tout ira bien.
+Dialogue: 0,0:11:39.70,0:11:42.70,Default,,0,0,0,,Je trouverai l'IBN 5100, vous verrez.
+Dialogue: 0,0:11:43.12,0:11:45.54,Default,,0,0,0,,Ensuite, je vous l'amènerai.
+Dialogue: 0,0:11:46.12,0:11:49.96,Default,,0,0,0,,Je vous en prie, changez le futur.
+Dialogue: 0,0:11:52.13,0:11:54.21,Default,,0,0,0,,On se reverra dans 35 ans.
+Dialogue: 0,0:11:55.22,0:11:58.30,Default,,0,0,0,,Pour vous, ça signifie\Ndans quelques heures.
+Dialogue: 0,0:12:01.85,0:12:03.18,Default,,0,0,0,,Suzu !
+Dialogue: 0,0:12:16.82,0:12:19.53,Default,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NMERCI. AU REVOIR.
+Dialogue: 0,0:12:24.58,0:12:28.87,Default,,0,0,0,,Suzuha ! Nous nous retrouverons,\Nd'accord ?
+Dialogue: 0,0:12:29.04,0:12:31.17,Default,,0,0,0,,Je resterai fort d'ici là.
+Dialogue: 0,0:12:31.29,0:12:33.54,Default,,0,0,0,,Reste forte, toi aussi !
+Dialogue: 0,0:12:43.01,0:12:44.93,Default,,0,0,0,,Bonne chance…
+Dialogue: 0,0:12:48.06,0:12:52.98,Default,,0,0,0,,Le satellite écrasé sur le toit\Ndu bâtiment de Radio Kaikan a disparu.
+Dialogue: 0,0:12:53.77,0:12:58.82,Default,,0,0,0,,Vous pensez que ce sont nos initiales\Nsur le badge ?
+Dialogue: 0,0:12:59.40,0:13:02.20,Default,,0,0,0,,Okabe, "O", Hashida, "H", Shiina, "S".
+Dialogue: 0,0:13:02.57,0:13:07.54,Default,,0,0,0,,Et "M" pour Makise et "A" pour Amane.
+Dialogue: 0,0:13:07.79,0:13:10.87,Default,,0,0,0,,Un badge des membres du labo.\NOn en fait un ?
+Dialogue: 0,0:13:11.04,0:13:13.50,Default,,0,0,0,,Bonne idée.\N- Qu'y a-t-il, Okabe ?
+Dialogue: 0,0:13:15.55,0:13:19.22,Default,,0,0,0,,Les chiffres du Divergence Meter\Nn'ont pas changé.
+Dialogue: 0,0:13:19.38,0:13:24.01,Default,,0,0,0,,Il changera peut-être quand Amane\Nnous apportera l'IBN 5100.
+Dialogue: 0,0:13:25.18,0:13:28.35,Default,,0,0,0,,Suzuha devrait avoir 54 ans, maintenant.
+Dialogue: 0,0:13:28.47,0:13:31.81,Default,,0,0,0,,Ma fille a plus de trente ans\Nde plus que moi.
+Dialogue: 0,0:13:32.48,0:13:34.65,Default,,0,0,0,,Elle est peut-être grand-mère.
+Dialogue: 0,0:13:36.15,0:13:40.70,Default,,0,0,0,,Je verrais mes arrière-petits-enfants,\Nalors que je suis jeune.
+Dialogue: 0,0:13:40.95,0:13:44.57,Default,,0,0,0,,Il faudra les gâter,\Ncomme un arrière-grand-père.
+Dialogue: 0,0:13:45.91,0:13:47.24,Default,,0,0,0,,C'est elle.
+Dialogue: 0,0:13:58.50,0:14:00.34,Default,,0,0,0,,M. Braun ?
+Dialogue: 0,0:14:03.30,0:14:05.22,Default,,0,0,0,,OKABE RINTARO
+Dialogue: 0,0:14:05.60,0:14:07.31,Default,,0,0,0,,Une lettre ?
+Dialogue: 0,0:14:08.39,0:14:10.35,Default,,0,0,0,,Hashida Suzu…
+Dialogue: 0,0:14:10.60,0:14:14.85,Default,,0,0,0,,Serait-ce Suzu ?\N- Vraiment ? Alors pourquoi M. Braun…
+Dialogue: 0,0:14:15.02,0:14:18.27,Default,,0,0,0,,L'auteur de la lettre\Nm'a aidé il y a longtemps.
+Dialogue: 0,0:14:18.44,0:14:22.03,Default,,0,0,0,,Elle m'a demandé\Nde vous la remettre aujourd'hui.
+Dialogue: 0,0:14:22.20,0:14:24.28,Default,,0,0,0,,Où est-elle maintenant ?
+Dialogue: 0,0:14:24.45,0:14:25.53,Default,,0,0,0,,Elle est morte.
+Dialogue: 0,0:14:28.28,0:14:30.12,Default,,0,0,0,,Il y a dix ans.
+Dialogue: 0,0:14:33.33,0:14:37.54,Default,,0,0,0,,"Cher Okabe Rintaro.\NÇa fait un bail. C'est Amane Suzuha.
+Dialogue: 0,0:14:38.63,0:14:41.96,Default,,0,0,0,,Pour vous, je suis partie\Nil y a quelques heures.
+Dialogue: 0,0:14:42.13,0:14:46.51,Default,,0,0,0,,Nous sommes le 13 juin 2000.
+Dialogue: 0,0:14:46.68,0:14:48.51,Default,,0,0,0,,J'irai droit au but.
+Dialogue: 0,0:14:48.68,0:14:49.68,Default,,0,0,0,,J'ai échoué.
+Dialogue: 0,0:14:51.97,0:14:55.90,Default,,0,0,0,,J'ai échoué. J'ai échoué. J'ai échoué."
+Dialogue: 0,0:15:02.53,0:15:07.91,Default,,0,0,0,,J'ai échoué. J'ai échoué. J'ai échoué.
+Dialogue: 0,0:15:08.37,0:15:13.33,Default,,0,0,0,,Je me suis souvenue de qui j'étais\Nil y a un an seulement.
+Dialogue: 0,0:15:13.70,0:15:18.13,Default,,0,0,0,,J'ai été amnésique\Ndurant les 24 années qui ont précédé.
+Dialogue: 0,0:15:18.25,0:15:20.92,Default,,0,0,0,,Le voyage s'est mal déroulé.
+Dialogue: 0,0:15:21.05,0:15:23.71,Default,,0,0,0,,Les réparations étaient incomplètes.
+Dialogue: 0,0:15:24.26,0:15:28.76,Default,,0,0,0,,Mais ce n'était pas ta faute, papa,\Nc'était la mienne.
+Dialogue: 0,0:15:29.47,0:15:33.56,Default,,0,0,0,,J'aurais dû aller directement en 1975.
+Dialogue: 0,0:15:33.72,0:15:36.60,Default,,0,0,0,,Je n'aurais jamais dû\Nm'arrêter en 2010.
+Dialogue: 0,0:15:36.77,0:15:38.48,Default,,0,0,0,,J'ai été égoïste.
+Dialogue: 0,0:15:39.27,0:15:41.02,Default,,0,0,0,,Le futur ne changera pas.
+Dialogue: 0,0:15:42.61,0:15:46.28,Default,,0,0,0,,Je n'ai pas pu trouver l'IBN 5100.
+Dialogue: 0,0:15:49.16,0:15:50.78,Default,,0,0,0,,Je suis désolée.
+Dialogue: 0,0:15:51.03,0:15:53.29,Default,,0,0,0,,Je suis vraiment désolée.
+Dialogue: 0,0:15:56.33,0:16:00.50,Default,,0,0,0,,Pourquoi ai-je vécu si longtemps ?
+Dialogue: 0,0:16:00.75,0:16:04.17,Default,,0,0,0,,J'ai oublié mon devoir\Net vécu dans l'insouciance.
+Dialogue: 0,0:16:04.80,0:16:06.80,Default,,0,0,0,,Pardonnez-moi. Pardonnez-moi.
+Dialogue: 0,0:16:06.88,0:16:08.93,Default,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NPARDON. ADIEU.
+Dialogue: 0,0:16:09.09,0:16:13.10,Default,,0,0,0,,Okabe, après la réunion\Nsur les machines temporelles,
+Dialogue: 0,0:16:13.22,0:16:13.26,Default,,0,0,0,,N'ÉCOUTE PAS TON ASSISTANTE.\NSUIS SUZUHA.
+Dialogue: 0,0:16:13.26,0:16:17.02,Default,,0,0,0,,N'ÉCOUTE PAS TON ASSISTANTE. SUIS SUZUHA.\Ntu m'as empêchée de me rendre en 1975.
+Dialogue: 0,0:16:17.31,0:16:23.02,Default,,0,0,0,,Tu m'as arrêtée et l'orage a cassé\Nla machine cette nuit-là.
+Dialogue: 0,0:16:24.61,0:16:29.11,Default,,0,0,0,,Si tu peux revenir en arrière,\Nje te demande de ne pas m'arrêter.
+Dialogue: 0,0:16:32.12,0:16:33.28,Default,,0,0,0,,Ma vie…
+Dialogue: 0,0:16:34.12,0:16:35.87,Default,,0,0,0,,"a été un gâchis."
+Dialogue: 0,0:16:47.47,0:16:49.30,Default,,0,0,0,,M. Braun ?
+Dialogue: 0,0:16:49.47,0:16:52.85,Default,,0,0,0,,Qu'y a-t-il ?\NPourquoi vous tirez ces têtes ?
+Dialogue: 0,0:16:53.43,0:16:58.02,Default,,0,0,0,,S'il vous plaît, dites-nous\Ncomment Hashida Suzu est morte.
+Dialogue: 0,0:16:58.81,0:17:00.69,Default,,0,0,0,,Qu'est-ce que ça peut faire ?
+Dialogue: 0,0:17:00.85,0:17:04.27,Default,,0,0,0,,J'ai besoin de savoir\Ncomment elle est morte.
+Dialogue: 0,0:17:04.44,0:17:08.82,Default,,0,0,0,,Je dois le graver dans mon esprit,\Npeu importe ce qui est arrivé.
+Dialogue: 0,0:17:10.86,0:17:14.53,Default,,0,0,0,,On dirait que c'est plus\Nque de la curiosité.
+Dialogue: 0,0:17:14.70,0:17:18.33,Default,,0,0,0,,Quelle relation aviez-vous\Navec Suzu ?
+Dialogue: 0,0:17:18.45,0:17:21.04,Default,,0,0,0,,On était de vieilles connaissances.
+Dialogue: 0,0:17:21.17,0:17:23.17,Default,,0,0,0,,Très vieilles.
+Dialogue: 0,0:17:23.33,0:17:27.59,Default,,0,0,0,,Je me souviens des moments passés ensembles\Ncomme si c'était hier.
+Dialogue: 0,0:17:29.72,0:17:32.51,Default,,0,0,0,,Je n'ai pas envie d'en parler, mais…
+Dialogue: 0,0:17:32.64,0:17:34.05,Default,,0,0,0,,c'était un suicide.
+Dialogue: 0,0:17:34.47,0:17:37.06,Default,,0,0,0,,Elle s'est pendue chez elle.
+Dialogue: 0,0:17:38.64,0:17:43.23,Default,,0,0,0,,Ça faisait un an\Nqu'elle était mentalement instable.
+Dialogue: 0,0:17:43.40,0:17:46.86,Default,,0,0,0,,PRESCRIPTION MÉDICALE\NHASHIDA SUZU
+Dialogue: 0,0:17:48.23,0:17:52.82,Default,,0,0,0,,Elle avait pourtant été jusque-là\Nune femme joyeuse et agréable.
+Dialogue: 0,0:18:03.83,0:18:05.42,Default,,0,0,0,,C'est ma faute.
+Dialogue: 0,0:18:05.92,0:18:11.63,Default,,0,0,0,,La machine s'est cassée,\Nparce que j'ai empêché Suzuha de partir.
+Dialogue: 0,0:18:11.92,0:18:16.85,Default,,0,0,0,,Sans mon D-mail, elle serait\Narrivée en 1975 sans problème.
+Dialogue: 0,0:18:18.10,0:18:19.77,Default,,0,0,0,,Okarin…
+Dialogue: 0,0:18:21.35,0:18:23.69,Default,,0,0,0,,Attends, Okabe, que fais-tu ?
+Dialogue: 0,0:18:24.40,0:18:27.23,Default,,0,0,0,,Si telle est la situation, Mayuri va…
+Dialogue: 0,0:18:27.52,0:18:29.19,Default,,0,0,0,,NE SUIS PAS LE PRÉCÉDENT MESSAGE\NPIÈGE DU SERN
+Dialogue: 0,0:18:30.44,0:18:32.32,Default,,0,0,0,,Tu envoies un D-mail ?
+Dialogue: 0,0:18:33.99,0:18:37.95,Default,,0,0,0,,Tout va disparaître, si tu fais ça.\N- Je sais.
+Dialogue: 0,0:18:38.70,0:18:42.41,Default,,0,0,0,,Tous nos souvenirs avec Suzu\Nvont disparaître.
+Dialogue: 0,0:18:42.58,0:18:43.71,Default,,0,0,0,,Je sais.
+Dialogue: 0,0:18:43.87,0:18:46.83,Default,,0,0,0,,Je vous en prie, changez le futur.
+Dialogue: 0,0:18:49.38,0:18:50.76,Default,,0,0,0,,Okarin !
+Dialogue: 0,0:19:01.27,0:19:03.14,Default,,0,0,0,,Que veux-tu, Okabe ?
+Dialogue: 0,0:19:07.23,0:19:10.94,Default,,0,0,0,,Hashida Suzu…\NCe nom me rappelle des souvenirs.
+Dialogue: 0,0:19:11.15,0:19:14.82,Default,,0,0,0,,Tu la connaissais ?\N- Qui.
+Dialogue: 0,0:19:14.99,0:19:17.45,Default,,0,0,0,,Vous savez où elle est ?
+Dialogue: 0,0:19:17.57,0:19:20.62,Default,,0,0,0,,Cela fait presque dix ans, maintenant.
+Dialogue: 0,0:19:20.74,0:19:23.37,Default,,0,0,0,,Elle m'a beaucoup aidé.
+Dialogue: 0,0:19:23.50,0:19:26.46,Default,,0,0,0,,J'aurais voulu pouvoir\Nprendre soin d'elle.
+Dialogue: 0,0:19:27.25,0:19:29.42,Default,,0,0,0,,Elle s'est suicidée, c'est ça ?
+Dialogue: 0,0:19:29.59,0:19:32.30,Default,,0,0,0,,Quoi ? La maladie l'a emportée.
+Dialogue: 0,0:19:32.46,0:19:36.26,Default,,0,0,0,,Je vis dans son ancienne maison.
+Dialogue: 0,0:19:39.93,0:19:41.22,Default,,0,0,0,,Ce vélo…
+Dialogue: 0,0:19:41.39,0:19:45.31,Default,,0,0,0,,Oui. Suzu y tenait\Ncomme à la prunelle de ses yeux.
+Dialogue: 0,0:19:45.94,0:19:50.02,Default,,0,0,0,,Je n'ai pas eu le cœur de le jeter.\NIl est là depuis 10 ans.
+Dialogue: 0,0:19:51.98,0:19:56.24,Default,,0,0,0,,Au début, Suzu et moi\Nn'étions que des voisins.
+Dialogue: 0,0:19:56.40,0:20:00.28,Default,,0,0,0,,Quand un incendie a ravagé\Nma maison et mes affaires,
+Dialogue: 0,0:20:00.45,0:20:04.87,Default,,0,0,0,,elle m'a loué une chambre ici.
+Dialogue: 0,0:20:05.04,0:20:07.58,Default,,0,0,0,,Avant cela, elle était seule ?
+Dialogue: 0,0:20:08.46,0:20:13.25,Default,,0,0,0,,Elle ne s'est jamais mariée.\NCe n'était pas une femme ordinaire.
+Dialogue: 0,0:20:14.30,0:20:19.68,Default,,0,0,0,,Un jour, je lui ai demandé pourquoi\Nelle était si gentille avec un étranger.
+Dialogue: 0,0:20:19.80,0:20:23.01,Default,,0,0,0,,Elle a souri et m'a répondu :
+Dialogue: 0,0:20:23.26,0:20:27.44,Default,,0,0,0,,"La vie est un cycle\Noù on aide et reçoit de l'aide.
+Dialogue: 0,0:20:27.56,0:20:32.06,Default,,0,0,0,,Un jour, ce sera à vous\Nd'aider quelqu'un."
+Dialogue: 0,0:20:32.86,0:20:34.82,Default,,0,0,0,,Ah oui. Une minute.
+Dialogue: 0,0:20:36.40,0:20:39.36,Default,,0,0,0,,Ceci appartenait à Suzu.
+Dialogue: 0,0:20:39.53,0:20:42.24,Default,,0,0,0,,Tu sais ce que signifie ces chiffres ?
+Dialogue: 0,0:20:43.53,0:20:47.33,Default,,0,0,0,,Quand elle était malade,\Nelle le regardait et disait :
+Dialogue: 0,0:20:47.50,0:20:51.13,Default,,0,0,0,,"Est-ce le nombre\Nd'avant ou après le changement ?
+Dialogue: 0,0:20:51.33,0:20:53.29,Default,,0,0,0,,Est-ce que je l'ai changé ?"
+Dialogue: 0,0:20:53.46,0:20:56.84,Default,,0,0,0,,Elle y a pensé sans cesse,\Njusqu'à la fin.
+Dialogue: 0,0:21:00.84,0:21:03.35,Default,,0,0,0,,Le nombre de divergence a changé.
+Dialogue: 0,0:21:05.06,0:21:07.89,Default,,0,0,0,,Mais il est toujours inférieur à 1 %.
+Dialogue: 0,0:21:08.60,0:21:11.85,Default,,0,0,0,,Le train de la ligne circulaire\Narrive bientôt.
+Dialogue: 0,0:21:12.02,0:21:15.98,Default,,0,0,0,,Ne dépassez pas la ligne jaune.\N- La ligne Yamanote roule ?
+Dialogue: 0,0:21:16.73,0:21:17.94,Default,,0,0,0,,Mayuri !
+Dialogue: 0,0:21:22.87,0:21:24.12,Default,,0,0,0,,Bon sang.
+Dialogue: 0,0:21:31.00,0:21:32.50,Default,,0,0,0,,Mayuri !
+Dialogue: 0,0:21:41.97,0:21:45.51,Default,,0,0,0,,Que se passe-t-il, Okarin ?\N- Rien.
+Dialogue: 0,0:21:46.64,0:21:51.44,Default,,0,0,0,,Le téléphone de Mayushii a sonné.\NC'était toi ?
+Dialogue: 0,0:21:51.81,0:21:55.52,Default,,0,0,0,,Elle s'est endormie si vite\Nque j'ai pas pu la réveiller.
+Dialogue: 0,0:22:01.57,0:22:05.70,Default,,0,0,0,,Suzuha ?\NLe monde a-t-il changé, à présent ?
+Dialogue: 0,0:22:06.70,0:22:10.66,Default,,0,0,0,,Mayuri est-elle sauvée ?
+Dialogue: 0,0:22:21.47,0:22:28.97,Default,,0,0,0,,kisei sareta shikai mujihi naru
+Dialogue: 0,0:22:30.35,0:22:37.73,Default,,0,0,0,,juuni no shihai nogarerarenai
+Dialogue: 0,0:22:38.07,0:22:46.66,Default,,0,0,0,,ansoku no asu o negatta
+Dialogue: 0,0:22:46.78,0:22:55.21,Default,,0,0,0,,te no naka no toutoi jishou no chihei e
+Dialogue: 0,0:22:55.62,0:23:03.92,Default,,0,0,0,,torawareshi meiyaku\Narawareta gishou no rinkaku
+Dialogue: 0,0:23:04.05,0:23:13.18,Default,,0,0,0,,seimei no tenchi wa\Nmoumoku na jikan o kizanda
+Dialogue: 0,0:23:13.39,0:23:21.82,Default,,0,0,0,,habatake batafurai kiseki\Nno batafurai anata e sasagu
+Dialogue: 0,0:23:22.40,0:23:29.45,Default,,0,0,0,,namida no batafurai\Nmabushii batafurai subete ga
+Dialogue: 0,0:23:29.62,0:23:34.04,Default,,0,0,0,,ima kakikaerareru
+Dialogue: 0,0:23:41.17,0:23:56.06,Default,,0,0,0,,Complexe d'une image visuelle distordue

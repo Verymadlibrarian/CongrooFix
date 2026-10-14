@@ -1,0 +1,321 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.96,0:00:02.92,Default,,0,0,0,,03 AOÛT 2010
+Dialogue: 0,0:00:04.09,0:00:06.67,Default,,0,0,0,,Tremble, mon bras droit.
+Dialogue: 0,0:00:08.34,0:00:11.85,Default,,0,0,0,,Comme le dit notre accord,\Nje t'ordonne…
+Dialogue: 0,0:00:13.18,0:00:17.35,Default,,0,0,0,,Entouré de flammes obscures,\Nexauce mon souhait.
+Dialogue: 0,0:00:22.44,0:00:24.57,Default,,0,0,0,,Fini de cuire des croquettes.
+Dialogue: 0,0:00:24.73,0:00:28.36,Default,,0,0,0,,C'est comme ça\Nqu'on nous traite au labo.
+Dialogue: 0,0:00:29.91,0:00:35.04,Default,,0,0,0,,Tu es méchant. Tu devrais aller\Nnous acheter un nouveau micro-ondes.
+Dialogue: 0,0:00:35.20,0:00:37.25,Default,,0,0,0,,Je n'en ai pas les moyens.
+Dialogue: 0,0:00:38.08,0:00:40.92,Default,,0,0,0,,Je t'ai déjà dit :\N"Pas de photos de moi".
+Dialogue: 0,0:00:41.12,0:00:42.25,Default,,0,0,0,,En souvenir.
+Dialogue: 0,0:00:42.54,0:00:45.09,Default,,0,0,0,,Peu importe. Pas de photo.
+Dialogue: 0,0:00:45.25,0:00:47.71,Default,,0,0,0,,Voilà, la programmation est prête.
+Dialogue: 0,0:00:47.88,0:00:52.09,Default,,0,0,0,,Le téléphone micro-ondes\N2e édition, version 1.03 est prêt.
+Dialogue: 0,0:00:52.26,0:00:56.39,Default,,0,0,0,,On peut envoyer un D-mail\Nà tous les numéros qu'on veut.
+Dialogue: 0,0:00:56.52,0:00:58.23,Default,,0,0,0,,Excellent travail, Daru.
+Dialogue: 0,0:00:58.35,0:01:00.85,Default,,0,0,0,,Reprenons les expériences.
+Dialogue: 0,0:01:01.06,0:01:06.11,Default,,0,0,0,,C'est vraiment une machine temporelle ?\N- Pas un mot à quiconque.
+Dialogue: 0,0:01:06.57,0:01:09.95,Default,,0,0,0,,J'espère que le propriétaire\Nne se fâchera plus.
+Dialogue: 0,0:01:11.24,0:01:12.41,Default,,0,0,0,,Guerrière employée !
+Dialogue: 0,0:01:12.74,0:01:16.12,Default,,0,0,0,,Hi ! Tutuluu !\N- Mayuri, tais-toi !
+Dialogue: 0,0:01:16.87,0:01:18.62,Default,,0,0,0,,Où est M. Braun ?\N- Qui ?
+Dialogue: 0,0:01:18.79,0:01:20.96,Default,,0,0,0,,Papa ne s'appelle pas M. Braun.
+Dialogue: 0,0:01:21.16,0:01:26.80,Default,,0,0,0,,Il est sorti. Il en a pour longtemps.\NC'est pour ça que je glande.
+Dialogue: 0,0:01:33.93,0:01:35.47,Default,,0,0,0,,Mayuri…
+Dialogue: 0,0:01:49.11,0:01:50.36,Default,,0,0,0,,MAYURI : TUTULUU.
+Dialogue: 0,0:01:52.24,0:01:53.32,Default,,0,0,0,,C'est…
+Dialogue: 0,0:01:53.99,0:01:56.33,Default,,0,0,0,,J'ai vu une lumière.
+Dialogue: 0,0:02:10.92,0:02:15.64,Default,,0,0,0,,Pour toi, des milliards et des milliards\Nde battements de cœur
+Dialogue: 0,0:02:16.18,0:02:22.56,Default,,0,0,0,,Ne sont pas plus\Nqu'un battement de cils.
+Dialogue: 0,0:02:22.81,0:02:27.56,Default,,0,0,0,,Bien que je sois prisonnière du passé\Net que je déplore le futur,
+Dialogue: 0,0:02:28.07,0:02:33.45,Default,,0,0,0,,l'inévitable n'autorise pas\Nla moindre petite erreur de calcul.
+Dialogue: 0,0:02:34.03,0:02:39.66,Default,,0,0,0,,Nos rêves et avenirs qui\Nnaissent et grandissent dans l'infini
+Dialogue: 0,0:02:40.04,0:02:45.50,Default,,0,0,0,,nous autorisent à la vanité,
+Dialogue: 0,0:02:46.04,0:02:51.63,Default,,0,0,0,,tandis que nos deux mains\Nnous ramènent à nos limites.
+Dialogue: 0,0:02:52.01,0:02:56.34,Default,,0,0,0,,Tout cela mène à un accord cruel\Net un choix à faire.
+Dialogue: 0,0:02:56.72,0:02:58.43,Default,,0,0,0,,Hacking to the Gate.
+Dialogue: 0,0:02:59.01,0:03:05.52,Default,,0,0,0,,À présent, chaque seconde qui passe,\Nje traverserai les lignes d'univers,
+Dialogue: 0,0:03:05.81,0:03:10.69,Default,,0,0,0,,pour protéger le sourire sur ton visage.
+Dialogue: 0,0:03:10.86,0:03:17.41,Default,,0,0,0,,Puis, à nouveau, dans une boucle\Ntemporelle sans tristesse,
+Dialogue: 0,0:03:17.78,0:03:24.12,Default,,0,0,0,,je serai engloutie\Ncomme une observatrice solitaire.
+Dialogue: 0,0:03:27.08,0:03:31.96,Default,,0,0,0,,Divergence de la fracture
+Dialogue: 0,0:03:35.38,0:03:39.05,Default,,0,0,0,,Les croquettes de poulet juteuses\Nauraient été meilleures…
+Dialogue: 0,0:03:41.22,0:03:44.06,Default,,0,0,0,,T'as oublié le Dk Pepper.\N- Y'en avait plus.
+Dialogue: 0,0:03:44.27,0:03:49.73,Default,,0,0,0,,Il fallait chercher jusqu'à trouver,\Ncomme le ferait tout Dk Pepperien.
+Dialogue: 0,0:03:50.27,0:03:53.11,Default,,0,0,0,,Il n'y en avait plus, je n'y peux rien.
+Dialogue: 0,0:03:53.32,0:03:54.99,Default,,0,0,0,,Prends ça à la place.
+Dialogue: 0,0:03:57.57,0:03:58.70,Default,,0,0,0,,Bon sang…
+Dialogue: 0,0:03:58.86,0:04:03.66,Default,,0,0,0,,Quel mad scientist se soucie\Nde son apport en légumes ?
+Dialogue: 0,0:04:06.41,0:04:10.50,Default,,0,0,0,,C'est l'heure de la table ronde.\N- Il fait chaud, j'ouvre.
+Dialogue: 0,0:04:10.75,0:04:15.46,Default,,0,0,0,,Que fais-tu, Daru ?\NL'Organisation pourrait nous entendre.
+Dialogue: 0,0:04:15.63,0:04:17.13,Default,,0,0,0,,Tu délires, FTL.
+Dialogue: 0,0:04:18.63,0:04:20.47,Default,,0,0,0,,C'EST QUOI UNE TABLE RONDE ?
+Dialogue: 0,0:04:22.64,0:04:26.06,Default,,0,0,0,,On passe à la phase 2\Nde l'Operation Urd.
+Dialogue: 0,0:04:26.27,0:04:30.27,Default,,0,0,0,,Des expériences\Npour mettre les D-mails en pratique.
+Dialogue: 0,0:04:30.44,0:04:33.90,Default,,0,0,0,,Le thé d'orge est excellent en été.\NTu en veux ?
+Dialogue: 0,0:04:34.40,0:04:36.90,Default,,0,0,0,,Tu veux dire quoi par "en pratique" ?
+Dialogue: 0,0:04:38.57,0:04:40.45,Default,,0,0,0,,On va changer le passé.
+Dialogue: 0,0:04:43.41,0:04:47.75,Default,,0,0,0,,C'est trop dangereux.\NOn risque de créer des paradoxes temporels.
+Dialogue: 0,0:04:47.91,0:04:50.46,Default,,0,0,0,,Assistante, en tant que scientifique,
+Dialogue: 0,0:04:50.62,0:04:54.75,Default,,0,0,0,,tu ne veux pas savoir si les D-mails\Npeuvent changer le passé ?
+Dialogue: 0,0:04:54.92,0:04:56.13,Default,,0,0,0,,C'est pas ça…
+Dialogue: 0,0:04:56.34,0:04:59.67,Default,,0,0,0,,Que veux-tu changer ?\N- Merci pour la question.
+Dialogue: 0,0:04:59.80,0:05:03.51,Default,,0,0,0,,Mon objectif, dans le cadre\Nde cette opération est…
+Dialogue: 0,0:05:06.68,0:05:08.35,Default,,0,0,0,,… de gagner à la loterie.
+Dialogue: 0,0:05:11.52,0:05:13.77,Default,,0,0,0,,Okarin… Mayushii est déçue.
+Dialogue: 0,0:05:13.94,0:05:18.61,Default,,0,0,0,,D'accord. J'achèterai des pièces de PC\Net j'irai au May Queen autant que je veux.
+Dialogue: 0,0:05:18.78,0:05:23.66,Default,,0,0,0,,On ne devrait pas s'en servir pour\Nfavoriser la paix dans le monde ?
+Dialogue: 0,0:05:23.78,0:05:26.95,Default,,0,0,0,,Tout le monde recevrait un Oopa cushion.
+Dialogue: 0,0:05:27.12,0:05:28.75,Default,,0,0,0,,Tu tombes vraiment bas.
+Dialogue: 0,0:05:29.75,0:05:34.00,Default,,0,0,0,,C'est le meilleur moyen\Nde voir si on peut changer le passé.
+Dialogue: 0,0:05:34.17,0:05:37.05,Default,,0,0,0,,C'est vénal…\N- Silence, Celeb 17.
+Dialogue: 0,0:05:37.21,0:05:39.17,Default,,0,0,0,,Celeb ? Quoi ?
+Dialogue: 0,0:05:39.76,0:05:42.38,Default,,0,0,0,,Celeb 17.
+Dialogue: 0,0:05:42.55,0:05:47.14,Default,,0,0,0,,Quelqu'un qui vit sur le compte\Nde ses parents n'a rien à me dire.
+Dialogue: 0,0:05:47.35,0:05:49.14,Default,,0,0,0,,J'ai dix-huit ans.
+Dialogue: 0,0:05:49.35,0:05:53.40,Default,,0,0,0,,Il y a différentes loteries.\NOn choisit laquelle ?
+Dialogue: 0,0:05:53.56,0:05:55.40,Default,,0,0,0,,Oui… Je dirais…
+Dialogue: 0,0:05:56.69,0:05:59.28,Default,,0,0,0,,Que se passe-t-il ?\N- Rien.
+Dialogue: 0,0:06:01.36,0:06:03.99,Default,,0,0,0,,Où est partie Moeka ?\N- Quoi ?
+Dialogue: 0,0:06:06.28,0:06:07.45,Default,,0,0,0,,Pas touche !
+Dialogue: 0,0:06:08.03,0:06:09.16,Default,,0,0,0,,Voilà.
+Dialogue: 0,0:06:09.79,0:06:12.00,Default,,0,0,0,,On ne peut pas te faire confiance.
+Dialogue: 0,0:06:12.16,0:06:14.46,Default,,0,0,0,,Tu n'as pas répondu…
+Dialogue: 0,0:06:14.71,0:06:16.63,Default,,0,0,0,,DE : S.F.\NTU ME LE PRÊTES ?
+Dialogue: 0,0:06:17.92,0:06:20.59,Default,,0,0,0,,C'est une véritable cruche ou quoi ?
+Dialogue: 0,0:06:21.05,0:06:25.43,Default,,0,0,0,,Christina, surveille-la\Net empêche-la de se balader.
+Dialogue: 0,0:06:25.93,0:06:28.39,Default,,0,0,0,,La surveiller ?
+Dialogue: 0,0:06:29.01,0:06:30.81,Default,,0,0,0,,Tu veux visiter le labo ?
+Dialogue: 0,0:06:31.73,0:06:36.10,Default,,0,0,0,,Je te le montrerai plus tard.\NMayushii fait ça très bien.
+Dialogue: 0,0:06:36.27,0:06:38.90,Default,,0,0,0,,Kurisu y a déjà eu droit.
+Dialogue: 0,0:06:39.23,0:06:42.07,Default,,0,0,0,,Je me demande par où commencer.
+Dialogue: 0,0:06:43.15,0:06:46.41,Default,,0,0,0,,Ah ! Le Loto 6.
+Dialogue: 0,0:06:47.91,0:06:52.41,Default,,0,0,0,,Les chiffres gagnants sortent le jeudi.\NEnvoyons-les dans le passé.
+Dialogue: 0,0:06:53.25,0:06:56.92,Default,,0,0,0,,On va vraiment faire ça ?\N- Tu as une meilleure idée ?
+Dialogue: 0,0:06:57.25,0:06:59.84,Default,,0,0,0,,Quels chiffres gagnants envoyer ?
+Dialogue: 0,0:06:59.96,0:07:02.59,Default,,0,0,0,,À propos, le gros lot est…
+Dialogue: 0,0:07:02.76,0:07:04.97,Default,,0,0,0,,d'environ 200 millions de yens.
+Dialogue: 0,0:07:05.13,0:07:07.64,Default,,0,0,0,,200 millions ?\N- Attends, Daru.
+Dialogue: 0,0:07:07.76,0:07:09.10,Default,,0,0,0,,C'est un peu trop.
+Dialogue: 0,0:07:09.64,0:07:12.81,Default,,0,0,0,,Gagner le gros lot\Nattirerait l'attention.
+Dialogue: 0,0:07:12.93,0:07:15.81,Default,,0,0,0,,L'Organisation me poursuit.\N- Froussard.
+Dialogue: 0,0:07:16.77,0:07:19.86,Default,,0,0,0,,Et le second lot ?\N- 23 millions de yens.
+Dialogue: 0,0:07:20.19,0:07:22.23,Default,,0,0,0,,Le 3e ?\N- 700.000 yens.
+Dialogue: 0,0:07:22.44,0:07:24.49,Default,,0,0,0,,Celui-là !
+Dialogue: 0,0:07:24.78,0:07:27.70,Default,,0,0,0,,Quel trouillard.\N- C'est toi qui flippes.
+Dialogue: 0,0:07:27.82,0:07:30.20,Default,,0,0,0,,C'est un Oopa cushion.
+Dialogue: 0,0:07:30.37,0:07:34.25,Default,,0,0,0,,Tu le serres dans tes bras\Nquand tu es fatiguée ou triste.
+Dialogue: 0,0:07:35.83,0:07:38.54,Default,,0,0,0,,Et voici le frigo.
+Dialogue: 0,0:07:39.13,0:07:42.63,Default,,0,0,0,,Aujourd'hui, nous avons…\N- Heu…
+Dialogue: 0,0:07:50.35,0:07:52.81,Default,,0,0,0,,Hé, Shining Finger !
+Dialogue: 0,0:07:53.64,0:07:56.56,Default,,0,0,0,,Voici ta première mission\Nen tant que membre.
+Dialogue: 0,0:07:57.52,0:07:59.19,Default,,0,0,0,,Ta première mission.
+Dialogue: 0,0:07:59.81,0:08:02.52,Default,,0,0,0,,Tu vas rédiger le message du D-mail.
+Dialogue: 0,0:08:02.69,0:08:08.41,Default,,0,0,0,,Il faut réussir à me convaincre d'acheter\Nun billet de Loto 6 la semaine dernière.
+Dialogue: 0,0:08:09.20,0:08:13.91,Default,,0,0,0,,Sept jours égalent 168 heures.\NDonc 170 secondes sur la minuterie.
+Dialogue: 0,0:08:14.41,0:08:17.00,Default,,0,0,0,,C'est ça. Ça devrait marcher.
+Dialogue: 0,0:08:17.37,0:08:19.21,Default,,0,0,0,,Tout est prêt.
+Dialogue: 0,0:08:20.00,0:08:22.38,Default,,0,0,0,,La Steins Gate va enfin s'ouvrir.
+Dialogue: 0,0:08:22.59,0:08:24.96,Default,,0,0,0,,Encore. Tu n'arrêtes jamais.
+Dialogue: 0,0:08:25.13,0:08:28.05,Default,,0,0,0,,Pourquoi tu joues toujours\Nla rabat-joie ?
+Dialogue: 0,0:08:31.72,0:08:33.68,Default,,0,0,0,,Vous vous amusez bien.
+Dialogue: 0,0:08:34.31,0:08:36.31,Default,,0,0,0,,S'amuser ? Tu plaisantes ?
+Dialogue: 0,0:08:36.52,0:08:40.60,Default,,0,0,0,,Cette assistante est une tsundere.\N- Qui est une tsundere ?
+Dialogue: 0,0:08:40.77,0:08:44.23,Default,,0,0,0,,Makise sait ce qu'est une tsundere.
+Dialogue: 0,0:08:44.94,0:08:48.36,Default,,0,0,0,,Non !\N- Tu réagis comme si tu le savais.
+Dialogue: 0,0:08:48.57,0:08:50.74,Default,,0,0,0,,Je ne connais pas ce mot.
+Dialogue: 0,0:08:52.45,0:08:54.99,Default,,0,0,0,,OK, je vais lancer le micro-ondes.
+Dialogue: 0,0:09:10.38,0:09:14.76,Default,,0,0,0,,C'est dangereux.\NEt si on provoquait un paradoxe temporel ?
+Dialogue: 0,0:09:17.43,0:09:20.39,Default,,0,0,0,,C'est pas le moment de se dégonfler.
+Dialogue: 0,0:09:27.40,0:09:29.15,Default,,0,0,0,,El Psy…
+Dialogue: 0,0:09:29.90,0:09:31.28,Default,,0,0,0,,… Congroo !
+Dialogue: 0,0:09:31.78,0:09:32.95,Default,,0,0,0,,ENVOI EN COURS
+Dialogue: 0,0:09:33.07,0:09:34.66,Default,,0,0,0,,ENVOYÉ
+Dialogue: 0,0:09:50.63,0:09:52.97,Default,,0,0,0,,Okarin !
+Dialogue: 0,0:09:53.97,0:09:55.47,Default,,0,0,0,,Okarin !
+Dialogue: 0,0:09:59.93,0:10:03.14,Default,,0,0,0,,Tout va bien ?\N- J'ai juste…
+Dialogue: 0,0:10:07.73,0:10:11.65,Default,,0,0,0,,Je suis ici debout depuis quand ?\N- Quoi ?
+Dialogue: 0,0:10:11.82,0:10:15.87,Default,,0,0,0,,Depuis 30 secondes, je dirais.\N- 30 secondes ?
+Dialogue: 0,0:10:15.99,0:10:17.70,Default,,0,0,0,,Tu ne te souviens pas ?
+Dialogue: 0,0:10:17.87,0:10:22.29,Default,,0,0,0,,Tu parlais de modifier le passé\Ngrâce aux D-mails. Ensuite…
+Dialogue: 0,0:10:22.46,0:10:26.46,Default,,0,0,0,,Tu es arrivé devant le micro-ondes\Net tu as dit "Ah, ah".
+Dialogue: 0,0:10:26.67,0:10:29.00,Default,,0,0,0,,Mayushii, tu peux répéter "Ah, ah" ?
+Dialogue: 0,0:10:29.17,0:10:31.34,Default,,0,0,0,,Arrête, pervers !\N- Entendu.
+Dialogue: 0,0:10:42.43,0:10:43.98,Default,,0,0,0,,"Tu vas gagner."
+Dialogue: 0,0:10:45.81,0:10:47.94,Default,,0,0,0,,Okabe, tu es sûr que ça va ?
+Dialogue: 0,0:10:48.06,0:10:52.78,Default,,0,0,0,,L'argent ! Le Loto 6 !\NCeleb 17, on a gagné le 3e lot ?
+Dialogue: 0,0:10:52.94,0:10:54.99,Default,,0,0,0,,Ne m'appelle pas comme ça.
+Dialogue: 0,0:10:55.11,0:10:59.24,Default,,0,0,0,,Attends, de quoi tu parles ?\N- Comment ça ?
+Dialogue: 0,0:10:59.41,0:11:01.74,Default,,0,0,0,,Okarin ?
+Dialogue: 0,0:11:01.91,0:11:05.71,Default,,0,0,0,,De l'expérience du D-mail\Npour changer le passé.
+Dialogue: 0,0:11:05.87,0:11:10.46,Default,,0,0,0,,On était en train de rédiger\Nun message à envoyer.
+Dialogue: 0,0:11:11.30,0:11:16.13,Default,,0,0,0,,Mayushii pense qu'on doit l'utiliser\Npour aider la paix dans le monde.
+Dialogue: 0,0:11:16.30,0:11:18.72,Default,,0,0,0,,Ils ont vraiment oublié ?
+Dialogue: 0,0:11:22.89,0:11:24.48,Default,,0,0,0,,Entrez.
+Dialogue: 0,0:11:26.77,0:11:29.69,Default,,0,0,0,,Ruka, entre.
+Dialogue: 0,0:11:33.15,0:11:36.15,Default,,0,0,0,,Je suis désolé, Kyouma.\N- Ruka ?
+Dialogue: 0,0:11:37.16,0:11:38.36,Default,,0,0,0,,Tiens.
+Dialogue: 0,0:11:39.82,0:11:44.25,Default,,0,0,0,,02, 12, 18. Ce sont les mêmes…
+Dialogue: 0,0:11:44.41,0:11:46.71,Default,,0,0,0,,Rukako, où as-tu trouvé ça ?
+Dialogue: 0,0:11:47.21,0:11:51.59,Default,,0,0,0,,Tu m'as dicté les numéros et…\N- Vraiment ?
+Dialogue: 0,0:11:52.17,0:11:55.38,Default,,0,0,0,,Tu m'as dit d'acheter un billet.
+Dialogue: 0,0:11:55.76,0:11:58.89,Default,,0,0,0,,Quand ça ?\N- Il y a une semaine.
+Dialogue: 0,0:11:59.01,0:12:01.89,Default,,0,0,0,,Tu es voyant, Okarin.
+Dialogue: 0,0:12:02.06,0:12:04.39,Default,,0,0,0,,Tu as gagné au Loto 6, Ruka ?
+Dialogue: 0,0:12:04.56,0:12:08.06,Default,,0,0,0,,En fait, je me suis trompé\Nd'un numéro et…
+Dialogue: 0,0:12:11.98,0:12:15.36,Default,,0,0,0,,On y était presque. C'est dingue.
+Dialogue: 0,0:12:15.86,0:12:19.32,Default,,0,0,0,,Okabe, t'as utilisé\Nle téléphone micro-ondes pour…
+Dialogue: 0,0:12:23.33,0:12:24.83,Default,,0,0,0,,Et le Dk Pepper ?
+Dialogue: 0,0:12:24.99,0:12:28.00,Default,,0,0,0,,Il n'y en avait plus, je n'y peux rien.
+Dialogue: 0,0:12:31.00,0:12:33.71,Default,,0,0,0,,03 AOÛT 2010
+Dialogue: 0,0:12:35.92,0:12:41.14,Default,,0,0,0,,Je suis sûr d'avoir envoyé un D-mail.\Nmais je n'en trouve aucune trace.
+Dialogue: 0,0:12:42.26,0:12:44.97,Default,,0,0,0,,Le passé aurait-il été réécrit ?
+Dialogue: 0,0:12:46.60,0:12:49.14,Default,,0,0,0,,Ils ont oublié l'expérience.
+Dialogue: 0,0:12:49.94,0:12:53.15,Default,,0,0,0,,On en a discuté\Net on l'a observée ensemble.
+Dialogue: 0,0:12:53.65,0:12:58.03,Default,,0,0,0,,Mais il n'y a que moi qui m'en souviens.\NJe suis le seul.
+Dialogue: 0,0:12:58.99,0:13:01.16,Default,,0,0,0,,Comme l'autre fois.
+Dialogue: 0,0:13:04.53,0:13:06.16,Default,,0,0,0,,Qu'est-ce que ça signifie ?
+Dialogue: 0,0:13:13.29,0:13:15.34,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:13:17.63,0:13:19.63,Default,,0,0,0,,Une chose à laquelle je tiens.
+Dialogue: 0,0:13:26.60,0:13:28.43,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:13:29.89,0:13:32.65,Default,,0,0,0,,On dirait qu'on t'a lavé le cerveau.
+Dialogue: 0,0:13:32.85,0:13:34.40,Default,,0,0,0,,Lavé le cerveau ?
+Dialogue: 0,0:13:35.61,0:13:36.73,Default,,0,0,0,,Peut-être.
+Dialogue: 0,0:13:37.44,0:13:40.65,Default,,0,0,0,,On m'a peut-être lavé le cerveau,\Nou alors…
+Dialogue: 0,0:13:41.28,0:13:42.53,Default,,0,0,0,,Que fais-tu…
+Dialogue: 0,0:13:53.04,0:13:55.08,Default,,0,0,0,,On ne t'a pas mis de puce.
+Dialogue: 0,0:13:55.21,0:13:58.17,Default,,0,0,0,,Tout va bien, on ne t'a pas\Nlavé le cerveau.
+Dialogue: 0,0:13:58.30,0:14:00.21,Default,,0,0,0,,Une puce ?
+Dialogue: 0,0:14:00.34,0:14:02.34,Default,,0,0,0,,C'est quoi, laver le cerveau ?
+Dialogue: 0,0:14:02.93,0:14:04.51,Default,,0,0,0,,C'est…
+Dialogue: 0,0:14:04.68,0:14:08.89,Default,,0,0,0,,Hououin Kyouma va te le dire.
+Dialogue: 0,0:14:09.06,0:14:12.69,Default,,0,0,0,,On dirait que Nae\Na peur d'Okabe Rintaro.
+Dialogue: 0,0:14:14.56,0:14:16.77,Default,,0,0,0,,J'ai une question à te poser.
+Dialogue: 0,0:14:20.78,0:14:25.24,Default,,0,0,0,,Une décharge ? Le truc qui fait\Ntout trembler ? Oui je l'ai déjà ressentie.
+Dialogue: 0,0:14:25.41,0:14:29.62,Default,,0,0,0,,Il a dû y en avoir une il y a 10 minutes.\N- J'ai pas remarqué.
+Dialogue: 0,0:14:29.99,0:14:32.29,Default,,0,0,0,,Et toi, Nae ?\N- Non.
+Dialogue: 0,0:14:33.58,0:14:39.05,Default,,0,0,0,,T'es qu'un sale pervers.\N- Non. Je suis un gentleman perverti.
+Dialogue: 0,0:14:39.55,0:14:44.59,Default,,0,0,0,,Je t'avais dit qu'on entendait tout.\N- J'ignorais que c'était à ce point.
+Dialogue: 0,0:14:44.76,0:14:49.89,Default,,0,0,0,,Tu sais pour la machine temporelle ?\N- Oui. C'est pas mal, d'ailleurs.
+Dialogue: 0,0:14:50.06,0:14:52.35,Default,,0,0,0,,Je te préviens…\N- Je sais.
+Dialogue: 0,0:14:52.52,0:14:54.69,Default,,0,0,0,,Muette comme une carpe.
+Dialogue: 0,0:14:54.89,0:14:58.77,Default,,0,0,0,,C'est la machine temporelle\Nqui te donne des soucis ?
+Dialogue: 0,0:14:59.23,0:15:02.90,Default,,0,0,0,,Pourquoi tu ne demandes pas\Nl'avis de John Titor ?
+Dialogue: 0,0:15:04.32,0:15:08.62,Default,,0,0,0,,C'est vrai, John Titor a dit\Nque remonter dans le temps
+Dialogue: 0,0:15:08.78,0:15:13.45,Default,,0,0,0,,et changer le passé modifiait\Nun nombre de divergences
+Dialogue: 0,0:15:14.00,0:15:17.25,Default,,0,0,0,,et créait une nouvelle ligne d'univers.
+Dialogue: 0,0:15:17.42,0:15:23.13,Default,,0,0,0,,Cela efface tous les souvenirs\Nde la ligne d'univers précédente
+Dialogue: 0,0:15:23.30,0:15:26.93,Default,,0,0,0,,et les remplace\Npar ceux de la nouvelle ligne.
+Dialogue: 0,0:15:27.55,0:15:33.31,Default,,0,0,0,,Le D-mail a créé un monde dans lequel\NRukako a acheté un billet de Loto 6.
+Dialogue: 0,0:15:35.10,0:15:38.86,Default,,0,0,0,,La ligne d'univers a changé,\Nainsi que le passé.
+Dialogue: 0,0:15:39.06,0:15:40.06,Default,,0,0,0,,Dans ce monde,
+Dialogue: 0,0:15:40.23,0:15:44.94,Default,,0,0,0,,on n'a pas envoyé de D-mail\Nà propos du Loto 6 dans le passé.
+Dialogue: 0,0:15:45.53,0:15:48.36,Default,,0,0,0,,Ce n'est pas qu'ils ont oublié.
+Dialogue: 0,0:15:48.53,0:15:51.74,Default,,0,0,0,,C'est l'expérience\Nqui n'a jamais eu lieu.
+Dialogue: 0,0:15:53.33,0:15:56.66,Default,,0,0,0,,Mais pourquoi\Nest-ce que je m'en souviens ?
+Dialogue: 0,0:16:02.80,0:16:04.01,Default,,0,0,0,,Mince !
+Dialogue: 0,0:16:04.17,0:16:08.30,Default,,0,0,0,,Nae, ne lui dis pas que je glandais,\Nquoi qu'il te demande.
+Dialogue: 0,0:16:08.47,0:16:11.47,Default,,0,0,0,,Je pourrai emprunter ton vélo ?\N- Bien sûr.
+Dialogue: 0,0:16:13.64,0:16:15.43,Default,,0,0,0,,Okabe Rintaro ?
+Dialogue: 0,0:16:16.14,0:16:18.48,Default,,0,0,0,,Je vais t'aider.\N- Merci.
+Dialogue: 0,0:16:21.81,0:16:23.27,Default,,0,0,0,,Enfoiré !
+Dialogue: 0,0:16:24.11,0:16:25.99,Default,,0,0,0,,Papa !\N- Okabe !
+Dialogue: 0,0:16:26.61,0:16:30.99,Default,,0,0,0,,Que faisais-tu avec ma fille ?\N- Je ne faisais rien du tout.
+Dialogue: 0,0:16:31.16,0:16:34.24,Default,,0,0,0,,La ferme. Tu étais seul avec ma fille.
+Dialogue: 0,0:16:34.41,0:16:39.21,Default,,0,0,0,,Tu es incapable de te contrôler.\N- Vous pouvez parler.
+Dialogue: 0,0:16:39.33,0:16:43.54,Default,,0,0,0,,D'ailleurs, on n'était pas seuls.\NSuzuha était avec nous.
+Dialogue: 0,0:16:43.71,0:16:46.05,Default,,0,0,0,,Quoi ? C'est vrai, Nae ?
+Dialogue: 0,0:16:46.46,0:16:49.47,Default,,0,0,0,,J'ai promis de ne pas dire\Nqu'elle glandait.
+Dialogue: 0,0:16:49.63,0:16:53.05,Default,,0,0,0,,Quoi ? Eh toi, l'employée !
+Dialogue: 0,0:16:53.22,0:16:57.10,Default,,0,0,0,,Mon dieu…\N- Tu te la coulais douce, pas vrai ?
+Dialogue: 0,0:16:57.27,0:16:59.48,Default,,0,0,0,,La 42 pouces n'est pas prête.
+Dialogue: 0,0:16:59.81,0:17:03.31,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:17:11.49,0:17:13.12,Default,,0,0,0,,Je vous expliquerai.
+Dialogue: 0,0:17:13.91,0:17:18.20,Default,,0,0,0,,J'annule l'expérience d'aujourd'hui.\NVeuillez partir.
+Dialogue: 0,0:17:20.58,0:17:22.29,Default,,0,0,0,,Okarin…
+Dialogue: 0,0:17:28.09,0:17:32.22,Default,,0,0,0,,Tu es là, assistante ?\NTu ne t'en vas pas ?
+Dialogue: 0,0:17:32.39,0:17:35.60,Default,,0,0,0,,Je réfléchissais.\N- Je vois.
+Dialogue: 0,0:17:35.76,0:17:40.23,Default,,0,0,0,,Tu restes avec moi\Nparce que tu te sens seule à l'hôtel.
+Dialogue: 0,0:17:40.39,0:17:43.56,Default,,0,0,0,,C'est puéril, Celeb 17.\N- Ne m'appelle pas ainsi.
+Dialogue: 0,0:17:43.73,0:17:45.94,Default,,0,0,0,,J'ai des mails à envoyer.
+Dialogue: 0,0:17:46.15,0:17:51.24,Default,,0,0,0,,Si tu veux vraiment rester, tais-toi\Net ne me dérange pas, le zombie.
+Dialogue: 0,0:17:53.36,0:17:55.62,Default,,0,0,0,,C'est le surnom qui m'agace le plus.
+Dialogue: 0,0:18:00.04,0:18:01.96,Default,,0,0,0,,À : JOHN TITOR.\NLE CODE CACHE LA BDD DU SERN.
+Dialogue: 0,0:18:01.96,0:18:05.00,Default,,0,0,0,,J'AI PU ENVOYER UN MSG DS LE PASSÉ.\NAURAIS-JE CHANGE DE LIGNE D'UNIVERS ?
+Dialogue: 0,0:18:08.55,0:18:11.76,Default,,0,0,0,,On dirait une fille amoureuse\Nqui attend un message.
+Dialogue: 0,0:18:12.97,0:18:15.30,Default,,0,0,0,,Tu tiens tant que ça à rester avec moi ?
+Dialogue: 0,0:18:18.14,0:18:20.47,Default,,0,0,0,,À qui envoies-tu des messages ?
+Dialogue: 0,0:18:21.89,0:18:24.52,Default,,0,0,0,,À John Titor.\N- Quoi ?
+Dialogue: 0,0:18:27.52,0:18:29.94,Default,,0,0,0,,DE : RUKAKO SUJET : LOTERIE\NJE SUIS DÉSOLÉ T_T"
+Dialogue: 0,0:18:34.86,0:18:36.62,Default,,0,0,0,,DE : S.F. C'ÉTAIT CHOUETTE.\NJURE DE TOUT ME RACONTER
+Dialogue: 0,0:18:36.66,0:18:37.91,Default,,0,0,0,,SUR LA MACHINE, OK ?\NPROMIS ? MOEKA.
+Dialogue: 0,0:18:45.50,0:18:46.67,Default,,0,0,0,,Daru ?
+Dialogue: 0,0:18:47.00,0:18:49.17,Default,,0,0,0,,Allô ?\N- Okarin ?
+Dialogue: 0,0:18:49.34,0:18:52.38,Default,,0,0,0,,Je me rends compte\Nque j'ai fait une bêtise.
+Dialogue: 0,0:18:52.55,0:18:56.97,Default,,0,0,0,,Vraiment. Laquelle ?\N- En fait, tu vois…
+Dialogue: 0,0:18:58.47,0:19:03.93,Default,,0,0,0,,J'ai oublié mon portefeuille au labo.\NJe ne peux pas aller au May Queen.
+Dialogue: 0,0:19:04.14,0:19:05.98,Default,,0,0,0,,Okarin, je ne veux pas…
+Dialogue: 0,0:19:07.94,0:19:12.36,Default,,0,0,0,,Tutuluu, Okarin.\N- C'est toi, Mayuri.
+Dialogue: 0,0:19:13.49,0:19:17.49,Default,,0,0,0,,Si Daru est avec toi,\Nne lui prête pas d'argent.
+Dialogue: 0,0:19:17.78,0:19:21.66,Default,,0,0,0,,Entendu. Tu te sens mieux, Okarin ?
+Dialogue: 0,0:19:21.79,0:19:25.71,Default,,0,0,0,,Si ce n'est pas le cas,\Ntu peux serrer l'Oopa de Mayushii.
+Dialogue: 0,0:19:25.87,0:19:28.21,Default,,0,0,0,,Ça te remontera le moral.
+Dialogue: 0,0:19:29.46,0:19:33.38,Default,,0,0,0,,D'accord. Je dois raccrocher.\NBonne journée au travail.
+Dialogue: 0,0:19:33.55,0:19:35.55,Default,,0,0,0,,Merci. Salut.
+Dialogue: 0,0:19:39.01,0:19:40.97,Default,,0,0,0,,Okabe, tu souris.
+Dialogue: 0,0:19:48.10,0:19:48.81,Default,,0,0,0,,TRÈS INTÉRESSANT.
+Dialogue: 0,0:19:48.81,0:19:49.77,Default,,0,0,0,,Il a répondu.
+Dialogue: 0,0:19:51.23,0:19:54.82,Default,,0,0,0,,J'ai lu ton e-mail.\NComme tu le présumes,
+Dialogue: 0,0:19:54.99,0:19:59.74,Default,,0,0,0,,tu as bien modifié le passé\Net changé de ligne d'univers.
+Dialogue: 0,0:19:59.91,0:20:01.99,Default,,0,0,0,,Ce que je ne comprends pas,
+Dialogue: 0,0:20:02.20,0:20:05.87,Default,,0,0,0,,c'est pourquoi tu te souviens\Nd'avant le changement.
+Dialogue: 0,0:20:07.37,0:20:09.08,Default,,0,0,0,,Me dis-tu la vérité ?
+Dialogue: 0,0:20:09.29,0:20:13.30,Default,,0,0,0,,Oui. J'ai déjà connu\Nune situation similaire.
+Dialogue: 0,0:20:13.46,0:20:16.47,Default,,0,0,0,,Qu'en penses-tu ?\N- Je ne sais pas.
+Dialogue: 0,0:20:16.59,0:20:21.26,Default,,0,0,0,,On n'a jamais pensé à utiliser\Nl'e-mail pour changer le passé
+Dialogue: 0,0:20:21.43,0:20:24.06,Default,,0,0,0,,en 2036, l'année d'où je viens.
+Dialogue: 0,0:20:24.39,0:20:28.77,Default,,0,0,0,,Tu as modifié le passé\Net changé de ligne d'univers…
+Dialogue: 0,0:20:29.23,0:20:33.15,Default,,0,0,0,,Mais je n'ai jamais\Nentendu parler de quelqu'un capable
+Dialogue: 0,0:20:33.36,0:20:37.65,Default,,0,0,0,,de conserver ses souvenirs\Nd'une ligne d'univers à l'autre.
+Dialogue: 0,0:20:39.24,0:20:43.70,Default,,0,0,0,,Cependant, Kyouma,\Nil semble que tu aies ce pouvoir.
+Dialogue: 0,0:20:46.87,0:20:50.46,Default,,0,0,0,,Tu es peut-être celui\Nqui pourra guider le monde
+Dialogue: 0,0:20:51.04,0:20:54.13,Default,,0,0,0,,au-delà d'un pour cent de divergence.
+Dialogue: 0,0:20:54.75,0:20:57.26,Default,,0,0,0,,Guider le monde ?
+Dialogue: 0,0:21:00.43,0:21:03.47,Default,,0,0,0,,"Que signifie au-delà d'un pour cent ?"
+Dialogue: 0,0:21:03.64,0:21:05.72,Default,,0,0,0,,"De quoi s'agit-il exactement ?"
+Dialogue: 0,0:21:07.27,0:21:09.27,Default,,0,0,0,,ENVOI EN COURS…\NENVOYÉ
+Dialogue: 0,0:21:22.74,0:21:25.53,Default,,0,0,0,,C'est là que se trouve la liberté.
+Dialogue: 0,0:21:25.66,0:21:30.16,Default,,0,0,0,,Le futur deviendra une dystopie,\Nsauf si on traverse cette barrière.
+Dialogue: 0,0:21:31.62,0:21:34.54,Default,,0,0,0,,J'ai pour objectif de changer le futur.
+Dialogue: 0,0:21:34.71,0:21:38.80,Default,,0,0,0,,Tu as peut-être les capacités\Npour rendre cela possible.
+Dialogue: 0,0:21:40.93,0:21:42.80,Default,,0,0,0,,Okabe, que se passe-t-il ?
+Dialogue: 0,0:21:42.97,0:21:44.80,Default,,0,0,0,,Que dit-il ?
+Dialogue: 0,0:21:45.81,0:21:47.64,Default,,0,0,0,,Moi, sauver le futur ?
+Dialogue: 0,0:21:48.64,0:21:50.14,Default,,0,0,0,,C'est absurde.
+Dialogue: 0,0:22:01.45,0:22:04.03,Default,,0,0,0,,Kyouma, je te demande…
+Dialogue: 0,0:22:06.37,0:22:09.33,Default,,0,0,0,,… d'être notre sauveur.
+Dialogue: 0,0:22:21.42,0:22:28.81,Default,,0,0,0,,Ma vision restreinte\Nm'empêche d'échapper
+Dialogue: 0,0:22:30.39,0:22:37.69,Default,,0,0,0,,au contrôle sans merci de l'horloge.
+Dialogue: 0,0:22:37.98,0:22:46.66,Default,,0,0,0,,À la recherche d'un lendemain de repos,
+Dialogue: 0,0:22:46.95,0:22:55.25,Default,,0,0,0,,j'embarque pour l'horizon\Ndu phénomène sacré qui est mien.
+Dialogue: 0,0:22:55.62,0:23:03.84,Default,,0,0,0,,Prisonniers des engagements\Net confrontés aux fausses preuves,
+Dialogue: 0,0:23:04.01,0:23:13.27,Default,,0,0,0,,le paradis et la terre\Nlaissent le temps s'écouler aveuglément.
+Dialogue: 0,0:23:13.48,0:23:21.69,Default,,0,0,0,,Bats des ailes, papillon,\Nmiraculeux papillon, je m'offre à toi.
+Dialogue: 0,0:23:22.11,0:23:26.24,Default,,0,0,0,,Papillon de larmes,\Npapillon éblouissant.
+Dialogue: 0,0:23:26.45,0:23:34.08,Default,,0,0,0,,Tout est sur le point\Nd'être réécrit à présent.
+Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Homéostasie d'une fantaisie

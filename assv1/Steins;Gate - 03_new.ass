@@ -9,7 +9,17 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,-7.5,0,1,0.3,0,7,90,60,45,1
+Style: Sign1,Immi Five O Five Std,75,&H003C4241,&H000019FF,&H003F4A49,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,15,15,15,1
+Style: Sign2,LEHN096,75,&H0060635F,&H000019FF,&H00474843,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,30,30,105,0
+Style: Note1,Spectrum MT Std,50,&H0046433A,&H000019FF,&H00EEEEEE,&H00EEEEEE,-1,0,0,0,100,90,0,0,1,1.5,1.5,7,15,15,15,1
+Style: Note2,ITC Avant Garde Std Md,45,&H00EDE6E8,&H000019FF,&H00333236,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,7,45,60,45,0
+Style: Note1_corners,Vrinda,42,&H0046433A,&H000019FF,&H00EEEEEE,&H00EEEEEE,-1,0,0,0,100,100,1.5,0,1,0.75,0.75,7,45,45,45,1
+Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
+Style: EDTL,Old newspaper font,57,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,2,15,15,18,1
+Style: op kara,Lead Coat,53,&H00000000,&H000019FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,3,0,1,4.5,4.5,8,60,60,50,1
+Style: op trans,Unisketchlightlimited,66,&H00000000,&H000019FF,&H00F2F2F2,&H009A9A9A,-1,0,0,0,90,110,3,0,1,3.75,4.5,2,60,60,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

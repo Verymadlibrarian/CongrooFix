@@ -690,28 +690,72 @@ Dialogue: 0,0:20:50.75,0:20:52.33,Default,,0,0,0,,N'est-ce pas ?
 Dialogue: 0,0:20:54.50,0:20:59.26,Default,,0,0,0,,Je vais maintenant t'expliquer\Nta mission : l'Operation Skuld.
 Dialogue: 0,0:20:59.76,0:21:03.76,Default,,0,0,0,,Tu dois changer le résultat,\Nsans modifier les faits passés.
 Dialogue: 0,0:21:03.93,0:21:09.48,Default,,0,0,0,,Okabe Rintaro observe Makise Kurisu\Nqui baigne dans son sang, sur le sol.
+Dialogue: 0,0:21:05.90,0:21:11.70,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kako wa hanareteyuki mirai wa chikazukuno?
+Dialogue: 0,0:21:05.90,0:21:11.70,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}The past retreats, but does the future truly approach?
 Dialogue: 0,0:21:09.64,0:21:13.19,Default,,0,0,0,,Change le résultat\Nsans modifier les évènements.
+Dialogue: 0,0:21:11.70,0:21:16.90,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kansokusha wa itsuka mujun ni kizuku
+Dialogue: 0,0:21:11.70,0:21:16.90,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}An observer would realize the contradictions there
 Dialogue: 0,0:21:13.73,0:21:15.78,Default,,0,0,0,,Dupe-toi toi-même.
 Dialogue: 0,0:21:16.36,0:21:17.69,Default,,0,0,0,,Trompe le monde.
+Dialogue: 0,0:21:16.90,0:21:28.22,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kami no tsukuridashita sekai wa kanzennaru mono de zettai no kinkou
+Dialogue: 0,0:21:16.90,0:21:28.22,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}This world shaped by God is perfect and lies in absolute balance
 Dialogue: 0,0:21:18.36,0:21:22.36,Default,,0,0,0,,C'est la seule façon\Nd'atteindre Steins Gate.
 Dialogue: 0,0:21:25.20,0:21:27.08,Default,,0,0,0,,Bonne chance.
 Dialogue: 0,0:21:27.29,0:21:30.00,Default,,0,0,0,,El Psy Kongroo.
+Dialogue: 0,0:21:28.22,0:21:34.73,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}sore wa orikasanaru guuzen uchuu kibo no kiseki
+Dialogue: 0,0:21:28.22,0:21:34.73,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}A superimposed coincidence, a miracle on a cosmic scale
 Dialogue: 0,0:21:32.71,0:21:34.34,Default,,0,0,0,,Ça alors.
+Dialogue: 0,0:21:34.73,0:21:40.82,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}mamoraretekita GATE "kisei" wa owatta
+Dialogue: 0,0:21:34.73,0:21:40.82,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}The restrictions on the guarded gate are now abolished
 Dialogue: 0,0:21:34.84,0:21:37.51,Default,,0,0,0,,C'était toi dans 15 ans ?
 Dialogue: 0,0:21:37.63,0:21:39.84,Default,,0,0,0,,Il avait une voix suave.
+Dialogue: 0,0:21:40.82,0:21:41.92,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}Open the Eyes
+Dialogue: 0,0:21:41.92,0:21:47.46,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}"zero" ga kako de "ichi" ga mirai "ima" wa dokonimo nai
+Dialogue: 0,0:21:41.92,0:21:47.46,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}"Zero" is the past and "One" is the future, "The Present" is a fabrication
+Dialogue: 0,0:21:47.46,0:21:52.58,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}somuku koto no dekinu LOGIC
+Dialogue: 0,0:21:47.46,0:21:52.58,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}This is an undeniable logic
 Dialogue: 0,0:21:47.77,0:21:50.10,Default,,0,0,0,,L'Operation Skuld ?
 Dialogue: 0,0:21:50.31,0:21:52.65,Default,,0,0,0,,El Psy Kongroo ?
+Dialogue: 0,0:21:52.58,0:21:53.28,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}Open the Eyes
 Dialogue: 0,0:21:52.94,0:21:56.32,Default,,0,0,0,,Je parle toujours comme ça à 33 ans ?
+Dialogue: 0,0:21:53.28,0:21:59.08,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}heikousuru musuu no sen sentaku wa boutoku e
+Dialogue: 0,0:21:53.28,0:21:59.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Amidst the countless parallel lines, I choose blasphemy
 Dialogue: 0,0:21:58.07,0:22:02.07,Default,,0,0,0,,On dirait que je suis\Ndans le délire complet.
+Dialogue: 0,0:21:59.08,0:22:07.78,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}bokura no "sonzai" sae utagau sono me ni utsuru keshiki wa
+Dialogue: 0,0:21:59.08,0:22:07.78,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Doubting existence itself, Those Eyes bear witness to
 Dialogue: 0,0:22:02.24,0:22:03.78,Default,,0,0,0,,Okarin…
 Dialogue: 0,0:22:03.95,0:22:05.20,Default,,0,0,0,,Je vais le faire.
 Dialogue: 0,0:22:06.49,0:22:09.66,Default,,0,0,0,,Si c'est le choix de Steins Gate.
+Dialogue: 0,0:22:07.78,0:22:10.59,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}"shuusoku" o suru
+Dialogue: 0,0:22:07.78,0:22:10.59,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Convergence
 Dialogue: 0,0:22:10.75,0:22:15.42,Default,,0,0,0,,Je suis le mad scientist,\NHououin Kyouma.
 Dialogue: 0,0:22:15.71,0:22:19.76,Default,,0,0,0,,Duper le monde\Nest un jeu d'enfant pour moi.
 Dialogue: 0,0:22:22.38,0:22:25.59,Default,,0,0,0,,On dirait qu'il est redevenu lui-même.
 Dialogue: 0,0:22:25.72,0:22:30.14,Default,,0,0,0,,C'est tout de même comme ça\Nque Mayushii préfère Okarin.
+Dialogue: 0,0:22:26.34,0:22:32.08,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}futatsu no hari ga sasu jikan no gainen mo
+Dialogue: 0,0:22:26.34,0:22:32.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Even the basic concept of time, as depicted by two hands of a clock
 Dialogue: 0,0:22:30.85,0:22:33.02,Default,,0,0,0,,Je vais le répéter.
+Dialogue: 0,0:22:32.08,0:22:37.38,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kansokusha shidai de hizumi o miseru
+Dialogue: 0,0:22:32.08,0:22:37.38,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Will bend and distort to the choice of the Observer
 Dialogue: 0,0:22:33.52,0:22:38.36,Default,,0,0,0,,Je suis le mad scientist,
+Dialogue: 0,0:22:37.38,0:22:48.08,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kami ni ataerareta eichi wa kanarazu "hate" ga aru zettai no ryouiki
+Dialogue: 0,0:22:37.38,0:22:48.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}The knowledge God gifted us must have some limit, an absolute territory
 Dialogue: 0,0:22:38.90,0:22:40.94,Default,,0,0,0,,Hououin Kyouma !
 Dialogue: 0,0:22:43.36,0:22:46.87,Default,,0,0,0,,Le monde est au creux de ma main.
+Dialogue: 0,0:22:48.32,0:22:54.90,EDRom,,0,0,0,,{\fad(200,200)\blur6}Sore wa oroka yue no guuzen manekarezaru kiseki
+Dialogue: 0,0:22:48.32,0:22:54.90,EDTL,,0,0,0,,{\fad(200,200)\blur6}It tells us that these are foolish notions and unwanted miracles
+Dialogue: 0,0:22:54.90,0:23:01.08,EDRom,,0,0,0,,{\fad(200,200)\blur6}Tozasaretekita gate "kisei" wa owatta
+Dialogue: 0,0:22:54.90,0:23:01.08,EDTL,,0,0,0,,{\fad(200,200)\blur6}The gate that once was shut is supervised no more
+Dialogue: 0,0:23:01.08,0:23:02.09,EDTL,,0,0,0,,{\fad(200,200)\blur6}Open the eyes
+Dialogue: 0,0:23:02.09,0:23:07.88,EDRom,,0,0,0,,{\fad(200,200)\blur6}Kousoku he to te wo nobashita omoide no parusu ga
+Dialogue: 0,0:23:02.09,0:23:07.88,EDTL,,0,0,0,,{\fad(200,200)\blur6}My mind wished to reach the speed of light
+Dialogue: 0,0:23:07.88,0:23:12.68,EDRom,,0,0,0,,{\fad(200,200)\blur6}Tobikomu fukashigi na logic
+Dialogue: 0,0:23:07.88,0:23:12.68,EDTL,,0,0,0,,{\fad(200,200)\blur6}and fell into an unfathomable logic
+Dialogue: 0,0:23:12.68,0:23:13.65,EDTL,,0,0,0,,{\fad(200,200)\blur6}Open the eyes
+Dialogue: 0,0:23:13.65,0:23:19.36,EDRom,,0,0,0,,{\fad(200,200)\blur6}Uchuu ga mada kakushimotta chitsujo no nai riron
+Dialogue: 0,0:23:13.65,0:23:19.36,EDTL,,0,0,0,,{\fad(200,200)\blur6}The lawless rules of the universe remain hidden from us
+Dialogue: 0,0:23:19.36,0:23:27.80,EDRom,,0,0,0,,{\fad(200,200)\blur6}Mugen to yobareta ten to ten ga fusei na chikara wo karite
+Dialogue: 0,0:23:19.36,0:23:27.80,EDTL,,0,0,0,,{\fad(200,200)\blur6}What we call eternity is but dots connected, empowering each other
+Dialogue: 0,0:23:27.80,0:23:30.78,EDRom,,0,0,0,,{\fad(200,200)\blur6}"Saisei" wo suru
+Dialogue: 0,0:23:27.80,0:23:30.78,EDTL,,0,0,0,,{\fad(200,200)\blur6}and resurrecting us time and time again
 Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Prologue de la fin et du commencement

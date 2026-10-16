@@ -680,13 +680,52 @@ Dialogue: 0,0:21:52.14,0:21:55.15,Default,,0,0,0,,C'est faux.\NJe suis un gentle
 Dialogue: 0,0:21:55.36,0:21:58.36,Default,,0,0,0,,Je m'en fiche. C'est pareil.
 Dialogue: 0,0:21:59.32,0:22:05.20,Default,,0,0,0,,On a changé de ligne d'univers.\NQuelque chose a changé.
 Dialogue: 0,0:22:06.03,0:22:08.70,Default,,0,0,0,,Mais quoi, exactement ?
-Dialogue: 0,0:22:21.34,0:22:28.81,Default,,0,0,0,,kisei sareta shikai mujihi naru
-Dialogue: 0,0:22:30.14,0:22:37.61,Default,,0,0,0,,juuni no shihai nogarerarenai
-Dialogue: 0,0:22:37.94,0:22:46.49,Default,,0,0,0,,ansoku no asu o negatta
-Dialogue: 0,0:22:46.66,0:22:55.04,Default,,0,0,0,,te no naka no toutoi jishou no chihei e
-Dialogue: 0,0:22:55.46,0:23:03.80,Default,,0,0,0,,torawareshi meiyaku\Narawareta gishou no rinkaku
-Dialogue: 0,0:23:03.92,0:23:13.02,Default,,0,0,0,,seimei no tenchi wa\Nmoumoku na jikan o kizanda
-Dialogue: 0,0:23:13.18,0:23:21.65,Default,,0,0,0,,habatake batafurai kiseki\Nno batafurai anata e sasagu
-Dialogue: 0,0:23:22.19,0:23:29.24,Default,,0,0,0,,namida no batafurai\Nmabushii batafurai subete ga
-Dialogue: 0,0:23:29.45,0:23:33.87,Default,,0,0,0,,ima kakikaerareru
+Dialogue: 1,0:22:21.07,0:22:30.12,EDRom,,0,0,0,,{\blur1.8\fad(250,1500)}kisei sareta shikai mujihi naru
+Dialogue: 0,0:22:21.07,0:22:30.12,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1500)}kisei sareta shikai mujihi naru
+Dialogue: 1,0:22:21.07,0:22:30.12,EDTL,,0,0,0,,{\blur1.8\fad(250,1500)}Ma vision restreinte\Nm'empêche d'échapper
+Dialogue: 0,0:22:21.07,0:22:30.12,EDTL,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1500)}Ma vision restreinte\Nm'empêche d'échapper
+Dialogue: 1,0:22:30.12,0:22:37.71,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}juuni no shihai nogarerarenai
+Dialogue: 0,0:22:30.12,0:22:37.71,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}juuni no shihai nogarerarenai
+Dialogue: 1,0:22:30.12,0:22:37.71,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}au contrôle sans merci de l'horloge.
+Dialogue: 0,0:22:30.12,0:22:37.71,EDTL,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}au contrôle sans merci de l'horloge.
+Dialogue: 1,0:22:37.71,0:22:46.09,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}ansoku no asu wo negatta
+Dialogue: 0,0:22:37.71,0:22:46.09,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}ansoku no asu wo negatta
+Dialogue: 1,0:22:37.71,0:22:46.09,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}À la recherche d'un lendemain de repos,
+Dialogue: 0,0:22:37.71,0:22:46.09,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}À la recherche d'un lendemain de repos,
+Dialogue: 1,0:22:46.64,0:22:55.19,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}te no naka no toutoi jishou no chihei he
+Dialogue: 0,0:22:46.64,0:22:55.19,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}te no naka no toutoi jishou no chihei he
+Dialogue: 1,0:22:46.64,0:22:55.19,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}j'embarque pour l'horizon\Ndu phénomène sacré qui est mien.
+Dialogue: 0,0:22:46.64,0:22:55.19,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}j'embarque pour l'horizon\Ndu phénomène sacré qui est mien.
+Dialogue: 1,0:22:55.19,0:23:03.74,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}toraware shi meiyaku arawareta gishou no rinkaku
+Dialogue: 0,0:22:55.19,0:23:03.74,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}toraware shi meiyaku arawareta gishou no rinkaku
+Dialogue: 1,0:22:55.19,0:23:03.74,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}Prisonniers des engagements\Net confrontés aux fausses preuves,
+Dialogue: 0,0:22:55.19,0:23:03.74,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}Prisonniers des engagements\Net confrontés aux fausses preuves,
+Dialogue: 1,0:23:03.74,0:23:13.08,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}seimei no tenchi wa moumoku na jikan wo kizanda
+Dialogue: 0,0:23:03.74,0:23:13.08,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}seimei no tenchi wa moumoku na jikan wo kizanda
+Dialogue: 1,0:23:03.74,0:23:13.08,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}le paradis et la terre\Nlaissent le temps s'écouler aveuglément.
+Dialogue: 0,0:23:03.74,0:23:13.08,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}le paradis et la terre\Nlaissent le temps s'écouler aveuglément.
+Dialogue: 1,0:23:13.08,0:23:15.25,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}habatake butterfly
+Dialogue: 0,0:23:13.08,0:23:15.25,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}habatake butterfly
+Dialogue: 1,0:23:13.08,0:23:15.25,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}Bats des ailes,
+Dialogue: 0,0:23:13.08,0:23:15.25,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}Bats des ailes,
+Dialogue: 1,0:23:15.25,0:23:18.21,EDRom,,0,0,0,,{\blur1.8\fad(250,400)}kiseki no butterfly
+Dialogue: 0,0:23:15.25,0:23:18.21,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}kiseki no butterfly
+Dialogue: 1,0:23:15.25,0:23:18.21,EDTL,,0,0,0,,{\blur1.8\fad(250,400)}papillon,\Nmiraculeux papillon,
+Dialogue: 0,0:23:15.25,0:23:18.21,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}papillon,\Nmiraculeux papillon,
+Dialogue: 1,0:23:18.21,0:23:21.88,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}anata he sasagu
+Dialogue: 0,0:23:18.21,0:23:21.88,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}anata he sasagu
+Dialogue: 1,0:23:18.21,0:23:21.88,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}je m'offre à toi.
+Dialogue: 0,0:23:18.21,0:23:21.88,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}je m'offre à toi.
+Dialogue: 1,0:23:21.88,0:23:24.22,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}namida no butterfly
+Dialogue: 0,0:23:21.88,0:23:24.22,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}namida no butterfly
+Dialogue: 1,0:23:21.88,0:23:24.22,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}Papillon de larmes,
+Dialogue: 0,0:23:21.88,0:23:24.22,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}Papillon de larmes,
+Dialogue: 1,0:23:24.22,0:23:26.13,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}mabushii butterfly
+Dialogue: 0,0:23:24.22,0:23:26.13,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}mabushii butterfly
+Dialogue: 1,0:23:24.22,0:23:26.13,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}papillon éblouissant.
+Dialogue: 0,0:23:24.22,0:23:26.13,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}papillon éblouissant.
+Dialogue: 1,0:23:26.13,0:23:33.98,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete ga ima kakikaerareru
+Dialogue: 0,0:23:26.13,0:23:33.98,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
+Dialogue: 1,0:23:26.13,0:23:33.98,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
+Dialogue: 0,0:23:26.13,0:23:33.98,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:41.17,0:23:55.94,Default,,0,0,0,,Homéostasie d'une illusion

@@ -22,19 +22,389 @@ Dialogue: 0,0:00:25.15,0:00:27.69,Default,,0,0,0,,MESSAGE REÇU\NBOÎTE DE RÉCE
 Dialogue: 0,0:00:41.42,0:00:45.88,Default,,0,0,0,,Auriez-vous un moment ?\NVous êtes venue voir le satellite ?
 Dialogue: 0,0:00:46.76,0:00:49.93,Default,,0,0,0,,Pourrions-nous savoir d'où vous venez ?
 Dialogue: 0,0:00:59.85,0:01:00.89,Default,,0,0,0,,BOÎTE DE RÉCEPTION
-Dialogue: 0,0:01:19.87,0:01:24.79,Default,,0,0,0,,suu juuoku mono kodou no kazu sae
-Dialogue: 0,0:01:25.17,0:01:31.55,Default,,0,0,0,,anata ni wa matataki teido no\Nsaji na toukyuu
-Dialogue: 0,0:01:31.88,0:01:37.10,Default,,0,0,0,,kako ni torawarete mirai o nageku mo
-Dialogue: 0,0:01:37.26,0:01:42.56,Default,,0,0,0,,chiri hitotsu gosan o yurusanu hitsuzen
-Dialogue: 0,0:01:42.89,0:01:48.94,Default,,0,0,0,,mugen ni hirogaru yume mo\Negaku mirai mo
-Dialogue: 0,0:01:49.15,0:01:54.53,Default,,0,0,0,,bokutachi ni yurusareta kyoei no kenri
-Dialogue: 0,0:01:54.95,0:02:00.79,Default,,0,0,0,,yuugen sore wa futatsu no\Nhari ga shimesu
-Dialogue: 0,0:02:01.16,0:02:05.67,Default,,0,0,0,,zankoku na yakujou to sentaku e
-Dialogue: 0,0:02:05.83,0:02:07.63,Default,,0,0,0,,Hacking to the Gate
-Dialogue: 0,0:02:07.96,0:02:14.64,Default,,0,0,0,,da kara ima ichi byou goto ni\Nsekaisen o koete
-Dialogue: 0,0:02:14.80,0:02:19.77,Default,,0,0,0,,kimi no sono egao mamoritai no sa
-Dialogue: 0,0:02:19.93,0:02:26.69,Default,,0,0,0,,soshite mata kanashimi no nai\Njikan no ruupu e to
-Dialogue: 0,0:02:26.86,0:02:33.24,Default,,0,0,0,,nomi komarete yuku\Nkodoku no kansokusha
+Dialogue: 0,0:01:19.14,0:01:24.81,op trans,,0,0,0,,{\fad(200,0)}Pour toi, des milliards et des milliards\Nde battements de cœur
+Dialogue: 0,0:01:19.23,0:01:19.43,op kara,,0,0,0,fx,{\fad(200,0)}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:19.43,0:01:19.64,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:19.64,0:01:19.85,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.8\bord1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:19.85,0:01:20.06,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H70&\blur4.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:20.06,0:01:20.23,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:20.23,0:01:20.44,op kara,,0,0,0,fx,{\pos(960,54)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:20.44,0:01:20.64,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur4.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:20.64,0:01:20.85,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:20.85,0:01:21.06,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.8\bord1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:21.06,0:01:21.23,op kara,,0,0,0,fx,{\pos(960,54)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:21.23,0:01:21.44,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:21.44,0:01:21.64,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H70&\blur4.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:21.64,0:01:21.85,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:21.85,0:01:22.06,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:22.06,0:01:22.23,op kara,,0,0,0,fx,{\pos(960,54)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:22.23,0:01:22.44,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:22.44,0:01:22.65,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:22.65,0:01:22.85,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:22.85,0:01:23.02,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:23.02,0:01:23.23,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:23.23,0:01:23.44,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur4.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:23.44,0:01:23.65,op kara,,0,0,0,fx,{\pos(960,54)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:23.65,0:01:23.86,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:23.86,0:01:24.02,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:24.02,0:01:24.23,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:24.23,0:01:24.44,op kara,,0,0,0,fx,{\pos(960,54)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:24.44,0:01:24.65,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur4.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:24.65,0:01:24.86,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:24.86,0:01:24.90,op kara,,0,0,0,fx,{\pos(960,54)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
+Dialogue: 0,0:01:24.90,0:01:25.15,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:24.90,0:01:31.61,op trans,,0,0,0,,{}Ne sont pas plus\Nqu'un battement de cils.
+Dialogue: 0,0:01:25.15,0:01:25.36,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:25.36,0:01:25.57,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur4.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:25.57,0:01:25.77,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H80&\blur1.8\bord1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:25.77,0:01:25.94,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:25.94,0:01:26.15,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:26.15,0:01:26.36,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:26.36,0:01:26.57,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(967.5,43.5)\alpha&H70&\blur4.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:26.57,0:01:26.77,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:26.77,0:01:26.94,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur4.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:26.94,0:01:27.15,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:27.15,0:01:27.36,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:27.36,0:01:27.57,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:27.57,0:01:27.78,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:27.78,0:01:27.94,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:27.94,0:01:28.15,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:28.15,0:01:28.36,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,43.5)\alpha&H70&\blur4.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:28.36,0:01:28.57,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:28.57,0:01:28.78,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:28.78,0:01:28.94,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:28.94,0:01:29.15,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:29.15,0:01:29.36,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:29.36,0:01:29.57,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur4.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:29.57,0:01:29.78,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:29.78,0:01:29.94,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur4.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:29.94,0:01:30.15,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:30.15,0:01:30.36,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:30.36,0:01:30.57,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:30.57,0:01:30.78,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H70&\blur4.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:30.78,0:01:30.95,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:30.95,0:01:31.07,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:31.07,0:01:31.28,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:31.28,0:01:31.45,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:31.45,0:01:31.61,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.8\bord1.5}anata ni wa matataki teido no saji na toukyuu
+Dialogue: 0,0:01:31.61,0:01:31.86,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:31.61,0:01:36.78,op trans,,0,0,0,,{}Bien que je sois prisonnière du passé\Net que je déplore le futur,
+Dialogue: 0,0:01:31.86,0:01:32.07,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:32.07,0:01:32.28,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:32.28,0:01:32.45,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:32.45,0:01:32.66,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:32.66,0:01:32.86,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:32.86,0:01:33.07,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:33.07,0:01:33.28,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:33.28,0:01:33.45,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.8\bord1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:33.45,0:01:33.66,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:33.66,0:01:33.87,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(967.5,43.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:33.87,0:01:34.07,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:34.07,0:01:34.24,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.8\bord1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:34.24,0:01:34.45,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:34.45,0:01:34.66,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:34.66,0:01:34.87,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:34.87,0:01:35.07,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:35.07,0:01:35.24,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:35.24,0:01:35.45,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:35.45,0:01:35.66,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:35.66,0:01:35.87,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(967.5,43.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:35.87,0:01:36.08,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:36.08,0:01:36.24,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.8\bord1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:36.24,0:01:36.45,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:36.45,0:01:36.66,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:36.66,0:01:36.78,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}kako ni torawarete mirai wo nageku mo
+Dialogue: 0,0:01:36.78,0:01:36.99,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:36.78,0:01:42.75,op trans,,0,0,0,,{\q2}l'inévitable n'autorise pas\Nla moindre petite erreur de calcul.
+Dialogue: 0,0:01:36.99,0:01:37.20,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:37.20,0:01:37.41,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:37.41,0:01:37.62,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:37.62,0:01:37.79,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:37.79,0:01:37.99,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:37.99,0:01:38.20,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:38.20,0:01:38.41,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:38.41,0:01:38.62,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:38.62,0:01:38.79,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:38.79,0:01:39.00,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:39.00,0:01:39.20,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.8\bord1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:39.20,0:01:39.41,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:39.41,0:01:39.62,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:39.62,0:01:39.79,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:39.79,0:01:40.00,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:40.00,0:01:40.20,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:40.20,0:01:40.41,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:40.41,0:01:40.58,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:40.58,0:01:40.79,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:40.79,0:01:41.00,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:41.00,0:01:41.21,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:41.21,0:01:41.41,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:41.41,0:01:41.58,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:41.58,0:01:41.79,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.8\bord1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:41.79,0:01:42.00,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:42.00,0:01:42.21,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:42.21,0:01:42.42,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:42.42,0:01:42.58,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:42.58,0:01:42.75,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}chiri hitotsu gosan wo yurusanu hitsuzen
+Dialogue: 0,0:01:42.75,0:01:42.92,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:42.75,0:01:48.80,op trans,,0,0,0,,{}Nos rêves et avenirs qui\Nnaissent et grandissent dans l'infini
+Dialogue: 0,0:01:42.92,0:01:43.12,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:43.12,0:01:43.33,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H80&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:43.33,0:01:43.54,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:43.54,0:01:43.75,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:43.75,0:01:43.92,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:43.92,0:01:44.13,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:44.13,0:01:44.33,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H80&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:44.33,0:01:44.54,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:44.54,0:01:44.75,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:44.75,0:01:44.92,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H80&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:44.92,0:01:45.13,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:45.13,0:01:45.34,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:45.34,0:01:45.54,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:45.54,0:01:45.71,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:45.71,0:01:45.92,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:45.92,0:01:46.13,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:46.13,0:01:46.34,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:46.34,0:01:46.54,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H80&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:46.54,0:01:46.71,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:46.71,0:01:46.92,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:46.92,0:01:47.13,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H80&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:47.13,0:01:47.34,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:47.34,0:01:47.55,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:47.55,0:01:47.71,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:47.71,0:01:47.92,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:47.92,0:01:48.13,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:48.13,0:01:48.34,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:48.34,0:01:48.55,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H80&\blur1.8\bord1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:48.55,0:01:48.71,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:48.71,0:01:48.80,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}mugen ni hirogaru yume mo egaku mirai mo
+Dialogue: 0,0:01:48.80,0:01:49.01,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:48.80,0:01:54.59,op trans,,0,0,0,,{}nous autorisent à la vanité,
+Dialogue: 0,0:01:49.01,0:01:49.21,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:49.21,0:01:49.42,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:49.42,0:01:49.63,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur4.5\bord1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:49.63,0:01:49.80,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:49.80,0:01:50.01,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:50.01,0:01:50.21,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:50.21,0:01:50.42,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:50.42,0:01:50.59,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur4.5\bord1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:50.59,0:01:50.80,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:50.80,0:01:51.01,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:51.01,0:01:51.22,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:51.22,0:01:51.42,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:51.42,0:01:51.59,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:51.59,0:01:51.80,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:51.80,0:01:52.01,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:52.01,0:01:52.22,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:52.22,0:01:52.43,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur4.5\bord1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:52.43,0:01:52.59,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:52.59,0:01:52.80,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:52.80,0:01:53.01,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:53.01,0:01:53.22,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:53.22,0:01:53.43,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur4.5\bord1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:53.43,0:01:53.59,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:53.59,0:01:53.80,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:53.80,0:01:54.01,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:54.01,0:01:54.22,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:54.22,0:01:54.43,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:54.43,0:01:54.59,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}bokutachi ni yurusareta kyoei no genri
+Dialogue: 0,0:01:54.59,0:01:54.80,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:54.59,0:02:00.77,op trans,,0,0,0,,{}tandis que nos deux mains\Nnous ramènent à nos limites.
+Dialogue: 0,0:01:54.80,0:01:55.01,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:55.01,0:01:55.22,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H070&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:55.22,0:01:55.43,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:55.43,0:01:55.60,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H070&\blur4.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:55.60,0:01:55.80,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:55.80,0:01:56.01,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:56.01,0:01:56.22,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:56.22,0:01:56.43,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:56.43,0:01:56.60,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:56.60,0:01:56.80,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H070&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:56.80,0:01:57.01,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:57.01,0:01:57.22,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:57.22,0:01:57.43,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:57.43,0:01:57.60,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:57.60,0:01:57.81,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&blur3\bord1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:57.81,0:01:58.01,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H070&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:58.01,0:01:58.22,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:58.22,0:01:58.43,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:58.43,0:01:58.60,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H070&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:58.60,0:01:58.81,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:58.81,0:01:59.02,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:59.02,0:01:59.22,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&blur3\bord1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:59.22,0:01:59.39,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:59.39,0:01:59.60,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H070&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:59.60,0:01:59.81,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:01:59.81,0:02:00.02,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:02:00.02,0:02:00.22,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H070&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:02:00.22,0:02:00.39,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:02:00.39,0:02:00.60,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:02:00.60,0:02:00.77,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}yuugen sore wa futatsu no hari ga shimesu
+Dialogue: 0,0:02:00.77,0:02:00.98,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:00.77,0:02:05.44,op trans,,0,0,0,,{}toward a cruel destiny and choice
+Dialogue: 0,0:02:00.98,0:02:01.18,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:01.18,0:02:01.39,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:01.39,0:02:01.60,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:01.60,0:02:01.77,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:01.77,0:02:01.98,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:01.98,0:02:02.19,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:02.19,0:02:02.39,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur4.5\bord1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:02.39,0:02:02.56,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:02.56,0:02:02.77,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:02.77,0:02:02.98,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:02.98,0:02:03.19,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:03.19,0:02:03.39,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:03.39,0:02:03.56,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:03.56,0:02:03.77,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:03.77,0:02:03.98,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:03.98,0:02:04.19,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:04.19,0:02:04.40,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:04.40,0:02:04.56,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur4.5\bord1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:04.56,0:02:04.77,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:04.77,0:02:04.98,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:04.98,0:02:05.19,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:05.19,0:02:05.40,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:05.40,0:02:05.56,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:05.44,0:02:07.27,op trans,,0,0,0,,Hacking to the Gate
+Dialogue: 0,0:02:05.56,0:02:05.77,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:05.77,0:02:05.98,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:05.98,0:02:06.19,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:06.19,0:02:06.40,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur4.5\bord1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:06.40,0:02:06.56,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:06.56,0:02:06.77,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(967.5,43.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:06.77,0:02:06.98,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:06.98,0:02:07.19,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:07.19,0:02:07.27,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}zankoku na yakujou to sentaku e hacking to the gate
+Dialogue: 0,0:02:07.77,0:02:07.94,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:07.77,0:02:14.61,op trans,,0,0,0,,{}À présent, chaque seconde qui passe,\Nje traverserai les lignes d'univers,
+Dialogue: 0,0:02:07.94,0:02:08.15,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:08.15,0:02:08.36,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:08.36,0:02:08.57,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.8\bord1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:08.57,0:02:08.78,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:08.78,0:02:08.94,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:08.94,0:02:09.15,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:09.15,0:02:09.36,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:09.36,0:02:09.57,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:09.57,0:02:09.78,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:09.78,0:02:09.94,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:09.94,0:02:10.15,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:10.15,0:02:10.36,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:10.36,0:02:10.57,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:10.57,0:02:10.78,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:10.78,0:02:10.94,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(967.5,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:10.94,0:02:11.15,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:11.15,0:02:11.36,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:11.36,0:02:11.57,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:11.57,0:02:11.78,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:11.78,0:02:11.94,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:11.94,0:02:12.15,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:12.15,0:02:12.36,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:12.36,0:02:12.57,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:12.57,0:02:12.78,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:12.78,0:02:12.95,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:12.95,0:02:13.15,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:13.15,0:02:13.36,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:13.36,0:02:13.57,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:13.57,0:02:13.78,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.8\bord1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:13.78,0:02:13.95,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:13.95,0:02:14.16,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:14.16,0:02:14.36,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:14.36,0:02:14.57,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:14.57,0:02:14.61,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}dakara ima ichibyou goto ni sekaisen wo koete
+Dialogue: 0,0:02:14.61,0:02:14.86,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:14.61,0:02:19.58,op trans,,0,0,0,,{}pour protéger le sourire sur ton visage.
+Dialogue: 0,0:02:14.86,0:02:15.07,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:15.07,0:02:15.28,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:15.28,0:02:15.45,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:15.45,0:02:15.66,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur4.5\bord1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:15.66,0:02:15.87,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:15.87,0:02:16.07,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:16.07,0:02:16.24,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:16.24,0:02:16.45,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:16.45,0:02:16.66,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:16.66,0:02:16.87,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:16.87,0:02:17.08,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur4.5\bord1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:17.08,0:02:17.24,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:17.24,0:02:17.45,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:17.45,0:02:17.66,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:17.66,0:02:17.87,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:17.87,0:02:18.08,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:18.08,0:02:18.24,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:18.24,0:02:18.45,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur4.5\bord1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:18.45,0:02:18.66,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:18.66,0:02:18.87,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:18.87,0:02:19.08,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,43.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:19.08,0:02:19.24,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:19.24,0:02:19.45,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:19.45,0:02:19.58,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}kimi no sono egao mamoritai no sa
+Dialogue: 0,0:02:19.58,0:02:19.79,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:19.58,0:02:26.54,op trans,,0,0,0,,{}Puis, à nouveau, dans une boucle\Ntemporelle sans tristesse,
+Dialogue: 0,0:02:19.79,0:02:19.99,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:19.99,0:02:20.20,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H70&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:20.20,0:02:20.41,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:20.41,0:02:20.58,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:20.58,0:02:20.79,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,55.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:20.79,0:02:21.00,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:21.00,0:02:21.20,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:21.20,0:02:21.37,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:21.37,0:02:21.58,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:21.58,0:02:21.79,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:21.79,0:02:22.00,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:22.00,0:02:22.21,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:22.21,0:02:22.37,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur4.5\bord1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:22.37,0:02:22.58,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:22.58,0:02:22.79,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:22.79,0:02:23.00,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:23.00,0:02:23.21,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:23.21,0:02:23.37,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:23.37,0:02:23.58,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:23.58,0:02:23.79,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:23.79,0:02:24.00,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:24.00,0:02:24.21,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:24.21,0:02:24.37,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H00&\blur4.5\bord1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:24.37,0:02:24.58,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:24.58,0:02:24.79,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:24.79,0:02:25.00,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H70&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:25.00,0:02:25.21,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:25.21,0:02:25.38,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:25.38,0:02:25.58,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:25.58,0:02:25.79,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur4.5\bord1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:25.79,0:02:26.00,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:26.00,0:02:26.21,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:26.21,0:02:26.38,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:26.38,0:02:26.54,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}soshite mata kanashimi no nai jikan no loop e to
+Dialogue: 0,0:02:26.54,0:02:26.75,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:26.54,0:02:32.80,op trans,,0,0,0,,je serai engloutie\Ncomme une observatrice solitaire.
+Dialogue: 0,0:02:26.75,0:02:26.92,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:26.92,0:02:27.13,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:27.13,0:02:27.34,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(967.5,45)\alpha&H70&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:27.34,0:02:27.54,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:27.54,0:02:27.71,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:27.71,0:02:27.92,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:27.92,0:02:28.13,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:28.13,0:02:28.34,op kara,,0,0,0,fx,{\pos(967.5,45)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:28.34,0:02:28.54,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:28.54,0:02:28.71,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(955.5,45)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:28.71,0:02:28.92,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:28.92,0:02:29.13,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:29.13,0:02:29.34,op kara,,0,0,0,fx,{\pos(955.5,45)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:29.34,0:02:29.55,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(960,49.5)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:29.55,0:02:29.71,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:29.71,0:02:29.92,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:29.92,0:02:30.13,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:30.13,0:02:30.34,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:30.34,0:02:30.55,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:30.55,0:02:30.71,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:30.71,0:02:30.92,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:30.92,0:02:31.13,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:31.13,0:02:31.34,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H70&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:31.34,0:02:31.55,op kara,,0,0,0,fx,{\pos(967.5,49.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:31.55,0:02:31.71,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:31.71,0:02:31.92,op kara,,0,0,0,fx,{\fscx103\fscy103\pos(964.5,45)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:31.92,0:02:32.13,op kara,,0,0,0,fx,{\pos(967.5,49.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:32.13,0:02:32.34,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:32.34,0:02:32.55,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:32.55,0:02:32.72,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
+Dialogue: 0,0:02:32.72,0:02:32.80,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:36.11,0:02:40.99,Default,,0,0,0,,Divergence de l'effet papillon
 Dialogue: 0,0:02:42.70,0:02:43.50,Default,,0,0,0,,02 AOÛT 2010
 Dialogue: 0,0:02:43.66,0:02:45.25,Default,,0,0,0,,Donc, c'est…

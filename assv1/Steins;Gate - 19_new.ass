@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000000FF,&H00001500,&HA0062210,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Default-top,Fontin Sans Rg,60,&H00FFFFFF,&H000000FF,&H00000000,&HA0062210,-1,0,0,0,100,100,0,0,1,4.5,1.5,8,165,165,60,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00726F87,&H00726F87,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
@@ -410,7 +409,7 @@ Dialogue: 0,0:01:59.27,0:01:59.43,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:01:59.43,0:01:59.64,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:01:59.64,0:01:59.85,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:01:59.85,0:01:59.89,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:02:03.08,0:02:04.88,Default,,0,0,0,,15 AOÛT 2010 - 20H03
+Dialogue: 0,0:02:03.08,0:02:04.88,SignFrench,,0,0,0,,15 AOÛT 2010 - 20H03
 Dialogue: 0,0:02:19.18,0:02:20.97,Default,,0,0,0,,Je meurs de faim.
 Dialogue: 0,0:02:27.15,0:02:29.94,Default,,0,0,0,,Tu vas au Comima ?\N- Tu y retournes demain ?
 Dialogue: 0,0:02:31.61,0:02:34.24,Default,,0,0,0,,Oui.\N- Tu rentres à la même heure ?
@@ -462,9 +461,9 @@ Dialogue: 0,0:05:49.64,0:05:51.43,Default,,0,0,0,,"OK. Sois prudent."
 Dialogue: 0,0:05:54.65,0:05:56.40,Default,,0,0,0,,Kiryu Moeka ?
 Dialogue: 0,0:05:56.57,0:06:00.40,Default,,0,0,0,,Je me souviens.\NElle n'est restée que quelques jours.
 Dialogue: 0,0:06:00.99,0:06:04.03,Default,,0,0,0,,Son adresse ?\NJe l'ai, mais qui êtes-vous ?
-Dialogue: 0,0:06:08.99,0:06:10.20,Default,,0,0,0,,DÉFENSE D'ENTRER
-Dialogue: 0,0:06:12.41,0:06:13.29,Default,,0,0,0,,LES HAUTS BLANCS
-Dialogue: 0,0:06:15.00,0:06:16.04,Default,,0,0,0,,LES HAUTS BLANCS 202
+Dialogue: 0,0:06:08.99,0:06:10.20,SignFrench,,0,0,0,,DÉFENSE D'ENTRER
+Dialogue: 0,0:06:12.41,0:06:13.29,SignFrench,,0,0,0,,LES HAUTS BLANCS
+Dialogue: 0,0:06:15.00,0:06:16.04,SignFrench,,0,0,0,,LES HAUTS BLANCS 202
 Dialogue: 0,0:06:20.84,0:06:21.84,Default,,0,0,0,,Entendu.
 Dialogue: 0,0:06:21.97,0:06:23.30,Default,,0,0,0,,Excusez-moi.
 Dialogue: 0,0:06:24.89,0:06:28.10,Default,,0,0,0,,Kiryu Moeka s'est suicidée ?
@@ -485,7 +484,7 @@ Dialogue: 0,0:07:30.95,0:07:33.75,Default,,0,0,0,,Allô ?\N- Okabe…
 Dialogue: 0,0:07:33.87,0:07:36.87,Default,,0,0,0,,Elle… Elle est morte. Mayuri…
 Dialogue: 0,0:07:37.83,0:07:40.38,Default,,0,0,0,,La deadline est 19H52.\N- Mayuri !
 Dialogue: 0,0:07:42.59,0:07:43.76,Default,,0,0,0,,Je suis désolé.
-Dialogue: 0,0:07:46.68,0:07:47.72,Default,,0,0,0,,11 AOÛT 2010 - 17H36
+Dialogue: 0,0:07:46.68,0:07:47.72,SignFrench,,0,0,0,,11 AOÛT 2010 - 17H36
 Dialogue: 0,0:07:48.22,0:07:51.60,Default,,0,0,0,,Quoi ? Okabe, tu as mangé ça ?
 Dialogue: 0,0:07:51.97,0:07:55.56,Default,,0,0,0,,Regarde, il est clairement écrit\NMakise dessus.
 Dialogue: 0,0:07:56.77,0:07:57.89,Default,,0,0,0,,Tu m'écoutes ?
@@ -495,7 +494,7 @@ Dialogue: 0,0:08:07.28,0:08:09.61,Default,,0,0,0,,Que viens-tu de dire ?
 Dialogue: 0,0:08:09.78,0:08:13.37,Default,,0,0,0,,Tu connais une certaine Kiryu Moeka ?\N- Qui ça ?
 Dialogue: 0,0:08:14.16,0:08:16.20,Default,,0,0,0,,Je viens de faire un time leap.
 Dialogue: 0,0:08:18.71,0:08:19.96,Default,,0,0,0,,Comment ça ?
-Dialogue: 0,0:08:24.42,0:08:25.55,Default,,0,0,0,,LES HAUTS BLANCS
+Dialogue: 0,0:08:24.42,0:08:25.55,SignFrench,,0,0,0,,LES HAUTS BLANCS
 Dialogue: 0,0:08:58.29,0:08:59.83,Default,,0,0,0,,FB…
 Dialogue: 0,0:09:00.46,0:09:03.96,Default,,0,0,0,,FB… FB…
 Dialogue: 0,0:09:04.84,0:09:07.96,Default,,0,0,0,,Répondez-moi, je vous en prie.
@@ -582,14 +581,17 @@ Dialogue: 0,0:15:26.22,0:15:29.76,Default,,0,0,0,,Tu n'as plus de contacts, pas 
 Dialogue: 0,0:15:29.97,0:15:34.77,Default,,0,0,0,,Il t'a évincée.\N- C'est faux. FB n'est pas comme ça.
 Dialogue: 0,0:15:42.15,0:15:45.86,Default,,0,0,0,,FB m'a sauvée.
 Dialogue: 0,0:15:47.78,0:15:50.16,Default,,0,0,0,,Non, il t'a utilisée.
-Dialogue: 0,0:16:11.35,0:16:15.18,Default,,0,0,0,,RECRUTEMENT DE ROUNDERS FB\NComment je serai au courant sinon ?
+Dialogue: 0,0:16:11.35,0:16:15.18,Default,,0,0,0,,Comment je serai au courant sinon ?
+Dialogue: 0,0:16:11.35,0:16:15.18,SignFrench,,0,0,0,,RECRUTEMENT DE ROUNDERS FB
 Dialogue: 0,0:16:16.68,0:16:20.06,Default,,0,0,0,,FB est comme une mère pour moi.
 Dialogue: 0,0:16:20.23,0:16:22.11,Default,,0,0,0,,"Quel genre de travail ?"
-Dialogue: 0,0:16:22.57,0:16:27.40,Default,,0,0,0,,UN TRAVAIL APPROPRIÉ À VOS COMPÉTENCES. J'ai une\Nmachine temporelle. L'e-mail du futur est la preuve.
+Dialogue: 0,0:16:22.57,0:16:27.40,Default,,0,0,0,,J'ai une machine temporelle. L'e-mail du futur est la preuve.
+Dialogue: 0,0:16:22.57,0:16:27.40,SignFrench,,0,0,0,,UN TRAVAIL APPROPRIÉ À VOS COMPÉTENCES.
 Dialogue: 0,0:16:27.57,0:16:29.82,Default,,0,0,0,,"En suis-je capable ?"
-Dialogue: 0,0:16:30.45,0:16:33.83,Default,,0,0,0,,OUI. NOUS PROPOSONS UN TRAVAIL\NSUR MESURE. FB m'a donné une utilité.
+Dialogue: 0,0:16:30.45,0:16:33.83,Default,,0,0,0,,FB m'a donné une utilité.
+Dialogue: 0,0:16:30.45,0:16:33.83,SignFrench,,0,0,0,,OUI.\NNOUS PROPOSONS UN TRAVAIL SUR MESURE.
 Dialogue: 0,0:16:34.04,0:16:38.25,Default,,0,0,0,,"Je n'ai jamais eu de travail.\NJe n'ai pas de compétences."
-Dialogue: 0,0:16:38.37,0:16:42.13,Default,,0,0,0,,CE N'EST RIEN. TRAVAILLONS DUR ENSEMBLE.
+Dialogue: 0,0:16:38.37,0:16:42.13,SignFrench,,0,0,0,,CE N'EST RIEN. TRAVAILLONS DUR ENSEMBLE.
 Dialogue: 0,0:16:50.09,0:16:52.55,Default,,0,0,0,,J'ai vu le futur.
 Dialogue: 0,0:16:52.72,0:16:54.43,Default,,0,0,0,,Toi…
 Dialogue: 0,0:16:55.14,0:16:56.52,Default,,0,0,0,,Toi…
@@ -617,7 +619,7 @@ Dialogue: 0,0:18:49.05,0:18:52.01,Default,,0,0,0,,J'étais persuadée qu'elle me
 Dialogue: 0,0:18:54.18,0:18:58.72,Default,,0,0,0,,Tu ne lui as même jamais parlé\Nau téléphone ? Pourquoi as-tu obéi ?
 Dialogue: 0,0:18:59.68,0:19:03.23,Default,,0,0,0,,Elle m'a donné une place.\N- Une place ?
 Dialogue: 0,0:19:11.32,0:19:13.86,Default,,0,0,0,,Quelle idiote.
-Dialogue: 0,0:19:17.62,0:19:20.49,Default,,0,0,0,,LE PC RÉTRO EST\NAU SANCTUAIRE YANABAYASHI.
+Dialogue: 0,0:19:17.62,0:19:20.49,SignFrench,,0,0,0,,LE PC RÉTRO EST\NAU SANCTUAIRE YANABAYASHI.
 Dialogue: 0,0:19:21.04,0:19:22.45,Default,,0,0,0,,Okabe ?
 Dialogue: 0,0:19:25.71,0:19:29.71,Default,,0,0,0,,Ne me fais plus jamais ça.\N- Tu t'inquiétais ?
 Dialogue: 0,0:19:29.84,0:19:31.63,Default,,0,0,0,,Non.
@@ -627,7 +629,7 @@ Dialogue: 0,0:19:39.60,0:19:40.68,Default,,0,0,0,,Par Moeka.
 Dialogue: 0,0:19:40.85,0:19:44.02,Default,,0,0,0,,Où est-il ?\N- C'est tout ce que je sais.
 Dialogue: 0,0:19:45.56,0:19:47.06,Default,,0,0,0,,On va annuler le D-mail.
 Dialogue: 0,0:19:47.56,0:19:50.52,Default,,0,0,0,,Entendu. Envoyé pour 11H00, le 31 juillet.
-Dialogue: 0,0:19:54.78,0:20:00.07,Default,,0,0,0,,LE SANCTUAIRE EST UN PIÈGE.\NN'Y VA PAS, IL N'EST PAS LÀ.
+Dialogue: 0,0:19:54.78,0:20:00.07,SignFrench,,0,0,0,,LE SANCTUAIRE EST UN PIÈGE.\NN'Y VA PAS, IL N'EST PAS LÀ.
 Dialogue: 0,0:20:00.24,0:20:01.58,Default,,0,0,0,,C'est activé.
 Dialogue: 0,0:20:03.87,0:20:05.79,Default,,0,0,0,,Ça devrait marcher.
 Dialogue: 0,0:20:19.09,0:20:21.05,Default,,0,0,0,,Pourquoi ?\N- Alors ?
@@ -704,4 +706,4 @@ Dialogue: 1,0:23:26.30,0:23:34.14,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.30,0:23:34.14,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.30,0:23:34.14,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.30,0:23:34.14,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.09,0:23:55.89,Default,,0,0,0,,Apoptose du cri de rancœur
+Dialogue: 0,0:23:41.09,0:23:55.89,SignFrench,,0,0,0,,Apoptose du cri de rancœur

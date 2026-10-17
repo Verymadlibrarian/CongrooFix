@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -12,6 +10,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H005C5C66,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,-7.5,0,1,0.3,0,7,90,60,45,1
 Style: Sign1,VAG Rounded Std Light,78,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,210,60,120,0
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
 Style: EDTL,Old newspaper font,57,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,2,15,15,18,1
 Style: op kara,Lead Coat,53,&H00000000,&H000019FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,3,0,1,4.5,4.5,8,60,60,50,1
@@ -423,7 +422,7 @@ Dialogue: 0,0:03:23.13,0:03:23.33,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:03:23.33,0:03:23.53,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:23.53,0:03:23.73,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:23.73,0:03:23.78,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:03:27.08,0:03:31.96,Default,,0,0,0,,Rendez-vous de collisions entre charges électriques
+Dialogue: 0,0:03:27.08,0:03:31.96,SignFrench,,0,0,0,,Rendez-vous de collisions entre charges électriques
 Dialogue: 0,0:03:32.67,0:03:37.47,Default,,0,0,0,,Comme il est grand.\NOn dirait une peau de tigre.
 Dialogue: 0,0:03:39.30,0:03:40.64,Default,,0,0,0,,Ou un futon.
 Dialogue: 0,0:03:40.76,0:03:45.43,Default,,0,0,0,,Mayushii est couchée sur mon T-shirt.\NMon cœur va exploser.
@@ -769,4 +768,4 @@ Dialogue: 1,0:23:26.26,0:23:36.60,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.26,0:23:36.60,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.26,0:23:36.60,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.26,0:23:36.60,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.05,0:23:55.81,Default,,0,0,0,,Divergence de l'effet papillon
+Dialogue: 0,0:23:41.05,0:23:55.81,SignFrench,,0,0,0,,Divergence de l'effet papillon

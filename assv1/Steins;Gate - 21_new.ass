@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -13,6 +11,7 @@ Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00727189,&H00727189,
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
 Style: Sign,Beautiful Every Time,60,&H00000000,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,15,15,15,1
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Celly,Arial Rounded MT Bold,72,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,0,0,2,15,15,15,1
 Style: Sign1,VAG Rounded Std Light,78,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,210,60,120,0
 Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
@@ -411,7 +410,7 @@ Dialogue: 0,0:01:45.34,0:01:45.50,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:01:45.50,0:01:45.71,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:01:45.71,0:01:45.92,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:01:45.92,0:01:45.96,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:01:49.15,0:01:53.86,Default,,0,0,0,,Effondrement du principe de causalité
+Dialogue: 0,0:01:49.15,0:01:53.86,SignFrench,,0,0,0,,Effondrement du principe de causalité
 Dialogue: 0,0:01:58.49,0:02:01.58,Default,,0,0,0,,Où est Okabe ?\N- Je sais pas, je suis occupé.
 Dialogue: 0,0:02:02.50,0:02:05.29,Default,,0,0,0,,Bonne chance, Mayushii.\N- À toi aussi.
 Dialogue: 0,0:02:05.46,0:02:06.50,Default,,0,0,0,,Oui !
@@ -457,12 +456,12 @@ Dialogue: 0,0:04:37.07,0:04:40.07,Default,,0,0,0,,Okarin, ils vendent des boisso
 Dialogue: 0,0:04:41.20,0:04:42.99,Default,,0,0,0,,Plus que cinq heures.
 Dialogue: 0,0:04:43.16,0:04:46.50,Default,,0,0,0,,N'abandonne pas.\NIl faut trouver avant…
 Dialogue: 0,0:04:46.62,0:04:50.62,Default,,0,0,0,,Un moyen pour que Mayuri\Nsurvive sans changer de ligne.
-Dialogue: 0,0:04:52.38,0:04:54.09,Default,,0,0,0,,ASSISTANTE
+Dialogue: 0,0:04:52.38,0:04:54.09,SignFrench,,0,0,0,,ASSISTANTE
 Dialogue: 0,0:04:57.34,0:05:00.55,Default,,0,0,0,,Pourquoi veux-tu que j'aide Hashida ?
 Dialogue: 0,0:05:00.72,0:05:04.68,Default,,0,0,0,,Un carnet avec tous les stands ?\NJe ne vois rien du tout.
 Dialogue: 0,0:05:04.81,0:05:06.81,Default,,0,0,0,,L'étagère ? La deuxième…
 Dialogue: 0,0:05:06.97,0:05:08.81,Default,,0,0,0,,Ne regarde pas la deuxième étagère ?
-Dialogue: 0,0:05:11.56,0:05:13.15,Default,,0,0,0,,COMIMA\NLISTE DES STANDS
+Dialogue: 0,0:05:11.56,0:05:13.15,SignFrench,,0,0,0,,COMIMA\NLISTE DES STANDS
 Dialogue: 0,0:05:13.61,0:05:15.61,Default,,0,0,0,,Je vais intenter un procès.
 Dialogue: 0,0:05:18.15,0:05:19.49,Default,,0,0,0,,Quoi ?\N- C'est moi.
 Dialogue: 0,0:05:20.32,0:05:22.95,Default,,0,0,0,,Est-ce que tu as du nouveau ?
@@ -540,11 +539,11 @@ Dialogue: 0,0:10:08.86,0:10:12.24,Default,,0,0,0,,Okarin…
 Dialogue: 0,0:10:19.66,0:10:21.66,Default,,0,0,0,,Hé, Mayuri…
 Dialogue: 0,0:10:22.46,0:10:27.17,Default,,0,0,0,,D'ici, tu peux difficilement\Nvoir les étoiles.
 Dialogue: 0,0:10:30.67,0:10:34.09,Default,,0,0,0,,Ce n'est pas juste.
-Dialogue: 0,0:10:41.81,0:10:44.10,Default,,0,0,0,,IL FAUT QU'ON PARLE\NKURISU
+Dialogue: 0,0:10:41.81,0:10:44.10,SignFrench,,0,0,0,,IL FAUT QU'ON PARLE\NKURISU
 Dialogue: 0,0:10:54.65,0:10:57.66,Default,,0,0,0,,Je vais commencer le hacking.
 Dialogue: 0,0:10:58.12,0:10:59.33,Default,,0,0,0,,Okabe ?
 Dialogue: 0,0:11:02.29,0:11:03.54,Default,,0,0,0,,Okabe ?
-Dialogue: 0,0:11:08.92,0:11:10.88,Default,,0,0,0,,15 AOÛT 2010 - 13H53
+Dialogue: 0,0:11:08.92,0:11:10.88,SignFrench,,0,0,0,,15 AOÛT 2010 - 13H53
 Dialogue: 0,0:11:24.85,0:11:27.06,Default,,0,0,0,,Tu vas rester là-haut longtemps ?
 Dialogue: 0,0:11:29.86,0:11:32.40,Default,,0,0,0,,J'ai dit que je voulais être seul.
 Dialogue: 0,0:11:32.57,0:11:37.57,Default,,0,0,0,,C'est vrai. Mais ça fait des heures\Nque tu es sur ce toit, silencieux.
@@ -729,4 +728,4 @@ Dialogue: 1,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.05,0:23:55.81,Default,,0,0,0,,Effondrement de l'existence
+Dialogue: 0,0:23:41.05,0:23:55.81,SignFrench,,0,0,0,,Effondrement de l'existence

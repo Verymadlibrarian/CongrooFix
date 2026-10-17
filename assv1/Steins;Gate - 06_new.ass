@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -13,6 +11,7 @@ Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H005C5C66,&H00727189,&H00727189,
 Style: Sign1,VAG Rounded Std Light,78,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,210,60,120,0
 Style: Note1,ITC Avant Garde Std Md,45,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,45,45,45,0
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Default - margin,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,150,0
 Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
 Style: EDTL,Old newspaper font,57,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,2,15,15,18,1
@@ -26,10 +25,10 @@ Dialogue: 0,0:00:06.72,0:00:09.68,Default,,0,0,0,,sur les locaux de Radio Kaikan
 Dialogue: 0,0:00:09.84,0:00:13.10,Default,,0,0,0,,Une foule s'est rassemblée\Npour l'observer.
 Dialogue: 0,0:00:13.35,0:00:16.18,Default,,0,0,0,,Son pays d'origine reste inconnu
 Dialogue: 0,0:00:16.35,0:00:19.65,Default,,0,0,0,,et on ignore\Nquand il sera enlevé exactement.
-Dialogue: 0,0:00:25.15,0:00:27.69,Default,,0,0,0,,MESSAGE REÇU\NBOÎTE DE RÉCEPTION
+Dialogue: 0,0:00:25.15,0:00:27.69,SignFrench,,0,0,0,,MESSAGE REÇU\NBOÎTE DE RÉCEPTION
 Dialogue: 0,0:00:41.42,0:00:45.88,Default,,0,0,0,,Auriez-vous un moment ?\NVous êtes venue voir le satellite ?
 Dialogue: 0,0:00:46.76,0:00:49.93,Default,,0,0,0,,Pourrions-nous savoir d'où vous venez ?
-Dialogue: 0,0:00:59.85,0:01:00.89,Default,,0,0,0,,BOÎTE DE RÉCEPTION
+Dialogue: 0,0:00:59.85,0:01:00.89,SignFrench,,0,0,0,,BOÎTE DE RÉCEPTION
 Dialogue: 0,0:01:19.14,0:01:24.81,op trans,,0,0,0,,{\fad(200,0)}Pour toi, des milliards et des milliards\Nde battements de cœur
 Dialogue: 0,0:01:19.23,0:01:19.43,op kara,,0,0,0,fx,{\fad(200,0)}suujuuoku mo no kodou no kazu sae
 Dialogue: 0,0:01:19.43,0:01:19.64,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur1.5}suujuuoku mo no kodou no kazu sae
@@ -413,8 +412,8 @@ Dialogue: 0,0:02:32.13,0:02:32.34,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:02:32.34,0:02:32.55,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.8\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:32.55,0:02:32.72,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:32.72,0:02:32.80,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur1.5}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:02:36.11,0:02:40.99,Default,,0,0,0,,Divergence de l'effet papillon
-Dialogue: 0,0:02:42.70,0:02:43.50,Default,,0,0,0,,02 AOÛT 2010
+Dialogue: 0,0:02:36.11,0:02:40.99,SignFrench,,0,0,0,,Divergence de l'effet papillon
+Dialogue: 0,0:02:42.70,0:02:43.50,SignFrench,,0,0,0,,02 AOÛT 2010
 Dialogue: 0,0:02:43.66,0:02:45.25,Default,,0,0,0,,Donc, c'est…
 Dialogue: 0,0:02:48.71,0:02:51.80,Default,,0,0,0,,Trop bon.\N- T'avais jamais mangé de gyudon ?
 Dialogue: 0,0:02:51.96,0:02:56.18,Default,,0,0,0,,Non, j'en avais juste entendu parler.\NC'est délicieux.
@@ -541,7 +540,7 @@ Dialogue: 0,0:10:32.30,0:10:35.84,Default,,0,0,0,,Quand j'y pense,\Nle dernier D
 Dialogue: 0,0:10:36.01,0:10:39.26,Default,,0,0,0,,en plusieurs parties\Net il manquait des trucs.
 Dialogue: 0,0:10:39.43,0:10:42.18,Default,,0,0,0,,Il est aussi arrivé cinq jours plus tôt.
 Dialogue: 0,0:10:42.35,0:10:45.02,Default,,0,0,0,,Il doit s'agir d'une loi physique…
-Dialogue: 0,0:10:45.98,0:10:48.57,Default,,0,0,0,,Donc, le message…\NOKABE ÉTAIT UN DÉBILE !
+Dialogue: 0,0:10:45.98,0:10:48.57,Default - margin,,0,0,0,,Donc, le message…\NOKABE ÉTAIT UN DÉBILE !
 Dialogue: 0,0:10:48.77,0:10:52.44,Default,,0,0,0,,… Mme traitait de débile !\N- Il t'a fallu le temps.
 Dialogue: 0,0:10:52.65,0:10:56.28,Default,,0,0,0,,Comment oses-tu, Christina ?\NGlisser tes insultes…
 Dialogue: 0,0:10:56.70,0:10:59.03,Default,,0,0,0,,Pourquoi tu achètes tout ça ?
@@ -591,7 +590,7 @@ Dialogue: 0,0:14:22.65,0:14:24.66,Default,,0,0,0,,Elle faisait un dernier essai.
 Dialogue: 0,0:14:25.28,0:14:28.53,Default,,0,0,0,,Tu n'as pas reçu mon e-mail ?\N- Bien sûr que non.
 Dialogue: 0,0:14:28.95,0:14:32.41,Default,,0,0,0,,Je t'ai prévenu il y a cinq jours.\N- Ça suffit !
 Dialogue: 0,0:14:32.58,0:14:37.13,Default,,0,0,0,,Ton portable a beaucoup sonné\Npendant les expériences.
-Dialogue: 0,0:14:37.79,0:14:41.88,Default,,0,0,0,,S. F. : ÇA FAIT LONGTEMPS.\NDES NOUVELLES DE L'IBN 5100 ?
+Dialogue: 0,0:14:37.79,0:14:41.88,SignFrench,,0,0,0,,S. F. : ÇA FAIT LONGTEMPS.\NDES NOUVELLES DE L'IBN 5100 ?
 Dialogue: 0,0:14:42.42,0:14:45.26,Default,,0,0,0,,Pourquoi elle ne me parle pas ?\N- Quoi ?
 Dialogue: 0,0:14:45.43,0:14:48.60,Default,,0,0,0,,Je sais pas.\NMais il doit manquer de calcium.
 Dialogue: 0,0:14:48.76,0:14:51.93,Default,,0,0,0,,C'est pas de ma faute.\N- Peu importe.
@@ -634,16 +633,17 @@ Dialogue: 0,0:17:23.46,0:17:29.55,Default,,0,0,0,,Même si le temps s'étend ver
 Dialogue: 0,0:17:35.10,0:17:38.93,Default,,0,0,0,,Quand serons-nous\Nune seconde plus tard ?
 Dialogue: 0,0:17:39.10,0:17:43.23,Default,,0,0,0,,Regarde devant toi et avance.
 Dialogue: 0,0:17:43.40,0:17:45.15,Default,,0,0,0,,Ne regarde pas en arrière.
-Dialogue: 0,0:17:45.23,0:17:47.15,Default,,0,0,0,,03 AOÛT 2010
+Dialogue: 0,0:17:45.23,0:17:47.15,SignFrench,,0,0,0,,03 AOÛT 2010
 Dialogue: 0,0:17:54.24,0:17:58.12,Default,,0,0,0,,Encore cette spammeuse.\NElle insiste de plus en plus.
 Dialogue: 0,0:17:59.58,0:18:01.12,Default,,0,0,0,,"Désolée pour hier."
 Dialogue: 0,0:18:01.96,0:18:04.88,Default,,0,0,0,,"Je peux passer ?"
 Dialogue: 0,0:18:05.33,0:18:08.09,Default,,0,0,0,,Vous ne vous dites pas que je dors ?
-Dialogue: 0,0:18:08.71,0:18:09.76,Default,,0,0,0,,VOUS DORMIEZ ?
+Dialogue: 0,0:18:08.71,0:18:09.76,SignFrench,,0,0,0,,VOUS DORMIEZ ?
 Dialogue: 0,0:18:10.30,0:18:12.80,Default,,0,0,0,,Quelle question. Bien sûr que oui.
-Dialogue: 0,0:18:13.13,0:18:14.97,Default,,0,0,0,,JE MONTE.\NQuoi ?
-Dialogue: 0,0:18:18.68,0:18:20.60,Default,,0,0,0,,JE VAIS FRAPPER. MOEKA.
-Dialogue: 0,0:18:29.28,0:18:31.40,Default,,0,0,0,,VOUS M'AVEZ INVITÉE À LE VOIR.
+Dialogue: 0,0:18:13.13,0:18:14.97,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:18:13.13,0:18:14.97,SignFrench,,0,0,0,,JE MONTE.
+Dialogue: 0,0:18:18.68,0:18:20.60,SignFrench,,0,0,0,,JE VAIS FRAPPER. MOEKA.
+Dialogue: 0,0:18:29.28,0:18:31.40,SignFrench,,0,0,0,,VOUS M'AVEZ INVITÉE À LE VOIR.
 Dialogue: 0,0:18:31.57,0:18:34.28,Default,,0,0,0,,Pourquoi vous m'écrivez ? Je suis là.
 Dialogue: 0,0:18:35.82,0:18:38.16,Default,,0,0,0,,Je ne le lirai pas. Parlez-moi.
 Dialogue: 0,0:18:38.33,0:18:41.12,Default,,0,0,0,,Je ne vous attendais pas si tôt.
@@ -656,7 +656,7 @@ Dialogue: 0,0:19:01.56,0:19:07.23,Default,,0,0,0,,Je vous en prie, montrez-moi l
 Dialogue: 0,0:19:07.40,0:19:08.48,Default,,0,0,0,,Très bien.
 Dialogue: 0,0:19:09.02,0:19:14.28,Default,,0,0,0,,Mais vous pouvez seulement le regarder.\NEnsuite, vous vous en irez.
 Dialogue: 0,0:19:28.21,0:19:31.80,Default,,0,0,0,,Elle est peut-être simplement\Nférue de PC rétros.
-Dialogue: 0,0:19:33.38,0:19:35.42,Default,,0,0,0,,JE PEUX PRENDRE DES PHOTOS ?
+Dialogue: 0,0:19:33.38,0:19:35.42,SignFrench,,0,0,0,,JE PEUX PRENDRE DES PHOTOS ?
 Dialogue: 0,0:19:36.97,0:19:42.01,Default,,0,0,0,,De tout sauf de mon visage,\Nsinon je devrai vous réduire au silence.
 Dialogue: 0,0:19:46.73,0:19:50.73,Default,,0,0,0,,"J'aimerais l'emprunter.\NVous m'aidez à le porter ?"
 Dialogue: 0,0:19:50.90,0:19:53.40,Default,,0,0,0,,Vous le prêter ?
@@ -672,7 +672,7 @@ Dialogue: 0,0:20:25.56,0:20:30.23,Default,,0,0,0,,Mon favorite right arm,\NDaru,
 Dialogue: 0,0:20:30.40,0:20:32.48,Default,,0,0,0,,Mec, on dit "super hacker".
 Dialogue: 0,0:20:32.65,0:20:36.40,Default,,0,0,0,,Je voudrais améliorer\Nle téléphone micro-ondes.
 Dialogue: 0,0:20:36.57,0:20:41.82,Default,,0,0,0,,C'est lourd de devoir tout régler\Npour envoyer des D-mails dans le passé.
-Dialogue: 0,0:20:44.91,0:20:46.62,Default,,0,0,0,,DES MAILS DANS LE PASSÉ ?
+Dialogue: 0,0:20:44.91,0:20:46.62,SignFrench,,0,0,0,,DES MAILS DANS LE PASSÉ ?
 Dialogue: 0,0:20:47.12,0:20:49.96,Default,,0,0,0,,C'est rien. Vous avez mal entendu.
 Dialogue: 0,0:20:50.12,0:20:55.71,Default,,0,0,0,,Ce n'est pas ce qu'il a dit. Il a dit :\N"env oyer de sma ils da ns lepas se."
 Dialogue: 0,0:20:55.88,0:21:00.30,Default,,0,0,0,,En sumérien, ça signifie :\N"Tu as déjà pris ton petit déjeuner ?"
@@ -684,8 +684,8 @@ Dialogue: 0,0:21:16.86,0:21:19.74,Default,,0,0,0,,Il y a eu des fuites à propos
 Dialogue: 0,0:21:19.86,0:21:23.37,Default,,0,0,0,,Que se passe-t-il ?\N- Il nous ignore tous les trois.
 Dialogue: 0,0:21:23.53,0:21:26.79,Default,,0,0,0,,L'Organisation ne doit rien savoir.
 Dialogue: 0,0:21:26.95,0:21:30.08,Default,,0,0,0,,Pas de mail quand je téléphone.\N- Donc…
-Dialogue: 0,0:21:34.00,0:21:36.38,Default,,0,0,0,,C'EST VOUS ? FB ?
-Dialogue: 0,0:21:37.34,0:21:39.51,Default,,0,0,0,,FB ?
+Dialogue: 0,0:21:34.00,0:21:36.38,SignFrench,,0,0,0,,C'EST VOUS ? FB ?
+Dialogue: 0,0:21:37.34,0:21:39.51,SignFrench,,0,0,0,,FB ?
 Dialogue: 0,0:21:47.64,0:21:51.14,Default,,0,0,0,,Je vais cracher le morceau.
 Dialogue: 0,0:21:52.52,0:21:56.69,Default,,0,0,0,,Puisque vous savez tout,\Nje n'ai pas le choix, Kiryu Moeka.
 Dialogue: 0,0:21:56.86,0:22:00.53,Default,,0,0,0,,Vous devenez\Nle membre du laboratoire 005.
@@ -737,4 +737,4 @@ Dialogue: 1,0:23:26.34,0:23:36.73,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.34,0:23:36.73,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.34,0:23:36.73,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.34,0:23:36.73,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.13,0:23:55.89,Default,,0,0,0,,Divergence de la fracture
+Dialogue: 0,0:23:41.13,0:23:55.89,SignFrench,,0,0,0,,Divergence de la fracture

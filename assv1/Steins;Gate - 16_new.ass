@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -12,6 +10,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
 Style: Sign,Birdie,53,&H28000000,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: Sign1,VAG Rounded Std Light,78,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,210,60,120,0
 Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
@@ -427,8 +426,8 @@ Dialogue: 0,0:02:51.32,0:02:51.48,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:02:51.48,0:02:51.69,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:51.69,0:02:51.90,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:51.90,0:02:51.94,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:02:56.22,0:02:58.22,Default,,0,0,0,,11 AOÛT 2010 - 18H35
-Dialogue: 0,0:02:58.35,0:03:03.23,Default,,0,0,0,,Nécrose de l'irréversibilité
+Dialogue: 0,0:02:56.22,0:02:58.22,SignFrench,,0,0,0,,11 AOÛT 2010 - 18H35
+Dialogue: 0,0:02:58.35,0:03:03.23,SignFrench,,0,0,0,,Nécrose de l'irréversibilité
 Dialogue: 0,0:03:04.43,0:03:05.85,Default,,0,0,0,,Où est Suzuha ?
 Dialogue: 0,0:03:06.73,0:03:09.44,Default,,0,0,0,,Elle vient de partir. Qu'y a-t-il ?
 Dialogue: 0,0:03:09.61,0:03:10.86,Default,,0,0,0,,Je t'expliquerai.
@@ -486,7 +485,7 @@ Dialogue: 0,0:06:38.82,0:06:41.74,Default,,0,0,0,,Mon père voulait changer le f
 Dialogue: 0,0:06:41.86,0:06:46.28,Default,,0,0,0,,Mais tu te fiches\Nde ce que cela signifie pour toi ?
 Dialogue: 0,0:06:46.53,0:06:48.99,Default,,0,0,0,,C'est pas mal, les années 70.
 Dialogue: 0,0:06:51.12,0:06:55.92,Default,,0,0,0,,Je trouverai d'autres amis comme vous\Net mènerai une vie libre.
-Dialogue: 0,0:07:02.92,0:07:04.34,Default,,0,0,0,,13 AOÛT 2010 - 15H07
+Dialogue: 0,0:07:02.92,0:07:04.34,SignFrench,,0,0,0,,13 AOÛT 2010 - 15H07
 Dialogue: 0,0:07:04.42,0:07:06.22,Default,,0,0,0,,C'est parti.
 Dialogue: 0,0:07:10.81,0:07:14.60,Default,,0,0,0,,Ça devrait marcher,\Nmais tu veux peut-être vérifier.
 Dialogue: 0,0:07:14.77,0:07:16.06,Default,,0,0,0,,Très bien.
@@ -556,7 +555,7 @@ Dialogue: 0,0:11:46.12,0:11:49.96,Default,,0,0,0,,Je vous en prie, changez le fu
 Dialogue: 0,0:11:52.13,0:11:54.21,Default,,0,0,0,,On se reverra dans 35 ans.
 Dialogue: 0,0:11:55.22,0:11:58.30,Default,,0,0,0,,Pour vous, ça signifie\Ndans quelques heures.
 Dialogue: 0,0:12:01.85,0:12:03.18,Default,,0,0,0,,Suzu !
-Dialogue: 0,0:12:16.82,0:12:19.53,Default,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NMERCI. AU REVOIR.
+Dialogue: 0,0:12:16.82,0:12:19.53,SignFrench,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NMERCI. AU REVOIR.
 Dialogue: 0,0:12:24.58,0:12:28.87,Default,,0,0,0,,Suzuha ! Nous nous retrouverons,\Nd'accord ?
 Dialogue: 0,0:12:29.04,0:12:31.17,Default,,0,0,0,,Je resterai fort d'ici là.
 Dialogue: 0,0:12:31.29,0:12:33.54,Default,,0,0,0,,Reste forte, toi aussi !
@@ -576,7 +575,7 @@ Dialogue: 0,0:13:36.15,0:13:40.70,Default,,0,0,0,,Je verrais mes arrière-petits
 Dialogue: 0,0:13:40.95,0:13:44.57,Default,,0,0,0,,Il faudra les gâter,\Ncomme un arrière-grand-père.
 Dialogue: 0,0:13:45.91,0:13:47.24,Default,,0,0,0,,C'est elle.
 Dialogue: 0,0:13:58.50,0:14:00.34,Default,,0,0,0,,M. Braun ?
-Dialogue: 0,0:14:03.30,0:14:05.22,Default,,0,0,0,,OKABE RINTARO
+Dialogue: 0,0:14:03.30,0:14:05.22,SignFrench,,0,0,0,,OKABE RINTARO
 Dialogue: 0,0:14:05.60,0:14:07.31,Default,,0,0,0,,Une lettre ?
 Dialogue: 0,0:14:08.39,0:14:10.35,Default,,0,0,0,,Hashida Suzu…
 Dialogue: 0,0:14:10.60,0:14:14.85,Default,,0,0,0,,Serait-ce Suzu ?\N- Vraiment ? Alors pourquoi M. Braun…
@@ -607,10 +606,10 @@ Dialogue: 0,0:15:51.03,0:15:53.29,Default,,0,0,0,,Je suis vraiment désolée.
 Dialogue: 0,0:15:56.33,0:16:00.50,Default,,0,0,0,,Pourquoi ai-je vécu si longtemps ?
 Dialogue: 0,0:16:00.75,0:16:04.17,Default,,0,0,0,,J'ai oublié mon devoir\Net vécu dans l'insouciance.
 Dialogue: 0,0:16:04.80,0:16:06.80,Default,,0,0,0,,Pardonnez-moi. Pardonnez-moi.
-Dialogue: 0,0:16:06.88,0:16:08.93,Default,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NPARDON. ADIEU.
+Dialogue: 0,0:16:06.88,0:16:08.93,SignFrench,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NPARDON. ADIEU.
 Dialogue: 0,0:16:09.09,0:16:13.10,Default,,0,0,0,,Okabe, après la réunion\Nsur les machines temporelles,
-Dialogue: 0,0:16:13.22,0:16:13.26,Default,,0,0,0,,N'ÉCOUTE PAS TON ASSISTANTE.\NSUIS SUZUHA.
-Dialogue: 0,0:16:13.26,0:16:17.02,Default,,0,0,0,,N'ÉCOUTE PAS TON ASSISTANTE. SUIS SUZUHA.\Ntu m'as empêchée de me rendre en 1975.
+Dialogue: 0,0:16:13.26,0:16:17.02,Default,,0,0,0,,tu m'as empêchée de me rendre en 1975.
+Dialogue: 0,0:16:13.26,0:16:17.02,SignFrench,,0,0,0,,N'ÉCOUTE PAS TON ASSISTANTE. SUIS SUZUHA.
 Dialogue: 0,0:16:17.31,0:16:23.02,Default,,0,0,0,,Tu m'as arrêtée et l'orage a cassé\Nla machine cette nuit-là.
 Dialogue: 0,0:16:24.61,0:16:29.11,Default,,0,0,0,,Si tu peux revenir en arrière,\Nje te demande de ne pas m'arrêter.
 Dialogue: 0,0:16:32.12,0:16:33.28,Default,,0,0,0,,Ma vie…
@@ -630,7 +629,7 @@ Dialogue: 0,0:17:29.72,0:17:32.51,Default,,0,0,0,,Je n'ai pas envie d'en parler,
 Dialogue: 0,0:17:32.64,0:17:34.05,Default,,0,0,0,,c'était un suicide.
 Dialogue: 0,0:17:34.47,0:17:37.06,Default,,0,0,0,,Elle s'est pendue chez elle.
 Dialogue: 0,0:17:38.64,0:17:43.23,Default,,0,0,0,,Ça faisait un an\Nqu'elle était mentalement instable.
-Dialogue: 0,0:17:43.40,0:17:46.86,Default,,0,0,0,,PRESCRIPTION MÉDICALE\NHASHIDA SUZU
+Dialogue: 0,0:17:43.40,0:17:46.86,SignFrench,,0,0,0,,PRESCRIPTION MÉDICALE\NHASHIDA SUZU
 Dialogue: 0,0:17:48.23,0:17:52.82,Default,,0,0,0,,Elle avait pourtant été jusque-là\Nune femme joyeuse et agréable.
 Dialogue: 0,0:18:03.83,0:18:05.42,Default,,0,0,0,,C'est ma faute.
 Dialogue: 0,0:18:05.92,0:18:11.63,Default,,0,0,0,,La machine s'est cassée,\Nparce que j'ai empêché Suzuha de partir.
@@ -638,7 +637,7 @@ Dialogue: 0,0:18:11.92,0:18:16.85,Default,,0,0,0,,Sans mon D-mail, elle serait\N
 Dialogue: 0,0:18:18.10,0:18:19.77,Default,,0,0,0,,Okarin…
 Dialogue: 0,0:18:21.35,0:18:23.69,Default,,0,0,0,,Attends, Okabe, que fais-tu ?
 Dialogue: 0,0:18:24.40,0:18:27.23,Default,,0,0,0,,Si telle est la situation, Mayuri va…
-Dialogue: 0,0:18:27.52,0:18:29.19,Default,,0,0,0,,NE SUIS PAS LE PRÉCÉDENT MESSAGE\NPIÈGE DU SERN
+Dialogue: 0,0:18:27.52,0:18:29.19,SignFrench,,0,0,0,,NE SUIS PAS LE PRÉCÉDENT MESSAGE\NPIÈGE DU SERN
 Dialogue: 0,0:18:30.44,0:18:32.32,Default,,0,0,0,,Tu envoies un D-mail ?
 Dialogue: 0,0:18:33.99,0:18:37.95,Default,,0,0,0,,Tout va disparaître, si tu fais ça.\N- Je sais.
 Dialogue: 0,0:18:38.70,0:18:42.41,Default,,0,0,0,,Tous nos souvenirs avec Suzu\Nvont disparaître.
@@ -734,4 +733,4 @@ Dialogue: 1,0:23:26.47,0:23:34.31,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.47,0:23:34.31,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.47,0:23:34.31,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.47,0:23:34.31,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.17,0:23:56.06,Default,,0,0,0,,Complexe d'une image visuelle distordue
+Dialogue: 0,0:23:41.17,0:23:56.06,SignFrench,,0,0,0,,Complexe d'une image visuelle distordue

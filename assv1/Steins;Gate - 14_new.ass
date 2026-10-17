@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
 Style: WHITEBOARDISNOTBLACK,MV Boli,75,&H14171918,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
@@ -429,8 +428,8 @@ Dialogue: 0,0:03:45.18,0:03:45.38,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:03:45.38,0:03:45.58,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:45.58,0:03:45.78,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:45.78,0:03:45.83,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:03:49.10,0:03:53.98,Default,,0,0,0,,Nécrose physique
-Dialogue: 0,0:03:53.98,0:03:56.07,Default,,0,0,0,,13 AOÛT 2010 - 14H32\NQue se passe-t-il ?
+Dialogue: 0,0:03:49.10,0:03:53.98,SignFrench,,0,0,0,,Nécrose physique
+Dialogue: 0,0:03:53.98,0:03:56.07,SignFrench,,0,0,0,,13 AOÛT 2010 - 14H32\NQue se passe-t-il ?
 Dialogue: 0,0:03:56.07,0:03:57.03,Default,,0,0,0,,Explique-moi.
 Dialogue: 0,0:03:57.57,0:04:00.74,Default,,0,0,0,,Laisse-moi sauvegarder\Nce que je faisais.
 Dialogue: 0,0:04:00.91,0:04:04.62,Default,,0,0,0,,Je le ferai pour toi,\Nmais quittez Akihabara.
@@ -490,7 +489,7 @@ Dialogue: 0,0:08:28.51,0:08:30.14,Default,,0,0,0,,Mayuri !
 Dialogue: 0,0:08:31.01,0:08:32.30,Default,,0,0,0,,Ferme-la !
 Dialogue: 0,0:08:33.01,0:08:34.51,Default,,0,0,0,,Mayuri !
 Dialogue: 0,0:08:39.69,0:08:41.23,Default,,0,0,0,,Mayuri…
-Dialogue: 0,0:08:57.08,0:08:58.91,Default,,0,0,0,,13 AOÛT 2010 - 16H56
+Dialogue: 0,0:08:57.08,0:08:58.91,SignFrench,,0,0,0,,13 AOÛT 2010 - 16H56
 Dialogue: 0,0:08:59.33,0:09:01.21,Default,,0,0,0,,Qu'est-ce qui ne va pas ?
 Dialogue: 0,0:09:02.00,0:09:04.42,Default,,0,0,0,,Tu t'es assoupi ou quoi ?
 Dialogue: 0,0:09:05.00,0:09:07.01,Default,,0,0,0,,Ça recommence.\N- Quoi ?
@@ -561,7 +560,7 @@ Dialogue: 0,0:13:57.55,0:13:58.88,Default,,0,0,0,,Prépare-toi.
 Dialogue: 0,0:13:59.92,0:14:01.17,Default,,0,0,0,,Entendu.
 Dialogue: 0,0:14:03.05,0:14:06.85,Default,,0,0,0,,J'imagine que la version de moi\Nil y a cinq heures
 Dialogue: 0,0:14:07.01,0:14:09.68,Default,,0,0,0,,ignorera que tu m'as appelée Kurisu.
-Dialogue: 0,0:14:17.82,0:14:19.11,Default,,0,0,0,,13 AOÛT 2010 - 13H59
+Dialogue: 0,0:14:17.82,0:14:19.11,SignFrench,,0,0,0,,13 AOÛT 2010 - 13H59
 Dialogue: 0,0:14:19.86,0:14:22.90,Default,,0,0,0,,Tu peux me tenir ça ?
 Dialogue: 0,0:14:23.36,0:14:24.95,Default,,0,0,0,,Comme ça ?\N- C'est ça.
 Dialogue: 0,0:14:25.41,0:14:28.16,Default,,0,0,0,,Tiens-le bien tendu.
@@ -616,7 +615,7 @@ Dialogue: 0,0:17:18.54,0:17:19.83,Default,,0,0,0,,J'ai essayé.
 Dialogue: 0,0:17:20.21,0:17:23.13,Default,,0,0,0,,Mais j'ai pas pu\Nempêcher la mort de Mayuri.
 Dialogue: 0,0:17:24.04,0:17:25.29,Default,,0,0,0,,Je vois.
 Dialogue: 0,0:17:27.34,0:17:32.22,Default,,0,0,0,,Les choses sont toujours la conséquence\Nd'une cause sous-jacente.
-Dialogue: 0,0:17:32.34,0:17:34.47,Default,,0,0,0,,MORT
+Dialogue: 0,0:17:32.34,0:17:34.47,SignFrench,,0,0,0,,MORT
 Dialogue: 0,0:17:35.10,0:17:39.85,Default,,0,0,0,,On attribue normalement la mort\Nà un évènement directement lié,
 Dialogue: 0,0:17:40.06,0:17:45.44,Default,,0,0,0,,comme une maladie ou un accident,\Nmais ce n'est pas toujours la cause.
 Dialogue: 0,0:17:46.11,0:17:50.19,Default,,0,0,0,,Les Rounders provoquent\Ndirectement la mort de Mayuri,
@@ -733,4 +732,4 @@ Dialogue: 1,0:23:26.36,0:23:34.20,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.36,0:23:34.20,EDRom,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.36,0:23:34.20,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.36,0:23:34.20,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.05,0:23:55.81,Default,,0,0,0,,Nécrose d'un chaînon mourant
+Dialogue: 0,0:23:41.05,0:23:55.81,SignFrench,,0,0,0,,Nécrose d'un chaînon mourant

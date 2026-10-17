@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Book,Century Gothic,60,&H005A8080,&H000019FF,&H00464444,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,15,1
 Style: Cellphone,Arial Rounded MT Bold,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,15,15,15,1
 Style: Title1,A-OTF Futo Min A101 Pro Bold,98,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,-7.5,0,1,0.3,0,7,90,60,45,1
@@ -44,7 +43,7 @@ Dialogue: 0,0:01:18.50,0:01:23.25,Default,,0,0,0,,L'IBN 5100 permettra\Nd'anéan
 Dialogue: 0,0:01:23.88,0:01:26.13,Default,,0,0,0,,J'aimerais discuter avec toi.
 Dialogue: 0,0:01:26.88,0:01:28.42,Default,,0,0,0,,C'est mon adresse mail.
 Dialogue: 0,0:01:29.13,0:01:31.47,Default,,0,0,0,,Si tu me contactes, je répondrai.
-Dialogue: 0,0:01:31.59,0:01:34.72,Default,,0,0,0,,À : JOHN TITOR\NSUJET : J'AI UNE QUESTION
+Dialogue: 0,0:01:31.59,0:01:34.72,SignFrench,,0,0,0,,À : JOHN TITOR\NSUJET : J'AI UNE QUESTION
 Dialogue: 0,0:01:48.13,0:01:53.80,op trans,,0,0,0,,{\fad(200,0)}Pour toi, des milliards et des milliards\Nde battements de cœur
 Dialogue: 0,0:01:48.21,0:01:48.42,op kara,,0,0,0,fx,{\fad(200,0)}suujuuoku mo no kodou no kazu sae
 Dialogue: 0,0:01:48.42,0:01:48.63,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur3}suujuuoku mo no kodou no kazu sae
@@ -428,7 +427,7 @@ Dialogue: 0,0:03:01.12,0:03:01.33,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:03:01.33,0:03:01.49,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:01.49,0:03:01.70,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:01.70,0:03:01.74,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:03:05.06,0:03:07.40,Default,,0,0,0,,Rendez-vous entre collisions de théories errantes
+Dialogue: 0,0:03:05.06,0:03:07.40,SignFrench,,0,0,0,,Rendez-vous entre collisions de théories errantes
 Dialogue: 0,0:03:07.52,0:03:09.65,Default,,0,0,0,,Il y a beaucoup de linge à laver.
 Dialogue: 0,0:03:11.98,0:03:16.49,Default,,0,0,0,,Avec toutes ces nuits blanches,\Non n'est pas rentrés chez nous.
 Dialogue: 0,0:03:16.61,0:03:20.53,Default,,0,0,0,,En plus, Daru ne porte\Nque des vêtements XXXL.
@@ -466,14 +465,14 @@ Dialogue: 0,0:05:29.20,0:05:32.67,Default,,0,0,0,,Elles pourraient avoir\Ndéré
 Dialogue: 0,0:05:33.58,0:05:36.13,Default,,0,0,0,,Mais la banane…
 Dialogue: 0,0:05:36.34,0:05:39.38,Default,,0,0,0,,Ce four est une machine temporelle.
 Dialogue: 0,0:05:40.59,0:05:42.55,Default,,0,0,0,,Très bien.
-Dialogue: 0,0:05:44.68,0:05:46.68,Default,,0,0,0,,SAC À LINGE
+Dialogue: 0,0:05:44.68,0:05:46.68,SignFrench,,0,0,0,,SAC À LINGE
 Dialogue: 0,0:05:50.52,0:05:55.02,Default,,0,0,0,,Faris…\NComment cela a-t-il pu t'arriver ?
 Dialogue: 0,0:05:55.19,0:05:57.61,Default,,0,0,0,,Je ferme.\N- D'accord.
 Dialogue: 0,0:05:58.11,0:06:02.82,Default,,0,0,0,,Daru est comme l'univers\Nqui s'élargit sans cesse.
 Dialogue: 0,0:06:05.03,0:06:07.12,Default,,0,0,0,,Shining Finger ?
 Dialogue: 0,0:06:07.28,0:06:10.87,Default,,0,0,0,,Que fabrique Titor ?\NIl m'avait dit de lui écrire.
 Dialogue: 0,0:06:11.62,0:06:15.38,Default,,0,0,0,,"Je veux contacter super hax0r."\NElle insiste.
-Dialogue: 0,0:06:15.58,0:06:17.29,Default,,0,0,0,,DE : JOHN TITOR.\NÊTES-VOUS RÉEL ?
+Dialogue: 0,0:06:15.58,0:06:17.29,SignFrench,,0,0,0,,DE : JOHN TITOR.\NÊTES-VOUS RÉEL ?
 Dialogue: 0,0:06:18.71,0:06:21.01,Default,,0,0,0,,Merci de m'avoir contacté.
 Dialogue: 0,0:06:21.17,0:06:23.59,Default,,0,0,0,,Concernant la photo du programme,
 Dialogue: 0,0:06:23.76,0:06:28.01,Default,,0,0,0,,il s'agit bien d'un langage\Nde programmation d'IBN.
@@ -579,7 +578,8 @@ Dialogue: 0,0:13:00.28,0:13:03.41,Default,,0,0,0,,Il coûte 5100 yens\Nou quelqu
 Dialogue: 0,0:13:03.57,0:13:06.79,Default,,0,0,0,,5100 yens ? Tu veux dire…
 Dialogue: 0,0:13:10.46,0:13:11.87,Default,,0,0,0,,Tutuluu…
 Dialogue: 0,0:13:12.21,0:13:17.01,Default,,0,0,0,,Devine quoi, Okarin. Mayushii\Na fait une découverte incroyable.
-Dialogue: 0,0:13:17.13,0:13:21.88,Default,,0,0,0,,MOBILES INTERDITS.\NFaris a vu le PC que tu cherches.
+Dialogue: 0,0:13:17.13,0:13:21.88,Default,,0,0,0,,Faris a vu le PC que tu cherches.
+Dialogue: 0,0:13:17.13,0:13:21.88,SignFrench,,0,0,0,,MOBILES INTERDITS.
 Dialogue: 0,0:13:22.30,0:13:24.01,Default,,0,0,0,,Pas de portable !
 Dialogue: 0,0:13:29.35,0:13:31.06,Default,,0,0,0,,Hé, vous !
 Dialogue: 0,0:13:31.60,0:13:33.23,Default,,0,0,0,,Bon sang…
@@ -763,4 +763,4 @@ Dialogue: 1,0:23:26.18,0:23:36.52,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.18,0:23:36.52,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.18,0:23:36.52,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.18,0:23:36.52,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.05,0:23:55.94,Default,,0,0,0,,Rendez-vous de collisions entre charges électriques
+Dialogue: 0,0:23:41.05,0:23:55.94,SignFrench,,0,0,0,,Rendez-vous de collisions entre charges électriques

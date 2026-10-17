@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -13,6 +11,7 @@ Style: Title1,A-OTF Futo Min A101 Pro Bold,120,&H00636363,&H00727189,&H00727189,
 Style: BlackboardDerp,Eager Naturalist,83,&H1E000000,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
 Style: SignDerp,Arno Pro,60,&H64000000,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Sign1,VAG Rounded Std Light,78,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,210,60,120,0
 Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
 Style: EDTL,Old newspaper font,57,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,2,15,15,18,1
@@ -38,12 +37,13 @@ Dialogue: 0,0:00:58.60,0:01:02.40,Default,,0,0,0,,Mais je suis certaine\Nque leu
 Dialogue: 0,0:01:02.52,0:01:06.94,Default,,0,0,0,,à travers Okarin et Mayushii\Nà Akihabara, dans 70 millions d'années.
 Dialogue: 0,0:01:07.15,0:01:08.57,Default,,0,0,0,,Donc…
 Dialogue: 0,0:01:08.74,0:01:10.90,Default,,0,0,0,,Tout va bien.
-Dialogue: 0,0:01:13.41,0:01:18.29,Default,,0,0,0,,Dogme de la limite statique
+Dialogue: 0,0:01:13.41,0:01:18.29,SignFrench,,0,0,0,,Dogme de la limite statique
 Dialogue: 0,0:01:22.62,0:01:24.92,Default,,0,0,0,,Okarin !
 Dialogue: 0,0:01:27.96,0:01:31.80,Default,,0,0,0,,Kurisu veut que tu viennes.\NElle a presque fini.
 Dialogue: 0,0:01:32.47,0:01:35.30,Default,,0,0,0,,Le costume de Mayushii est presque prêt.
 Dialogue: 0,0:01:36.72,0:01:37.43,Default,,0,0,0,,Viens !
-Dialogue: 0,0:01:37.43,0:01:38.89,Default,,0,0,0,,13 AOÛT 2010\NVite ! Vite !
+Dialogue: 0,0:01:37.43,0:01:38.89,Default,,0,0,0,,Vite ! Vite !
+Dialogue: 0,0:01:37.43,0:01:38.89,SignFrench,,0,0,0,,13 AOÛT 2010
 Dialogue: 0,0:02:01.18,0:02:06.86,op trans,,0,0,0,,{\fad(200,0)}Pour toi, des milliards et des milliards\Nde battements de cœur
 Dialogue: 0,0:02:01.27,0:02:01.48,op kara,,0,0,0,fx,{\fad(200,0)}suujuuoku mo no kodou no kazu sae
 Dialogue: 0,0:02:01.48,0:02:01.68,op kara,,0,0,0,fx,{\pos(964.5,45)\alpha&H00&\blur3}suujuuoku mo no kodou no kazu sae
@@ -487,7 +487,7 @@ Dialogue: 0,0:06:57.92,0:07:01.25,Default,,0,0,0,,On remettra la machine\Nà l'o
 Dialogue: 0,0:07:01.46,0:07:03.84,Default,,0,0,0,,Je suis d'accord.
 Dialogue: 0,0:07:03.97,0:07:05.80,Default,,0,0,0,,Si c'est ce que tu veux…
 Dialogue: 0,0:07:05.93,0:07:09.26,Default,,0,0,0,,Mayushii est tout à fait d'accord.
-Dialogue: 0,0:07:13.48,0:07:14.73,Default,,0,0,0,,13 AOÛT 2010
+Dialogue: 0,0:07:13.48,0:07:14.73,SignFrench,,0,0,0,,13 AOÛT 2010
 Dialogue: 0,0:07:15.48,0:07:19.23,Default,,0,0,0,,Donc, Hashida a commandé des pizzas ?\N- Oui.
 Dialogue: 0,0:07:19.61,0:07:22.61,Default,,0,0,0,,Je vais juste faire une salade.
 Dialogue: 0,0:07:22.94,0:07:24.95,Default,,0,0,0,,Alors, voyons…\N- Attends.
@@ -737,4 +737,4 @@ Dialogue: 1,0:23:26.01,0:23:33.85,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.01,0:23:33.85,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.01,0:23:33.85,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.01,0:23:33.85,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.05,0:23:55.94,Default,,0,0,0,,Nécrose métaphysique
+Dialogue: 0,0:23:41.05,0:23:55.94,SignFrench,,0,0,0,,Nécrose métaphysique

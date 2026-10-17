@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -12,6 +10,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: Default-top,Fontin Sans Rg,60,&H00FFFFFF,&H000019FF,&H00000000,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,8,165,165,60,0
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: op kara,Lead Coat,53,&H00000000,&H000019FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,3,0,1,4.5,4.5,8,60,60,50,1
 Style: op trans,Unisketchlightlimited,66,&H00000000,&H000019FF,&H00F2F2F2,&H009A9A9A,-1,0,0,0,90,110,3,0,1,3.75,4.5,2,60,60,50,1
 
@@ -19,7 +18,7 @@ Style: op trans,Unisketchlightlimited,66,&H00000000,&H000019FF,&H00F2F2F2,&H009A
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:02.54,0:00:04.76,Default,,0,0,0,,Si on retourne à la ligne bêta,
 Dialogue: 0,0:00:05.26,0:00:06.51,Default,,0,0,0,,si on annule le D-mail,
-Dialogue: 0,0:00:06.59,0:00:08.01,Default,,0,0,0,,Effondrement de l'existence
+Dialogue: 0,0:00:06.59,0:00:08.01,SignFrench,,0,0,0,,Effondrement de l'existence
 Dialogue: 0,0:00:08.09,0:00:09.51,Default,,0,0,0,,tu mourras.
 Dialogue: 0,0:00:26.21,0:00:31.89,op trans,,0,0,0,,{\fad(200,0)}Pour toi, des milliards et des milliards\Nde battements de cœur
 Dialogue: 0,0:00:26.30,0:00:26.51,op kara,,0,0,0,fx,{\fad(200,0)}suujuuoku mo no kodou no kazu sae
@@ -607,7 +606,7 @@ Dialogue: 0,0:16:16.73,0:16:20.10,Default,,0,0,0,,S'il n'y a que toi,\Nje peux p
 Dialogue: 0,0:16:22.44,0:16:23.77,Default,,0,0,0,,C'est une blague.
 Dialogue: 0,0:16:25.44,0:16:28.07,Default,,0,0,0,,Un cadeau pour toi. Tiens.
 Dialogue: 0,0:16:29.61,0:16:30.74,Default,,0,0,0,,Je n'en veux pas.
-Dialogue: 0,0:16:30.99,0:16:33.58,Default,,0,0,0,,On en est à la Version 2.67.
+Dialogue: 0,0:16:30.99,0:16:33.58,Default,,0,0,0,,On en est à la version 2.67.
 Dialogue: 0,0:16:34.08,0:16:36.12,Default,,0,0,0,,Ça sert à rien.
 Dialogue: 0,0:16:36.29,0:16:37.79,Default,,0,0,0,,Mais je l'accepte.
 Dialogue: 0,0:16:40.58,0:16:41.83,Default,,0,0,0,,Eh bien…
@@ -634,7 +633,8 @@ Dialogue: 0,0:18:25.86,0:18:26.94,Default,,0,0,0,,Okabe…
 Dialogue: 0,0:18:28.27,0:18:29.73,Default,,0,0,0,,Okabe…
 Dialogue: 0,0:18:30.36,0:18:31.61,Default,,0,0,0,,Okabe…
 Dialogue: 0,0:18:41.83,0:18:44.37,Default,,0,0,0,,J'ai trouvé, Okarin !
-Dialogue: 0,0:18:44.54,0:18:46.21,Default,,0,0,0,,QUELQU'UN A POIGNARDÉ MAKISE KURISU\NC'est ça, pas vrai ?
+Dialogue: 0,0:18:44.54,0:18:46.21,Default,,0,0,0,,C'est ça, pas vrai ?
+Dialogue: 0,0:18:44.54,0:18:46.21,SignFrench,,0,0,0,,QUELQU'UN A POIGNARDÉ MAKISE KURISU
 Dialogue: 0,0:18:47.21,0:18:50.21,Default,,0,0,0,,Si on l'efface…\N- Mission complete ?
 Dialogue: 0,0:18:51.76,0:18:53.59,Default,,0,0,0,,Ça va, Okarin ?
 Dialogue: 0,0:18:55.76,0:18:57.22,Default,,0,0,0,,Ça va.
@@ -654,7 +654,7 @@ Dialogue: 0,0:19:48.27,0:19:49.77,Default,,0,0,0,,Pardon.
 Dialogue: 0,0:19:50.27,0:19:51.61,Default,,0,0,0,,Okabe !
 Dialogue: 0,0:19:58.41,0:20:00.45,Default,,0,0,0,,Okabe… Moi aussi…
 Dialogue: 0,0:20:00.95,0:20:04.29,Default,,0,0,0,,Kurisu !\N- Moi aussi je t'…
-Dialogue: 0,0:20:16.88,0:20:18.76,Default,,0,0,0,,CONFÉRENCE DU DR NAKABACHI
+Dialogue: 0,0:20:16.88,0:20:18.76,SignFrench,,0,0,0,,CONFÉRENCE DU DR NAKABACHI
 Dialogue: 0,0:20:20.89,0:20:22.22,Default,,0,0,0,,Mayuri.
 Dialogue: 0,0:20:22.68,0:20:26.68,Default,,0,0,0,,Qui est le membre du labo 004 ?\N- 004 ?
 Dialogue: 0,0:20:28.27,0:20:31.06,Default,,0,0,0,,Il n'y a pas de membre 004.

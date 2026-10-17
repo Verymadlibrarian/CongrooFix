@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: cell phone,Arial Unicode MS,120,&H00D4D4D7,&H000019FF,&H00E7E7EA,&H00000000,0,0,0,0,110,100,1.5,0,1,1.5,0,2,15,15,15,1
 Style: cell phone 2,Arial Unicode MS,83,&H00D4D4D7,&H000019FF,&H00E7E7EA,&H00000000,0,0,0,0,100,100,1.5,0,1,0.75,0,2,15,15,15,1
 Style: Title1,A-OTF Futo Min A101 Pro Bold,98,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,-7.5,0,1,0.3,0,7,90,60,45,1
@@ -33,7 +32,7 @@ Dialogue: 0,0:00:22.48,0:00:25.11,Default,,0,0,0,,C'est pour ça que Mayushii\Nd
 Dialogue: 0,0:00:25.28,0:00:28.11,Default,,0,0,0,,Mayuri, tu travailles bien\Nau May Queen ?
 Dialogue: 0,0:00:29.20,0:00:31.07,Default,,0,0,0,,Le May Queen ?
 Dialogue: 0,0:00:31.24,0:00:32.70,Default,,0,0,0,,Le May Queen Miaou Miaou !
-Dialogue: 0,0:00:33.16,0:00:35.16,Default,,0,0,0,,RAMEN
+Dialogue: 0,0:00:33.16,0:00:35.16,SignFrench,,0,0,0,,RAMEN
 Dialogue: 0,0:00:36.29,0:00:37.33,Default,,0,0,0,,Non…
 Dialogue: 0,0:00:37.45,0:00:41.46,Default,,0,0,0,,Faris a demandé que\Nla culture Moe soit introduite à Akiba.
 Dialogue: 0,0:00:43.13,0:00:46.34,Default,,0,0,0,,Aurait-elle envoyé un D-mail\Npour changer ça ?
@@ -421,8 +420,8 @@ Dialogue: 0,0:02:19.20,0:02:19.41,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:02:19.41,0:02:19.62,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:19.62,0:02:19.83,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:19.83,0:02:19.87,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:02:23.10,0:02:27.98,Default,,0,0,0,,Homéostasie d'une vie commune
-Dialogue: 0,0:02:30.15,0:02:32.11,Default,,0,0,0,,08 AOÛT 2010
+Dialogue: 0,0:02:23.10,0:02:27.98,SignFrench,,0,0,0,,Homéostasie d'une vie commune
+Dialogue: 0,0:02:30.15,0:02:32.11,SignFrench,,0,0,0,,08 AOÛT 2010
 Dialogue: 0,0:02:39.37,0:02:42.41,Default,,0,0,0,,Et dire que le May Queen\Nétait ici autrefois.
 Dialogue: 0,0:02:42.58,0:02:44.54,Default,,0,0,0,,May Queen, comme la patate ?
 Dialogue: 0,0:02:44.71,0:02:47.71,Default,,0,0,0,,En été, on mange plutôt\Ndes nouilles froides.
@@ -520,7 +519,7 @@ Dialogue: 0,0:08:47.40,0:08:49.99,Default,,0,0,0,,Merci de te soucier de moi.
 Dialogue: 0,0:08:50.11,0:08:54.83,Default,,0,0,0,,Attends ! Promets de venir au labo,\Nque tu voies ton père ou non.
 Dialogue: 0,0:08:54.95,0:08:58.75,Default,,0,0,0,,On utilisera ta tristesse\Npour mener une expérience.
 Dialogue: 0,0:09:00.42,0:09:05.00,Default,,0,0,0,,Tu es vraiment un mad scientist.\NTu es cruel et sans cœur.
-Dialogue: 0,0:09:09.84,0:09:12.14,Default,,0,0,0,,09 AOÛT 2010
+Dialogue: 0,0:09:09.84,0:09:12.14,SignFrench,,0,0,0,,09 AOÛT 2010
 Dialogue: 0,0:09:13.80,0:09:19.64,Default,,0,0,0,,Je vais vous expliquer les bases\Nde l'Operation Eldhrimnir.
 Dialogue: 0,0:09:19.81,0:09:21.81,Default,,0,0,0,,Encore la mythologie scandinave ?
 Dialogue: 0,0:09:21.98,0:09:25.36,Default,,0,0,0,,Si la guerrière employée\Nretrouve son père,
@@ -544,11 +543,11 @@ Dialogue: 0,0:10:23.87,0:10:26.42,Default,,0,0,0,,Je vais suivre…\N- T'es sour
 Dialogue: 0,0:10:26.67,0:10:29.30,Default,,0,0,0,,Mon assistante n'a pas à me donner…
 Dialogue: 0,0:10:30.17,0:10:34.18,Default,,0,0,0,,Tu veux finir à genoux\Npendant trois heures ?
 Dialogue: 0,0:10:34.30,0:10:37.22,Default,,0,0,0,,Très bien, préparons la fête.
-Dialogue: 0,0:10:40.35,0:10:42.77,Default,,0,0,0,,DE : ?\NOBJET : SANS
-Dialogue: 0,0:10:43.23,0:10:45.06,Default,,0,0,0,,JE T'OBSERVE.
+Dialogue: 0,0:10:40.35,0:10:42.77,SignFrench,,0,0,0,,DE : ?\NOBJET : SANS
+Dialogue: 0,0:10:43.23,0:10:45.06,SignFrench,,0,0,0,,JE T'OBSERVE.
 Dialogue: 0,0:10:50.28,0:10:53.70,Default,,0,0,0,,Que se passe-t-il, Okarin ?\N- C'est rien.
 Dialogue: 0,0:11:01.16,0:11:02.87,Default,,0,0,0,,Qu'est-ce que…
-Dialogue: 0,0:11:02.95,0:11:05.42,Default,,0,0,0,,09 AOÛT 2010
+Dialogue: 0,0:11:02.95,0:11:05.42,SignFrench,,0,0,0,,09 AOÛT 2010
 Dialogue: 0,0:11:11.75,0:11:16.05,Default,,0,0,0,,On prendrait du curry doux\Nou du curry épicé ?
 Dialogue: 0,0:11:16.18,0:11:18.22,Default,,0,0,0,,Qu'est-ce qu'elle aime ?
 Dialogue: 0,0:11:18.34,0:11:21.43,Default,,0,0,0,,Épicé, c'est très bien.
@@ -648,7 +647,7 @@ Dialogue: 0,0:18:14.68,0:18:19.22,Default,,0,0,0,,Elle en met du temps, Suzu.\NA
 Dialogue: 0,0:18:19.39,0:18:22.14,Default,,0,0,0,,Je parie qu'ils passent du bon temps.
 Dialogue: 0,0:18:22.56,0:18:27.23,Default,,0,0,0,,Dans les deux cas,\Nje lui ai dit de passer au labo.
 Dialogue: 0,0:18:27.44,0:18:32.95,Default,,0,0,0,,Mais il se fait tard. L'opération\Nest terminée. Vous pouvez y aller.
-Dialogue: 0,0:18:44.50,0:18:47.21,Default,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NPARDON. ADIEU.
+Dialogue: 0,0:18:44.50,0:18:47.21,SignFrench,,0,0,0,,DE : GUERRIÈRE EMPLOYÉE\NPARDON. ADIEU.
 Dialogue: 0,0:18:47.38,0:18:48.71,Default,,0,0,0,,Pourquoi, petite…
 Dialogue: 0,0:18:56.55,0:18:59.76,Default,,0,0,0,,Elle va vivre comme ça ?\NTriste et seule ?
 Dialogue: 0,0:19:00.89,0:19:04.81,Default,,0,0,0,,Hououin Kyouma ne le permettra pas.
@@ -740,4 +739,4 @@ Dialogue: 1,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Dogme de la frontière de l'espace-temps
+Dialogue: 0,0:23:41.09,0:23:55.85,SignFrench,,0,0,0,,Dogme de la frontière de l'espace-temps

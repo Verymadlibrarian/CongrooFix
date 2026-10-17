@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -18,6 +16,7 @@ Style: SignF,Kabel LT Std Book,78,&H0013149B,&H000019FF,&H00D9D6D3,&H00000000,-1
 Style: CellphoneL,ITC Avant Garde Std Md,78,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,7,210,60,120,0
 Style: SignJ,LEHN095,105,&H00001C2E,&H000019FF,&H00B1E2F1,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,90,60,60,0
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Alternative,Fontin Sans Rg,71,&H00FFFFFF,&H000019FF,&H001F1B2F,&HA00D0924,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,165,165,60,0
 Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
 Style: EDTL,Old newspaper font,57,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,2,15,15,18,1
@@ -427,7 +426,7 @@ Dialogue: 0,0:02:41.14,0:02:41.31,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:02:41.31,0:02:41.52,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:41.52,0:02:41.72,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:41.72,0:02:41.77,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:02:45.12,0:02:50.00,Default,,0,0,0,,Paranoïa du voyage temporel
+Dialogue: 0,0:02:45.12,0:02:50.00,SignFrench,,0,0,0,,Paranoïa du voyage temporel
 Dialogue: 0,0:02:50.80,0:02:53.72,Default,,0,0,0,,Merci à tous d'être venus aujourd'hui.
 Dialogue: 0,0:02:55.55,0:03:02.18,Default,,0,0,0,,Je n'ai pas l'habitude de donner ce type\Nde conférence, soyez donc indulgents.
 Dialogue: 0,0:03:02.35,0:03:05.39,Default,,0,0,0,,C'est Makise Kurisu\Nqui donne la conférence ?
@@ -459,9 +458,9 @@ Dialogue: 0,0:04:51.54,0:04:56.13,Default,,0,0,0,,Elle se la pète,\Ntout ça pa
 Dialogue: 0,0:04:56.34,0:05:00.68,Default,,0,0,0,,Attends. C'est probablement\Nun agent de l'Organisation.
 Dialogue: 0,0:05:00.80,0:05:05.51,Default,,0,0,0,,La conférence est peut-être\Nune guerre psychologique qui me cible.
 Dialogue: 0,0:05:05.68,0:05:08.31,Default,,0,0,0,,Je ne tomberai pas dans le panneau.
-Dialogue: 0,0:05:14.23,0:05:16.19,Default,,0,0,0,,SANCTUAIRE YANABAYASHI
+Dialogue: 0,0:05:14.23,0:05:16.19,SignFrench,,0,0,0,,SANCTUAIRE YANABAYASHI
 Dialogue: 0,0:05:16.40,0:05:18.24,Default,,0,0,0,,Huit…
-Dialogue: 0,0:05:20.11,0:05:21.45,Default,,0,0,0,,Neuf.….
+Dialogue: 0,0:05:20.11,0:05:21.45,Default,,0,0,0,,Neuf…
 Dialogue: 0,0:05:21.61,0:05:22.91,Default,,0,0,0,,Un dernier.
 Dialogue: 0,0:05:23.07,0:05:24.16,Default,,0,0,0,,Vas-y !
 Dialogue: 0,0:05:24.37,0:05:25.78,Default,,0,0,0,,Dix !
@@ -504,7 +503,7 @@ Dialogue: 0,0:07:35.83,0:07:37.62,Default,,0,0,0,,Bye bye !
 Dialogue: 0,0:07:40.79,0:07:43.88,Default,,0,0,0,,C'est fou que Ruka\Npratique l'exorcisme.
 Dialogue: 0,0:07:44.01,0:07:48.80,Default,,0,0,0,,Sa famille gère le sanctuaire.\N- Zoum. Zoum.
 Dialogue: 0,0:07:50.18,0:07:51.68,Default,,0,0,0,,Désolée.
-Dialogue: 0,0:07:53.22,0:07:55.02,Default,,0,0,0,,ACCÈS INTERDIT
+Dialogue: 0,0:07:53.22,0:07:55.02,SignFrench,,0,0,0,,ACCÈS INTERDIT
 Dialogue: 0,0:07:55.85,0:07:56.94,Default,,0,0,0,,C'est bloqué ?
 Dialogue: 0,0:07:57.31,0:08:01.40,Default,,0,0,0,,Oui, l'accès mène\Nderrière les locaux de Radio Kaikan.
 Dialogue: 0,0:08:01.61,0:08:03.48,Default,,0,0,0,,Les locaux de Radio Kaikan…
@@ -521,8 +520,8 @@ Dialogue: 0,0:08:45.23,0:08:47.03,Default,,0,0,0,,Très bien…
 Dialogue: 0,0:08:47.19,0:08:49.95,Default,,0,0,0,,T'es vraiment bizarre, Okarin.
 Dialogue: 0,0:08:51.28,0:08:55.83,Default,,0,0,0,,Personne ne se souvient de rien.
 Dialogue: 0,0:08:55.95,0:08:59.87,Default,,0,0,0,,Ni Mayuri, ni Daru, ni Makise Kurisu.
-Dialogue: 0,0:08:59.96,0:09:01.08,Default,,0,0,0,,OUVERT
-Dialogue: 0,0:09:01.25,0:09:02.33,Default,,0,0,0,,FERMÉ
+Dialogue: 0,0:08:59.96,0:09:01.08,SignFrench,,0,0,0,,OUVERT
+Dialogue: 0,0:09:01.25,0:09:02.33,SignFrench,,0,0,0,,FERMÉ
 Dialogue: 0,0:09:03.25,0:09:06.42,Default,,0,0,0,,Vous fermez plus tôt, aujourd'hui,\NM. Braun.
 Dialogue: 0,0:09:06.63,0:09:09.88,Default,,0,0,0,,Je t'ai dit de cesser\Nde m'appeler comme ça.
 Dialogue: 0,0:09:10.05,0:09:13.60,Default,,0,0,0,,Je fais passer un entretien d'embauche.\N- Ah bon ?
@@ -553,13 +552,13 @@ Dialogue: 0,0:10:28.88,0:10:32.84,Default,,0,0,0,,Un jour, le monde\Ns'agenouill
 Dialogue: 0,0:10:36.09,0:10:39.10,Default,,0,0,0,,C'est ça, la tendance du mo…
 Dialogue: 0,0:10:54.82,0:10:57.70,Default,,0,0,0,,Il s'est écrasé vers midi.
 Dialogue: 0,0:10:57.99,0:11:00.99,Default,,0,0,0,,Mayuri et Daru avaient raison.
-Dialogue: 0,0:11:02.83,0:11:07.21,Default,,0,0,0,,CONFÉRENCE DE PRESSE\NDU DR NAKABACHI
+Dialogue: 0,0:11:02.83,0:11:07.21,SignFrench,,0,0,0,,CONFÉRENCE DE PRESSE\NDU DR NAKABACHI
 Dialogue: 0,0:11:09.92,0:11:11.67,Default,,0,0,0,,Conférence annulée ?
 Dialogue: 0,0:11:12.30,0:11:14.17,Default,,0,0,0,,L'affaire Makise Kurisu…
 Dialogue: 0,0:11:18.76,0:11:23.47,Default,,0,0,0,,Est-ce moi qui ai\Ncomplètement halluciné ?
-Dialogue: 0,0:11:28.44,0:11:30.11,Default,,0,0,0,,@CHANNEL
+Dialogue: 0,0:11:28.44,0:11:30.11,SignFrench,,0,0,0,,@CHANNEL
 Dialogue: 0,0:11:35.61,0:11:36.86,Default,,0,0,0,,John Titor ?
-Dialogue: 0,0:11:37.03,0:11:39.82,Default,,0,0,0,,LE VOYAGEUR TEMPOREL EST LÀ. MDR.
+Dialogue: 0,0:11:37.03,0:11:39.82,SignFrench,,0,0,0,,LE VOYAGEUR TEMPOREL EST LÀ. MDR.
 Dialogue: 0,0:11:43.24,0:11:47.79,Default,,0,0,0,,Le SERN contrôle le marché\Ndes machines temporelles.
 Dialogue: 0,0:11:47.96,0:11:51.79,Default,,0,0,0,,Aucun privé, ni entreprise\Nne peut s'en procurer une.
 Dialogue: 0,0:11:51.96,0:11:56.72,Default,,0,0,0,,Ils les utilisent à leur propre dessein,\Npour créer un monde dystopique.
@@ -581,11 +580,11 @@ Dialogue: 0,0:13:04.83,0:13:08.87,Default,,0,0,0,,Il a fait fureur sur le net\Ne
 Dialogue: 0,0:13:09.04,0:13:13.25,Default,,0,0,0,,C'est incroyable qu'aujourd'hui un idiot\Nse fasse passer pour Titor.
 Dialogue: 0,0:13:14.46,0:13:17.67,Default,,0,0,0,,Voyons voir ce que j'avais gardé sur lui.
 Dialogue: 0,0:13:19.09,0:13:22.18,Default,,0,0,0,,Bon sang, Daru.\NTu as effacé mes favoris sur Titor.
-Dialogue: 0,0:13:24.18,0:13:26.60,Default,,0,0,0,,JOHN TITOR, ENVIRON 12 RÉSULTATS
+Dialogue: 0,0:13:24.18,0:13:26.60,SignFrench,,0,0,0,,JOHN TITOR, ENVIRON 12 RÉSULTATS
 Dialogue: 0,0:13:27.02,0:13:29.10,Default,,0,0,0,,Seulement douze résultats ? Impossible.
 Dialogue: 0,0:13:29.27,0:13:32.90,Default,,0,0,0,,Même si c'était il y a dix ans,\Nça a fait un buzz.
 Dialogue: 0,0:13:34.19,0:13:35.27,Default,,0,0,0,,Il y a un problème.
-Dialogue: 0,0:13:35.27,0:13:37.07,Default,,0,0,0,,ENVIRON 56 RÉSULTATS
+Dialogue: 0,0:13:35.27,0:13:37.07,SignFrench,,0,0,0,,ENVIRON 56 RÉSULTATS
 Dialogue: 0,0:13:37.48,0:13:42.03,Default,,0,0,0,,Ils ont disparu. C'est pas possible.\NJ'avais des livres sur lui.
 Dialogue: 0,0:13:42.20,0:13:43.74,Default,,0,0,0,,Bon sang.…
 Dialogue: 0,0:13:49.62,0:13:53.50,Default,,0,0,0,,Allô ? Daru ?\N- Qu'y a-t-il ? Je suis avec Faris-tan.
@@ -594,7 +593,8 @@ Dialogue: 0,0:13:56.17,0:13:58.21,Default,,0,0,0,,Les livres sur John Titor.
 Dialogue: 0,0:13:58.34,0:14:01.34,Default,,0,0,0,,Ils étaient dans la bibliothèque.\NOù sont-ils ?
 Dialogue: 0,0:14:01.67,0:14:04.30,Default,,0,0,0,,Attends, Okarin.\N- Quoi ?
 Dialogue: 0,0:14:04.47,0:14:08.31,Default,,0,0,0,,Qui est… John Titor ?
-Dialogue: 0,0:14:10.98,0:14:12.98,Default,,0,0,0,,28 JUILLET 2010\NJ'ai veillé toute la nuit
+Dialogue: 0,0:14:10.98,0:14:12.98,Default,,0,0,0,,J'ai veillé toute la nuit
+Dialogue: 0,0:14:10.98,0:14:12.98,SignFrench,,0,0,0,,28 JUILLET 2010
 Dialogue: 0,0:14:12.98,0:14:15.06,Default,,0,0,0,,pour m'informer sur Titor.
 Dialogue: 0,0:14:15.69,0:14:19.48,Default,,0,0,0,,J'ai fouillé le net\Nà la recherche du moindre indice.
 Dialogue: 0,0:14:19.65,0:14:20.99,Default,,0,0,0,,Mais…
@@ -621,7 +621,7 @@ Dialogue: 0,0:15:53.74,0:15:58.67,Default,,0,0,0,,Vous me faites du chantage ?\N
 Dialogue: 0,0:16:02.38,0:16:04.01,Default,,0,0,0,,Très bien.
 Dialogue: 0,0:16:04.51,0:16:09.34,Default,,0,0,0,,Mais je n'impliquerai pas mon ami.\NJe vais vous donner mon adresse.
 Dialogue: 0,0:16:11.35,0:16:15.18,Default,,0,0,0,,Vous vous appelez ?\N- Il est écrit Hououin Kyouma juste là.
-Dialogue: 0,0:16:15.43,0:16:17.19,Default,,0,0,0,,HOBOING COMA
+Dialogue: 0,0:16:15.43,0:16:17.19,SignFrench,,0,0,0,,HOBOING COMA
 Dialogue: 0,0:16:20.27,0:16:21.69,Default,,0,0,0,,Laissez-moi faire.
 Dialogue: 0,0:16:28.32,0:16:31.91,Default,,0,0,0,,Envoyez-moi un message vide.\NJe vous répondrai.
 Dialogue: 0,0:16:34.41,0:16:37.04,Default,,0,0,0,,Bienvenue à la maison, maître. Miaou.
@@ -637,7 +637,7 @@ Dialogue: 0,0:17:00.44,0:17:03.11,Default,,0,0,0,,Tu devais venir tous les trois
 Dialogue: 0,0:17:03.27,0:17:08.40,Default,,0,0,0,,Désolé, c'est à cause de l'Organisation.\N- Quoi ? L'Organisation approche ?
 Dialogue: 0,0:17:08.57,0:17:11.16,Default,,0,0,0,,Et tu tiens une réunion top secrète\Npour contre-attaquer ?
 Dialogue: 0,0:17:11.32,0:17:14.16,Default,,0,0,0,,Exactement.\NMon Stealth Field habituel STP.
-Dialogue: 0,0:17:14.49,0:17:16.95,Default,,0,0,0,,Miaou.… Compris !\NLaisse-moi t'aider.
+Dialogue: 0,0:17:14.49,0:17:16.95,Default,,0,0,0,,Miaou… Compris !\NLaisse-moi t'aider.
 Dialogue: 0,0:17:17.16,0:17:19.75,Default,,0,0,0,,Tu ne fais pas le poids contre l'Organisation.
 Dialogue: 0,0:17:20.92,0:17:23.67,Default,,0,0,0,,Faris a une technique secrète, miaou.
 Dialogue: 0,0:17:23.83,0:17:28.67,Default,,0,0,0,,Quoi ? Tu maîtrises une technique ?\N- Tout à fait.
@@ -660,7 +660,7 @@ Dialogue: 0,0:18:24.48,0:18:27.65,Default,,0,0,0,,Même le super geek Takumi Nis
 Dialogue: 0,0:18:27.82,0:18:30.82,Default,,0,0,0,,C'est qu'il n'a jamais existé.\NFinal answer.
 Dialogue: 0,0:18:30.99,0:18:36.37,Default,,0,0,0,,Il a de la valeur ?\N- Il se vendait il y a 30 ans.
 Dialogue: 0,0:18:36.49,0:18:40.54,Default,,0,0,0,,Les prix étaient si élevés\Nque personne ne pouvait l'acheter.
-Dialogue: 0,0:18:40.66,0:18:44.17,Default,,0,0,0,,C'est pour ça qu'il est hyper rare.\N- Je vois….
+Dialogue: 0,0:18:40.66,0:18:44.17,Default,,0,0,0,,C'est pour ça qu'il est hyper rare.\N- Je vois…
 Dialogue: 0,0:18:46.33,0:18:48.50,Default,,0,0,0,,La fille de tout à l'heure…
 Dialogue: 0,0:18:48.67,0:18:53.01,Default,,0,0,0,,"Je vous écris déjà.\NJe m'appelle Kiryu Moeka."
 Dialogue: 0,0:18:53.59,0:18:57.47,Default,,0,0,0,,"J'ai 20 ans et je suis freeter.\NJe vous écrirai encore."
@@ -672,7 +672,7 @@ Dialogue: 0,0:19:14.07,0:19:18.20,Default,,0,0,0,,Maîtres, vous êtes servis, m
 Dialogue: 0,0:19:18.87,0:19:22.37,Default,,0,0,0,,"Le monde est en danger". Dément.\NA l'attaque !
 Dialogue: 0,0:19:22.54,0:19:23.87,Default,,0,0,0,,Du calme.
 Dialogue: 0,0:19:24.04,0:19:25.54,Default,,0,0,0,,C'est de la bombe !
-Dialogue: 0,0:19:25.71,0:19:28.71,Default,,0,0,0,,LE MONDE EST EN DANGER
+Dialogue: 0,0:19:25.71,0:19:28.71,SignFrench,,0,0,0,,LE MONDE EST EN DANGER
 Dialogue: 0,0:19:31.71,0:19:34.67,Default,,0,0,0,,Selon les analyses\Ndu labo universitaire,
 Dialogue: 0,0:19:34.84,0:19:37.68,Default,,0,0,0,,les molécules des gel-nanes\Nont été déchirées.
 Dialogue: 0,0:19:39.68,0:19:42.64,Default,,0,0,0,,Elles se sont transformées\Nen non-bananes ?
@@ -681,7 +681,7 @@ Dialogue: 0,0:19:47.35,0:19:53.03,Default,,0,0,0,,Ma seule théorie, c'est que c
 Dialogue: 0,0:19:53.23,0:19:56.61,Default,,0,0,0,,Basée sur quoi ?\N- Le 6e sens d'un mad scientist.
 Dialogue: 0,0:19:56.78,0:20:00.53,Default,,0,0,0,,Pigé. Basée sur rien. Tout est branché.
 Dialogue: 0,0:20:00.70,0:20:02.24,Default,,0,0,0,,Bien, prenons ça.
-Dialogue: 0,0:20:02.41,0:20:03.54,Default,,0,0,0,,MAYUSHII
+Dialogue: 0,0:20:02.41,0:20:03.54,SignFrench,,0,0,0,,MAYUSHII
 Dialogue: 0,0:20:03.66,0:20:06.21,Default,,0,0,0,,Elles ne sont pas à Mayushii ?
 Dialogue: 0,0:20:06.37,0:20:11.42,Default,,0,0,0,,Non. Je les ai achetées avec les fonds\Npour la recherche qu'elle a donnés.
 Dialogue: 0,0:20:11.75,0:20:15.46,Default,,0,0,0,,Donc ce sont les siennes…\N- Mettons-les et voyons le résultat.
@@ -758,4 +758,4 @@ Dialogue: 1,0:23:26.30,0:23:36.65,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.30,0:23:36.65,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.30,0:23:36.65,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.30,0:23:36.65,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.13,0:23:55.89,Default,,0,0,0,,Paranoïa des mondes parallèles
+Dialogue: 0,0:23:41.13,0:23:55.89,SignFrench,,0,0,0,,Paranoïa des mondes parallèles

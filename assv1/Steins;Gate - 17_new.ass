@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000000FF,&H00001500,&HA0062210,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00726F87,&H00726F87,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
 Style: Sign,BarmeReczny,45,&H28000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
@@ -23,7 +22,7 @@ Style: op trans,Unisketchlightlimited,66,&H00000000,&H000000FF,&H00F2F2F2,&H009A
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.96,0:00:02.29,Default,,0,0,0,,14 AOÛT 2010 - 19H37
+Dialogue: 0,0:00:00.96,0:00:02.29,SignFrench,,0,0,0,,14 AOÛT 2010 - 19H37
 Dialogue: 0,0:00:02.29,0:00:06.22,Default,,0,0,0,,Hier, après que je sois rentré\Nde chez M. Braun,
 Dialogue: 0,0:00:07.42,0:00:11.35,Default,,0,0,0,,il ne s'est finalement rien passé.
 Dialogue: 0,0:00:12.64,0:00:16.64,Default,,0,0,0,,Moeka et ses sbires\Narrivaient toujours le vendredi 13.
@@ -415,7 +414,7 @@ Dialogue: 0,0:02:13.22,0:02:13.42,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:02:13.42,0:02:13.62,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:13.62,0:02:13.82,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:13.82,0:02:13.87,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:02:16.97,0:02:22.89,Default,,0,0,0,,13 AOÛT 2010 - 17H02
+Dialogue: 0,0:02:16.97,0:02:22.89,SignFrench,,0,0,0,,13 AOÛT 2010 - 17H02
 Dialogue: 0,0:02:25.90,0:02:29.19,Default,,0,0,0,,Que se passe-t-il ?\NQu'est-ce qui ne va pas ?
 Dialogue: 0,0:02:30.23,0:02:31.94,Default,,0,0,0,,Aide-moi.
 Dialogue: 0,0:02:33.49,0:02:35.49,Default,,0,0,0,,Mayuri meurt dans deux heures ?
@@ -444,7 +443,7 @@ Dialogue: 0,0:04:15.46,0:04:17.47,Default,,0,0,0,,Ton cerveau est précieux.
 Dialogue: 0,0:04:17.59,0:04:21.47,Default,,0,0,0,,Il résiste aux changements de lignes\Net aux time leaps.
 Dialogue: 0,0:04:21.64,0:04:24.60,Default,,0,0,0,,Il faut en faire une carte.\N- Merci, Kurisu.
 Dialogue: 0,0:04:34.48,0:04:40.41,Default,,0,0,0,,Je vais oublier que tu m'as appelée\Npour la première fois "Kurisu", pas vrai ?
-Dialogue: 0,0:04:44.91,0:04:45.83,Default,,0,0,0,,13 AOÛT 2010 - 16H17
+Dialogue: 0,0:04:44.91,0:04:45.83,SignFrench,,0,0,0,,13 AOÛT 2010 - 16H17
 Dialogue: 0,0:04:52.29,0:04:53.29,Default,,0,0,0,,Quoi ?
 Dialogue: 0,0:04:56.30,0:04:57.13,Default,,0,0,0,,Rien.
 Dialogue: 0,0:04:59.80,0:05:02.93,Default,,0,0,0,,Dans l'ordre inverse,\Nle prochain à annuler…
@@ -502,7 +501,7 @@ Dialogue: 0,0:08:55.37,0:08:58.00,Default,,0,0,0,,Et tu adorais ça plus que qui
 Dialogue: 0,0:08:58.16,0:09:01.33,Default,,0,0,0,,Mais après ton D-mail,\Nle quartier a changé.
 Dialogue: 0,0:09:02.00,0:09:03.63,Default,,0,0,0,,Qu'as-tu envoyé ?
 Dialogue: 0,0:09:09.76,0:09:12.09,Default,,0,0,0,,Dis-moi.\N- Ils sont là !
-Dialogue: 0,0:09:23.48,0:09:25.19,Default,,0,0,0,,RAMEN
+Dialogue: 0,0:09:23.48,0:09:25.19,SignFrench,,0,0,0,,RAMEN
 Dialogue: 0,0:09:25.65,0:09:27.36,Default,,0,0,0,,Qu'y a-t-il ?
 Dialogue: 0,0:09:29.19,0:09:34.99,Default,,0,0,0,,C'est ici que se trouvait le May Queen,\Nle café que tu voulais ouvrir.
 Dialogue: 0,0:09:35.28,0:09:36.62,Default,,0,0,0,,Miaou ?
@@ -614,8 +613,10 @@ Dialogue: 0,0:17:01.81,0:17:05.90,Default,,0,0,0,,Il n'avait pas le choix,\Nmais
 Dialogue: 0,0:17:06.11,0:17:09.32,Default,,0,0,0,,Je me suis dit que peut-être\Nil ne m'aimait pas.
 Dialogue: 0,0:17:09.45,0:17:12.87,Default,,0,0,0,,Je lui ai dit :\N"Je voudrais que tu sois mort."
 Dialogue: 0,0:17:14.03,0:17:15.12,Default,,0,0,0,,Et puis…
-Dialogue: 0,0:17:15.70,0:17:18.41,Default,,0,0,0,,ACCIDENT D'AVION C'est la\Ndernière chose que je lui ai dite.
-Dialogue: 0,0:17:20.67,0:17:24.29,Default,,0,0,0,,DÉTENONS VOTRE FILLE. PRENEZ LE TRAIN. RANÇON 100\NMILLIONS DE YENS. J'ai envoyé le D-mail pour changer cela.
+Dialogue: 0,0:17:15.70,0:17:18.41,Default,,0,0,0,,C'est la dernière chose que je lui ai dite.
+Dialogue: 0,0:17:15.70,0:17:18.41,SignFrench,,0,0,0,,ACCIDENT D'AVION
+Dialogue: 0,0:17:20.67,0:17:24.29,Default,,0,0,0,,J'ai envoyé le D-mail pour changer cela.
+Dialogue: 0,0:17:20.67,0:17:24.29,SignFrench,,0,0,0,,DÉTENONS VOTRE FILLE. PRENEZ LE TRAIN.\NRANÇON 100 MILLIONS DE YENS.
 Dialogue: 0,0:17:24.46,0:17:27.05,Default,,0,0,0,,Ton père a évité l'accident,
 Dialogue: 0,0:17:27.59,0:17:32.18,Default,,0,0,0,,ce qui t'a empêchée de répandre\Nla culture Moe à Akiba,
 Dialogue: 0,0:17:32.34,0:17:35.10,Default,,0,0,0,,qui est resté un simple quartier électronique.
@@ -647,7 +648,7 @@ Dialogue: 0,0:19:33.59,0:19:35.42,Default,,0,0,0,,Prépare le matériel.
 Dialogue: 0,0:19:36.01,0:19:38.39,Default,,0,0,0,,Je suis là, miaou.
 Dialogue: 0,0:19:38.76,0:19:41.64,Default,,0,0,0,,Que se passe-t-il, Kyouma ?
 Dialogue: 0,0:19:41.76,0:19:43.81,Default,,0,0,0,,Tu as l'air morose.
-Dialogue: 0,0:19:44.52,0:19:48.77,Default,,0,0,0,,À : TÉLÉPHONE MICRO-ONDES (TEMP)\N… L'ENLÈVEMENT, C'ÉTAIT UNE BLAGUE…
+Dialogue: 0,0:19:44.52,0:19:48.77,SignFrench,,0,0,0,,À : TÉLÉPHONE MICRO-ONDES (TEMP)\N… L'ENLÈVEMENT, C'ÉTAIT UNE BLAGUE…
 Dialogue: 0,0:19:51.82,0:19:53.90,Default,,0,0,0,,Au fait…
 Dialogue: 0,0:19:54.61,0:19:59.78,Default,,0,0,0,,Quand le monde reviendra à la normale,\Nje vais perdre tous mes souvenirs ?
 Dialogue: 0,0:19:59.95,0:20:04.79,Default,,0,0,0,,Tu as des souvenirs d'avant\Net après le changement, pas vrai ?
@@ -724,4 +725,4 @@ Dialogue: 1,0:23:26.43,0:23:34.27,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.43,0:23:34.27,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.43,0:23:34.27,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.43,0:23:34.27,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Ressemblance androgyne
+Dialogue: 0,0:23:41.09,0:23:55.85,SignFrench,,0,0,0,,Ressemblance androgyne

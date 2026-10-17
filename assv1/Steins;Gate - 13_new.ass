@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: cell phone,Anna,60,&H00D4D4D7,&H000019FF,&H00E7E7EA,&H00000000,0,0,0,0,100,100,1.5,0,1,1.5,0,2,15,15,15,1
 Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,1,90,60,45,1
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
@@ -433,7 +432,7 @@ Dialogue: 0,0:04:24.33,0:04:24.54,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:04:24.54,0:04:24.74,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:04:24.74,0:04:24.91,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:04:24.91,0:04:24.99,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:04:28.10,0:04:32.98,Default,,0,0,0,,Nécrose métaphysique
+Dialogue: 0,0:04:28.10,0:04:32.98,SignFrench,,0,0,0,,Nécrose métaphysique
 Dialogue: 0,0:04:34.15,0:04:36.74,Default,,0,0,0,,La grand-mère de Mayuri est morte
 Dialogue: 0,0:04:36.90,0:04:41.16,Default,,0,0,0,,quand Mayuri\Nétait encore à l'école primaire.
 Dialogue: 0,0:04:42.74,0:04:47.16,Default,,0,0,0,,Mayuri s'est rendue\Nsur sa tombe tous les jours,
@@ -455,7 +454,7 @@ Dialogue: 0,0:05:54.94,0:06:01.36,Default,,0,0,0,,La réplique d'un mad scientis
 Dialogue: 0,0:06:02.95,0:06:04.49,Default,,0,0,0,,Ah bon ?
 Dialogue: 0,0:06:06.16,0:06:11.41,Default,,0,0,0,,Donc Mayushii est l'otage d'Okarin ?
 Dialogue: 0,0:06:13.16,0:06:16.63,Default,,0,0,0,,Dans ce cas, ainsi soit-il.
-Dialogue: 0,0:06:28.18,0:06:30.14,Default,,0,0,0,,13 AOÛT 2010 - 16H56
+Dialogue: 0,0:06:28.18,0:06:30.14,SignFrench,,0,0,0,,13 AOÛT 2010 - 16H56
 Dialogue: 0,0:06:33.18,0:06:34.98,Default,,0,0,0,,Qu'est-ce qui ne va pas ?
 Dialogue: 0,0:06:35.94,0:06:38.73,Default,,0,0,0,,Tu t'es assoupi ou quoi ?
 Dialogue: 0,0:06:49.53,0:06:51.70,Default,,0,0,0,,Quelle heure est-il ?\N- Quoi ?
@@ -570,7 +569,7 @@ Dialogue: 0,0:14:13.94,0:14:16.27,Default,,0,0,0,,Garce !
 Dialogue: 0,0:14:16.52,0:14:20.53,Default,,0,0,0,,Je ne te laisserai pas la tuer.\NJe vais te sauver, Mayuri.
 Dialogue: 0,0:14:23.91,0:14:25.16,Default,,0,0,0,,Je te sauverai.
 Dialogue: 0,0:14:29.74,0:14:31.45,Default,,0,0,0,,Je le jure !
-Dialogue: 0,0:14:36.08,0:14:38.21,Default,,0,0,0,,13 AOÛT 2010 - 16H17
+Dialogue: 0,0:14:36.08,0:14:38.21,SignFrench,,0,0,0,,13 AOÛT 2010 - 16H17
 Dialogue: 0,0:14:38.25,0:14:41.71,Default,,0,0,0,,Annulée ? Pourquoi ?\N- Il s'est passé un truc ?
 Dialogue: 0,0:14:42.51,0:14:44.51,Default,,0,0,0,,Oui. Vous voyez…
 Dialogue: 0,0:14:45.43,0:14:49.35,Default,,0,0,0,,J'ai appris que M. Braun\Nallait prendre le labo d'assaut.
@@ -585,7 +584,7 @@ Dialogue: 0,0:15:15.50,0:15:18.50,Default,,0,0,0,,Tutuluu ! C'est Mayushii.
 Dialogue: 0,0:15:18.67,0:15:20.92,Default,,0,0,0,,Je ne peux pas vous répondre.
 Dialogue: 0,0:15:24.97,0:15:29.22,Default,,0,0,0,,Ça prend encore trop de temps.\NLa même chose va se reproduire.
 Dialogue: 0,0:15:29.39,0:15:31.31,Default,,0,0,0,,Je dois retrouver Mayuri.
-Dialogue: 0,0:15:32.68,0:15:34.39,Default,,0,0,0,,APPEL\NRUKAKO
+Dialogue: 0,0:15:32.68,0:15:34.39,SignFrench,,0,0,0,,APPEL\NRUKAKO
 Dialogue: 0,0:15:38.06,0:15:40.52,Default,,0,0,0,,Allô ?\N- Rukako ? C'est Okabe.
 Dialogue: 0,0:15:40.98,0:15:43.07,Default,,0,0,0,,Oka… Pardon, Kyouma.
 Dialogue: 0,0:15:43.23,0:15:45.28,Default,,0,0,0,,Mayuri ? Mayuri est là ?
@@ -630,7 +629,7 @@ Dialogue: 0,0:18:09.92,0:18:15.43,Default,,0,0,0,,Ça fait longtemps qu'on n'a p
 Dialogue: 0,0:18:16.68,0:18:17.89,Default,,0,0,0,,C'est vrai.
 Dialogue: 0,0:18:29.98,0:18:32.53,Default,,0,0,0,,Faisons demi-tour.\N- Quoi ?
 Dialogue: 0,0:18:52.34,0:18:54.80,Default,,0,0,0,,Très bien. Allons-y.
-Dialogue: 0,0:18:56.93,0:18:59.26,Default,,0,0,0,,DE : ASSISTANTE\NQUE SE PASSE-T-IL ?
+Dialogue: 0,0:18:56.93,0:18:59.26,SignFrench,,0,0,0,,DE : ASSISTANTE\NQUE SE PASSE-T-IL ?
 Dialogue: 0,0:19:00.93,0:19:02.89,Default,,0,0,0,,Kurisu…
 Dialogue: 0,0:19:14.95,0:19:18.74,Default,,0,0,0,,La montre de Mayushii s'est arrêtée.
 Dialogue: 0,0:19:19.41,0:19:23.50,Default,,0,0,0,,C'est bizarre.\NJe l'ai remontée il n'y a pas longtemps.
@@ -705,4 +704,4 @@ Dialogue: 1,0:23:26.30,0:23:34.14,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.30,0:23:34.14,EDRom,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.30,0:23:34.14,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.30,0:23:34.14,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.13,0:23:55.89,Default,,0,0,0,,Nécrose physique
+Dialogue: 0,0:23:41.13,0:23:55.89,SignFrench,,0,0,0,,Nécrose physique

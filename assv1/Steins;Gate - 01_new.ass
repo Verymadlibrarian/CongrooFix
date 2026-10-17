@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H005C5C66,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,-7.5,0,1,0.3,0,7,90,60,45,1
 Style: Title2,A-OTF Futo Min A101 Pro Bold,105,&H005C5F60,&H00727189,&H007F7E9A,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,7,90,60,45,1
 Style: SignA,FOT-Greco Std B,60,&H000B0E0B,&H000019FF,&H00A7A7A7,&H00000000,-1,0,0,0,100,140,0,0,1,0,0,8,2,2,15,1
@@ -42,7 +41,7 @@ Dialogue: 0,0:00:31.91,0:00:35.74,Default,,0,0,0,,On peut le voir comme le derni
 Dialogue: 0,0:00:35.91,0:00:38.04,Default,,0,0,0,,à ceux qui résistent.
 Dialogue: 0,0:00:41.12,0:00:42.75,Default,,0,0,0,,Okarin…
 Dialogue: 0,0:00:50.47,0:00:51.89,Default,,0,0,0,,Allons-y.
-Dialogue: 0,0:01:04.73,0:01:09.61,Default,,0,0,0,,Le prologue du commencement et de la fin
+Dialogue: 0,0:01:04.73,0:01:09.61,SignFrench,,0,0,0,,Le prologue du commencement et de la fin
 Dialogue: 0,0:01:13.74,0:01:18.45,Default,,0,0,0,,On s'apprête à s'infiltrer dans la salle\Nde conférence. El Psy Kongroo.
 Dialogue: 0,0:01:23.75,0:01:28.30,Default,,0,0,0,,Il y a peu de participants,\Nl'Organisation a dû intervenir.
 Dialogue: 0,0:01:28.42,0:01:30.47,Default,,0,0,0,,Qu'est-ce qui va commencer ?
@@ -70,7 +69,7 @@ Dialogue: 0,0:03:19.87,0:03:25.29,Default,,0,0,0,,La conférence du Dr Nakabachi
 Dialogue: 0,0:03:25.46,0:03:27.58,Default,,0,0,0,,Vous pouvez entrer librement.
 Dialogue: 0,0:03:30.88,0:03:36.88,Default,,0,0,0,,Le dossier explique la structure de base\Nd'une machine à remonter le temps.
 Dialogue: 0,0:03:37.05,0:03:41.26,Default,,0,0,0,,Je vais vous en expliquer\Nla théorie fondamentale.
-Dialogue: 0,0:03:44.02,0:03:47.56,Default,,0,0,0,,J'AI PERDU MON UPA EN MÉTAL,\NJE PARS À SA RECHERCHE.
+Dialogue: 0,0:03:44.02,0:03:47.56,SignFrench,,0,0,0,,J'AI PERDU MON UPA EN MÉTAL,\NJE PARS À SA RECHERCHE.
 Dialogue: 0,0:03:50.23,0:03:53.11,Default,,0,0,0,,La structure d'une machine\Nà remonter le temps.
 Dialogue: 0,0:03:59.87,0:04:03.62,Default,,0,0,0,,Docteur !\N- Quelque chose ne va pas ?
 Dialogue: 0,0:04:03.87,0:04:07.50,Default,,0,0,0,,Ça suffit.\NC'est votre théorie qui ne va pas.
@@ -133,8 +132,8 @@ Dialogue: 0,0:08:40.69,0:08:42.19,Default,,0,0,0,,Okarin !
 Dialogue: 0,0:08:45.98,0:08:49.45,Default,,0,0,0,,Que se passe-t-il ?\NTu es pâle comme un linge.
 Dialogue: 0,0:08:49.90,0:08:52.57,Default,,0,0,0,,Quelqu'un est mort.
 Dialogue: 0,0:08:52.74,0:08:54.58,Default,,0,0,0,,Quoi ?\N- Au 8e étage.
-Dialogue: 0,0:09:08.01,0:09:10.55,Default,,0,0,0,,QUELQU'UN A POIGNARDÉ MAKISE KURISU.
-Dialogue: 0,0:09:10.63,0:09:12.01,Default,,0,0,0,,ENVOI MESSAGE ?
+Dialogue: 0,0:09:08.01,0:09:10.55,SignFrench,,0,0,0,,QUELQU'UN A POIGNARDÉ MAKISE KURISU.
+Dialogue: 0,0:09:10.63,0:09:12.01,SignFrench,,0,0,0,,ENVOI MESSAGE ?
 Dialogue: 0,0:09:29.57,0:09:31.82,Default,,0,0,0,,Qu'est-ce qui…
 Dialogue: 0,0:09:50.22,0:09:52.26,Default,,0,0,0,,Que se passe-t-il ?
 Dialogue: 0,0:09:52.43,0:09:53.80,Default,,0,0,0,,Tutuluu !
@@ -600,7 +599,7 @@ Dialogue: 0,0:16:17.77,0:16:21.19,Default,,0,0,0,,Daru, prends la télé.\N- Cou
 Dialogue: 0,0:16:21.36,0:16:22.98,Default,,0,0,0,,Il fait chaud dehors.
 Dialogue: 0,0:16:23.15,0:16:26.36,Default,,0,0,0,,C'est pas parce qu'on est gros\Nqu'on est fort.
 Dialogue: 0,0:16:28.15,0:16:29.41,Default,,0,0,0,,Y'a pas de quoi être fier.
-Dialogue: 0,0:16:30.41,0:16:31.53,Default,,0,0,0,,MAGASIN DE TV
+Dialogue: 0,0:16:30.41,0:16:31.53,SignFrench,,0,0,0,,MAGASIN DE TV
 Dialogue: 0,0:16:32.12,0:16:34.54,Default,,0,0,0,,M. Braun…
 Dialogue: 0,0:16:34.70,0:16:37.87,Default,,0,0,0,,Je t'ai déjà dit\Nde m'appeler Tennoji.
 Dialogue: 0,0:16:39.29,0:16:42.50,Default,,0,0,0,,Pourriez-vous réparer ceci\Nimmédiatement ?
@@ -729,4 +728,4 @@ Dialogue: 1,0:23:26.22,0:23:36.60,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.22,0:23:36.60,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.22,0:23:36.60,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.22,0:23:36.60,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.00,0:23:55.77,Default,,0,0,0,,Paranoïa du voyage temporel
+Dialogue: 0,0:23:41.00,0:23:55.77,SignFrench,,0,0,0,,Paranoïa du voyage temporel

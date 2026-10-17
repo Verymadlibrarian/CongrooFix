@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,-7.5,0,1,0.3,0,7,90,60,45,1
 Style: Sign1,Immi Five O Five Std,75,&H003C4241,&H000019FF,&H003F4A49,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,15,15,15,1
 Style: Sign2,LEHN096,75,&H0060635F,&H000019FF,&H00474843,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,30,30,105,0
@@ -432,7 +431,7 @@ Dialogue: 0,0:03:04.23,0:03:04.43,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:03:04.43,0:03:04.63,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:04.63,0:03:04.83,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:04.83,0:03:04.88,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:03:08.06,0:03:12.94,Default,,0,0,0,,Paranoïa des mondes parallèles
+Dialogue: 0,0:03:08.06,0:03:12.94,SignFrench,,0,0,0,,Paranoïa des mondes parallèles
 Dialogue: 0,0:03:23.54,0:03:26.58,Default,,0,0,0,,Le point d'attache est intact.\NAucun trucage.
 Dialogue: 0,0:03:27.75,0:03:31.92,Default,,0,0,0,,Elle pourrait cacher des explosifs.\NTiens-la à l'œil.
 Dialogue: 0,0:03:32.09,0:03:34.21,Default,,0,0,0,,Arrête.\N- Une pince à épiler ?
@@ -547,7 +546,7 @@ Dialogue: 0,0:10:56.74,0:10:59.53,Default,,0,0,0,,Regardez tous ces messages…
 Dialogue: 0,0:10:59.74,0:11:01.16,Default,,0,0,0,,"Répondez vite."
 Dialogue: 0,0:11:01.33,0:11:03.04,Default,,0,0,0,,"Vous dormez ?"
 Dialogue: 0,0:11:03.16,0:11:05.21,Default,,0,0,0,,"Vous allez dormir longtemps ?"
-Dialogue: 0,0:11:05.37,0:11:07.13,Default,,0,0,0,,Daru….
+Dialogue: 0,0:11:05.37,0:11:07.13,Default,,0,0,0,,Daru…
 Dialogue: 0,0:11:10.00,0:11:12.92,Default,,0,0,0,,Tu veux sortir faire un tour ?
 Dialogue: 0,0:11:13.55,0:11:18.05,Default,,0,0,0,,Qu'y a-t-il ?\N- On a bossé toute la nuit pour rien.
 Dialogue: 0,0:11:18.76,0:11:20.56,Default,,0,0,0,,Malgré tous les essais qu'on a tentés,
@@ -584,7 +583,8 @@ Dialogue: 0,0:13:26.85,0:13:30.14,Default,,0,0,0,,Mais avec le LHC, c'est possib
 Dialogue: 0,0:13:30.31,0:13:32.69,Default,,0,0,0,,Bien vu.….\NNon.
 Dialogue: 0,0:13:32.85,0:13:38.57,Default,,0,0,0,,Le SERN a réfuté l'information.\N- Il n'y a pas de fumée sans feu.
 Dialogue: 0,0:13:38.74,0:13:39.74,Default,,0,0,0,,C'est moi.
-Dialogue: 0,0:13:39.86,0:13:44.12,Default,,0,0,0,,MOBILES INTERDITS\NOui. Je sais. El Psy Kongroo.
+Dialogue: 0,0:13:39.86,0:13:44.12,Default,,0,0,0,,Oui. Je sais. El Psy Kongroo.
+Dialogue: 0,0:13:39.86,0:13:44.12,SignFrench,,0,0,0,,MOBILES INTERDITS
 Dialogue: 0,0:13:44.74,0:13:47.04,Default,,0,0,0,,À qui t'adresses-tu exactement ?
 Dialogue: 0,0:13:47.16,0:13:50.33,Default,,0,0,0,,À ce stade,\Nil n'y a qu'une seule façon d'agir.
 Dialogue: 0,0:13:50.50,0:13:54.92,Default,,0,0,0,,Aller voir Faris-tan !\N- Non. Tu es un super hax0r, pas vrai ?
@@ -602,7 +602,7 @@ Dialogue: 0,0:14:37.59,0:14:40.67,Default,,0,0,0,,Y'a rien à faire au magasin,\
 Dialogue: 0,0:14:40.88,0:14:43.22,Default,,0,0,0,,Ça devient plutôt un atelier de vélos.
 Dialogue: 0,0:14:43.55,0:14:49.60,Default,,0,0,0,,Qu'est-ce que vous fabriquez, là-haut ?\NC'est le Labo des gadgets futuristes ?
 Dialogue: 0,0:14:49.76,0:14:51.89,Default,,0,0,0,,Comment es-tu au courant ?
-Dialogue: 0,0:14:53.43,0:14:54.94,Default,,0,0,0,,LABO DES GADGETS FUTURISTES
+Dialogue: 0,0:14:53.43,0:14:54.94,SignFrench,,0,0,0,,LABO DES GADGETS FUTURISTES
 Dialogue: 0,0:14:55.10,0:14:57.81,Default,,0,0,0,,Très bien.\NPuisque tu es au parfum…
 Dialogue: 0,0:14:58.02,0:15:02.99,Default,,0,0,0,,On combat une organisation secrète\Nqui contrôle le monde dans l'ombre.
 Dialogue: 0,0:15:03.15,0:15:07.32,Default,,0,0,0,,En réalité, on s'apprête à les pirater.
@@ -670,7 +670,7 @@ Dialogue: 0,0:19:50.02,0:19:51.82,Default,,0,0,0,,Qu'y a-t-il ?
 Dialogue: 0,0:19:51.98,0:19:56.49,Default,,0,0,0,,Un cake de poisson contre ton bœuf.\N- Contre un pâté de caille.
 Dialogue: 0,0:19:56.61,0:20:00.07,Default,,0,0,0,,Non, c'est ce que je préfère\Naprès l'émincé de bœuf.
 Dialogue: 0,0:20:00.57,0:20:05.41,Default,,0,0,0,,Mais Mayushii les aime bien aussi.\N- Prends un rouleau de poisson.
-Dialogue: 0,0:20:05.58,0:20:09.46,Default,,0,0,0,,C'est meilleur que le cake au poisson.\N- Marché conclu….
+Dialogue: 0,0:20:05.58,0:20:09.46,Default,,0,0,0,,C'est meilleur que le cake au poisson.\N- Marché conclu…
 Dialogue: 0,0:20:09.63,0:20:11.75,Default,,0,0,0,,Voici le bœuf de Mayushii.
 Dialogue: 0,0:20:11.92,0:20:13.46,Default,,0,0,0,,Quoi ?\N- Déjà pris.
 Dialogue: 0,0:20:13.63,0:20:15.05,Default,,0,0,0,,Quand ça ?
@@ -688,14 +688,14 @@ Dialogue: 0,0:20:50.75,0:20:55.42,Default,,0,0,0,,Qu'as-tu trouvé ?\N- Jusqu'ic
 Dialogue: 0,0:20:55.63,0:20:58.34,Default,,0,0,0,,De l'anglais ?\NDemandons au Dr Excite.
 Dialogue: 0,0:20:58.51,0:21:01.14,Default,,0,0,0,,Laisse tomber, c'est trop chiant.
 Dialogue: 0,0:21:01.30,0:21:03.64,Default,,0,0,0,,La traduction : "Salut, Paul."
-Dialogue: 0,0:21:03.76,0:21:07.43,Default,,0,0,0,,On n'est pas au théâtre.\N- C'est ça. Voyons….
+Dialogue: 0,0:21:03.76,0:21:07.43,Default,,0,0,0,,On n'est pas au théâtre.\N- C'est ça. Voyons…
 Dialogue: 0,0:21:07.73,0:21:12.61,Default,,0,0,0,,"Le LHC fonctionne bien.\NIl est très imprévisible."
 Dialogue: 0,0:21:12.73,0:21:15.65,Default,,0,0,0,,"Mais tout se passe étonnamment bien."
 Dialogue: 0,0:21:15.78,0:21:18.11,Default,,0,0,0,,Ça signifie quoi ?\N- Tu as entendu.
 Dialogue: 0,0:21:18.28,0:21:21.36,Default,,0,0,0,,On s'en fout.\NÇa parle de machine temporelle ?
 Dialogue: 0,0:21:22.20,0:21:24.95,Default,,0,0,0,,"Machine temporelle" n'apparaît pas.
 Dialogue: 0,0:21:25.12,0:21:29.91,Default,,0,0,0,,Mais "Z-Program" a été utilisé\Nenviron 100 fois le mois dernier.
-Dialogue: 0,0:21:30.08,0:21:36.17,Default,,0,0,0,,Voyons voir….\N"Z-Program, rapport d'expérience 137".
+Dialogue: 0,0:21:30.08,0:21:36.17,Default,,0,0,0,,Voyons voir…\N"Z-Program, rapport d'expérience 137".
 Dialogue: 0,0:21:36.55,0:21:41.47,Default,,0,0,0,,"L'objectif de générer des micro\Ntrous noirs ayant déjà été établi,"
 Dialogue: 0,0:21:41.63,0:21:43.14,Default,,0,0,0,,"ce rapport manque."
 Dialogue: 0,0:21:44.30,0:21:47.14,Default,,0,0,0,,Des micro trous noirs ?\N- On dirait.
@@ -753,4 +753,4 @@ Dialogue: 1,0:23:26.00,0:23:36.38,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.00,0:23:36.38,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.00,0:23:36.38,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.00,0:23:36.38,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Rendez-vous entre collisions de théories errantes
+Dialogue: 0,0:23:41.09,0:23:55.85,SignFrench,,0,0,0,,Rendez-vous entre collisions de théories errantes

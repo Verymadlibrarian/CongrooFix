@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H005C5C66,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,-7.5,0,1,0.3,0,7,90,60,45,1
 Style: Sign1,VAG Rounded Std Light,78,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,210,60,120,0
 Style: Note1,ITC Avant Garde Std Md,45,&H00FFFFFF,&H000019FF,&H00333236,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,30,30,15,0
@@ -20,10 +19,10 @@ Style: op trans,Unisketchlightlimited,66,&H00000000,&H000019FF,&H00F2F2F2,&H009A
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.96,0:00:02.25,Default,,0,0,0,,KYOUMA,
-Dialogue: 0,0:00:04.30,0:00:04.92,Default,,0,0,0,,JE TE DEMANDE
-Dialogue: 0,0:00:06.13,0:00:06.76,Default,,0,0,0,,D'ÊTRE
-Dialogue: 0,0:00:08.13,0:00:09.22,Default,,0,0,0,,NOTRE SAUVEUR.
+Dialogue: 0,0:00:00.96,0:00:02.25,SignFrench,,0,0,0,,KYOUMA,
+Dialogue: 0,0:00:04.30,0:00:04.92,SignFrench,,0,0,0,,JE TE DEMANDE
+Dialogue: 0,0:00:06.13,0:00:06.76,SignFrench,,0,0,0,,D'ÊTRE
+Dialogue: 0,0:00:08.13,0:00:09.22,SignFrench,,0,0,0,,NOTRE SAUVEUR.
 Dialogue: 0,0:00:16.77,0:00:19.56,Default,,0,0,0,,Moi ? Un sauveur ?
 Dialogue: 0,0:00:20.77,0:00:24.36,Default,,0,0,0,,N'importe quoi.\NJe suis un mad scientist.
 Dialogue: 0,0:00:24.48,0:00:27.49,Default,,0,0,0,,J'ai soif de destruction et de chaos.
@@ -428,7 +427,7 @@ Dialogue: 0,0:03:12.41,0:03:12.61,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:03:12.61,0:03:12.81,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:12.81,0:03:13.01,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:13.01,0:03:13.06,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:03:16.07,0:03:20.95,Default,,0,0,0,,Homéostasie d'une fantaisie
+Dialogue: 0,0:03:16.07,0:03:20.95,SignFrench,,0,0,0,,Homéostasie d'une fantaisie
 Dialogue: 0,0:03:40.80,0:03:44.52,Default,,0,0,0,,Daru ?\N- Rien dans la boîte d'envoi.
 Dialogue: 0,0:03:44.64,0:03:47.69,Default,,0,0,0,,Le D-mail est arrivé il y a cinq jours.
 Dialogue: 0,0:03:47.85,0:03:50.94,Default,,0,0,0,,Ça a marché.\N- Le passé a-t-il changé ?
@@ -458,9 +457,9 @@ Dialogue: 0,0:05:31.75,0:05:33.12,Default,,0,0,0,,Et alors ?
 Dialogue: 0,0:05:33.38,0:05:38.42,Default,,0,0,0,,Tu préfères rester assise en souriant,\Nà regarder les autres se sacrifier.
 Dialogue: 0,0:05:38.59,0:05:42.55,Default,,0,0,0,,Tu es une véritable mad scientist.\N- Laisse tomber.
 Dialogue: 0,0:05:42.88,0:05:45.55,Default,,0,0,0,,Sérieusement…
-Dialogue: 0,0:05:47.18,0:05:50.48,Default,,0,0,0,,DE : S.F.\NJE VEUX ENVOYER UN D-MAIL, MOI AUSSI.
+Dialogue: 0,0:05:47.18,0:05:50.48,SignFrench,,0,0,0,,DE : S.F.\NJE VEUX ENVOYER UN D-MAIL, MOI AUSSI.
 Dialogue: 0,0:05:51.18,0:05:55.40,Default,,0,0,0,,La seule façon de perfectionner\Nle système des D-mails…
-Dialogue: 0,0:05:55.61,0:05:57.65,Default,,0,0,0,,DE : S.F.\NJE PEUX, STP ?
+Dialogue: 0,0:05:55.61,0:05:57.65,SignFrench,,0,0,0,,DE : S.F.\NJE PEUX, STP ?
 Dialogue: 0,0:05:59.61,0:06:02.03,Default,,0,0,0,,… c'est de poursuivre les tests.
 Dialogue: 0,0:06:02.95,0:06:04.45,Default,,0,0,0,,Kiryu ?
 Dialogue: 0,0:06:05.24,0:06:07.16,Default,,0,0,0,,Elle parle trop.\N- Je peux ?
@@ -528,7 +527,7 @@ Dialogue: 0,0:11:08.71,0:11:10.92,Default,,0,0,0,,Qu'est-ce que ça veut dire ?
 Dialogue: 0,0:11:11.09,0:11:16.47,Default,,0,0,0,,On a changé le passé et effacé\Ncomplètement l'existence de Kiryu Moeka ?
 Dialogue: 0,0:11:16.72,0:11:18.09,Default,,0,0,0,,C'est impossible.
 Dialogue: 0,0:11:18.97,0:11:23.52,Default,,0,0,0,,J'ai encore des e-mails d'elle\Njusqu'au 31 juillet.
-Dialogue: 0,0:11:25.14,0:11:27.02,Default,,0,0,0,,À : S.F.\NENVOI EN COURS…
+Dialogue: 0,0:11:25.14,0:11:27.02,SignFrench,,0,0,0,,À : S.F.\NENVOI EN COURS…
 Dialogue: 0,0:11:34.49,0:11:39.12,Default,,0,0,0,,"Qu'y a-t-il ? Désolée, je suis occupée.\NJe t'écris plus tard."
 Dialogue: 0,0:11:43.95,0:11:49.00,Default,,0,0,0,,En gros, le passé et les actions\Nde Kiryu Moeka ont été modifiés,
 Dialogue: 0,0:11:49.21,0:11:53.05,Default,,0,0,0,,quand elle a reçu le message\Nil y a quatre jours.
@@ -542,7 +541,7 @@ Dialogue: 0,0:12:24.04,0:12:25.95,Default,,0,0,0,,Je suis prête !
 Dialogue: 0,0:12:28.00,0:12:30.00,Default,,0,0,0,,On parlera demain.
 Dialogue: 0,0:12:31.00,0:12:33.46,Default,,0,0,0,,À demain, Okarin !
 Dialogue: 0,0:12:35.42,0:12:37.26,Default,,0,0,0,,Elle est bien réelle.
-Dialogue: 0,0:12:37.42,0:12:38.76,Default,,0,0,0,,… NOTRE SAUVEUR.
+Dialogue: 0,0:12:37.42,0:12:38.76,SignFrench,,0,0,0,,… NOTRE SAUVEUR.
 Dialogue: 0,0:12:38.88,0:12:40.09,Default,,0,0,0,,Cependant…
 Dialogue: 0,0:12:40.97,0:12:42.43,Default,,0,0,0,,… suis-je…
 Dialogue: 0,0:12:45.60,0:12:49.39,Default,,0,0,0,,Je me demande bien\Ncomment ils peuvent dormir au labo.
@@ -553,7 +552,7 @@ Dialogue: 0,0:13:02.45,0:13:04.62,Default,,0,0,0,,Bien sûr.\N- D'accord ?
 Dialogue: 0,0:13:04.87,0:13:07.00,Default,,0,0,0,,Je passerai un de ces jours.
 Dialogue: 0,0:13:10.87,0:13:13.42,Default,,0,0,0,,Ruka ? Tutuluu.
 Dialogue: 0,0:13:15.42,0:13:18.59,Default,,0,0,0,,Quoi ? Vraiment ?
-Dialogue: 0,0:13:18.92,0:13:20.97,Default,,0,0,0,,05 AOÛT 2010
+Dialogue: 0,0:13:18.92,0:13:20.97,SignFrench,,0,0,0,,05 AOÛT 2010
 Dialogue: 0,0:13:20.97,0:13:24.47,Default,,0,0,0,,Quoi ? T'as pas pris\Nle sabre Samidare surnaturel ?
 Dialogue: 0,0:13:24.97,0:13:30.56,Default,,0,0,0,,Arrête, Okarin. Ruka\Nest l'invité de Mayushii aujourd'hui.
 Dialogue: 0,0:13:30.81,0:13:34.44,Default,,0,0,0,,Tu voulais essayer mes costumes, non ?\N- Je…
@@ -656,7 +655,7 @@ Dialogue: 0,0:19:40.60,0:19:43.52,Default,,0,0,0,,Membre du labo 006, Urushibara
 Dialogue: 0,0:19:43.64,0:19:45.27,Default,,0,0,0,,C'est ta 1ère mission.
 Dialogue: 0,0:19:45.43,0:19:49.11,Default,,0,0,0,,Demande si ta mère avait un bipeur\Net trouve son numéro.
 Dialogue: 0,0:19:49.31,0:19:50.44,Default,,0,0,0,,Entendu.
-Dialogue: 0,0:19:50.56,0:19:52.07,Default,,0,0,0,,06 AOÛT 2010
+Dialogue: 0,0:19:50.56,0:19:52.07,SignFrench,,0,0,0,,06 AOÛT 2010
 Dialogue: 0,0:19:52.61,0:19:55.40,Default,,0,0,0,,Ma mère avait un bipeur.
 Dialogue: 0,0:19:55.99,0:19:58.86,Default,,0,0,0,,Voici le numéro.\N- Excellent.
 Dialogue: 0,0:19:59.03,0:20:01.66,Default,,0,0,0,,Tu sais ce que tu veux écrire ?\N- Qui.
@@ -735,4 +734,4 @@ Dialogue: 1,0:23:26.13,0:23:33.98,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.13,0:23:33.98,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.13,0:23:33.98,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.13,0:23:33.98,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.17,0:23:55.94,Default,,0,0,0,,Homéostasie d'une illusion
+Dialogue: 0,0:23:41.17,0:23:55.94,SignFrench,,0,0,0,,Homéostasie d'une illusion

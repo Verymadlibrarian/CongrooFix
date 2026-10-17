@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -10,6 +8,7 @@ PlayResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Candara,83,&H00FFFFFF,&H000000FF,&H00001500,&HA0062210,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Default-top,Candara,83,&H00FFFFFF,&H000000FF,&H00000000,&HA0062210,-1,0,0,0,100,100,0,0,1,4.5,1.5,8,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00726F87,&H00726F87,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
@@ -414,9 +413,10 @@ Dialogue: 0,0:02:17.34,0:02:17.54,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:02:17.54,0:02:17.74,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:17.74,0:02:17.94,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:02:17.94,0:02:17.99,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:02:21.10,0:02:25.85,Default,,0,0,0,,Apoptose du cri de rancœur
+Dialogue: 0,0:02:21.10,0:02:25.85,SignFrench,,0,0,0,,Apoptose du cri de rancœur
 Dialogue: 0,0:02:40.66,0:02:41.29,Default,,0,0,0,,Okabe,
-Dialogue: 0,0:02:41.33,0:02:42.83,Default,,0,0,0,,12 AOÛT 2010 - 00H41\Nque se passe-t-il ?
+Dialogue: 0,0:02:41.33,0:02:42.83,Default,,0,0,0,,que se passe-t-il ?
+Dialogue: 0,0:02:41.33,0:02:42.83,SignFrench,,0,0,0,,12 AOÛT 2010 - 00H41
 Dialogue: 0,0:02:45.75,0:02:47.42,Default,,0,0,0,,Ça fera l'affaire !
 Dialogue: 0,0:02:48.46,0:02:49.80,Default,,0,0,0,,Stop !
 Dialogue: 0,0:02:53.42,0:02:56.30,Default,,0,0,0,,L'IBN 5100 est dans une consigne ?
@@ -479,7 +479,7 @@ Dialogue: 0,0:07:32.91,0:07:34.20,Default,,0,0,0,,C'est un secret.
 Dialogue: 0,0:07:35.21,0:07:41.34,Default,,0,0,0,,"Les relations avec les autres\Nsont peut-être difficiles pour toi, M4.
 Dialogue: 0,0:07:41.54,0:07:45.22,Default,,0,0,0,,Mais c'est ce qui te rend unique,\Ntu ne crois pas ?"
 Dialogue: 0,0:07:46.30,0:07:48.72,Default,,0,0,0,,On dirait une maman, c'est vrai.
-Dialogue: 0,0:07:53.97,0:07:55.93,Default,,0,0,0,,13 AOÛT 2010 - 13H25
+Dialogue: 0,0:07:53.97,0:07:55.93,SignFrench,,0,0,0,,13 AOÛT 2010 - 13H25
 Dialogue: 0,0:08:15.33,0:08:17.21,Default,,0,0,0,,Le voilà.
 Dialogue: 0,0:08:17.37,0:08:18.96,Default,,0,0,0,,L'IBN 5100…
 Dialogue: 0,0:08:19.92,0:08:24.30,Default,,0,0,0,,Alors, c'est lui, FB ?\N- Non.
@@ -583,10 +583,11 @@ Dialogue: 0,0:18:43.12,0:18:45.54,Default,,0,0,0,,Pardon…
 Dialogue: 0,0:18:48.38,0:18:51.55,Default,,0,0,0,,Pardon…
 Dialogue: 0,0:18:59.81,0:19:03.93,Default,,0,0,0,,Okabe, son téléphone ! Le D-mail !
 Dialogue: 0,0:19:04.44,0:19:05.77,Default,,0,0,0,,Okabe !
-Dialogue: 0,0:19:13.11,0:19:14.82,Default,,0,0,0,,NE CHERCHE PLUS L'IBN 5100.
+Dialogue: 0,0:19:13.11,0:19:14.82,SignFrench,,0,0,0,,NE CHERCHE PLUS L'IBN 5100.
 Dialogue: 0,0:19:27.63,0:19:29.75,Default,,0,0,0,,Moeka…
-Dialogue: 0,0:19:32.76,0:19:37.18,Default,,0,0,0,,DE : S.F. JE N'AI PLUS BESOIN DE\NL'IBN 5100. Tu n'en as plus besoin ?
-Dialogue: 0,0:19:40.85,0:19:42.43,Default,,0,0,0,,LA RECHERCHE A CESSÉ.
+Dialogue: 0,0:19:32.76,0:19:37.18,Default,,0,0,0,,Tu n'en as plus besoin ?
+Dialogue: 0,0:19:32.76,0:19:37.18,SignFrench,,0,0,0,,DE : S.F. JE N'AI PLUS BESOIN DE L'IBN 5100.
+Dialogue: 0,0:19:40.85,0:19:42.43,SignFrench,,0,0,0,,LA RECHERCHE A CESSÉ.
 Dialogue: 0,0:19:45.02,0:19:47.02,Default,,0,0,0,,Urushibara à l'appareil.
 Dialogue: 0,0:19:47.23,0:19:48.94,Default,,0,0,0,,Oh, Kyouma…
 Dialogue: 0,0:19:49.86,0:19:52.53,Default,,0,0,0,,Quoi ? Un IBN 5100 ?
@@ -671,4 +672,4 @@ Dialogue: 1,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.13,0:23:56.02,Default,,0,0,0,,Effondrement du principe de causalité
+Dialogue: 0,0:23:41.13,0:23:56.02,SignFrench,,0,0,0,,Effondrement du principe de causalité

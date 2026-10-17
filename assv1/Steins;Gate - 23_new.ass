@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -13,6 +11,7 @@ Style: CellphoneEffortLess-furigana,Arial Rounded MT Bold,24,&H00FFFFFF,&H000019
 Style: Title1-furigana,A-OTF Futo Min A101 Pro Bold,68,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,0,0,1,0.15,0,3,90,60,45,1
 Style: Default-furigana,Fontin Sans Rg,35,&H00FFFFFF,&H000019FF,&H00182A18,&HA0051F0F,-1,0,0,0,100,100,0,0,1,2.25,0.75,2,165,165,60,0
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: CellphoneEffortLess,Arial Rounded MT Bold,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,7,53,53,53,1
 Style: OP-furigana,Crackin,30,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,51,51,51,1
@@ -30,7 +29,7 @@ Style: SignA,Estrangelo Edessa,69,&H000B0E0B,&H000019FF,&H00A7A7A7,&H00000000,-1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.96,0:00:03.63,Default,,0,0,0,,21 AOÛT 2010
+Dialogue: 0,0:00:00.96,0:00:03.63,SignFrench,,0,0,0,,21 AOÛT 2010
 Dialogue: 0,0:00:07.63,0:00:10.51,Default,,0,0,0,,La Troisième Guerre mondiale…
 Dialogue: 0,0:00:10.68,0:00:17.02,Default,,0,0,0,,Elle provoquera la mort de 5,7 milliards\Nde gens dans le monde en 2036.
 Dialogue: 0,0:00:17.35,0:00:19.02,Default,,0,0,0,,Voici son origine.
@@ -440,7 +439,7 @@ Dialogue: 0,0:03:13.30,0:03:13.50,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:03:13.50,0:03:13.70,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}mou mayoi wa nai kodoku no kansokusha
 Dialogue: 0,0:03:13.70,0:03:13.90,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}mou mayoi wa nai kodoku no kansokusha
 Dialogue: 0,0:03:13.90,0:03:13.95,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}mou mayoi wa nai kodoku no kansokusha
-Dialogue: 0,0:03:17.07,0:03:21.83,Default,,0,0,0,,Sur la frontière du Steins;Gate
+Dialogue: 0,0:03:17.07,0:03:21.83,SignFrench,,0,0,0,,Sur la frontière du Steins;Gate
 Dialogue: 0,0:03:23.41,0:03:25.58,Default,,0,0,0,,Steins Gate…
 Dialogue: 0,0:03:25.71,0:03:28.75,Default,,0,0,0,,C'est ton futur toi\Nqui a eu l'idée de ce plan,
 Dialogue: 0,0:03:29.75,0:03:31.59,Default,,0,0,0,,avec papa.
@@ -481,7 +480,7 @@ Dialogue: 0,0:06:02.82,0:06:04.36,Default,,0,0,0,,Okarin…
 Dialogue: 0,0:06:08.66,0:06:10.00,Default,,0,0,0,,C'est quoi ?
 Dialogue: 0,0:06:10.16,0:06:12.79,Default,,0,0,0,,Un genre de fragments de temps.
 Dialogue: 0,0:06:13.37,0:06:14.92,Default,,0,0,0,,C'est joli, non ?
-Dialogue: 0,0:06:17.34,0:06:19.30,Default,,0,0,0,,28 JUILLET 2010 - 11H51
+Dialogue: 0,0:06:17.34,0:06:19.30,SignFrench,,0,0,0,,28 JUILLET 2010 - 11H51
 Dialogue: 0,0:06:20.59,0:06:23.22,Default,,0,0,0,,Allons-y.\N- Attends.
 Dialogue: 0,0:06:23.43,0:06:25.59,Default,,0,0,0,,J'ai des remontées acides.
 Dialogue: 0,0:06:25.76,0:06:27.85,Default,,0,0,0,,Quelle mauviette.
@@ -517,7 +516,7 @@ Dialogue: 0,0:08:16.00,0:08:21.13,Default,,0,0,0,,La conférence du Dr Nakabachi
 Dialogue: 0,0:08:21.92,0:08:23.84,Default,,0,0,0,,Attendez ! Arrêtez-vous !
 Dialogue: 0,0:08:27.72,0:08:32.30,Default,,0,0,0,,Le dossier explique la structure de base\Nd'une machine temporelle.
 Dialogue: 0,0:08:32.97,0:08:36.77,Default,,0,0,0,,Je vais vous en expliquer\Nla théorie fondamentale.
-Dialogue: 0,0:08:36.81,0:08:38.81,Default,,0,0,0,,CONFÉRENCE DU DR. NAKABACHI\NLA POSSIBILITÉ D'UNE MACHINE TEMPORELLE
+Dialogue: 0,0:08:36.81,0:08:38.81,SignFrench,,0,0,0,,CONFÉRENCE DU DR. NAKABACHI\NLA POSSIBILITÉ D'UNE MACHINE TEMPORELLE
 Dialogue: 0,0:08:38.89,0:08:43.57,Default,,0,0,0,,D'après le plan, tu es capable\Nd'identifier Makise Kurisu.
 Dialogue: 0,0:08:43.73,0:08:45.44,Default,,0,0,0,,Alors ?\N- Oui.
 Dialogue: 0,0:08:45.65,0:08:48.70,Default,,0,0,0,,Il serait dangereux de l'emmener dehors.
@@ -595,7 +594,7 @@ Dialogue: 0,0:13:31.14,0:13:33.19,Default,,0,0,0,,Je ne veux pas mourir.
 Dialogue: 0,0:13:34.36,0:13:36.94,Default,,0,0,0,,Je ne veux pas…
 Dialogue: 0,0:13:39.11,0:13:40.40,Default,,0,0,0,,Kurisu…
 Dialogue: 0,0:13:42.49,0:13:43.91,Default,,0,0,0,,Kurisu !
-Dialogue: 0,0:13:53.92,0:13:55.08,Default,,0,0,0,,21 AOÛT 2010
+Dialogue: 0,0:13:53.92,0:13:55.08,SignFrench,,0,0,0,,21 AOÛT 2010
 Dialogue: 0,0:13:59.05,0:14:00.38,Default,,0,0,0,,Ils sont déjà là.
 Dialogue: 0,0:14:03.09,0:14:04.09,Default,,0,0,0,,Okarin !
 Dialogue: 0,0:14:05.93,0:14:07.31,Default,,0,0,0,,… tuée.
@@ -708,71 +707,71 @@ Dialogue: 0,0:20:54.50,0:20:59.26,Default,,0,0,0,,Je vais maintenant t'expliquer
 Dialogue: 0,0:20:59.76,0:21:03.76,Default,,0,0,0,,Tu dois changer le résultat,\Nsans modifier les faits passés.
 Dialogue: 0,0:21:03.93,0:21:09.48,Default,,0,0,0,,Okabe Rintaro observe Makise Kurisu\Nqui baigne dans son sang, sur le sol.
 Dialogue: 0,0:21:05.90,0:21:11.70,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kako wa hanareteyuki mirai wa chikazukuno?
-Dialogue: 0,0:21:05.90,0:21:11.70,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}The past retreats, but does the future truly approach?
+Dialogue: 0,0:21:05.90,0:21:11.70,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Est-ce que le passé s'éloigne, et le futur se rapproche ?
 Dialogue: 0,0:21:09.64,0:21:13.19,Default,,0,0,0,,Change le résultat\Nsans modifier les évènements.
 Dialogue: 0,0:21:11.70,0:21:16.90,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kansokusha wa itsuka mujun ni kizuku
-Dialogue: 0,0:21:11.70,0:21:16.90,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}An observer would realize the contradictions there
+Dialogue: 0,0:21:11.70,0:21:16.90,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}L'observateur finira par se rendre compte de la contradiction.
 Dialogue: 0,0:21:13.73,0:21:15.78,Default,,0,0,0,,Dupe-toi toi-même.
 Dialogue: 0,0:21:16.36,0:21:17.69,Default,,0,0,0,,Trompe le monde.
 Dialogue: 0,0:21:16.90,0:21:28.22,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kami no tsukuridashita sekai wa kanzennaru mono de zettai no kinkou
-Dialogue: 0,0:21:16.90,0:21:28.22,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}This world shaped by God is perfect and lies in absolute balance
+Dialogue: 0,0:21:16.90,0:21:28.22,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Le monde créé par Dieu est parfait et absolument équilibré.
 Dialogue: 0,0:21:18.36,0:21:22.36,Default,,0,0,0,,C'est la seule façon\Nd'atteindre Steins Gate.
 Dialogue: 0,0:21:25.20,0:21:27.08,Default,,0,0,0,,Bonne chance.
 Dialogue: 0,0:21:27.29,0:21:30.00,Default,,0,0,0,,El Psy Kongroo.
 Dialogue: 0,0:21:28.22,0:21:34.73,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}sore wa orikasanaru guuzen uchuu kibo no kiseki
-Dialogue: 0,0:21:28.22,0:21:34.73,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}A superimposed coincidence, a miracle on a cosmic scale
+Dialogue: 0,0:21:28.22,0:21:34.73,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}C'est un ensemble de coïncidences et de miracles à l'échelle de l'univers.
 Dialogue: 0,0:21:32.71,0:21:34.34,Default,,0,0,0,,Ça alors.
 Dialogue: 0,0:21:34.73,0:21:40.82,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}mamoraretekita GATE "kisei" wa owatta
-Dialogue: 0,0:21:34.73,0:21:40.82,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}The restrictions on the guarded gate are now abolished
+Dialogue: 0,0:21:34.73,0:21:40.82,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Le contrôle de la porte qui était protégée n'existe plus.
 Dialogue: 0,0:21:34.84,0:21:37.51,Default,,0,0,0,,C'était toi dans 15 ans ?
 Dialogue: 0,0:21:37.63,0:21:39.84,Default,,0,0,0,,Il avait une voix suave.
-Dialogue: 0,0:21:40.82,0:21:41.92,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}Open the Eyes
+Dialogue: 0,0:21:40.82,0:21:41.92,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}Ouvre les yeux.
 Dialogue: 0,0:21:41.92,0:21:47.46,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}"zero" ga kako de "ichi" ga mirai "ima" wa dokonimo nai
-Dialogue: 0,0:21:41.92,0:21:47.46,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}"Zero" is the past and "One" is the future, "The Present" is a fabrication
+Dialogue: 0,0:21:41.92,0:21:47.46,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}0 symbolise le passé, 1 le futur, mais rien ne représente le présent.
 Dialogue: 0,0:21:47.46,0:21:52.58,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}somuku koto no dekinu LOGIC
-Dialogue: 0,0:21:47.46,0:21:52.58,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}This is an undeniable logic
+Dialogue: 0,0:21:47.46,0:21:52.58,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}C'est une logique à laquelle on ne peut échapper.
 Dialogue: 0,0:21:47.77,0:21:50.10,Default,,0,0,0,,L'Operation Skuld ?
 Dialogue: 0,0:21:50.31,0:21:52.65,Default,,0,0,0,,El Psy Kongroo ?
-Dialogue: 0,0:21:52.58,0:21:53.28,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}Open the Eyes
+Dialogue: 0,0:21:52.58,0:21:53.28,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}Ouvre les yeux.
 Dialogue: 0,0:21:52.94,0:21:56.32,Default,,0,0,0,,Je parle toujours comme ça à 33 ans ?
 Dialogue: 0,0:21:53.28,0:21:59.08,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}heikousuru musuu no sen sentaku wa boutoku e
-Dialogue: 0,0:21:53.28,0:21:59.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Amidst the countless parallel lines, I choose blasphemy
+Dialogue: 0,0:21:53.28,0:21:59.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Pouvoir choisir entre les innombrables lignes parallèles est un sacrilège.
 Dialogue: 0,0:21:58.07,0:22:02.07,Default,,0,0,0,,On dirait que je suis\Ndans le délire complet.
 Dialogue: 0,0:21:59.08,0:22:07.78,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}bokura no "sonzai" sae utagau sono me ni utsuru keshiki wa
-Dialogue: 0,0:21:59.08,0:22:07.78,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Doubting existence itself, Those Eyes bear witness to
+Dialogue: 0,0:21:59.08,0:22:07.78,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Dans ces yeux qui doutent même de notre propre existence
 Dialogue: 0,0:22:02.24,0:22:03.78,Default,,0,0,0,,Okarin…
 Dialogue: 0,0:22:03.95,0:22:05.20,Default,,0,0,0,,Je vais le faire.
 Dialogue: 0,0:22:06.49,0:22:09.66,Default,,0,0,0,,Si c'est le choix de Steins Gate.
 Dialogue: 0,0:22:07.78,0:22:10.59,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}"shuusoku" o suru
-Dialogue: 0,0:22:07.78,0:22:10.59,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Convergence
+Dialogue: 0,0:22:07.78,0:22:10.59,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}se reflètent des paysages arrangés.
 Dialogue: 0,0:22:10.75,0:22:15.42,Default,,0,0,0,,Je suis le mad scientist,\NHououin Kyouma.
 Dialogue: 0,0:22:15.71,0:22:19.76,Default,,0,0,0,,Duper le monde\Nest un jeu d'enfant pour moi.
 Dialogue: 0,0:22:22.38,0:22:25.59,Default,,0,0,0,,On dirait qu'il est redevenu lui-même.
 Dialogue: 0,0:22:25.72,0:22:30.14,Default,,0,0,0,,C'est tout de même comme ça\Nque Mayushii préfère Okarin.
 Dialogue: 0,0:22:26.34,0:22:32.08,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}futatsu no hari ga sasu jikan no gainen mo
-Dialogue: 0,0:22:26.34,0:22:32.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Even the basic concept of time, as depicted by two hands of a clock
+Dialogue: 0,0:22:26.34,0:22:32.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Les deux aiguilles de l'horloge illustrent le concept du temps,
 Dialogue: 0,0:22:30.85,0:22:33.02,Default,,0,0,0,,Je vais le répéter.
 Dialogue: 0,0:22:32.08,0:22:37.38,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kansokusha shidai de hizumi o miseru
-Dialogue: 0,0:22:32.08,0:22:37.38,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Will bend and distort to the choice of the Observer
+Dialogue: 0,0:22:32.08,0:22:37.38,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}qui montre même des déformations selon la volonté de l'observateur.
 Dialogue: 0,0:22:33.52,0:22:38.36,Default,,0,0,0,,Je suis le mad scientist,
 Dialogue: 0,0:22:37.38,0:22:48.08,EDRom,,0,0,0,,{\an8\fad(200,200)\blur6}kami ni ataerareta eichi wa kanarazu "hate" ga aru zettai no ryouiki
-Dialogue: 0,0:22:37.38,0:22:48.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}The knowledge God gifted us must have some limit, an absolute territory
+Dialogue: 0,0:22:37.38,0:22:48.08,EDTL,,0,0,0,,{\an8\fad(200,200)\blur6}Il doit y avoir une limite absolue au savoir que Dieu nous a accordé.
 Dialogue: 0,0:22:38.90,0:22:40.94,Default,,0,0,0,,Hououin Kyouma !
 Dialogue: 0,0:22:43.36,0:22:46.87,Default,,0,0,0,,Le monde est au creux de ma main.
 Dialogue: 0,0:22:48.32,0:22:54.90,EDRom,,0,0,0,,{\fad(200,200)\blur6}Sore wa oroka yue no guuzen manekarezaru kiseki
-Dialogue: 0,0:22:48.32,0:22:54.90,EDTL,,0,0,0,,{\fad(200,200)\blur6}It tells us that these are foolish notions and unwanted miracles
+Dialogue: 0,0:22:48.32,0:22:54.90,EDTL,,0,0,0,,{\fad(200,200)\blur6}C'est un ensemble de hasard au motif bête et de miracles indésirables.
 Dialogue: 0,0:22:54.90,0:23:01.08,EDRom,,0,0,0,,{\fad(200,200)\blur6}Tozasaretekita gate "kisei" wa owatta
-Dialogue: 0,0:22:54.90,0:23:01.08,EDTL,,0,0,0,,{\fad(200,200)\blur6}The gate that once was shut is supervised no more
-Dialogue: 0,0:23:01.08,0:23:02.09,EDTL,,0,0,0,,{\fad(200,200)\blur6}Open the eyes
+Dialogue: 0,0:22:54.90,0:23:01.08,EDTL,,0,0,0,,{\fad(200,200)\blur6}Le contrôle de la porte qui s'est refermée n'existe plus.
+Dialogue: 0,0:23:01.08,0:23:02.09,EDTL,,0,0,0,,{\fad(200,200)\blur6}Ouvre les yeux.
 Dialogue: 0,0:23:02.09,0:23:07.88,EDRom,,0,0,0,,{\fad(200,200)\blur6}Kousoku he to te wo nobashita omoide no parusu ga
-Dialogue: 0,0:23:02.09,0:23:07.88,EDTL,,0,0,0,,{\fad(200,200)\blur6}My mind wished to reach the speed of light
+Dialogue: 0,0:23:02.09,0:23:07.88,EDTL,,0,0,0,,{\fad(200,200)\blur6}En tendant la main vers la vitesse de la lumière,
 Dialogue: 0,0:23:07.88,0:23:12.68,EDRom,,0,0,0,,{\fad(200,200)\blur6}Tobikomu fukashigi na logic
-Dialogue: 0,0:23:07.88,0:23:12.68,EDTL,,0,0,0,,{\fad(200,200)\blur6}and fell into an unfathomable logic
-Dialogue: 0,0:23:12.68,0:23:13.65,EDTL,,0,0,0,,{\fad(200,200)\blur6}Open the eyes
+Dialogue: 0,0:23:07.88,0:23:12.68,EDTL,,0,0,0,,{\fad(200,200)\blur6}la pulsation des souvenirs plonge dans une mystérieuse logique.
+Dialogue: 0,0:23:12.68,0:23:13.65,EDTL,,0,0,0,,{\fad(200,200)\blur6}Ouvre les yeux.
 Dialogue: 0,0:23:13.65,0:23:19.36,EDRom,,0,0,0,,{\fad(200,200)\blur6}Uchuu ga mada kakushimotta chitsujo no nai riron
-Dialogue: 0,0:23:13.65,0:23:19.36,EDTL,,0,0,0,,{\fad(200,200)\blur6}The lawless rules of the universe remain hidden from us
+Dialogue: 0,0:23:13.65,0:23:19.36,EDTL,,0,0,0,,{\fad(200,200)\blur6}L'univers cache encore des théories de désordre chaotique.
 Dialogue: 0,0:23:19.36,0:23:27.80,EDRom,,0,0,0,,{\fad(200,200)\blur6}Mugen to yobareta ten to ten ga fusei na chikara wo karite
-Dialogue: 0,0:23:19.36,0:23:27.80,EDTL,,0,0,0,,{\fad(200,200)\blur6}What we call eternity is but dots connected, empowering each other
+Dialogue: 0,0:23:19.36,0:23:27.80,EDTL,,0,0,0,,{\fad(200,200)\blur6}Ces points appelés infini empruntent un pouvoir injuste
 Dialogue: 0,0:23:27.80,0:23:30.78,EDRom,,0,0,0,,{\fad(200,200)\blur6}"Saisei" wo suru
-Dialogue: 0,0:23:27.80,0:23:30.78,EDTL,,0,0,0,,{\fad(200,200)\blur6}and resurrecting us time and time again
-Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Prologue de la fin et du commencement
+Dialogue: 0,0:23:27.80,0:23:30.78,EDTL,,0,0,0,,{\fad(200,200)\blur6}et se rejouent encore et encore.
+Dialogue: 0,0:23:41.09,0:23:55.85,SignFrench,,0,0,0,,Prologue de la fin et du commencement

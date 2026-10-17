@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -13,6 +11,7 @@ Style: Title1,A-OTF Futo Min A101 Pro Bold,105,&H005C5B65,&H00726F87,&H00726F87,
 Style: Sign1,VAG Rounded Std Light,78,&H00FFFFFF,&H000000FF,&H00333136,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,210,60,120,0
 Style: Note1,ITC Avant Garde Std Md,45,&H00FFFFFF,&H000000FF,&H00333136,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,30,30,15,0
 Style: Default,Candara,83,&H00FFFFFF,&H000000FF,&H00001500,&HA0062210,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: EDRom,Old newspaper font,60,&H00D8DEE8,&H000000FF,&H005E4A46,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
 Style: EDTL,Old newspaper font,57,&H00D8DEE8,&H000000FF,&H005E4A46,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,2,15,15,18,1
 Style: op kara,Lead Coat,53,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,3,0,1,4.5,4.5,8,60,60,50,1
@@ -20,7 +19,7 @@ Style: op trans,Unisketchlightlimited,66,&H00000000,&H000000FF,&H00F2F2F2,&H009A
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.96,0:00:02.92,Default,,0,0,0,,03 AOÛT 2010
+Dialogue: 0,0:00:00.96,0:00:02.92,SignFrench,,0,0,0,,03 AOÛT 2010
 Dialogue: 0,0:00:04.09,0:00:06.67,Default,,0,0,0,,Tremble, mon bras droit.
 Dialogue: 0,0:00:08.34,0:00:11.85,Default,,0,0,0,,Comme le dit notre accord,\Nje t'ordonne…
 Dialogue: 0,0:00:13.18,0:00:17.35,Default,,0,0,0,,Entouré de flammes obscures,\Nexauce mon souhait.
@@ -44,7 +43,7 @@ Dialogue: 0,0:01:16.87,0:01:18.62,Default,,0,0,0,,Où est M. Braun ?\N- Qui ?
 Dialogue: 0,0:01:18.79,0:01:20.96,Default,,0,0,0,,Papa ne s'appelle pas M. Braun.
 Dialogue: 0,0:01:21.16,0:01:26.80,Default,,0,0,0,,Il est sorti. Il en a pour longtemps.\NC'est pour ça que je glande.
 Dialogue: 0,0:01:33.93,0:01:35.47,Default,,0,0,0,,Mayuri…
-Dialogue: 0,0:01:49.11,0:01:50.36,Default,,0,0,0,,MAYURI : TUTULUU.
+Dialogue: 0,0:01:49.11,0:01:50.36,SignFrench,,0,0,0,,MAYURI : TUTULUU.
 Dialogue: 0,0:01:52.24,0:01:53.32,Default,,0,0,0,,C'est…
 Dialogue: 0,0:01:53.99,0:01:56.33,Default,,0,0,0,,J'ai vu une lumière.
 Dialogue: 0,0:02:10.32,0:02:15.99,op trans,,0,0,0,,{\fad(200,0)}Pour toi, des milliards et des milliards\Nde battements de cœur
@@ -430,7 +429,7 @@ Dialogue: 0,0:03:23.31,0:03:23.52,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:03:23.52,0:03:23.73,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:23.73,0:03:23.89,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:03:23.89,0:03:23.98,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:03:27.08,0:03:31.96,Default,,0,0,0,,Divergence de la fracture
+Dialogue: 0,0:03:27.08,0:03:31.96,SignFrench,,0,0,0,,Divergence de la fracture
 Dialogue: 0,0:03:35.38,0:03:39.05,Default,,0,0,0,,Les croquettes de poulet juteuses\Nauraient été meilleures…
 Dialogue: 0,0:03:41.22,0:03:44.06,Default,,0,0,0,,T'as oublié le Dk Pepper.\N- Y'en avait plus.
 Dialogue: 0,0:03:44.27,0:03:49.73,Default,,0,0,0,,Il fallait chercher jusqu'à trouver,\Ncomme le ferait tout Dk Pepperien.
@@ -441,7 +440,7 @@ Dialogue: 0,0:03:58.86,0:04:03.66,Default,,0,0,0,,Quel mad scientist se soucie\N
 Dialogue: 0,0:04:06.41,0:04:10.50,Default,,0,0,0,,C'est l'heure de la table ronde.\N- Il fait chaud, j'ouvre.
 Dialogue: 0,0:04:10.75,0:04:15.46,Default,,0,0,0,,Que fais-tu, Daru ?\NL'Organisation pourrait nous entendre.
 Dialogue: 0,0:04:15.63,0:04:17.13,Default,,0,0,0,,Tu délires, FTL.
-Dialogue: 0,0:04:18.63,0:04:20.47,Default,,0,0,0,,C'EST QUOI UNE TABLE RONDE ?
+Dialogue: 0,0:04:18.63,0:04:20.47,SignFrench,,0,0,0,,C'EST QUOI UNE TABLE RONDE ?
 Dialogue: 0,0:04:22.64,0:04:26.06,Default,,0,0,0,,On passe à la phase 2\Nde l'Operation Urd.
 Dialogue: 0,0:04:26.27,0:04:30.27,Default,,0,0,0,,Des expériences\Npour mettre les D-mails en pratique.
 Dialogue: 0,0:04:30.44,0:04:33.90,Default,,0,0,0,,Le thé d'orge est excellent en été.\NTu en veux ?
@@ -473,7 +472,7 @@ Dialogue: 0,0:06:06.28,0:06:07.45,Default,,0,0,0,,Pas touche !
 Dialogue: 0,0:06:08.03,0:06:09.16,Default,,0,0,0,,Voilà.
 Dialogue: 0,0:06:09.79,0:06:12.00,Default,,0,0,0,,On ne peut pas te faire confiance.
 Dialogue: 0,0:06:12.16,0:06:14.46,Default,,0,0,0,,Tu n'as pas répondu…
-Dialogue: 0,0:06:14.71,0:06:16.63,Default,,0,0,0,,DE : S.F.\NTU ME LE PRÊTES ?
+Dialogue: 0,0:06:14.71,0:06:16.63,SignFrench,,0,0,0,,DE : S.F.\NTU ME LE PRÊTES ?
 Dialogue: 0,0:06:17.92,0:06:20.59,Default,,0,0,0,,C'est une véritable cruche ou quoi ?
 Dialogue: 0,0:06:21.05,0:06:25.43,Default,,0,0,0,,Christina, surveille-la\Net empêche-la de se balader.
 Dialogue: 0,0:06:25.93,0:06:28.39,Default,,0,0,0,,La surveiller ?
@@ -521,8 +520,8 @@ Dialogue: 0,0:09:10.38,0:09:14.76,Default,,0,0,0,,C'est dangereux.\NEt si on pro
 Dialogue: 0,0:09:17.43,0:09:20.39,Default,,0,0,0,,C'est pas le moment de se dégonfler.
 Dialogue: 0,0:09:27.40,0:09:29.15,Default,,0,0,0,,El Psy…
 Dialogue: 0,0:09:29.90,0:09:31.28,Default,,0,0,0,,… Kongroo !
-Dialogue: 0,0:09:31.78,0:09:32.95,Default,,0,0,0,,ENVOI EN COURS
-Dialogue: 0,0:09:33.07,0:09:34.66,Default,,0,0,0,,ENVOYÉ
+Dialogue: 0,0:09:31.78,0:09:32.95,SignFrench,,0,0,0,,ENVOI EN COURS
+Dialogue: 0,0:09:33.07,0:09:34.66,SignFrench,,0,0,0,,ENVOYÉ
 Dialogue: 0,0:09:50.63,0:09:52.97,Default,,0,0,0,,Okarin !
 Dialogue: 0,0:09:53.97,0:09:55.47,Default,,0,0,0,,Okarin !
 Dialogue: 0,0:09:59.93,0:10:03.14,Default,,0,0,0,,Tout va bien ?\N- J'ai juste…
@@ -632,15 +631,15 @@ Dialogue: 0,0:17:40.39,0:17:43.56,Default,,0,0,0,,C'est puéril, Celeb 17.\N- Ne
 Dialogue: 0,0:17:43.73,0:17:45.94,Default,,0,0,0,,J'ai des mails à envoyer.
 Dialogue: 0,0:17:46.15,0:17:51.24,Default,,0,0,0,,Si tu veux vraiment rester, tais-toi\Net ne me dérange pas, le zombie.
 Dialogue: 0,0:17:53.36,0:17:55.62,Default,,0,0,0,,C'est le surnom qui m'agace le plus.
-Dialogue: 0,0:18:00.04,0:18:01.96,Default,,0,0,0,,À : JOHN TITOR.\NLE CODE CACHE LA BDD DU SERN.
-Dialogue: 0,0:18:01.96,0:18:05.00,Default,,0,0,0,,J'AI PU ENVOYER UN MSG DS LE PASSÉ.\NAURAIS-JE CHANGE DE LIGNE D'UNIVERS ?
+Dialogue: 0,0:18:00.04,0:18:01.96,SignFrench,,0,0,0,,À : JOHN TITOR.\NLE CODE CACHE LA BDD DU SERN.
+Dialogue: 0,0:18:01.96,0:18:05.00,SignFrench,,0,0,0,,J'AI PU ENVOYER UN MSG DS LE PASSÉ.\NAURAIS-JE CHANGE DE LIGNE D'UNIVERS ?
 Dialogue: 0,0:18:08.55,0:18:11.76,Default,,0,0,0,,On dirait une fille amoureuse\Nqui attend un message.
 Dialogue: 0,0:18:12.97,0:18:15.30,Default,,0,0,0,,Tu tiens tant que ça à rester avec moi ?
 Dialogue: 0,0:18:18.14,0:18:20.47,Default,,0,0,0,,À qui envoies-tu des messages ?
 Dialogue: 0,0:18:21.89,0:18:24.52,Default,,0,0,0,,À John Titor.\N- Quoi ?
-Dialogue: 0,0:18:27.52,0:18:29.94,Default,,0,0,0,,DE : RUKAKO SUJET : LOTERIE\NJE SUIS DÉSOLÉ T_T"
-Dialogue: 0,0:18:34.86,0:18:36.62,Default,,0,0,0,,DE : S.F. C'ÉTAIT CHOUETTE.\NJURE DE TOUT ME RACONTER
-Dialogue: 0,0:18:36.66,0:18:37.91,Default,,0,0,0,,SUR LA MACHINE, OK ?\NPROMIS ? MOEKA.
+Dialogue: 0,0:18:27.52,0:18:29.94,SignFrench,,0,0,0,,DE : RUKAKO SUJET : LOTERIE\NJE SUIS DÉSOLÉ T_T"
+Dialogue: 0,0:18:34.86,0:18:36.62,SignFrench,,0,0,0,,DE : S.F. C'ÉTAIT CHOUETTE.\NJURE DE TOUT ME RACONTER
+Dialogue: 0,0:18:36.66,0:18:37.91,SignFrench,,0,0,0,,SUR LA MACHINE, OK ?\NPROMIS ? MOEKA.
 Dialogue: 0,0:18:45.50,0:18:46.67,Default,,0,0,0,,Daru ?
 Dialogue: 0,0:18:47.00,0:18:49.17,Default,,0,0,0,,Allô ?\N- Okarin ?
 Dialogue: 0,0:18:49.34,0:18:52.38,Default,,0,0,0,,Je me rends compte\Nque j'ai fait une bêtise.
@@ -655,7 +654,7 @@ Dialogue: 0,0:19:25.87,0:19:28.21,Default,,0,0,0,,Ça te remontera le moral.
 Dialogue: 0,0:19:29.46,0:19:33.38,Default,,0,0,0,,D'accord. Je dois raccrocher.\NBonne journée au travail.
 Dialogue: 0,0:19:33.55,0:19:35.55,Default,,0,0,0,,Merci. Salut.
 Dialogue: 0,0:19:39.01,0:19:40.97,Default,,0,0,0,,Okabe, tu souris.
-Dialogue: 0,0:19:48.10,0:19:48.81,Default,,0,0,0,,TRÈS INTÉRESSANT.
+Dialogue: 0,0:19:48.10,0:19:48.81,SignFrench,,0,0,0,,TRÈS INTÉRESSANT.
 Dialogue: 0,0:19:48.81,0:19:49.77,Default,,0,0,0,,Il a répondu.
 Dialogue: 0,0:19:51.23,0:19:54.82,Default,,0,0,0,,J'ai lu ton e-mail.\NComme tu le présumes,
 Dialogue: 0,0:19:54.99,0:19:59.74,Default,,0,0,0,,tu as bien modifié le passé\Net changé de ligne d'univers.
@@ -675,7 +674,7 @@ Dialogue: 0,0:20:51.04,0:20:54.13,Default,,0,0,0,,au-delà d'un pour cent de div
 Dialogue: 0,0:20:54.75,0:20:57.26,Default,,0,0,0,,Guider le monde ?
 Dialogue: 0,0:21:00.43,0:21:03.47,Default,,0,0,0,,"Que signifie au-delà d'un pour cent ?"
 Dialogue: 0,0:21:03.64,0:21:05.72,Default,,0,0,0,,"De quoi s'agit-il exactement ?"
-Dialogue: 0,0:21:07.27,0:21:09.27,Default,,0,0,0,,ENVOI EN COURS…\NENVOYÉ
+Dialogue: 0,0:21:07.27,0:21:09.27,SignFrench,,0,0,0,,ENVOI EN COURS…\NENVOYÉ
 Dialogue: 0,0:21:22.74,0:21:25.53,Default,,0,0,0,,C'est là que se trouve la liberté.
 Dialogue: 0,0:21:25.66,0:21:30.16,Default,,0,0,0,,Le futur deviendra une dystopie,\Nsauf si on traverse cette barrière.
 Dialogue: 0,0:21:31.62,0:21:34.54,Default,,0,0,0,,J'ai pour objectif de changer le futur.
@@ -734,4 +733,4 @@ Dialogue: 1,0:23:26.34,0:23:36.73,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.34,0:23:36.73,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.34,0:23:36.73,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.34,0:23:36.73,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5C372F&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Homéostasie d'une fantaisie
+Dialogue: 0,0:23:41.09,0:23:55.85,SignFrench,,0,0,0,,Homéostasie d'une fantaisie

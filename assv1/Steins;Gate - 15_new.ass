@@ -1,6 +1,4 @@
 ﻿[Script Info]
-; This is an Advanced Sub Station Alpha v4+ script.
-Title: 
 ScriptType: v4.00+
 PlayDepth: 0
 ScaledBorderAndShadow: Yes
@@ -11,6 +9,7 @@ PlayResY: 1080
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Title1,A-OTF Futo Min A101 Pro Bold,135,&H00636363,&H00727189,&H00727189,&H00000000,-1,0,0,0,100,100,0,0,1,0.3,0,3,90,60,45,1
 Style: Default,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
+Style: SignFrench,Candara,83,&H00FFFFFF,&H000019FF,&H00001200,&HA0051F0F,-1,0,0,0,100,100,0,0,1,4.5,1.5,2,150,150,53,0
 Style: EDRom,Old newspaper font,60,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,8,15,15,18,1
 Style: EDTL,Old newspaper font,57,&H00D8DFE9,&H000019FF,&H005F4B45,&H00000000,0,0,0,0,100,100,0,0,1,3.75,0,2,15,15,18,1
 Style: op kara,Lead Coat,53,&H00000000,&H000019FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,3,0,1,4.5,4.5,8,60,60,50,1
@@ -406,7 +405,7 @@ Dialogue: 0,0:01:43.21,0:01:43.42,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&
 Dialogue: 0,0:01:43.42,0:01:43.58,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur1.5\bord1.5}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:01:43.58,0:01:43.79,op kara,,0,0,0,fx,{\pos(960,52.5)\alpha&H00&\blur3}nomikomareteyuku kodoku no kansokusha
 Dialogue: 0,0:01:43.79,0:01:43.83,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H70&\blur3}nomikomareteyuku kodoku no kansokusha
-Dialogue: 0,0:01:47.11,0:01:51.99,Default,,0,0,0,,Nécrose d'un chaînon mourant
+Dialogue: 0,0:01:47.11,0:01:51.99,SignFrench,,0,0,0,,Nécrose d'un chaînon mourant
 Dialogue: 0,0:01:52.95,0:01:57.41,Default,,0,0,0,,En l'an 2036,\Nle SERN dirige le monde.
 Dialogue: 0,0:01:58.87,0:02:01.71,Default,,0,0,0,,Ils contrôlent tout,\Nc'est la dystopie.
 Dialogue: 0,0:02:03.12,0:02:06.92,Default,,0,0,0,,Privés de liberté,\Nles vivants sont comme morts.
@@ -511,7 +510,7 @@ Dialogue: 0,0:09:51.09,0:09:54.84,Default,,0,0,0,,Je ferai tout pour réparer\Nl
 Dialogue: 0,0:09:55.64,0:09:58.81,Default,,0,0,0,,Si ça ne marche pas,\Nje reviendrai en arrière.
 Dialogue: 0,0:10:01.94,0:10:05.65,Default,,0,0,0,,Mon but n'est pas de sauver le monde.
 Dialogue: 0,0:10:05.81,0:10:08.23,Default,,0,0,0,,Mon but est de sauver Mayuri.
-Dialogue: 0,0:10:10.57,0:10:12.82,Default,,0,0,0,,11 AOÛT 2010 - 14H21
+Dialogue: 0,0:10:10.57,0:10:12.82,SignFrench,,0,0,0,,11 AOÛT 2010 - 14H21
 Dialogue: 0,0:10:21.37,0:10:23.71,Default,,0,0,0,,Okabe ? Que se passe-t-il ?
 Dialogue: 0,0:10:23.87,0:10:28.17,Default,,0,0,0,,Appelle tous les membres du labo.\NJe dois vous parler.
 Dialogue: 0,0:10:33.13,0:10:36.26,Default,,0,0,0,,Génial, des gens du futur. Dément.
@@ -547,7 +546,7 @@ Dialogue: 0,0:12:16.95,0:12:21.87,Default,,0,0,0,,Je n'ai que ce souvenir comme 
 Dialogue: 0,0:12:25.08,0:12:29.00,Default,,0,0,0,,Ton père était à Akihabara en 2010,\Nc'est ça ?
 Dialogue: 0,0:12:29.12,0:12:32.00,Default,,0,0,0,,Mayushii lance tout de suite\Nune enquête.
 Dialogue: 0,0:12:34.80,0:12:37.26,Default,,0,0,0,,Shiina Mayuri est une chouette fille.
-Dialogue: 0,0:12:41.01,0:12:42.97,Default,,0,0,0,,11 AOÛT 2010 - 17H51
+Dialogue: 0,0:12:41.01,0:12:42.97,SignFrench,,0,0,0,,11 AOÛT 2010 - 17H51
 Dialogue: 0,0:12:50.98,0:12:52.23,Default,,0,0,0,,Tu peux la réparer ?
 Dialogue: 0,0:12:52.36,0:12:56.28,Default,,0,0,0,,Je n'en suis pas sûr à 100 %,\Nmais j'ai jeté un coup d'œil
 Dialogue: 0,0:12:56.44,0:13:00.28,Default,,0,0,0,,et ça ressemble\Nau téléphone micro-ondes.
@@ -585,7 +584,7 @@ Dialogue: 0,0:15:42.78,0:15:45.78,Default,,0,0,0,,Le fondateur d'un groupe de r�
 Dialogue: 0,0:15:46.03,0:15:47.66,Default,,0,0,0,,C'est pathétique.
 Dialogue: 0,0:15:48.16,0:15:53.58,Default,,0,0,0,,Après avoir laissé Mayuri mourir,\Nje mène une vie tranquille et illusoire.
 Dialogue: 0,0:15:53.74,0:15:59.71,Default,,0,0,0,,C'est pas pathétique. Libérer le monde\Nest courageux et admirable.
-Dialogue: 0,0:16:06.17,0:16:08.13,Default,,0,0,0,,12 AOÛT 2010 - 14H20
+Dialogue: 0,0:16:06.17,0:16:08.13,SignFrench,,0,0,0,,12 AOÛT 2010 - 14H20
 Dialogue: 0,0:16:33.28,0:16:35.08,Default,,0,0,0,,Heu… Eh, Mister ?
 Dialogue: 0,0:16:37.75,0:16:41.50,Default,,0,0,0,,I am mad scientist. So cool.
 Dialogue: 0,0:16:41.63,0:16:42.88,Default,,0,0,0,,Sunovabitch.
@@ -719,4 +718,4 @@ Dialogue: 1,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur1.8\fad(250,1000)}subete g
 Dialogue: 0,0:23:26.34,0:23:34.18,EDRom,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}subete ga ima kakikaerareru
 Dialogue: 1,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur1.8\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
 Dialogue: 0,0:23:26.34,0:23:34.18,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,1000)}Tout est sur le point\Nd'être réécrit à présent.
-Dialogue: 0,0:23:41.09,0:23:55.85,Default,,0,0,0,,Nécrose de l'irréversibilité
+Dialogue: 0,0:23:41.09,0:23:55.85,SignFrench,,0,0,0,,Nécrose de l'irréversibilité

@@ -683,12 +683,12 @@ Dialogue: 1,0:23:03.86,0:23:13.29,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}le paradis
 Dialogue: 0,0:23:03.86,0:23:13.29,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}le paradis et la terre\Nlaissent le temps s'écouler aveuglément.
 Dialogue: 1,0:23:13.29,0:23:15.46,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}habatake butterfly
 Dialogue: 0,0:23:13.29,0:23:15.46,EDRom,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}habatake butterfly
-Dialogue: 1,0:23:13.29,0:23:15.46,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}Bats des ailes,
-Dialogue: 0,0:23:13.29,0:23:15.46,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}Bats des ailes,
+Dialogue: 1,0:23:13.29,0:23:15.46,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}Bats des ailes, papillon,
+Dialogue: 0,0:23:13.29,0:23:15.46,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}Bats des ailes, papillon,
 Dialogue: 1,0:23:15.46,0:23:18.42,EDRom,,0,0,0,,{\blur1.8\fad(250,400)}kiseki no butterfly
 Dialogue: 0,0:23:15.46,0:23:18.42,EDRom,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}kiseki no butterfly
-Dialogue: 1,0:23:15.46,0:23:18.42,EDTL,,0,0,0,,{\blur1.8\fad(250,400)}papillon,\Nmiraculeux papillon,
-Dialogue: 0,0:23:15.46,0:23:18.42,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}papillon,\Nmiraculeux papillon,
+Dialogue: 1,0:23:15.46,0:23:18.42,EDTL,,0,0,0,,{\blur1.8\fad(250,400)}miraculeux papillon,
+Dialogue: 0,0:23:15.46,0:23:18.42,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}miraculeux papillon,
 Dialogue: 1,0:23:18.42,0:23:22.09,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}anata he sasagu
 Dialogue: 0,0:23:18.42,0:23:22.09,EDRom,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}anata he sasagu
 Dialogue: 1,0:23:18.42,0:23:22.09,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}je m'offre à toi.

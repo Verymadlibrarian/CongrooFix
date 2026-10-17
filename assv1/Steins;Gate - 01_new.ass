@@ -117,8 +117,8 @@ Dialogue: 0,0:06:51.95,0:06:55.79,Default,,0,0,0,,Je t'ai envoyé un message,\Nj
 Dialogue: 0,0:06:55.96,0:06:58.42,Default,,0,0,0,,J'avais même écrit mon nom dessus.
 Dialogue: 0,0:06:58.59,0:07:00.67,Default,,0,0,0,,Tu l'as fait tomber ?\N- Je crois.
 Dialogue: 0,0:07:00.84,0:07:02.92,Default,,0,0,0,,Oublie ça.\N- Quoi ?
-Dialogue: 0,0:07:03.09,0:07:07.09,Default,,0,0,0,,Les Upas en métal partent\Npour 10.000 yens aux enchères.
-Dialogue: 0,0:07:07.26,0:07:10.43,Default,,0,0,0,,10.000 yens ?\N- Oui.
+Dialogue: 0,0:07:03.09,0:07:07.09,Default,,0,0,0,,Les Upas en métal partent\Npour 10 000 yens aux enchères.
+Dialogue: 0,0:07:07.26,0:07:10.43,Default,,0,0,0,,10 000 yens ?\N- Oui.
 Dialogue: 0,0:07:12.60,0:07:17.44,Default,,0,0,0,,Retrouve-le. Notre laboratoire\Nest fauché comme les blés.
 Dialogue: 0,0:07:17.60,0:07:20.32,Default,,0,0,0,,Mais je ne compte pas le vendre.
 Dialogue: 0,0:07:20.61,0:07:25.99,Default,,0,0,0,,Avec cette somme, on peut se procurer\Ndes pièces pour nos gadgets futuristes.
@@ -707,12 +707,12 @@ Dialogue: 1,0:23:03.82,0:23:13.16,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}le paradis
 Dialogue: 0,0:23:03.82,0:23:13.16,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}le paradis et la terre\Nlaissent le temps s'écouler aveuglément.
 Dialogue: 1,0:23:13.16,0:23:15.33,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}habatake butterfly
 Dialogue: 0,0:23:13.16,0:23:15.33,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}habatake butterfly
-Dialogue: 1,0:23:13.16,0:23:15.33,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}Bats des ailes,
-Dialogue: 0,0:23:13.16,0:23:15.33,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}Bats des ailes,
+Dialogue: 1,0:23:13.16,0:23:15.33,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}Bats des ailes, papillon,
+Dialogue: 0,0:23:13.16,0:23:15.33,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}Bats des ailes, papillon,
 Dialogue: 1,0:23:15.33,0:23:18.38,EDRom,,0,0,0,,{\blur1.8\fad(250,400)}kiseki no butterfly
 Dialogue: 0,0:23:15.33,0:23:18.38,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}kiseki no butterfly
-Dialogue: 1,0:23:15.33,0:23:18.38,EDTL,,0,0,0,,{\blur1.8\fad(250,400)}papillon,\Nmiraculeux papillon,
-Dialogue: 0,0:23:15.33,0:23:18.38,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}papillon,\Nmiraculeux papillon,
+Dialogue: 1,0:23:15.33,0:23:18.38,EDTL,,0,0,0,,{\blur1.8\fad(250,400)}miraculeux papillon,
+Dialogue: 0,0:23:15.33,0:23:18.38,EDTL,,0,0,0,,{\blur4.8\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,400)}miraculeux papillon,
 Dialogue: 1,0:23:18.38,0:23:21.96,EDRom,,0,0,0,,{\blur1.8\fad(250,300)}anata he sasagu
 Dialogue: 0,0:23:18.38,0:23:21.96,EDRom,,0,0,0,,{\blur4.8\\alpha&H70&\bord8.25\3c&H5E382E&\fad(250,300)}anata he sasagu
 Dialogue: 1,0:23:18.38,0:23:21.96,EDTL,,0,0,0,,{\blur1.8\fad(250,300)}je m'offre à toi.

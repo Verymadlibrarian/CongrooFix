@@ -262,7 +262,7 @@ Dialogue: 0,0:02:42.27,0:02:42.43,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\b
 Dialogue: 0,0:02:42.43,0:02:42.64,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur3}yuugen sore wa futatsu no hari ga shimesu
 Dialogue: 0,0:02:42.64,0:02:42.81,op kara,,0,0,0,fx,{\pos(960,49.5)\alpha&H00&\blur3}yuugen sore wa futatsu no hari ga shimesu
 Dialogue: 0,0:02:42.81,0:02:43.02,op kara,,0,0,0,fx,{\pos(960,55.5)\alpha&H00&\blur3}zankoku na yakujou to sentaku e hacking to the gate
-Dialogue: 0,0:02:42.81,0:02:47.48,op trans,,0,0,0,,{}toward a cruel destiny and choice
+Dialogue: 0,0:02:42.81,0:02:47.48,op trans,,0,0,0,,{}Tout cela mène à un accord cruel\Net un choix à faire.
 Dialogue: 0,0:02:43.02,0:02:43.23,op kara,,0,0,0,fx,{\pos(967.5,43.5)\alpha&H00&\blur3}zankoku na yakujou to sentaku e hacking to the gate
 Dialogue: 0,0:02:43.23,0:02:43.43,op kara,,0,0,0,fx,{\pos(955.5,55.5)\alpha&H00&\blur3}zankoku na yakujou to sentaku e hacking to the gate
 Dialogue: 0,0:02:43.43,0:02:43.60,op kara,,0,0,0,fx,{\pos(960,43.5)\alpha&H70&\blur3}zankoku na yakujou to sentaku e hacking to the gate
